@@ -9,15 +9,15 @@ import { ScordaturaSetting } from "./ScordaturaSetting"
 
 export function Settings() {
   return (
-    <div id="settings">
-      {/* <LanguageSetting /> */}
+    <div id="settings" className="menus">
+      <LanguageSetting />
       <InstrumentSetting />
-      {/* <PitchSetting /> */}
-      {/* <PointsSetting /> */}
-      {/* <FretsSetting /> */}
-      {/* <UnitSetting /> */}
-      {/* <StringLenghtSetting /> */}
-      {/* <ScordaturaSetting /> */}
+      <PitchSetting />
+      <PointsSetting />
+      <FretsSetting />
+      <UnitSetting />
+      <StringLenghtSetting />
+      <ScordaturaSetting />
     </div>
   )
 }

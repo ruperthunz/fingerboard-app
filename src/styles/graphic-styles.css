@@ -1,0 +1,56 @@
+#main-svg {
+  fill: transparent;
+}
+
+#bodyViolin {
+  fill: rgb(182, 99, 35);
+  opacity: 1;
+}
+
+#bodyViola {
+  fill: rgb(147, 82, 45);
+  opacity: 1;
+}
+
+#bodyCello {
+  fill: rgb(180, 72, 51);
+  opacity: 1;
+}
+
+#bodyBass {
+  fill: rgb(100, 50, 34);
+  opacity: 1;
+}
+
+#fingerboard {
+  fill: #222222;
+  opacity: 1;
+}
+
+#nut {
+  fill: #242424;
+  opacity: 1;
+}
+
+#bridge {
+  fill: rgb(229, 196, 135);
+  stroke: rgb(229, 196, 135);
+  stroke-linecap: round;
+  opacity: 1;
+}
+
+.f-hole {
+  fill: black;
+  opacity: 1;
+}
+
+/* #cello {
+  height: 600px;
+  opacity: 0;
+} */
+
+.strings,
+.stringEnds {
+  stroke: lightgray;
+  opacity: 1;
+}

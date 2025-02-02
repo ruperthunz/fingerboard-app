@@ -1,0 +1,41 @@
+.strings,
+.stringEnds {
+  stroke: lightgray;
+  opacity: 1;
+}
+
+.instrument-setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.instrument-setting,
+.instrument-setting li a {
+  color: black;
+  list-style: none;
+}
+
+.menus {
+  position: fixed;
+  background: rgba(160, 180, 200, 0.9);
+  height: 100vh;
+  width: 300px;
+  top: 0;
+  text-align: left;
+  z-index: 1;
+  transition: 0.8s;
+  overflow: auto;
+}
+
+#settings {
+  /* left: -300px; */
+}
+
+#menu {
+  /* right: -300px; */
+  right: 0;
+}

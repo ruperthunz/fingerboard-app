@@ -1,3 +1,1 @@
-export function LanguageSetting() {
-  return <div className="widget">Language</div>
-}
+export function LanguageSetting() {}
