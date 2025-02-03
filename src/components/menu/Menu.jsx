@@ -1,3 +1,4 @@
+import { MenuHeader } from "./MenuHeader"
 import { Tune } from "./Tune"
 import { Sound } from "./Sound"
 import { Show } from "./Show"
@@ -13,6 +14,7 @@ import { Calculator } from "./Calculator"
 export function Menu() {
   return (
     <div id="menu" className="menus">
+      <MenuHeader />
       <Tune />
       <Sound />
       <Show />

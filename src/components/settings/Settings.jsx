@@ -1,3 +1,4 @@
+import { SettingsHeader } from "./SettingsHeader"
 import { LanguageSetting } from "./LanguageSetting"
 import { InstrumentSetting } from "./InstrumentSetting"
 import { PitchSetting } from "./PitchSetting"
@@ -10,6 +11,7 @@ import { ScordaturaSetting } from "./ScordaturaSetting"
 export function Settings() {
   return (
     <div id="settings" className="menus">
+      <SettingsHeader />
       <LanguageSetting />
       <InstrumentSetting />
       <PitchSetting />
