@@ -12,8 +12,8 @@ export function LanguageSetting() {
 
   return (
     <div className="widget">
-      {t.language}
       <div className="widget-content">
+        <div className="widget-label">{t.language}</div>
         <div
           className="btn"
           onClick={() => changeLanguage(translations.en, "English")}

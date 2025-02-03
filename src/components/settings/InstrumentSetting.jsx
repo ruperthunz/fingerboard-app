@@ -7,16 +7,28 @@ export function InstrumentSetting() {
 
   return (
     <div className="widget">
-      {t.instrument}
+      <div className="widget-label">{t.instrument}</div>
       <div className="widget-content">
-        <Link to="/violin" onClick={() => setInstrument("Violin")}>
+        <Link
+          className="btn"
+          to="/violin"
+          onClick={() => setInstrument("Violin")}
+        >
           {t.violin}
         </Link>
-        <Link to="/viola" onClick={() => setInstrument("Viola")}>
+        <Link
+          className="btn"
+          to="/viola"
+          onClick={() => setInstrument("Viola")}
+        >
           {t.viola}
         </Link>
-        <Link to="/cello">{t.cello}</Link>
-        <Link to="/bass">{t.bass}</Link>
+        <Link className="btn" to="/cello">
+          {t.cello}
+        </Link>
+        <Link className="btn" to="/bass">
+          {t.bass}
+        </Link>
       </div>
     </div>
   )
