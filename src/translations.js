@@ -1,5 +1,5 @@
 export const translations = {
-  en: {
+  English: {
     settings: "Settings",
     language: "Language",
     english: "English",
@@ -64,7 +64,7 @@ export const translations = {
     calculator: "Calculator",
     comingSoon: "coming soon"
   },
-  de: {
+  German: {
     settings: "Einstellungen",
     language: "Sprache",
     english: "Englisch",

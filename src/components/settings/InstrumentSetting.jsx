@@ -3,30 +3,34 @@ import { Link } from "react-router-dom"
 import { Context } from "../../App"
 
 export function InstrumentSetting() {
-  const { setInstrument, t } = useContext(Context)
+  const { instrument, t } = useContext(Context)
 
   return (
     <div className="widget">
       <div className="widget-label">{t.instrument}</div>
       <div className="widget-content">
         <Link
-          className="btn"
+          className={instrument === "Violin" ? "btn selected" : "btn"}
           to="/violin"
-          onClick={() => setInstrument("Violin")}
         >
           {t.violin}
         </Link>
         <Link
-          className="btn"
+          className={instrument === "Viola" ? "btn selected" : "btn"}
           to="/viola"
-          onClick={() => setInstrument("Viola")}
         >
           {t.viola}
         </Link>
-        <Link className="btn" to="/cello">
+        <Link
+          className={instrument === "Cello" ? "btn selected" : "btn"}
+          to="/cello"
+        >
           {t.cello}
         </Link>
-        <Link className="btn" to="/bass">
+        <Link
+          className={instrument === "Bass" ? "btn selected" : "btn"}
+          to="/bass"
+        >
           {t.bass}
         </Link>
       </div>

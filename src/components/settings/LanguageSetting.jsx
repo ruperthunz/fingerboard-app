@@ -15,14 +15,14 @@ export function LanguageSetting() {
       <div className="widget-content">
         <div className="widget-label">{t.language}</div>
         <div
-          className="btn"
-          onClick={() => changeLanguage(translations.en, "English")}
+          className={language === "English" ? "btn selected" : "btn"}
+          onClick={() => changeLanguage(translations.English, "English")}
         >
           {t.english}
         </div>
         <div
-          className="btn"
-          onClick={() => changeLanguage(translations.de, "German")}
+          className={language === "German" ? "btn selected" : "btn"}
+          onClick={() => changeLanguage(translations.German, "German")}
         >
           {t.german}
         </div>

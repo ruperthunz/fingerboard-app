@@ -9,9 +9,20 @@ export const Context = createContext()
 export function App() {
   const [height, setHeight] = useState(window.innerHeight)
   const [width, setWidth] = useState(height / 2)
-  const [instrument, setInstrument] = useLocalStorage("instrument", "")
+  const [instrument, setInstrument] = useLocalStorage("instrument", "Violin")
   const [language, setLanguage] = useLocalStorage("language", "English")
-  const [t, setT] = useState(translations.de)
+  const [t, setT] = useState(translations.English)
+  const [pointsOn, setPointsOn] = useLocalStorage("points_on", [
+    true,
+    true,
+    true,
+    true
+  ])
+  const [unit, setUnit] = useLocalStorage("unit", "mm")
+  const [stringLength, setStringLength] = useLocalStorage(
+    "string_length",
+    "4/4"
+  )
 
   // useEffect(() => {
   //   const handleResize = () => {
@@ -23,6 +34,10 @@ export function App() {
   //     window.removeEventListener("resize", handleResize)
   //   }
   // }, [])
+
+  useEffect(() => {
+    setT(translations[language])
+  })
 
   useEffect(() => {
     setWidth(height / 2)
@@ -38,7 +53,13 @@ export function App() {
         language,
         setLanguage,
         t,
-        setT
+        setT,
+        pointsOn,
+        setPointsOn,
+        unit,
+        setUnit,
+        stringLength,
+        setStringLength
       }}
     >
       <RouterProvider router={router} />
