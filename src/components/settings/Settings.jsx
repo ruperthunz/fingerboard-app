@@ -7,10 +7,18 @@ import { FretsSetting } from "./FretsSetting"
 import { UnitSetting } from "./UnitSetting"
 import { StringLenghtSetting } from "./StringLengthSetting"
 import { ScordaturaSetting } from "./ScordaturaSetting"
+import { useContext } from "react"
+import { Context } from "../../App"
 
 export function Settings() {
+  const { settingsOpen, setSettingsOpen } = useContext(Context)
+
   return (
-    <div id="settings" className="menus">
+    <div
+      id="settings"
+      className="menus"
+      style={settingsOpen ? { left: "0" } : { left: "-300px" }}
+    >
       <SettingsHeader />
       <LanguageSetting />
       <InstrumentSetting />

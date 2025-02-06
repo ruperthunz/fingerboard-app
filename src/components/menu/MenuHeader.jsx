@@ -2,6 +2,17 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function MenuHeader() {
-  const { t } = useContext(Context)
-  return <div className="widget menu-col header">{t.menu}</div>
+  const { t, setMenuOpen } = useContext(Context)
+  return (
+    <div className="widget header menu-header">
+      {t.menu}
+      <div
+        className="x-container menu-x"
+        onClick={() => setMenuOpen(prevState => !prevState)}
+      >
+        <div className="x x1"></div>
+        <div className="x x2"></div>
+      </div>
+    </div>
+  )
 }

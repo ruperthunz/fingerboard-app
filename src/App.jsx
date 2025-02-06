@@ -9,6 +9,8 @@ export const Context = createContext()
 export function App() {
   const [height, setHeight] = useState(window.innerHeight)
   const [width, setWidth] = useState(height / 2)
+  const [settingsOpen, setSettingsOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const [instrument, setInstrument] = useLocalStorage("instrument", "Violin")
   const [language, setLanguage] = useLocalStorage("language", "English")
   const [t, setT] = useState(translations.English)
@@ -48,6 +50,10 @@ export function App() {
       value={{
         height,
         width,
+        settingsOpen,
+        setSettingsOpen,
+        menuOpen,
+        setMenuOpen,
         instrument,
         setInstrument,
         language,

@@ -10,10 +10,17 @@ import { PositionsAbsolute } from "./PositionsAbsolute"
 import { Search } from "./Search"
 import { Measure } from "./Measure"
 import { Calculator } from "./Calculator"
+import { useContext } from "react"
+import { Context } from "../../App"
 
 export function Menu() {
+  const { menuOpen, setMenuOpen } = useContext(Context)
   return (
-    <div id="menu" className="menus">
+    <div
+      id="menu"
+      className="menus"
+      style={menuOpen ? { right: "0" } : { right: "-300px" }}
+    >
       <MenuHeader />
       <Tune />
       <Sound />

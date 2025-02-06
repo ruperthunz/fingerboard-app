@@ -2,6 +2,17 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function SettingsHeader() {
-  const { t } = useContext(Context)
-  return <div className="widget header">{t.settings}</div>
+  const { t, setSettingsOpen } = useContext(Context)
+  return (
+    <div className="widget header">
+      {t.settings}
+      <div
+        className="x-container settings-x"
+        onClick={() => setSettingsOpen(prevState => !prevState)}
+      >
+        <div className="x x1"></div>
+        <div className="x x2"></div>
+      </div>
+    </div>
+  )
 }

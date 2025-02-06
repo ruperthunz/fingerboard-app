@@ -19,22 +19,97 @@
 }
 
 #settings {
-  /* left: -300px; */
+  left: -300px;
 }
 
 #menu {
-  /* right: -300px; */
-  right: 0;
+  /* right: 0; */
+  right: -300px;
+}
+
+.open-menu {
+  transition: 0.8s;
+  display: none;
 }
 
 .header {
   color: white;
   font-size: 1.2em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* padding: 5px; */
   background: rgba(0, 10, 20, 0.5);
 }
+
+.menu-header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bars-container {
+  cursor: pointer;
+  /* background-color: red; */
+  padding: 10px;
+  position: fixed;
+}
+
+/* .settings-bars {
+} */
+
+.menu-bars {
+  right: 0;
+}
+
+.x-container {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: black;
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+}
+
+.bar1 {
+  margin-top: 0;
+}
+
+.bar2 {
+}
+
+.bar3 {
+  margin-bottom: 0;
+}
+
+.bar4 {
+}
+
+.x {
+  background-color: white;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+}
+
+.x1 {
+  rotate: 45deg;
+}
+
+.x2 {
+  rotate: -45deg;
+}
+
+/* .open-menu {
+  display: none;
+} */
 
 .widget {
   /* display: flex; */
