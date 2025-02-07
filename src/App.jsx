@@ -12,6 +12,7 @@ export function App() {
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [instrument, setInstrument] = useLocalStorage("instrument", "Violin")
+  const [pitch, setPitch] = useLocalStorage("pitch", 440)
   const [language, setLanguage] = useLocalStorage("language", "English")
   const [t, setT] = useState(translations.English)
   const [pointsOn, setPointsOn] = useLocalStorage("points_on", [
@@ -60,6 +61,8 @@ export function App() {
         setLanguage,
         t,
         setT,
+        pitch,
+        setPitch,
         pointsOn,
         setPointsOn,
         unit,
