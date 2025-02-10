@@ -189,6 +189,10 @@
   margin-right: 0;
 }
 
+.span-2 {
+  grid-column: span 2;
+}
+
 .selected {
   background-color: var(--selectGreen);
 }

@@ -16,8 +16,14 @@ export function PitchSetting() {
               onChange={e => setPitch(Number(e.target.value))}
             />
             <div className="arrow-container">
-              <div className="arrow arrow-up"></div>
-              <div className="arrow arrow-down"></div>
+              <div
+                className="arrow arrow-up"
+                onClick={() => setPitch(p => p + 1)}
+              ></div>
+              <div
+                className="arrow arrow-down"
+                onClick={() => setPitch(p => p - 1)}
+              ></div>
             </div>
           </div>
         </div>

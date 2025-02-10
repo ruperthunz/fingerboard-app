@@ -3,6 +3,7 @@ import { router } from "./router.jsx"
 import { createContext, useEffect, useState } from "react"
 import { useLocalStorage } from "./useLocalStorage.js"
 import { translations } from "./translations.js"
+import { standardStringLength } from "./standardStringLength.js"
 
 export const Context = createContext()
 
@@ -22,9 +23,10 @@ export function App() {
     true
   ])
   const [unit, setUnit] = useLocalStorage("unit", "mm")
+  const [fraction, setFraction] = useLocalStorage("fraction", "full")
   const [stringLength, setStringLength] = useLocalStorage(
-    "string_length",
-    "4/4"
+    "string-length",
+    standardStringLength[instrument][fraction][unit]
   )
 
   // useEffect(() => {
@@ -45,6 +47,14 @@ export function App() {
   useEffect(() => {
     setWidth(height / 2)
   }, [height])
+
+  useEffect(() => {
+    if (fraction === "eighth" && instrument === "Bass") {
+      setStringLength(standardStringLength[instrument]["quarter"][unit])
+    } else {
+      setStringLength(standardStringLength[instrument][fraction][unit])
+    }
+  }, [instrument])
 
   return (
     <Context.Provider
@@ -67,6 +77,8 @@ export function App() {
         setPointsOn,
         unit,
         setUnit,
+        fraction,
+        setFraction,
         stringLength,
         setStringLength
       }}
