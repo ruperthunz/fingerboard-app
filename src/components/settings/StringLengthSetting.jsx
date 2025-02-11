@@ -13,13 +13,13 @@ export function StringLenghtSetting() {
     setStringLength
   } = useContext(Context)
 
-  useEffect(() => {
-    if (fraction === "eighth" && instrument === "Bass") {
-      setStringLength(standardStringLength[instrument]["quarter"][unit])
-    } else {
-      setStringLength(standardStringLength[instrument][fraction][unit])
-    }
-  }, [instrument, unit])
+  // useEffect(() => {
+  //   if (fraction === "eighth" && instrument === "Bass") {
+  //     setStringLength(standardStringLength[instrument]["quarter"][unit])
+  //   } else {
+  //     setStringLength(standardStringLength[instrument][fraction][unit])
+  //   }
+  // }, [instrument, unit])
 
   function handleStringLength(fractionSize) {
     setStringLength(standardStringLength[instrument][fractionSize][unit])

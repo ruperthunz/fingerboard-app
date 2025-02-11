@@ -134,6 +134,7 @@
 .widget-label {
   font-weight: 600;
   display: flex;
+  align-self: center;
   margin-right: 12px;
   height: var(--widget-height);
   align-items: center;
@@ -161,6 +162,7 @@
 
 .btn-container {
   display: flex;
+  margin: 4px 0;
 }
 
 .btn {

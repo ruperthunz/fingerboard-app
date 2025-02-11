@@ -1,19 +1,27 @@
 import { useContext } from "react"
 import { Context } from "../../App"
 
+const colorOptions = ["uni", "uniPlus8", "fret", "name", "piano"]
+
 export function EqualPoints() {
-  const { t } = useContext(Context)
+  const { t, equalPointsColor, setEqualPointsColor } = useContext(Context)
 
   return (
     <div className="widget">
       <div className="widget-label">{t.equalPoints}</div>
       <div className="widget-content">
         <div className="btn-container">
-          <div className="btn">{t.uni}</div>
-          <div className="btn">{t.uniPlus8}</div>
-          <div className="btn">{t.fret}</div>
-          <div className="btn">{t.name}</div>
-          <div className="btn">{t.piano}</div>
+          {colorOptions.map(option => {
+            return (
+              <div
+                key={option}
+                className={equalPointsColor === option ? "btn selected" : "btn"}
+                onClick={() => setEqualPointsColor(option)}
+              >
+                {t[option]}
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>

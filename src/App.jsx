@@ -28,6 +28,15 @@ export function App() {
     "string-length",
     standardStringLength[instrument][fraction][unit]
   )
+  const [show, setShow] = useLocalStorage("show", "none")
+  const [equalPointsColor, setEqualPointsColor] = useLocalStorage(
+    "equalPointsColor",
+    "uniPlus8"
+  )
+  const [justPointsColor, setJustPointsColor] = useLocalStorage(
+    "justPointsColor",
+    "uniPlus8"
+  )
 
   // useEffect(() => {
   //   const handleResize = () => {
@@ -47,14 +56,6 @@ export function App() {
   useEffect(() => {
     setWidth(height / 2)
   }, [height])
-
-  useEffect(() => {
-    if (fraction === "eighth" && instrument === "Bass") {
-      setStringLength(standardStringLength[instrument]["quarter"][unit])
-    } else {
-      setStringLength(standardStringLength[instrument][fraction][unit])
-    }
-  }, [instrument])
 
   return (
     <Context.Provider
@@ -80,7 +81,13 @@ export function App() {
         fraction,
         setFraction,
         stringLength,
-        setStringLength
+        setStringLength,
+        show,
+        setShow,
+        equalPointsColor,
+        setEqualPointsColor,
+        justPointsColor,
+        setJustPointsColor
       }}
     >
       <RouterProvider router={router} />

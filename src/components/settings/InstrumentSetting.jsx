@@ -2,38 +2,27 @@ import { useContext } from "react"
 import { Link } from "react-router-dom"
 import { Context } from "../../App"
 
+const instruments = ["Violin", "Viola", "Cello", "Bass"]
+
 export function InstrumentSetting() {
-  const { instrument, t } = useContext(Context)
+  const { instrument, setInstrument, fraction, t } = useContext(Context)
 
   return (
     <div className="widget">
       <div className="widget-label">{t.instrument}</div>
       <div className="widget-content">
         <div className="btn-container">
-          <Link
-            className={instrument === "Violin" ? "btn selected" : "btn"}
-            to="/violin"
-          >
-            {t.violin}
-          </Link>
-          <Link
-            className={instrument === "Viola" ? "btn selected" : "btn"}
-            to="/viola"
-          >
-            {t.viola}
-          </Link>
-          <Link
-            className={instrument === "Cello" ? "btn selected" : "btn"}
-            to="/cello"
-          >
-            {t.cello}
-          </Link>
-          <Link
-            className={instrument === "Bass" ? "btn selected" : "btn"}
-            to="/bass"
-          >
-            {t.bass}
-          </Link>
+          {instruments.map(instr => {
+            return (
+              <Link
+                key={instr}
+                className={instrument === instr ? "btn selected" : "btn"}
+                to={`/${instr}`}
+              >
+                {t[instr]}
+              </Link>
+            )
+          })}
         </div>
       </div>
     </div>
