@@ -25,6 +25,6 @@ export const standardStringLength = {
     three4: { mm: 1040, inch: 40.94 },
     half: { mm: 965, inch: 37.99 },
     quarter: { mm: 905, inch: 35.63 },
-    eighth: { mm: "", inch: "" }
+    eighth: { mm: 800, inch: 31.5 }
   }
 }

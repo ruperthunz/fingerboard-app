@@ -3,6 +3,7 @@ import { router } from "./router.jsx"
 import { createContext, useEffect, useState } from "react"
 import { useLocalStorage } from "./useLocalStorage.js"
 import { translations } from "./translations.js"
+import { fretStates } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
 
 export const Context = createContext()
@@ -22,6 +23,7 @@ export function App() {
     true,
     true
   ])
+  const [frets, setFrets] = useState(fretStates)
   const [unit, setUnit] = useLocalStorage("unit", "mm")
   const [fraction, setFraction] = useLocalStorage("fraction", "full")
   const [stringLength, setStringLength] = useLocalStorage(
@@ -37,6 +39,7 @@ export function App() {
     "justPointsColor",
     "uniPlus8"
   )
+  const [tune, setTune] = useState(null)
 
   // useEffect(() => {
   //   const handleResize = () => {
@@ -76,12 +79,16 @@ export function App() {
         setPitch,
         pointsOn,
         setPointsOn,
+        frets,
+        setFrets,
         unit,
         setUnit,
         fraction,
         setFraction,
         stringLength,
         setStringLength,
+        tune,
+        setTune,
         show,
         setShow,
         equalPointsColor,

@@ -246,3 +246,26 @@ input::-webkit-inner-spin-button {
   align-self: self-start;
   margin-top: 2px;
 }
+
+.plus-icon-container {
+  flex-grow: 0.4;
+  flex-basis: 0;
+  background-color: white;
+  margin: 0;
+  margin-left: 2px;
+}
+
+.plus-icon-line {
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+}
+
+.plus-icon-line2 {
+  rotate: 90deg;
+}
+
+.fret-dropdown-container {
+  display: none;
+}

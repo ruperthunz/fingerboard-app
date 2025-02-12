@@ -2,6 +2,14 @@ import { useContext, useEffect } from "react"
 import { Context } from "../../App"
 import { standardStringLength } from "../../standardStringLength"
 
+const stringLengths = [
+  { name: "full", text: "4/4" },
+  { name: "three4", text: "3/4" },
+  { name: "half", text: "1/2" },
+  { name: "quarter", text: "1/4" },
+  { name: "eighth", text: "1/8" }
+]
+
 export function StringLenghtSetting() {
   const {
     t,
@@ -13,18 +21,9 @@ export function StringLenghtSetting() {
     setStringLength
   } = useContext(Context)
 
-  // useEffect(() => {
-  //   if (fraction === "eighth" && instrument === "Bass") {
-  //     setStringLength(standardStringLength[instrument]["quarter"][unit])
-  //   } else {
-  //     setStringLength(standardStringLength[instrument][fraction][unit])
-  //   }
-  // }, [instrument, unit])
-
-  function handleStringLength(fractionSize) {
-    setStringLength(standardStringLength[instrument][fractionSize][unit])
-    setFraction(fractionSize)
-  }
+  useEffect(() => {
+    setStringLength(standardStringLength[instrument][fraction][unit])
+  }, [instrument, unit])
 
   return (
     <div className="widget">
@@ -37,6 +36,7 @@ export function StringLenghtSetting() {
               value={stringLength}
               onChange={e => setStringLength(Number(e.target.value))}
             />
+            <div>{unit}</div>
             <div className="arrow-container">
               <div
                 className="arrow arrow-up"
@@ -50,40 +50,24 @@ export function StringLenghtSetting() {
           </div>
         </div>
         <div className="btn-container span-2">
-          <div
-            className={fraction === "full" ? "selected btn" : "btn"}
-            onClick={() => handleStringLength("full")}
-          >
-            4/4
-          </div>
-          <div
-            className={fraction === "three4" ? "selected btn" : "btn"}
-            onClick={() => handleStringLength("three4")}
-          >
-            3/4
-          </div>
-          <div
-            className={fraction === "half" ? "selected btn" : "btn"}
-            onClick={() => handleStringLength("half")}
-          >
-            1/2
-          </div>
-          <div
-            className={fraction === "quarter" ? "selected btn" : "btn"}
-            onClick={() => handleStringLength("quarter")}
-          >
-            1/4
-          </div>
-          {instrument !== "Bass" ? (
-            <div
-              className={fraction === "eighth" ? "selected btn" : "btn"}
-              onClick={() => handleStringLength("eighth")}
-            >
-              1/8
-            </div>
-          ) : null}
+          {stringLengths.map(length => {
+            return (
+              <div
+                key={length.name}
+                className={fraction === length.name ? "selected btn" : "btn"}
+                onClick={() => handleStringLength(length.name)}
+              >
+                {length.text}
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>
   )
+
+  function handleStringLength(fractionSize) {
+    setStringLength(standardStringLength[instrument][fractionSize][unit])
+    setFraction(fractionSize)
+  }
 }

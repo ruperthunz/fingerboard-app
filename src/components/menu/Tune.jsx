@@ -2,14 +2,33 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function Tune() {
-  const { t } = useContext(Context)
+  const { t, tune, setTune } = useContext(Context)
+
+  function handleTune(clickedTune) {
+    if (clickedTune === tune) {
+      setTune(null)
+    } else {
+      setTune(clickedTune)
+    }
+  }
+
   return (
     <div className="widget">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.tune}</div>
         <div className="btn-container">
-          <div className="btn">{t.equal}</div>
-          <div className="btn">{t.just}</div>
+          <div
+            className={tune === "equal" ? "btn selected" : "btn"}
+            onClick={() => handleTune("equal")}
+          >
+            {t.equal}
+          </div>
+          <div
+            className={tune === "just" ? "btn selected" : "btn"}
+            onClick={() => handleTune("just")}
+          >
+            {t.just}
+          </div>
         </div>
       </div>
     </div>
