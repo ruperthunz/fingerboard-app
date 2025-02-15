@@ -15,7 +15,10 @@ export function FretsSetting() {
           {frets.map((octave, index) => {
             return (
               <div key={octave.English} className="btn fret-btn">
-                <div className={octave.allSelected ? "btn selected" : "btn"}>
+                <div
+                  className={octave.allSelected ? "btn selected" : "btn"}
+                  onClick={() => handleSelectAll(octave)}
+                >
                   {octave[language]}
                 </div>
                 <div
@@ -56,6 +59,17 @@ export function FretsSetting() {
       </div>
     </div>
   )
+
+  function handleSelectAll(octave) {
+    const octaveToChange = frets.find(oct => oct.id === octave.id)
+    octaveToChange.allSelected = !octaveToChange.allSelected
+    for (let i = 0; i < octaveToChange.frets.length; i++) {
+      octaveToChange.frets[i] = !octaveToChange.frets[i]
+    }
+    setFrets(currentFrets => {
+      return currentFrets.toSpliced(octave.id, 1, octaveToChange)
+    })
+  }
 
   function toggleDropdown(octave, index) {
     const octaveToChange = frets.find(oct => oct.id === index)
