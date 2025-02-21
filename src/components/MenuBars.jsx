@@ -2,15 +2,15 @@ import { useContext } from "react"
 import { Context } from "../App"
 
 export function MenuBars() {
-  const { menuOpen, setMenuOpen } = useContext(Context)
+  const { menuIsOpen, setMenuIsOpen } = useContext(Context)
   return (
     <div
       className={
-        menuOpen
+        menuIsOpen
           ? "bars-container menu-bars open-menu"
           : "bars-container menu-bars"
       }
-      onClick={() => setMenuOpen(prevState => !prevState)}
+      onClick={() => setMenuIsOpen(prevState => !prevState)}
     >
       <div className="bar bar1"></div>
       <div className="bar bar2"></div>

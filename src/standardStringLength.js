@@ -14,11 +14,11 @@ export const standardStringLength = {
     eighth: { mm: 270, inch: 10.63 }
   },
   Cello: {
-    full: { mm: 690, inch: 27.17 },
-    three4: { mm: 650, inch: 25.59 },
-    half: { mm: 600, inch: 23.62 },
-    quarter: { mm: 545, inch: 21.46 },
-    eighth: { mm: 480, inch: 18.9 }
+    full: { mm: 690, inch: 27.17, lowerLimit: 670 },
+    three4: { mm: 650, inch: 25.59, upperLimit: 670, lowerLimit: 625 },
+    half: { mm: 600, inch: 23.62, upperLimit: 625, lowerLimit: 572 },
+    quarter: { mm: 545, inch: 21.46, upperLimit: 572, lowerLimit: 512 },
+    eighth: { mm: 480, inch: 18.9, upperLimit: 512 }
   },
   Bass: {
     full: { mm: 1100, inch: 43.31 },

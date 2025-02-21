@@ -10,6 +10,8 @@ const stringLengths = [
   { name: "eighth", text: "1/8" }
 ]
 
+const sL = ["full", "three4", "half", "quarter", "eighth"]
+
 export function StringLenghtSetting() {
   const {
     t,
@@ -23,14 +25,25 @@ export function StringLenghtSetting() {
 
   useEffect(() => {
     setStringLength(standardStringLength[instrument][fraction][unit])
-  }, [instrument, unit])
+  }, [instrument])
+
+  // useEffect(() => {
+  //   let index = sL.indexOf(fraction)
+  //   if (stringLength > standardStringLength[instrument][fraction]?.upperLimit) {
+  //     setFraction(sL[index - 1])
+  //   } else if (
+  //     stringLength < standardStringLength[instrument][fraction]?.lowerLimit
+  //   ) {
+  //     setFraction(sL[index + 1])
+  //   }
+  // }, [stringLength])
 
   return (
     <div className="widget">
       <div className="alt-2">
         <div className="widget-label">{t.stringLength}</div>
         <div className="btn-container">
-          <div className="btn">
+          <div className="btn btn-non-clickable">
             <input
               type="number"
               value={stringLength}
@@ -40,11 +53,11 @@ export function StringLenghtSetting() {
             <div className="arrow-container">
               <div
                 className="arrow arrow-up"
-                onClick={() => setStringLength(sl => sl + 1)}
+                onClick={() => handleCustomStringLength("up")}
               ></div>
               <div
                 className="arrow arrow-down"
-                onClick={() => setStringLength(sl => sl - 1)}
+                onClick={() => handleCustomStringLength("down")}
               ></div>
             </div>
           </div>
@@ -65,6 +78,22 @@ export function StringLenghtSetting() {
       </div>
     </div>
   )
+
+  function handleCustomStringLength(direction) {
+    if (direction === "up") {
+      if (unit === "mm") {
+        setStringLength(sl => Number(sl) + 1)
+      } else {
+        setStringLength(sl => (Number(sl) * 100 + 1) / 100)
+      }
+    } else {
+      if (unit === "mm") {
+        setStringLength(sl => Number(sl) - 1)
+      } else {
+        setStringLength(sl => (Number(sl) * 100 - 1) / 100)
+      }
+    }
+  }
 
   function handleStringLength(fractionSize) {
     setStringLength(standardStringLength[instrument][fractionSize][unit])

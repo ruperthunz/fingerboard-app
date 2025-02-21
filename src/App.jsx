@@ -8,11 +8,16 @@ import { standardStringLength } from "./standardStringLength.js"
 
 export const Context = createContext()
 
+const innerWidth = window.innerWidth
+
 export function App() {
   const [height, setHeight] = useState(window.innerHeight)
   const [width, setWidth] = useState(height / 2)
-  const [settingsOpen, setSettingsOpen] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(false)
+  console.log(width)
+  const [settingsIsOpen, setSettingsIsOpen] = useState(
+    innerWidth < 700 ? false : true
+  )
+  const [menuIsOpen, setMenuIsOpen] = useState(innerWidth < 700 ? false : true)
   const [instrument, setInstrument] = useLocalStorage("instrument", "Violin")
   const [pitch, setPitch] = useLocalStorage("pitch", 440)
   const [language, setLanguage] = useLocalStorage("language", "English")
@@ -30,6 +35,32 @@ export function App() {
     "string-length",
     standardStringLength[instrument][fraction][unit]
   )
+  const [strings, setStrings] = useState({
+    Violin: [
+      { standard: "G", scordatura: "g" },
+      { standard: "D", scordatura: "d" },
+      { standard: "A", scordatura: "a" },
+      { standard: "E", scordatura: "e" }
+    ],
+    Viola: [
+      { standard: "C", scordatura: "c" },
+      { standard: "G", scordatura: "g" },
+      { standard: "D", scordatura: "d" },
+      { standard: "A", scordatura: "a" }
+    ],
+    Cello: [
+      { standard: "C", scordatura: "c" },
+      { standard: "G", scordatura: "g" },
+      { standard: "D", scordatura: "d" },
+      { standard: "A", scordatura: "a" }
+    ],
+    Bass: [
+      { standard: "E", scordatura: "e" },
+      { standard: "A", scordatura: "a" },
+      { standard: "D", scordatura: "d" },
+      { standard: "G", scordatura: "g" }
+    ]
+  })
   const [show, setShow] = useLocalStorage("show", "none")
   const [equalPointsColor, setEqualPointsColor] = useLocalStorage(
     "equalPointsColor",
@@ -41,34 +72,21 @@ export function App() {
   )
   const [tune, setTune] = useState(null)
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setHeight(window.innerHeight)
-  //   }
-  //   window.addEventListener("resize", handleResize)
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize)
-  //   }
-  // }, [])
-
   useEffect(() => {
     setT(translations[language])
   })
-
-  useEffect(() => {
-    setWidth(height / 2)
-  }, [height])
 
   return (
     <Context.Provider
       value={{
         height,
+        setHeight,
         width,
-        settingsOpen,
-        setSettingsOpen,
-        menuOpen,
-        setMenuOpen,
+        setWidth,
+        settingsIsOpen,
+        setSettingsIsOpen,
+        menuIsOpen,
+        setMenuIsOpen,
         instrument,
         setInstrument,
         language,
@@ -87,6 +105,8 @@ export function App() {
         setFraction,
         stringLength,
         setStringLength,
+        strings,
+        setStrings,
         tune,
         setTune,
         show,

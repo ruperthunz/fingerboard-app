@@ -14,12 +14,13 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function Menu() {
-  const { menuOpen, setMenuOpen } = useContext(Context)
+  const { menuIsOpen } = useContext(Context)
+
   return (
     <div
       id="menu"
       className="menus"
-      style={menuOpen ? { right: "0" } : { right: "-300px" }}
+      style={menuIsOpen ? { right: "0" } : { right: "-300px" }}
     >
       <MenuHeader />
       <Tune />

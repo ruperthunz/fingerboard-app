@@ -2,16 +2,16 @@ import { useContext } from "react"
 import { Context } from "../App"
 
 export function SettingsBars() {
-  const { settingsOpen, setSettingsOpen } = useContext(Context)
+  const { settingsIsOpen, setSettingsIsOpen } = useContext(Context)
 
   return (
     <div
       className={
-        settingsOpen
+        settingsIsOpen
           ? "bars-container settings-bars open-menu"
           : "bars-container settings-bars"
       }
-      onClick={() => setSettingsOpen(prevState => !prevState)}
+      onClick={() => setSettingsIsOpen(prevState => !prevState)}
     >
       <div className="bar bar1"></div>
       <div className="bar bar2"></div>

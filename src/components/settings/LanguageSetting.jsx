@@ -5,11 +5,6 @@ import { translations } from "../../translations"
 export function LanguageSetting() {
   const { language, setLanguage, t, setT } = useContext(Context)
 
-  function changeLanguage(translation, language) {
-    setLanguage(language)
-    setT(translation)
-  }
-
   return (
     <div className="widget">
       <div className="widget-content alt-1">
@@ -31,4 +26,9 @@ export function LanguageSetting() {
       </div>
     </div>
   )
+
+  function changeLanguage(translation, language) {
+    setLanguage(language)
+    setT(translation)
+  }
 }

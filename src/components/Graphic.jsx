@@ -5,7 +5,8 @@ import { useLocation } from "react-router-dom"
 
 export function Graphic(props) {
   const instrument = props.instrument.instrument
-  const { height, width, setInstrument } = useContext(Context)
+  const { height, setHeight, width, setWidth, setInstrument } =
+    useContext(Context)
   const [graphic, setGraphic] = useState(drawGraphic(height, width, instrument))
   const location = useLocation()
 
@@ -13,11 +14,24 @@ export function Graphic(props) {
     setInstrument(instrument)
   }, [location])
 
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setHeight(window.innerHeight)
+  //     setWidth(height / 2)
+  //     setGraphic(drawGraphic(height, width, instrument))
+  //   }
+  //   window.addEventListener("resize", handleResize)
+
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize)
+  //   }
+  // }, [height])
+
   return (
     <div id="container">
-      <div className="inner">
+      {/* <div className="inner">
         <img src={"/images/strad-violin-vieuxtemps-hauser-cut1.jpeg"} />
-      </div>
+      </div> */}
       <div className="inner" id="svgContainer">
         <svg width={width} height={height} id="main-svg">
           <rect x="0" y="0" width={width} height={height} id="inner-svg"></rect>

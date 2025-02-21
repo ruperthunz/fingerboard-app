@@ -11,13 +11,13 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function Settings() {
-  const { settingsOpen, setSettingsOpen } = useContext(Context)
+  const { settingsIsOpen } = useContext(Context)
 
   return (
     <div
       id="settings"
       className="menus"
-      style={settingsOpen ? { left: "0" } : { left: "-300px" }}
+      style={settingsIsOpen ? { left: "0" } : { left: "-300px" }}
     >
       <SettingsHeader />
       <LanguageSetting />

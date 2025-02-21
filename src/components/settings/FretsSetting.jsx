@@ -14,7 +14,10 @@ export function FretsSetting() {
         <div className="btn-container">
           {frets.map((octave, index) => {
             return (
-              <div key={octave.English} className="btn fret-btn">
+              <div
+                key={octave.English}
+                className="btn fret-btn btn-non-clickable"
+              >
                 <div
                   className={octave.allSelected ? "btn selected" : "btn"}
                   onClick={() => handleSelectAll(octave)}

@@ -9,7 +9,7 @@ export function PitchSetting() {
       <div className="alt-2">
         <div className="widget-label">{t.standardPitch}</div>
         <div className="btn-container">
-          <div className="btn number-input-container">
+          <div className="btn btn-non-clickable number-input-container">
             <input
               type="number"
               value={pitch}

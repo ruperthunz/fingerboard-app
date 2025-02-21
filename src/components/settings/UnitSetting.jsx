@@ -2,7 +2,8 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function UnitSetting() {
-  const { t, unit, setUnit } = useContext(Context)
+  const { t, unit, setUnit, stringLength, setStringLength } =
+    useContext(Context)
   return (
     <div className="widget">
       <div className="widget-content alt-1">
@@ -10,13 +11,13 @@ export function UnitSetting() {
         <div className="btn-container">
           <div
             className={unit === "mm" ? "selected btn" : "btn"}
-            onClick={() => setUnit("mm")}
+            onClick={() => switchUnit("mm")}
           >
             mm
           </div>
           <div
             className={unit === "inch" ? "selected btn" : "btn"}
-            onClick={() => setUnit("inch")}
+            onClick={() => switchUnit("inch")}
           >
             inch
           </div>
@@ -24,4 +25,15 @@ export function UnitSetting() {
       </div>
     </div>
   )
+
+  function switchUnit(value) {
+    if (unit !== value) {
+      if (unit === "mm") {
+        setStringLength(sl => (Number(sl) / 25.4).toFixed(2))
+      } else if (unit === "inch") {
+        setStringLength(sl => (Number(sl) * 25.4).toFixed(0))
+      }
+    }
+    setUnit(value)
+  }
 }
