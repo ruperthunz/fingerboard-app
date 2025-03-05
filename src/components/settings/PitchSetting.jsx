@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function PitchSetting() {
-  const { t, pitch, setPitch, unit } = useContext(Context)
+  const { t, pitch, setPitch } = useContext(Context)
 
   return (
     <div className="widget">
@@ -13,17 +13,17 @@ export function PitchSetting() {
             <input
               type="number"
               value={pitch}
-              onChange={e => setPitch(Number(e.target.value))}
+              onChange={e => handlePitch("custom", Number(e.target.value))}
             />
             <div>Hz</div>
             <div className="arrow-container">
               <div
                 className="arrow arrow-up"
-                onClick={() => setPitch(p => p + 1)}
+                onClick={() => handlePitch("up")}
               ></div>
               <div
                 className="arrow arrow-down"
-                onClick={() => setPitch(p => p - 1)}
+                onClick={() => handlePitch("down")}
               ></div>
             </div>
           </div>
@@ -31,4 +31,20 @@ export function PitchSetting() {
       </div>
     </div>
   )
+
+  function handlePitch(direction, value) {
+    if (value < 1) {
+      setPitch(1)
+    } else {
+      if (direction === "up") {
+        setPitch(p => p + 1)
+      } else if (direction === "down") {
+        if (pitch > 1) {
+          setPitch(p => p - 1)
+        }
+      } else {
+        setPitch(value)
+      }
+    }
+  }
 }

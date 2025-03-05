@@ -13,7 +13,6 @@ const innerWidth = window.innerWidth
 export function App() {
   const [height, setHeight] = useState(window.innerHeight)
   const [width, setWidth] = useState(height / 2)
-  console.log(width)
   const [settingsIsOpen, setSettingsIsOpen] = useState(
     innerWidth < 700 ? false : true
   )

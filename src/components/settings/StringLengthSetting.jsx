@@ -1,6 +1,10 @@
 import { useContext, useEffect } from "react"
 import { Context } from "../../App"
-import { standardStringLength } from "../../standardStringLength"
+import {
+  standardStringLength,
+  stringLengthAreas,
+  stringLengthBoundaries
+} from "../../standardStringLength"
 
 const stringLengths = [
   { name: "full", text: "4/4" },
@@ -11,6 +15,8 @@ const stringLengths = [
 ]
 
 const sL = ["full", "three4", "half", "quarter", "eighth"]
+
+// const minimumStringLength = { mm: 100, inch: 3.94 }
 
 export function StringLenghtSetting() {
   const {
@@ -38,6 +44,10 @@ export function StringLenghtSetting() {
   //   }
   // }, [stringLength])
 
+  useEffect(() => {
+    checkBoundaries()
+  }, [stringLength])
+
   return (
     <div className="widget">
       <div className="alt-2">
@@ -47,7 +57,10 @@ export function StringLenghtSetting() {
             <input
               type="number"
               value={stringLength}
-              onChange={e => setStringLength(Number(e.target.value))}
+              step={unit === "mm" ? 1 : 0.01}
+              onChange={e =>
+                handleCustomStringLength("custom", Number(e.target.value))
+              }
             />
             <div>{unit}</div>
             <div className="arrow-container">
@@ -79,18 +92,26 @@ export function StringLenghtSetting() {
     </div>
   )
 
-  function handleCustomStringLength(direction) {
-    if (direction === "up") {
-      if (unit === "mm") {
-        setStringLength(sl => Number(sl) + 1)
-      } else {
-        setStringLength(sl => (Number(sl) * 100 + 1) / 100)
-      }
+  function handleCustomStringLength(direction, value) {
+    if (value < 1) {
+      setStringLength(1)
     } else {
-      if (unit === "mm") {
-        setStringLength(sl => Number(sl) - 1)
+      if (direction === "up") {
+        if (unit === "mm") {
+          setStringLength(sl => Number(sl) + 1)
+        } else {
+          setStringLength(sl => (Number(sl) + 0.01).toFixed(2))
+        }
+      } else if (direction === "down") {
+        if (stringLength > 1) {
+          if (unit === "mm") {
+            setStringLength(sl => Number(sl) - 1)
+          } else {
+            setStringLength(sl => (Number(sl) - 0.01).toFixed(2))
+          }
+        }
       } else {
-        setStringLength(sl => (Number(sl) * 100 - 1) / 100)
+        setStringLength(value)
       }
     }
   }
@@ -98,5 +119,16 @@ export function StringLenghtSetting() {
   function handleStringLength(fractionSize) {
     setStringLength(standardStringLength[instrument][fractionSize][unit])
     setFraction(fractionSize)
+  }
+
+  function checkBoundaries() {
+    const upperLimit = stringLengthAreas[instrument][fraction][unit].upperLimit
+    const lowerLimit = stringLengthAreas[instrument][fraction][unit].lowerLimit
+    if (stringLength > upperLimit || stringLength < lowerLimit) {
+      const newFraction = stringLengthBoundaries[instrument][unit].find(
+        obj => obj.upperLimit > stringLength && obj.lowerLimit < stringLength
+      )
+      setFraction(newFraction.fraction)
+    }
   }
 }
