@@ -5,6 +5,7 @@ import { useLocalStorage } from "./useLocalStorage.js"
 import { translations } from "./translations.js"
 import { fretStates } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
+import { equalPoints } from "./equalPoints.js"
 
 export const Context = createContext()
 
@@ -75,6 +76,10 @@ export function App() {
     setT(translations[language])
   })
 
+  useEffect(() => {
+    logSelectedPoints(pointsOn, fretStates, instrument, language)
+  }, [pointsOn, frets, language])
+
   return (
     <Context.Provider
       value={{
@@ -119,4 +124,22 @@ export function App() {
       <RouterProvider router={router} />
     </Context.Provider>
   )
+}
+
+function logSelectedPoints(pointsOn, fretStates, instrument, language) {
+  const selectedStrings = []
+  pointsOn.forEach((string, index) => {
+    if (string) {
+      selectedStrings.push(equalPoints[instrument][index])
+    }
+  })
+  selectedStrings.forEach(string => {
+    fretStates.forEach((oct, index) => {
+      oct.frets.forEach((fret, fretIndex) => {
+        if (fret) {
+          console.log(string[index][fretIndex].name[language])
+        }
+      })
+    })
+  })
 }
