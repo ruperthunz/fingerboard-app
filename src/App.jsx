@@ -76,9 +76,16 @@ export function App() {
     setT(translations[language])
   })
 
+  // log selectedPoints to console (just for testing)
   useEffect(() => {
-    logSelectedPoints(pointsOn, fretStates, instrument, language)
-  }, [pointsOn, frets, language])
+    logSelectedPoints(
+      pointsOn,
+      fretStates,
+      instrument,
+      language,
+      equalPointsColor
+    )
+  }, [pointsOn, frets, language, instrument, equalPointsColor])
 
   return (
     <Context.Provider
@@ -126,7 +133,13 @@ export function App() {
   )
 }
 
-function logSelectedPoints(pointsOn, fretStates, instrument, language) {
+function logSelectedPoints(
+  pointsOn,
+  fretStates,
+  instrument,
+  language,
+  equalPointsColor
+) {
   const selectedStrings = []
   pointsOn.forEach((string, index) => {
     if (string) {
@@ -137,7 +150,10 @@ function logSelectedPoints(pointsOn, fretStates, instrument, language) {
     fretStates.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
-          console.log(string[index][fretIndex].name[language])
+          console.log(`Name: ${string[index][fretIndex].name[language]}`)
+          console.log(
+            `Color: ${string[index][fretIndex].colors[equalPointsColor]}`
+          )
         }
       })
     })
