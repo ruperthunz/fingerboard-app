@@ -8,7 +8,21 @@ export function EqualPoints() {
 
   return (
     <div className="widget">
-      <div className="widget-label">{t.equalPoints}</div>
+      <div className="widget-label">
+        {t.equalPoints}
+        <div className="switch-wrapper">
+          <label className="switch">
+            <input type="checkbox"></input>
+            <span className="slider round"></span>
+          </label>
+        </div>
+      </div>
+      {/* <div className="switch-wrapper">
+        <label className="switch">
+          <input type="checkbox"></input>
+          <span className="slider round"></span>
+        </label>
+      </div> */}
       <div className="widget-content">
         <div className="btn-container">
           {colorOptions.map(option => {

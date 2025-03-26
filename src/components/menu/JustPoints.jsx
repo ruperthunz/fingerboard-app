@@ -8,7 +8,15 @@ export function JustPoints() {
 
   return (
     <div className="widget">
-      <div className="widget-label">{t.justPoints}</div>
+      <div className="widget-label">
+        {t.justPoints}
+        <div className="switch-wrapper">
+          <label className="switch">
+            <input type="checkbox"></input>
+            <span className="slider round"></span>
+          </label>
+        </div>
+      </div>
       <div className="widget-content">
         <div className="btn-container">
           {colorOptions.map(option => {

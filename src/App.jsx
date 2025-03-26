@@ -61,6 +61,7 @@ export function App() {
       { standard: "G", scordatura: "g" }
     ]
   })
+  const [soundEnabled, setSoundEnabled] = useState(true)
   const [show, setShow] = useLocalStorage("show", "none")
   const [equalPointsColor, setEqualPointsColor] = useLocalStorage(
     "equalPointsColor",
@@ -70,6 +71,21 @@ export function App() {
     "justPointsColor",
     "uniPlus8"
   )
+  const [harmonicPointsColor, setHarmonicPointsColor] = useLocalStorage(
+    "harmonicPointsColor",
+    "div"
+  )
+  const [divisions, setDivisions] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ])
   const [tune, setTune] = useState(null)
 
   useEffect(() => {
@@ -120,12 +136,18 @@ export function App() {
         setStrings,
         tune,
         setTune,
+        soundEnabled,
+        setSoundEnabled,
         show,
         setShow,
         equalPointsColor,
         setEqualPointsColor,
         justPointsColor,
-        setJustPointsColor
+        setJustPointsColor,
+        harmonicPointsColor,
+        setHarmonicPointsColor,
+        divisions,
+        setDivisions
       }}
     >
       <RouterProvider router={router} />
@@ -150,10 +172,10 @@ function logSelectedPoints(
     fretStates.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
-          console.log(`Name: ${string[index][fretIndex].name[language]}`)
-          console.log(
-            `Color: ${string[index][fretIndex].colors[equalPointsColor]}`
-          )
+          // console.log(`Name: ${string[index][fretIndex].name[language]}`)
+          // console.log(
+          //   `Color: ${string[index][fretIndex].colors[equalPointsColor]}`
+          // )
         }
       })
     })
