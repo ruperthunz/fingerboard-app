@@ -54,3 +54,7 @@
   stroke: lightgray;
   opacity: 1;
 }
+
+.point {
+  fill: red;
+}

@@ -2,10 +2,11 @@ import { useContext, useEffect, useState } from "react"
 import { Context } from "../App"
 import { drawGraphic } from "../graphics/drawGraphic"
 import { useLocation } from "react-router-dom"
+import { EqualPoint } from "./EqualPoint"
 
 export function Graphic(props) {
   const instrument = props.instrument.instrument
-  const { height, setHeight, width, setWidth, setInstrument } =
+  const { height, setHeight, width, setWidth, setInstrument, pointsToDisplay } =
     useContext(Context)
   const [graphic, setGraphic] = useState(drawGraphic(height, width, instrument))
   const location = useLocation()
@@ -34,6 +35,10 @@ export function Graphic(props) {
       </div> */}
       <div className="inner" id="svgContainer">
         <svg width={width} height={height} id="main-svg">
+          {pointsToDisplay.map(point => {
+            console.log(point)
+          })}
+          <EqualPoint />
           <rect x="0" y="0" width={width} height={height} id="inner-svg"></rect>
           <path id={`body${instrument}`} d={graphic[0]}></path>
           <polygon id="fingerboard" points={graphic[1]}></polygon>

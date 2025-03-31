@@ -29,6 +29,9 @@ export function App() {
     true
   ])
   const [frets, setFrets] = useState(fretStates)
+  const [pointsToDisplay, setPointsToDisplay] = useState(() =>
+    getPointsToDisplay(pointsOn, frets, instrument)
+  )
   const [unit, setUnit] = useLocalStorage("unit", "mm")
   const [fraction, setFraction] = useLocalStorage("fraction", "full")
   const [stringLength, setStringLength] = useLocalStorage(
@@ -63,10 +66,12 @@ export function App() {
   })
   const [soundEnabled, setSoundEnabled] = useState(true)
   const [show, setShow] = useLocalStorage("show", "none")
+  const [displayEP, setDisplayEP] = useState(false)
   const [equalPointsColor, setEqualPointsColor] = useLocalStorage(
     "equalPointsColor",
     "uniPlus8"
   )
+  const [displayJP, setDisplayJP] = useState(false)
   const [justPointsColor, setJustPointsColor] = useLocalStorage(
     "justPointsColor",
     "uniPlus8"
@@ -103,6 +108,10 @@ export function App() {
     )
   }, [pointsOn, frets, language, instrument, equalPointsColor])
 
+  useEffect(() => {
+    setPointsToDisplay(() => getPointsToDisplay(pointsOn, frets, instrument))
+  }, [instrument, pointsOn, frets])
+
   return (
     <Context.Provider
       value={{
@@ -126,6 +135,7 @@ export function App() {
         setPointsOn,
         frets,
         setFrets,
+        pointsToDisplay,
         unit,
         setUnit,
         fraction,
@@ -140,8 +150,12 @@ export function App() {
         setSoundEnabled,
         show,
         setShow,
+        displayEP,
+        setDisplayEP,
         equalPointsColor,
         setEqualPointsColor,
+        displayJP,
+        setDisplayJP,
         justPointsColor,
         setJustPointsColor,
         harmonicPointsColor,
@@ -153,6 +167,26 @@ export function App() {
       <RouterProvider router={router} />
     </Context.Provider>
   )
+}
+
+function getPointsToDisplay(pointsOn, frets, instrument) {
+  const selectedStrings = []
+  const pointsToDisplay = []
+  pointsOn.forEach((pointsOnString, index) => {
+    if (pointsOnString) {
+      selectedStrings.push(equalPoints[instrument][index])
+    }
+  })
+  selectedStrings.forEach(string => {
+    frets.forEach((oct, index) => {
+      oct.frets.forEach((fret, fretIndex) => {
+        if (fret) {
+          pointsToDisplay.push(string[index][fretIndex])
+        }
+      })
+    })
+  })
+  return [pointsToDisplay]
 }
 
 function logSelectedPoints(
@@ -172,6 +206,7 @@ function logSelectedPoints(
     fretStates.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
+          // console.log(`Ratio: ${string[index][fretIndex].ratio}`)
           // console.log(`Name: ${string[index][fretIndex].name[language]}`)
           // console.log(
           //   `Color: ${string[index][fretIndex].colors[equalPointsColor]}`

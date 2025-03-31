@@ -3241,6 +3241,13 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.05612568731830647,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3252,6 +3259,13 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.10910128185966073,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3263,6 +3277,13 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.1591035847462855,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3274,6 +3295,13 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.2062994740159002,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3285,6 +3313,13 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.25084646156165924,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3296,6 +3331,13 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.2928932188134524,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3307,6 +3349,13 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.3325800729149828,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3318,6 +3367,13 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.3700394750525634,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3329,6 +3385,13 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.4053964424986395,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3340,6 +3403,13 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.4387689758453135,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3351,6 +3421,13 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.47026845282035235,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3362,6 +3439,13 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.5,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3375,6 +3459,13 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.5280628436591532,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3386,6 +3477,13 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.5545506409298304,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3397,6 +3495,13 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.5795517923731428,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3408,6 +3513,13 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.6031497370079502,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3419,6 +3531,13 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.6254232307808296,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3430,6 +3549,13 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.6464466094067263,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3441,6 +3567,13 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.6662900364574914,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3452,6 +3585,13 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.6850197375262816,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3463,6 +3603,13 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.7026982212493198,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3474,6 +3621,13 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.7193844879226567,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3485,6 +3639,13 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.7351342264101761,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3496,6 +3657,13 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.75,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3509,6 +3677,13 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.7640314218295766,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3520,6 +3695,13 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.7772753204649152,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3531,6 +3713,13 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.7897758961865714,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3542,6 +3731,13 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.8015748685039751,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3553,6 +3749,13 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.8127116153904148,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3564,6 +3767,13 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.8232233047033631,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3575,6 +3785,13 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.8331450182287458,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3586,6 +3803,13 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.8425098687631408,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3597,6 +3821,13 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.8513491106246599,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3608,6 +3839,13 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.8596922439613284,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3619,6 +3857,13 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.8675671132050881,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3630,6 +3875,13 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.875,
+          coordinates: {
+            vectorX: -24,
+            vectorY: 1164,
+            originX: 282,
+            originY: 16
+          },
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",

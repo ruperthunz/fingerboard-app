@@ -4,7 +4,8 @@ import { Context } from "../../App"
 const colorOptions = ["uni", "uniPlus8", "fret", "name", "piano"]
 
 export function EqualPoints() {
-  const { t, equalPointsColor, setEqualPointsColor } = useContext(Context)
+  const { t, displayEP, setDisplayEP, equalPointsColor, setEqualPointsColor } =
+    useContext(Context)
 
   return (
     <div className="widget">
@@ -12,17 +13,15 @@ export function EqualPoints() {
         {t.equalPoints}
         <div className="switch-wrapper">
           <label className="switch">
-            <input type="checkbox"></input>
+            <input
+              type="checkbox"
+              checked={displayEP}
+              onChange={() => setDisplayEP(!displayEP)}
+            />
             <span className="slider round"></span>
           </label>
         </div>
       </div>
-      {/* <div className="switch-wrapper">
-        <label className="switch">
-          <input type="checkbox"></input>
-          <span className="slider round"></span>
-        </label>
-      </div> */}
       <div className="widget-content">
         <div className="btn-container">
           {colorOptions.map(option => {

@@ -4,7 +4,8 @@ import { Context } from "../../App"
 const colorOptions = ["uni", "uniPlus8", "fret", "name", "row"]
 
 export function JustPoints() {
-  const { t, justPointsColor, setJustPointsColor } = useContext(Context)
+  const { t, displayJP, setDisplayJP, justPointsColor, setJustPointsColor } =
+    useContext(Context)
 
   return (
     <div className="widget">
@@ -12,7 +13,11 @@ export function JustPoints() {
         {t.justPoints}
         <div className="switch-wrapper">
           <label className="switch">
-            <input type="checkbox"></input>
+            <input
+              type="checkbox"
+              checked={displayJP}
+              onChange={() => setDisplayJP(!displayJP)}
+            />
             <span className="slider round"></span>
           </label>
         </div>
