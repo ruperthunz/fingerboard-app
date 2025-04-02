@@ -5,6 +5,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -16,6 +17,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -27,6 +29,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -38,6 +41,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -49,6 +53,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -60,6 +65,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -71,6 +77,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -82,6 +89,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -93,6 +101,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -104,6 +113,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -115,6 +125,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -126,6 +137,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -139,6 +151,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -150,6 +163,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -161,6 +175,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -172,6 +187,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -183,6 +199,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -194,6 +211,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -205,6 +223,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -216,6 +235,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -227,6 +247,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -238,6 +259,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -249,6 +271,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -260,6 +283,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -273,6 +297,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -284,6 +309,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -295,6 +321,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -306,6 +333,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -317,6 +345,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -328,6 +357,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -339,6 +369,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -350,6 +381,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -361,6 +393,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -372,6 +405,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -383,6 +417,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -394,6 +429,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -409,6 +445,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -420,6 +457,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -431,6 +469,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -442,6 +481,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -453,6 +493,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -464,6 +505,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -475,6 +517,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -486,6 +529,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -497,6 +541,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -508,6 +553,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -519,6 +565,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -530,6 +577,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -543,6 +591,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -554,6 +603,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -565,6 +615,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -576,6 +627,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -587,6 +639,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -598,6 +651,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -609,6 +663,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -620,6 +675,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -631,6 +687,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -642,6 +699,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -653,6 +711,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -664,6 +723,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -677,6 +737,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -688,6 +749,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -699,6 +761,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -710,6 +773,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -721,6 +785,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -732,6 +797,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -743,6 +809,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -754,6 +821,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -765,6 +833,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -776,6 +845,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -787,6 +857,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -798,6 +869,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -813,6 +885,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -824,6 +897,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -835,6 +909,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -846,6 +921,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -857,6 +933,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -868,6 +945,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -879,6 +957,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -890,6 +969,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -901,6 +981,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -912,6 +993,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -923,6 +1005,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -934,6 +1017,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -947,6 +1031,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -958,6 +1043,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -969,6 +1055,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -980,6 +1067,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -991,6 +1079,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1002,6 +1091,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1013,6 +1103,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1024,6 +1115,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1035,6 +1127,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1046,6 +1139,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1057,6 +1151,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1068,6 +1163,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1081,6 +1177,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1092,6 +1189,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1103,6 +1201,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1114,6 +1213,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1125,6 +1225,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1136,6 +1237,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1147,6 +1249,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1158,6 +1261,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1169,6 +1273,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1180,6 +1285,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1191,6 +1297,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1202,6 +1309,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1217,6 +1325,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1228,6 +1337,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1239,6 +1349,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1250,6 +1361,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1261,6 +1373,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1272,6 +1385,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1283,6 +1397,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1294,6 +1409,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1305,6 +1421,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1316,6 +1433,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1327,6 +1445,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1338,6 +1457,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1351,6 +1471,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1362,6 +1483,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1373,6 +1495,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1384,6 +1507,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1395,6 +1519,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1406,6 +1531,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1417,6 +1543,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1428,6 +1555,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1439,6 +1567,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1450,6 +1579,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1461,6 +1591,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1472,6 +1603,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1485,6 +1617,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1496,6 +1629,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1507,6 +1641,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1518,6 +1653,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1529,6 +1665,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1540,6 +1677,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1551,6 +1689,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1562,6 +1701,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1573,6 +1713,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1584,6 +1725,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1595,6 +1737,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1606,6 +1749,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1623,6 +1767,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1634,6 +1779,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1645,6 +1791,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1656,6 +1803,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1667,6 +1815,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1678,6 +1827,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1689,6 +1839,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1700,6 +1851,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1711,6 +1863,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1722,6 +1875,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1733,6 +1887,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1744,6 +1899,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1757,6 +1913,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1768,6 +1925,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1779,6 +1937,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1790,6 +1949,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1801,6 +1961,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1812,6 +1973,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1823,6 +1985,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1834,6 +1997,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1845,6 +2009,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1856,6 +2021,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1867,6 +2033,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1878,6 +2045,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1891,6 +2059,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1902,6 +2071,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1913,6 +2083,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1924,6 +2095,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1935,6 +2107,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1946,6 +2119,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1957,6 +2131,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1968,6 +2143,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1979,6 +2155,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -1990,6 +2167,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2001,6 +2179,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2012,6 +2191,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2027,6 +2207,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2038,6 +2219,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2049,6 +2231,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2060,6 +2243,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2071,6 +2255,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2082,6 +2267,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2093,6 +2279,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2104,6 +2291,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2115,6 +2303,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2126,6 +2315,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2137,6 +2327,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2148,6 +2339,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2161,6 +2353,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2172,6 +2365,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2183,6 +2377,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2194,6 +2389,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2205,6 +2401,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2216,6 +2413,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2227,6 +2425,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2238,6 +2437,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2249,6 +2449,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2260,6 +2461,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2271,6 +2473,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2282,6 +2485,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2295,6 +2499,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2306,6 +2511,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2317,6 +2523,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2328,6 +2535,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2339,6 +2547,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2350,6 +2559,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2361,6 +2571,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2372,6 +2583,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2383,6 +2595,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2394,6 +2607,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2405,6 +2619,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2416,6 +2631,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2431,6 +2647,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2442,6 +2659,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2453,6 +2671,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2464,6 +2683,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2475,6 +2695,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2486,6 +2707,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2497,6 +2719,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2508,6 +2731,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2519,6 +2743,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2530,6 +2755,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2541,6 +2767,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2552,6 +2779,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2565,6 +2793,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2576,6 +2805,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2587,6 +2817,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2598,6 +2829,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2609,6 +2841,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2620,6 +2853,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2631,6 +2865,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2642,6 +2877,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2653,6 +2889,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2664,6 +2901,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2675,6 +2913,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2686,6 +2925,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2699,6 +2939,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2710,6 +2951,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2721,6 +2963,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2732,6 +2975,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2743,6 +2987,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2754,6 +2999,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2765,6 +3011,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2776,6 +3023,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2787,6 +3035,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2798,6 +3047,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2809,6 +3059,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2820,6 +3071,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2835,6 +3087,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2846,6 +3099,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2857,6 +3111,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2868,6 +3123,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2879,6 +3135,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2890,6 +3147,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2901,6 +3159,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2912,6 +3171,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2923,6 +3183,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2934,6 +3195,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2945,6 +3207,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2956,6 +3219,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2969,6 +3233,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2980,6 +3245,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -2991,6 +3257,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3002,6 +3269,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3013,6 +3281,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3024,6 +3293,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3035,6 +3305,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3046,6 +3317,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3057,6 +3329,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3068,6 +3341,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3079,6 +3353,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3090,6 +3365,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3103,6 +3379,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3114,6 +3391,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3125,6 +3403,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3136,6 +3415,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3147,6 +3427,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3158,6 +3439,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3169,6 +3451,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3180,6 +3463,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3191,6 +3475,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3202,6 +3487,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3213,6 +3499,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3224,6 +3511,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3897,6 +4185,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3908,6 +4197,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3919,6 +4209,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3930,6 +4221,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3941,6 +4233,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3952,6 +4245,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3963,6 +4257,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3974,6 +4269,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3985,6 +4281,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -3996,6 +4293,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4007,6 +4305,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4018,6 +4317,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4031,6 +4331,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4042,6 +4343,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4053,6 +4355,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4064,6 +4367,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4075,6 +4379,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4086,6 +4391,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4097,6 +4403,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4108,6 +4415,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4119,6 +4427,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4130,6 +4439,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4141,6 +4451,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4152,6 +4463,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4165,6 +4477,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4176,6 +4489,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4187,6 +4501,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4198,6 +4513,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4209,6 +4525,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4220,6 +4537,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4231,6 +4549,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4242,6 +4561,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4253,6 +4573,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4264,6 +4585,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4275,6 +4597,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4286,6 +4609,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4301,6 +4625,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4312,6 +4637,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4323,6 +4649,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4334,6 +4661,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4345,6 +4673,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4356,6 +4685,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4367,6 +4697,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4378,6 +4709,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4389,6 +4721,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4400,6 +4733,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4411,6 +4745,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4422,6 +4757,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4435,6 +4771,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4446,6 +4783,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4457,6 +4795,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4468,6 +4807,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4479,6 +4819,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4490,6 +4831,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4501,6 +4843,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4512,6 +4855,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4523,6 +4867,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4534,6 +4879,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4545,6 +4891,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4556,6 +4903,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4569,6 +4917,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4580,6 +4929,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4591,6 +4941,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4602,6 +4953,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4613,6 +4965,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4624,6 +4977,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4635,6 +4989,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4646,6 +5001,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4657,6 +5013,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4668,6 +5025,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4679,6 +5037,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4690,6 +5049,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4705,6 +5065,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4716,6 +5077,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4727,6 +5089,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4738,6 +5101,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4749,6 +5113,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4760,6 +5125,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4771,6 +5137,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4782,6 +5149,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4793,6 +5161,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4804,6 +5173,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4815,6 +5185,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4826,6 +5197,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4839,6 +5211,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4850,6 +5223,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4861,6 +5235,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4872,6 +5247,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4883,6 +5259,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4894,6 +5271,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4905,6 +5283,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4916,6 +5295,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4927,6 +5307,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4938,6 +5319,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4949,6 +5331,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4960,6 +5343,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4973,6 +5357,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4984,6 +5369,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -4995,6 +5381,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5006,6 +5393,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5017,6 +5405,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5028,6 +5417,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5039,6 +5429,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5050,6 +5441,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5061,6 +5453,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5072,6 +5465,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5083,6 +5477,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5094,6 +5489,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5111,6 +5507,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5122,6 +5519,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5133,6 +5531,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5144,6 +5543,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5155,6 +5555,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5166,6 +5567,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5177,6 +5579,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5188,6 +5591,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5199,6 +5603,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5210,6 +5615,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5221,6 +5627,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5232,6 +5639,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5245,6 +5653,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5256,6 +5665,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5267,6 +5677,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5278,6 +5689,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5289,6 +5701,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5300,6 +5713,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5311,6 +5725,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5322,6 +5737,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5333,6 +5749,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5344,6 +5761,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5355,6 +5773,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5366,6 +5785,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5379,6 +5799,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5390,6 +5811,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5401,6 +5823,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5412,6 +5835,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5423,6 +5847,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5434,6 +5859,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5445,6 +5871,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5456,6 +5883,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5467,6 +5895,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5478,6 +5907,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5489,6 +5919,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5500,6 +5931,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5515,6 +5947,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5526,6 +5959,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5537,6 +5971,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5548,6 +5983,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5559,6 +5995,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5570,6 +6007,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5581,6 +6019,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5592,6 +6031,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5603,6 +6043,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5614,6 +6055,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5625,6 +6067,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5636,6 +6079,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5649,6 +6093,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5660,6 +6105,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5671,6 +6117,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5682,6 +6129,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5693,6 +6141,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5704,6 +6153,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5715,6 +6165,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5726,6 +6177,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5737,6 +6189,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5748,6 +6201,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5759,6 +6213,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5770,6 +6225,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5783,6 +6239,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5794,6 +6251,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5805,6 +6263,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5816,6 +6275,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5827,6 +6287,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5838,6 +6299,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5849,6 +6311,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5860,6 +6323,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5871,6 +6335,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5882,6 +6347,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5893,6 +6359,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5904,6 +6371,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5919,6 +6387,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5930,6 +6399,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5941,6 +6411,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5952,6 +6423,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5963,6 +6435,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5974,6 +6447,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5985,6 +6459,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -5996,6 +6471,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6007,6 +6483,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6018,6 +6495,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6029,6 +6507,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6040,6 +6519,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6053,6 +6533,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6064,6 +6545,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6075,6 +6557,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6086,6 +6569,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6097,6 +6581,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6108,6 +6593,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6119,6 +6605,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6130,6 +6617,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6141,6 +6629,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6152,6 +6641,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6163,6 +6653,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6174,6 +6665,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6187,6 +6679,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6198,6 +6691,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6209,6 +6703,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6220,6 +6715,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6231,6 +6727,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6242,6 +6739,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6253,6 +6751,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6264,6 +6763,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6275,6 +6775,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6286,6 +6787,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6297,6 +6799,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6308,6 +6811,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6323,6 +6827,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.05612568731830647,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6334,6 +6839,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.10910128185966073,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6345,6 +6851,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.1591035847462855,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6356,6 +6863,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.2062994740159002,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6367,6 +6875,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.25084646156165924,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6378,6 +6887,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.2928932188134524,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6389,6 +6899,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.3325800729149828,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6400,6 +6911,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.3700394750525634,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6411,6 +6923,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.4053964424986395,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6422,6 +6935,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.4387689758453135,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6433,6 +6947,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.47026845282035235,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6444,6 +6959,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.5,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6457,6 +6973,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.5280628436591532,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6468,6 +6985,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.5545506409298304,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6479,6 +6997,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.5795517923731428,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6490,6 +7009,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.6031497370079502,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6501,6 +7021,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.6254232307808296,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6512,6 +7033,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.6464466094067263,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6523,6 +7045,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.6662900364574914,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6534,6 +7057,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.6850197375262816,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6545,6 +7069,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.7026982212493198,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6556,6 +7081,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.7193844879226567,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6567,6 +7093,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.7351342264101761,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6578,6 +7105,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.75,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6591,6 +7119,7 @@ export const equalPoints = {
         {
           name: { English: "G# A♭", German: "Gis As" },
           number: 1,
+          ratio: 0.7640314218295766,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6602,6 +7131,7 @@ export const equalPoints = {
         {
           name: { English: "A", German: "A" },
           number: 2,
+          ratio: 0.7772753204649152,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6613,6 +7143,7 @@ export const equalPoints = {
         {
           name: { English: "A# B♭", German: "Ais B" },
           number: 3,
+          ratio: 0.7897758961865714,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6624,6 +7155,7 @@ export const equalPoints = {
         {
           name: { English: "B", German: "H" },
           number: 4,
+          ratio: 0.8015748685039751,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6635,6 +7167,7 @@ export const equalPoints = {
         {
           name: { English: "C", German: "C" },
           number: 5,
+          ratio: 0.8127116153904148,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6646,6 +7179,7 @@ export const equalPoints = {
         {
           name: { English: "C# D♭", German: "Cis Des" },
           number: 6,
+          ratio: 0.8232233047033631,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6657,6 +7191,7 @@ export const equalPoints = {
         {
           name: { English: "D", German: "D" },
           number: 7,
+          ratio: 0.8331450182287458,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6668,6 +7203,7 @@ export const equalPoints = {
         {
           name: { English: "D# E♭", German: "Dis Es" },
           number: 8,
+          ratio: 0.8425098687631408,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6679,6 +7215,7 @@ export const equalPoints = {
         {
           name: { English: "E", German: "E" },
           number: 9,
+          ratio: 0.8513491106246599,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6690,6 +7227,7 @@ export const equalPoints = {
         {
           name: { English: "F", German: "F" },
           number: 10,
+          ratio: 0.8596922439613284,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6701,6 +7239,7 @@ export const equalPoints = {
         {
           name: { English: "F# G♭", German: "Fis Ges" },
           number: 11,
+          ratio: 0.8675671132050881,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
@@ -6712,6 +7251,7 @@ export const equalPoints = {
         {
           name: { English: "G", German: "G" },
           number: 12,
+          ratio: 0.875,
           colors: {
             uni: "uni",
             uniPlus8: "uniPlus8",
