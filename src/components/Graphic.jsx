@@ -35,10 +35,6 @@ export function Graphic(props) {
       </div> */}
       <div className="inner" id="svgContainer">
         <svg width={width} height={height} id="main-svg">
-          {pointsToDisplay.map(point => {
-            console.log(point)
-          })}
-          <EqualPoint />
           <rect x="0" y="0" width={width} height={height} id="inner-svg"></rect>
           <path id={`body${instrument}`} d={graphic[0]}></path>
           <polygon id="fingerboard" points={graphic[1]}></polygon>
@@ -125,6 +121,9 @@ export function Graphic(props) {
             y2={graphic[17]}
             strokeWidth={graphic[18]}
           ></line>
+          {pointsToDisplay.map(point => {
+            return <EqualPoint key={crypto.randomUUID()} point={point} />
+          })}
         </svg>
       </div>
     </div>

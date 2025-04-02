@@ -186,7 +186,7 @@ function getPointsToDisplay(pointsOn, frets, instrument) {
       })
     })
   })
-  return [pointsToDisplay]
+  return pointsToDisplay
 }
 
 function logSelectedPoints(
