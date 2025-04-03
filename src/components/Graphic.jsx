@@ -6,7 +6,7 @@ import { EqualPoint } from "./EqualPoint"
 
 export function Graphic(props) {
   const instrument = props.instrument.instrument
-  const { height, setHeight, width, setWidth, setInstrument, pointsToDisplay } =
+  const { height, width, setInstrument, displayEP, pointsToDisplay } =
     useContext(Context)
   const [graphic, setGraphic] = useState(drawGraphic(height, width, instrument))
   const location = useLocation()
@@ -121,9 +121,11 @@ export function Graphic(props) {
             y2={graphic[17]}
             strokeWidth={graphic[18]}
           ></line>
-          {pointsToDisplay.map(point => {
-            return <EqualPoint key={crypto.randomUUID()} point={point} />
-          })}
+          {displayEP
+            ? pointsToDisplay.map(point => {
+                return <EqualPoint key={crypto.randomUUID()} point={point} />
+              })
+            : undefined}
         </svg>
       </div>
     </div>

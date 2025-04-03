@@ -1,0 +1,32 @@
+const equalPointsColors = {
+  uni: "rgb(0, 191, 0)",
+  octave: "rgb(255, 0, 0",
+  fret1: "hsl( 30, 100%, 50%)",
+  fret2: "hsl( 60, 100%, 50%)",
+  fret3: "hsl( 90, 100%, 50%)",
+  fret4: "hsl( 120, 100%, 50%)",
+  fret5: "hsl( 150, 100%, 50%)",
+  fret6: "hsl( 180, 100%, 50%)",
+  fret7: "hsl( 210, 100%, 50%)",
+  fret8: "hsl( 240, 100%, 50%)",
+  fret9: "hsl( 270, 100%, 50%)",
+  fret10: "hsl( 300, 100%, 50%)",
+  fret11: "hsl( 330, 100%, 50%)",
+  fret12: "hsl( 0, 100%, 50%)",
+  c: "hsl( 60, 100%, 50%)",
+  cSharp_dFlat: "hsl( 90, 100%, 50%)",
+  d: "hsl( 120, 100%, 50%)",
+  dSharp_eFlat: "hsl( 150, 100%, 50%)",
+  e: "hsl( 180, 100%, 50%)",
+  f: "hsl( 210, 100%, 50%)",
+  fSharp_gFlat: "hsl( 240, 100%, 50%)",
+  g: "hsl( 270, 100%, 50%)",
+  gSharp_aFlat: "hsl( 300, 100%, 50%)",
+  a: "hsl( 330, 100%, 50%)",
+  aSharp_bFlat: "hsl( 0, 100%, 50%)",
+  b: "hsl( 30, 100%, 50%)",
+  black: "rgb(120, 120, 120)",
+  white: "rgb(255, 255, 255)"
+}
+
+export default equalPointsColors

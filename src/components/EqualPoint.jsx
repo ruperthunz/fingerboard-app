@@ -5,15 +5,15 @@ const x = 600
 const y = 1200
 
 export function EqualPoint({ point }) {
-  const { width, height } = useContext(Context)
+  const { width, height, equalPointsColor } = useContext(Context)
 
   return (
     <circle
-      // key={crypto.randomUUID()}
       cx={point.coordinates.cx * (width / x)}
       cy={point.coordinates.cy * (height / y)}
-      r="5"
-      className="point"
+      r={width / (x / 6)}
+      // className="point"
+      fill={point.colors[equalPointsColor]}
     ></circle>
   )
 }
