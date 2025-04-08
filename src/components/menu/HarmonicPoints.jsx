@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { Context } from "../../App"
 
-const colorOptions = ["uni", "uniPlus8", "fret", "name", "div"]
+const colorOptions = ["uni", "tone", "fret", "name", "div"]
 const divisionsOptions = [
   "÷ 2",
   "÷ 3",

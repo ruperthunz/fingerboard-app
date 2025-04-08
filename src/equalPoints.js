@@ -1,4 +1,4 @@
-import equalPointsColors from "./colors"
+import { equalPointsColors } from "./colors"
 const {
   uni,
   octave,

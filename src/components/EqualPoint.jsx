@@ -12,7 +12,6 @@ export function EqualPoint({ point }) {
       cx={point.coordinates.cx * (width / x)}
       cy={point.coordinates.cy * (height / y)}
       r={width / (x / 6)}
-      // className="point"
       fill={point.colors[equalPointsColor]}
     ></circle>
   )

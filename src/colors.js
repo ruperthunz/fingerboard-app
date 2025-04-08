@@ -1,4 +1,4 @@
-const equalPointsColors = {
+export const equalPointsColors = {
   uni: "rgb(0, 191, 0)",
   octave: "rgb(255, 0, 0",
   fret1: "hsl( 30, 100%, 50%)",
@@ -29,4 +29,52 @@ const equalPointsColors = {
   white: "rgb(255, 255, 255)"
 }
 
-export default equalPointsColors
+export const harmonicPointsColors = {
+  uni: "rgb(0, 191, 0)",
+  fret1: "hsl( 30, 100%, 50%)",
+  fret2: "hsl( 60, 100%, 50%)",
+  fret3: "hsl( 90, 100%, 50%)",
+  fret4: "hsl( 120, 100%, 50%)",
+  fret5: "hsl( 150, 100%, 50%)",
+  fret6: "hsl( 180, 100%, 50%)",
+  fret7: "hsl( 210, 100%, 50%)",
+  fret8: "hsl( 240, 100%, 50%)",
+  fret9: "hsl( 270, 100%, 50%)",
+  fret10: "hsl( 300, 100%, 50%)",
+  fret11: "hsl( 330, 100%, 50%)",
+  fret12: "hsl( 0, 100%, 50%)",
+  c: "hsl( 60, 100%, 50%)",
+  cSharp: "hsl( 90, 100%, 50%)",
+  d: "hsl( 120, 100%, 50%)",
+  e: "hsl( 180, 100%, 50%)",
+  f: "hsl( 210, 100%, 50%)",
+  fSharp: "hsl( 240, 100%, 50%)",
+  g: "hsl( 270, 100%, 50%)",
+  a: "hsl( 330, 100%, 50%)",
+  bFlat: "hsl( 0, 100%, 50%)",
+  b: "hsl( 30, 100%, 50%)",
+  a5: "hsl( 330, 50%, 50%)",
+  a6: "hsl( 330, 60%, 50%)",
+  b4: "hsl( 30, 40%, 40%)",
+  b5: "hsl( 30, 50%, 50%)",
+  b6: "hsl( 30, 60%, 50%)",
+  c3: "hsl( 60, 30%, 30%)",
+  c4: "hsl( 60, 40%, 40%)",
+  c5: "hsl( 60, 50%, 50%)",
+  c6: "hsl( 60, 60%, 60%)",
+  d5: "hsl( 120, 50%, 50%)",
+  e4: "hsl( 180, 40%, 40%)",
+  e5: "hsl( 180, 50%, 50%)",
+  e6: "hsl( 180, 60%, 50%)",
+  f5: "hsl( 210, 50%, 50%)",
+  g3: "hsl( 270, 30%, 30%)",
+  g4: "hsl( 270, 40%, 40%)",
+  g5: "hsl( 270, 50%, 50%)",
+  g6: "hsl( 270, 60%, 50%)",
+  fSharp5: "hsl( 240, 50%, 50%)",
+  fSharp6: "hsl( 240, 60%, 50%)",
+  cSharp6: "hsl( 90, 60%, 50%)",
+  cSharp7: "hsl( 90, 70%, 50%)"
+}
+
+// export default equalPointsColors

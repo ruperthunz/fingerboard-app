@@ -6,6 +6,7 @@ import { translations } from "./translations.js"
 import { fretStates } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
 import { equalPoints } from "./equalPoints.js"
+import { harmonicPoints } from "./harmonicPoints.js"
 
 export const Context = createContext()
 
