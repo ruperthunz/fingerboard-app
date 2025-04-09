@@ -3,11 +3,18 @@ import { Context } from "../App"
 import { drawGraphic } from "../graphics/drawGraphic"
 import { useLocation } from "react-router-dom"
 import { EqualPoint } from "./EqualPoint"
+import { HarmonicPoint } from "./HarmonicPoint"
 
 export function Graphic(props) {
   const instrument = props.instrument.instrument
-  const { height, width, setInstrument, displayEP, pointsToDisplay } =
-    useContext(Context)
+  const {
+    height,
+    width,
+    setInstrument,
+    displayEP,
+    equalPointsToDisplay,
+    harmonicPointsToDisplay
+  } = useContext(Context)
   const [graphic, setGraphic] = useState(drawGraphic(height, width, instrument))
   const location = useLocation()
 
@@ -122,10 +129,13 @@ export function Graphic(props) {
             strokeWidth={graphic[18]}
           ></line>
           {displayEP
-            ? pointsToDisplay.map(point => {
+            ? equalPointsToDisplay.map(point => {
                 return <EqualPoint key={crypto.randomUUID()} point={point} />
               })
             : undefined}
+          {harmonicPointsToDisplay.map(point => {
+            return <HarmonicPoint key={crypto.randomUUID()} point={point} />
+          })}
         </svg>
       </div>
     </div>
