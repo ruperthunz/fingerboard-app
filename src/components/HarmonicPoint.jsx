@@ -7,9 +7,6 @@ const y = 1200
 export function HarmonicPoint({ point }) {
   const { width, height, harmonicPointsColor } = useContext(Context)
 
-  console.log(point)
-  console.log(harmonicPointsColor)
-
   return (
     <circle
       cx={point.coordinates.cx * (width / x)}

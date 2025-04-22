@@ -1583,7 +1583,7 @@ export const equalPoints = {
           name: { English: "D", German: "D" },
           number: 10,
           ratio: 0.4387689758453135,
-          coordinates: { cx: 342.1618932749592, cy: 526.7270878839449 },
+          coordinates: { cx: 343.1630692753594, cy: 526.7270878839449 },
           colors: {
             uni: uni,
             uniPlus8: uni,

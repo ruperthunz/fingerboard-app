@@ -8,8 +8,8 @@ export function Viola(instrument) {
   return (
     <div>
       <Settings />
-      <SettingsBars />
       <Graphic instrument={instrument} />
+      <SettingsBars />
       <MenuBars />
       <Menu />
     </div>
