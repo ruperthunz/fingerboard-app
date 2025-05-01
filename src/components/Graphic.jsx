@@ -4,6 +4,7 @@ import { drawGraphic } from "../graphics/drawGraphic"
 import { useLocation } from "react-router-dom"
 import { EqualPoint } from "./EqualPoint"
 import { HarmonicPoint } from "./HarmonicPoint"
+import { JustPoint } from "./JustPoint"
 
 export function Graphic(props) {
   const instrument = props.instrument.instrument
@@ -13,6 +14,8 @@ export function Graphic(props) {
     setInstrument,
     displayEP,
     equalPointsToDisplay,
+    displayJP,
+    justPointsToDisplay,
     harmonicPointsToDisplay
   } = useContext(Context)
   const [graphic, setGraphic] = useState(drawGraphic(height, width, instrument))
@@ -131,6 +134,11 @@ export function Graphic(props) {
           {displayEP
             ? equalPointsToDisplay.map(point => {
                 return <EqualPoint key={crypto.randomUUID()} point={point} />
+              })
+            : undefined}
+          {displayJP
+            ? justPointsToDisplay.map(point => {
+                return <JustPoint key={crypto.randomUUID()} point={point} />
               })
             : undefined}
           {harmonicPointsToDisplay.map(point => {

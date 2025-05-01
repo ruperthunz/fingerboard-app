@@ -8103,7 +8103,7 @@ export const harmonicPoints = {
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
-          coordinates: { cx: 276, cy: 307 },
+          coordinates: { cx: 274.5, cy: 307 },
           colors: {
             uni: uni,
             tone: c4,
@@ -8116,7 +8116,7 @@ export const harmonicPoints = {
           name: { English: "E", German: "E" },
           number: 12,
           ratio: 1 / 2,
-          coordinates: { cx: 270, cy: 598 },
+          coordinates: { cx: 267, cy: 598 },
           colors: {
             uni: uni,
             tone: c3,
@@ -8129,7 +8129,7 @@ export const harmonicPoints = {
           name: { English: "E", German: "E" },
           number: 12,
           ratio: 3 / 4,
-          coordinates: { cx: 264, cy: 889 },
+          coordinates: { cx: 259.5, cy: 889 },
           colors: {
             uni: uni,
             tone: c4,
