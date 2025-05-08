@@ -34,9 +34,9 @@ export function App() {
   const [equalPointsToDisplay, setEqualPointsToDisplay] = useState(() =>
     getEqualPointsToDisplay(pointsOn, frets, instrument)
   )
-  // const [justPointsToDisplay, setJustPointsToDisplay] = useState(() =>
-  //   getJustPointsToDisplay(pointsOn, frets, instrument)
-  // )
+  const [justPointsToDisplay, setJustPointsToDisplay] = useState(() =>
+    getJustPointsToDisplay(pointsOn, frets, instrument)
+  )
   const [divisions, setDivisions] = useState([
     false,
     false,
@@ -152,7 +152,7 @@ export function App() {
         frets,
         setFrets,
         equalPointsToDisplay,
-        // justPointsToDisplay,
+        justPointsToDisplay,
         harmonicPointsToDisplay,
         unit,
         setUnit,
@@ -207,25 +207,25 @@ function getEqualPointsToDisplay(pointsOn, frets, instrument) {
   return equalPointsToDisplay
 }
 
-// function getJustPointsToDisplay(pointsOn, frets, instrument) {
-//   const selectedStrings = []
-//   const justPointsToDisplay = []
-//   pointsOn.forEach((pointsOnString, index) => {
-//     if (pointsOnString) {
-//       selectedStrings.push(justPoints[instrument][index])
-//     }
-//   })
-//   selectedStrings.forEach(string => {
-//     frets.forEach((oct, index) => {
-//       oct.frets.forEach((fret, fretIndex) => {
-//         if (fret) {
-//           justPointsToDisplay.push(string[index][fretIndex])
-//         }
-//       })
-//     })
-//   })
-//   return justPointsToDisplay
-// }
+function getJustPointsToDisplay(pointsOn, frets, instrument) {
+  const selectedStrings = []
+  const justPointsToDisplay = []
+  pointsOn.forEach((pointsOnString, index) => {
+    if (pointsOnString) {
+      selectedStrings.push(justPoints[instrument][index])
+    }
+  })
+  selectedStrings.forEach(string => {
+    frets.forEach((oct, index) => {
+      oct.frets.forEach((fret, fretIndex) => {
+        if (fret) {
+          justPointsToDisplay.push(string[index][fretIndex])
+        }
+      })
+    })
+  })
+  return justPointsToDisplay
+}
 
 function getHarmonicPointsToDisplay(pointsOn, instrument, divisions) {
   const selectedStrings = []

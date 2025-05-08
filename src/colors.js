@@ -81,7 +81,10 @@ export const justPointsColors = {
   gSharp_aFlat: "hsl( 240, 100%, 50%)",
   a: "hsl( 270, 100%, 50%)",
   aSharp_bFlat: "hsl( 290, 100%, 50%)",
-  b: "hsl( 320, 100%, 50%)"
+  b: "hsl( 320, 100%, 50%)",
+  lower1: "orange",
+  middle: "red",
+  upper1: "yellow"
 }
 
 export const harmonicPointsColors = {
