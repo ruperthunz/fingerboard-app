@@ -38,9 +38,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* padding: 5px; */
-  background: rgba(0, 10, 20, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* background: rgba(0, 10, 20, 0.5); */
+  background: rgb(87, 98, 112);
 }
 
 .menu-header {
