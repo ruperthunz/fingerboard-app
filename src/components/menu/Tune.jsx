@@ -13,7 +13,7 @@ export function Tune() {
   }
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.tune}</div>
         <div className="btn-container">

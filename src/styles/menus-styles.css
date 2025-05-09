@@ -410,3 +410,8 @@ input:checked + .slider:before {
 .switch-takes-50 {
   width: 50%;
 }
+
+.todo {
+  opacity: 0.2;
+  cursor: not-allowed;
+}

@@ -5,7 +5,7 @@ export function Sound() {
   const { t, soundEnabled, setSoundEnabled } = useContext(Context)
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.sound}</div>
         <div className="btn-container">

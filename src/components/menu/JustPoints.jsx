@@ -8,7 +8,7 @@ export function JustPoints() {
     useContext(Context)
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-label">
         {t.justPoints}
         <div className="switch-wrapper">

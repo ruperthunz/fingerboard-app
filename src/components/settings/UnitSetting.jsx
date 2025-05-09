@@ -5,7 +5,7 @@ export function UnitSetting() {
   const { t, unit, setUnit, stringLength, setStringLength } =
     useContext(Context)
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.unit}</div>
         <div className="btn-container">

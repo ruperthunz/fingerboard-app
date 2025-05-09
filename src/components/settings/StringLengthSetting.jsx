@@ -49,7 +49,7 @@ export function StringLenghtSetting() {
   }, [stringLength])
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="alt-2">
         <div className="widget-label">{t.stringLength}</div>
         <div className="btn-container">

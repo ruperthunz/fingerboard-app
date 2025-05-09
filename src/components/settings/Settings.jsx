@@ -25,7 +25,7 @@ export function Settings() {
       <PitchSetting />
       <PointsSetting />
       <FretsSetting />
-      <UnitSetting />
+      <UnitSetting className="todo" />
       <StringLenghtSetting />
       <ScordaturaSetting />
     </div>

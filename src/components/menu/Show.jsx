@@ -13,7 +13,7 @@ export function Show() {
   }
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.show}</div>
         <div className="btn-container">

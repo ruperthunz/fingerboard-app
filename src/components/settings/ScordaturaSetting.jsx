@@ -32,7 +32,7 @@ export function ScordaturaSetting() {
   }
 
   return (
-    <div className="widget">
+    <div className="widget todo">
       <div className="widget-label">{t.scordatura}</div>
       <div className="widget-content">
         <div className="btn-container">
