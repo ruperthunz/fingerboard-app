@@ -219,6 +219,7 @@ function getJustPointsToDisplay(pointsOn, frets, instrument) {
     frets.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
+          // here different logic to get all points of specific fret???
           justPointsToDisplay.push(string[index][fretIndex])
         }
       })
