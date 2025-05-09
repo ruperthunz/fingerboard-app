@@ -716,7 +716,7 @@ cxOfCelloAString = calculateCxOfCelloAString()
 function calculateCxOfCelloAString() {
   justRatios[3].map((ratio, index) => {
     let cx = ratio * vectors.Cello[3].vectorX + vectors.Cello[3].originX
-    console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
+    // console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
     cxOfCelloAString.push(cx)
   })
   return cxOfCelloAString
