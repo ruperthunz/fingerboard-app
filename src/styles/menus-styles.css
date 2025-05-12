@@ -294,6 +294,7 @@ input::-webkit-inner-spin-button {
   width: 100%;
   border-radius: var(--border-radius);
   background-color: white;
+  z-index: 1;
 }
 
 .show {

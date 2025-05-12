@@ -123,6 +123,12 @@ export function App() {
   }, [instrument, pointsOn, frets])
 
   useEffect(() => {
+    setJustPointsToDisplay(() =>
+      getJustPointsToDisplay(pointsOn, frets, instrument)
+    )
+  }, [instrument, pointsOn, frets])
+
+  useEffect(() => {
     setHarmonicPointsToDisplay(() =>
       getHarmonicPointsToDisplay(pointsOn, instrument, divisions)
     )
@@ -219,8 +225,10 @@ function getJustPointsToDisplay(pointsOn, frets, instrument) {
     frets.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
-          // here different logic to get all points of specific fret???
-          justPointsToDisplay.push(string[index][fretIndex])
+          const justPoints = string[index].filter(
+            point => point.number === fretIndex + 1
+          )
+          justPointsToDisplay.push(...justPoints)
         }
       })
     })

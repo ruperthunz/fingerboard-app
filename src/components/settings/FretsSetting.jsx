@@ -51,6 +51,7 @@ export function FretsSetting() {
                         }
                         onClick={() => handleFretChoice(octave, index)}
                       >
+                        {/* {octave.id === 0 ? index : index + 1} */}
                         {index + 1}
                       </div>
                     )

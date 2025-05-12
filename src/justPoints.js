@@ -8593,9 +8593,7 @@ export const justPoints = {
             name: c,
             row: middle
           }
-        }
-      ],
-      [
+        },
         {
           name: { English: "C´", German: "C´" },
           number: 12,
@@ -8608,7 +8606,9 @@ export const justPoints = {
             name: c,
             row: upper1
           }
-        },
+        }
+      ],
+      [
         {
           name: { English: "C#`", German: "Cis`" },
           number: 1,
@@ -8907,9 +8907,7 @@ export const justPoints = {
             name: c,
             row: middle
           }
-        }
-      ],
-      [
+        },
         {
           name: { English: "C´", German: "C´" },
           number: 12,
@@ -8922,7 +8920,9 @@ export const justPoints = {
             name: c,
             row: upper1
           }
-        },
+        }
+      ],
+      [
         {
           name: { English: "C#`", German: "Cis`" },
           number: 1,
@@ -9537,9 +9537,7 @@ export const justPoints = {
             name: g,
             row: middle
           }
-        }
-      ],
-      [
+        },
         {
           name: { English: "G´", German: "G´" },
           number: 12,
@@ -9552,7 +9550,9 @@ export const justPoints = {
             name: g,
             row: upper1
           }
-        },
+        }
+      ],
+      [
         {
           name: { English: "G#`", German: "Gis`" },
           number: 1,
@@ -9851,9 +9851,7 @@ export const justPoints = {
             name: g,
             row: middle
           }
-        }
-      ],
-      [
+        },
         {
           name: { English: "G´", German: "G´" },
           number: 12,
@@ -9866,7 +9864,9 @@ export const justPoints = {
             name: g,
             row: upper1
           }
-        },
+        }
+      ],
+      [
         {
           name: { English: "G#`", German: "Gis`" },
           number: 1,
@@ -10458,7 +10458,7 @@ export const justPoints = {
         },
         {
           name: { English: "D`", German: "D`" },
-          number: 0,
+          number: 12,
           ratio: 79 / 160,
           coordinates: { cx: 309.95, cy: 590.725 },
           colors: {
@@ -11402,7 +11402,7 @@ export const justPoints = {
         },
         {
           name: { English: "A`", German: "A`" },
-          number: 0,
+          number: 12,
           ratio: 79 / 160,
           coordinates: { cx: 329.85, cy: 590.725 },
           colors: {

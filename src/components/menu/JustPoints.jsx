@@ -4,11 +4,17 @@ import { Context } from "../../App"
 const colorOptions = ["uni", "uniPlus8", "fret", "name", "row"]
 
 export function JustPoints() {
-  const { t, displayJP, setDisplayJP, justPointsColor, setJustPointsColor } =
-    useContext(Context)
+  const {
+    t,
+    displayJP,
+    setDisplayJP,
+    justPointsColor,
+    setJustPointsColor,
+    instrument
+  } = useContext(Context)
 
   return (
-    <div className="widget todo">
+    <div className={instrument === "Cello" ? "widget" : "widget todo"}>
       <div className="widget-label">
         {t.justPoints}
         <div className="switch-wrapper">
