@@ -14,7 +14,13 @@ export function JustPoints() {
   } = useContext(Context)
 
   return (
-    <div className={instrument === "Cello" ? "widget" : "widget todo"}>
+    <div
+      className={
+        instrument === "Cello" || instrument === "Viola"
+          ? "widget"
+          : "widget todo"
+      }
+    >
       <div className="widget-label">
         {t.justPoints}
         <div className="switch-wrapper">
