@@ -84,7 +84,17 @@ export const justPointsColors = {
   b: "hsla( 320, 100%, 50%, 0.5)",
   lower1: "rgba(255, 191, 0, 0.5",
   middle: "rgba(255, 0, 0, 0.5",
-  upper1: "rgba(255, 255, 0, 0.5"
+  upper1: "rgba(255, 255, 0, 0.5",
+  gSharp: "hsla( 240, 100%, 50%, 0.5)",
+  aFlat: "hsla( 240, 100%, 50%, 0.5)",
+  aSharp: "hsla( 290, 100%, 50%, 0.5)",
+  bFlat: "hsla( 290, 100%, 50%, 0.5)",
+  cSharp: "hsla( 30, 100%, 50%, 0.5)",
+  dFlat: "hsla( 30, 100%, 50%, 0.5)",
+  dSharp: "hsla( 75, 100%, 50%, 0.5)",
+  eFlat: "hsla( 75, 100%, 50%, 0.5)",
+  fSharp: "hsla( 180, 100%, 50%, 0.5)",
+  gFlat: "hsla( 180, 100%, 50%, 0.5)"
 }
 
 export const harmonicPointsColors = {
