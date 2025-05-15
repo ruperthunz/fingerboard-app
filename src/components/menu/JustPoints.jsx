@@ -14,7 +14,7 @@ export function JustPoints() {
   } = useContext(Context)
 
   return (
-    <div className={instrument === "Bass" ? "widget todo" : "widget"}>
+    <div className="widget">
       <div className="widget-label">
         {t.justPoints}
         <div className="switch-wrapper">
