@@ -984,7 +984,7 @@ export const justPoints = {
           name: { English: "G´", German: "G´" },
           number: 12,
           ratio: 71 / 81,
-          coordinates: { cx: 243.7037037037037, cy: 892.5925925925926 },
+          coordinates: { cx: 243.7037037037037, cy: 1036.2962962962963 },
           colors: {
             uni: uni,
             uniPlus8: uni,
@@ -1868,7 +1868,7 @@ export const justPoints = {
             uni: uni,
             uniPlus8: uni,
             fret: fret9,
-            name: e,
+            name: b,
             row: middle
           }
         },
@@ -1941,7 +1941,7 @@ export const justPoints = {
           name: { English: "D´", German: "D´" },
           number: 12,
           ratio: 71 / 81,
-          coordinates: { cx: 281.2345679012346, cy: 892.5925925925926 },
+          coordinates: { cx: 281.2345679012346, cy: 1036.2962962962963 },
           colors: {
             uni: uni,
             uniPlus8: uni,
@@ -2656,7 +2656,7 @@ export const justPoints = {
             uni: uni,
             uniPlus8: uni,
             fret: fret3,
-            name: f,
+            name: c,
             row: upper1
           }
         },
@@ -13098,7 +13098,7 @@ export const justPoints = {
             uni: uni,
             uniPlus8: uni,
             fret: fret3,
-            name: f,
+            name: c,
             row: upper1
           }
         },
@@ -14211,7 +14211,7 @@ export const justPoints = {
             uni: uni,
             uniPlus8: uni,
             fret: fret9,
-            name: e,
+            name: b,
             row: middle
           }
         },
@@ -14284,7 +14284,7 @@ export const justPoints = {
           name: { English: "D´", German: "D´" },
           number: 12,
           ratio: 71 / 81,
-          coordinates: { cx: 314.7654320987654, cy: 892.5925925925926 },
+          coordinates: { cx: 314.7654320987654, cy: 1036.2962962962963 },
           colors: {
             uni: uni,
             uniPlus8: uni,
@@ -15241,7 +15241,7 @@ export const justPoints = {
           name: { English: "G´", German: "G´" },
           number: 12,
           ratio: 71 / 81,
-          coordinates: { cx: 344.2962962962963, cy: 892.5925925925926 },
+          coordinates: { cx: 344.2962962962963, cy: 1036.2962962962963 },
           colors: {
             uni: uni,
             uniPlus8: uni,
