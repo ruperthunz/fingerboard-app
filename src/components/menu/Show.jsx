@@ -13,19 +13,19 @@ export function Show() {
   }
 
   return (
-    <div className="widget todo">
+    <div className="widget">
       <div className="widget-content alt-1">
         <div className="widget-label">{t.show}</div>
         <div className="btn-container">
           <div
-            className={show === "names" ? "btn selected" : "btn"}
-            onClick={() => handleShow("names")}
+            className={show === "name" ? "btn selected" : "btn"}
+            onClick={() => handleShow("name")}
           >
             {t.names}
           </div>
           <div
-            className={show === "numbers" ? "btn selected" : "btn"}
-            onClick={() => handleShow("numbers")}
+            className={show === "number" ? "btn selected" : "btn"}
+            onClick={() => handleShow("number")}
           >
             {t.numbers}
           </div>

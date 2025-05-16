@@ -275,6 +275,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -290,6 +291,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -304,6 +306,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -320,6 +323,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -334,6 +338,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -348,6 +353,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -362,6 +368,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -378,6 +385,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -392,6 +400,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -405,6 +414,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 247.5, cy: 889 },
@@ -420,6 +430,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -434,6 +445,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -448,6 +460,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -461,6 +474,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -475,6 +489,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -491,6 +506,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -505,6 +521,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -519,6 +536,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -534,6 +552,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -548,6 +567,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -561,6 +581,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -575,6 +596,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -589,6 +611,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -603,6 +626,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -619,6 +643,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -633,6 +658,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -647,6 +673,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -661,6 +688,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -674,6 +702,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -688,6 +717,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 247.5, cy: 889 },
@@ -701,6 +731,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 243.75, cy: 1034.5 },
@@ -716,6 +747,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -730,6 +762,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -744,6 +777,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -758,6 +792,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -772,6 +807,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -786,6 +822,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -800,6 +837,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -814,6 +852,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -830,6 +869,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -844,6 +884,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -858,6 +899,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -872,6 +914,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -886,6 +929,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -900,6 +944,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -918,6 +963,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -933,6 +979,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -947,6 +994,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -963,6 +1011,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -977,6 +1026,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -991,6 +1041,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -1005,6 +1056,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -1021,6 +1073,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -1035,6 +1088,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -1048,6 +1102,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 282.5, cy: 889 },
@@ -1063,6 +1118,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -1077,6 +1133,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -1091,6 +1148,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -1104,6 +1162,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -1118,6 +1177,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -1134,6 +1194,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -1148,6 +1209,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -1162,6 +1224,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -1177,6 +1240,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -1191,6 +1255,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -1204,6 +1269,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -1218,6 +1284,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -1232,6 +1299,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -1246,6 +1314,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -1262,6 +1331,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -1276,6 +1346,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -1290,6 +1361,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -1304,6 +1376,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -1317,6 +1390,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -1331,6 +1405,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 282.5, cy: 889 },
@@ -1344,6 +1419,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 281.25, cy: 1034.5 },
@@ -1359,6 +1435,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -1373,6 +1450,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -1387,6 +1465,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -1401,6 +1480,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -1415,6 +1495,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -1429,6 +1510,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -1443,6 +1525,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -1457,6 +1540,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -1473,6 +1557,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -1487,6 +1572,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -1501,6 +1587,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -1515,6 +1602,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -1529,6 +1617,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -1543,6 +1632,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -1561,6 +1651,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -1576,6 +1667,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -1590,6 +1682,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -1606,6 +1699,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -1620,6 +1714,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -1634,6 +1729,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -1648,6 +1744,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -1664,6 +1761,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -1678,6 +1776,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -1691,6 +1790,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 317.5, cy: 889 },
@@ -1706,6 +1806,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -1720,6 +1821,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -1734,6 +1836,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -1747,6 +1850,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -1761,6 +1865,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -1777,6 +1882,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -1791,6 +1897,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -1805,6 +1912,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -1820,6 +1928,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -1834,6 +1943,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -1847,6 +1957,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -1861,6 +1972,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -1875,6 +1987,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -1889,6 +2002,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -1905,6 +2019,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -1919,6 +2034,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -1933,6 +2049,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -1947,6 +2064,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -1960,6 +2078,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -1974,6 +2093,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 317.5, cy: 889 },
@@ -1987,6 +2107,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 318.75, cy: 1034.5 },
@@ -2002,6 +2123,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -2016,6 +2138,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -2030,6 +2153,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -2044,6 +2168,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -2058,6 +2183,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -2072,6 +2198,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -2086,6 +2213,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -2100,6 +2228,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -2116,6 +2245,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -2130,6 +2260,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -2144,6 +2275,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -2158,6 +2290,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -2172,6 +2305,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -2186,6 +2320,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -2204,6 +2339,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -2219,6 +2355,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -2233,6 +2370,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -2249,6 +2387,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -2263,6 +2402,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -2277,6 +2417,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -2291,6 +2432,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -2307,6 +2449,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -2321,6 +2464,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -2334,6 +2478,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 352.5, cy: 889 },
@@ -2349,6 +2494,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -2363,6 +2509,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -2377,6 +2524,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -2390,6 +2538,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -2404,6 +2553,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -2420,6 +2570,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -2434,6 +2585,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -2448,6 +2600,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -2463,6 +2616,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -2477,6 +2631,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -2490,6 +2645,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -2504,6 +2660,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -2518,6 +2675,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -2532,6 +2690,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -2548,6 +2707,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -2562,6 +2722,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -2576,6 +2737,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -2590,6 +2752,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -2603,6 +2766,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -2617,6 +2781,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 352.5, cy: 889 },
@@ -2630,6 +2795,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 356.25, cy: 1034.5 },
@@ -2645,6 +2811,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -2659,6 +2826,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -2673,6 +2841,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -2687,6 +2856,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -2701,6 +2871,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -2715,6 +2886,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -2729,6 +2901,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -2743,6 +2916,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -2759,6 +2933,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -2773,6 +2948,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -2787,6 +2963,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -2801,6 +2978,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -2815,6 +2993,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -2829,6 +3008,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -2849,6 +3029,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -2864,6 +3045,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -2878,6 +3060,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -2894,6 +3077,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -2908,6 +3092,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -2922,6 +3107,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -2936,6 +3122,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -2952,6 +3139,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -2966,6 +3154,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -2979,6 +3168,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 247.5, cy: 889 },
@@ -2994,6 +3184,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -3008,6 +3199,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -3022,6 +3214,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -3035,6 +3228,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -3049,6 +3243,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -3065,6 +3260,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -3079,6 +3275,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -3093,6 +3290,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -3108,6 +3306,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -3122,6 +3321,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -3135,6 +3335,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -3149,6 +3350,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -3163,6 +3365,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -3177,6 +3380,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -3193,6 +3397,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -3207,6 +3412,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -3221,6 +3427,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -3235,6 +3442,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 255, cy: 598 },
@@ -3248,6 +3456,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -3262,6 +3471,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 247.5, cy: 889 },
@@ -3275,6 +3485,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 243.75, cy: 1034.5 },
@@ -3290,6 +3501,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -3304,6 +3516,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -3318,6 +3531,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -3332,6 +3546,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -3346,6 +3561,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -3360,6 +3576,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -3374,6 +3591,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -3388,6 +3606,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -3404,6 +3623,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -3418,6 +3638,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -3432,6 +3653,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -3446,6 +3668,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -3460,6 +3683,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -3474,6 +3698,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -3492,6 +3717,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -3507,6 +3733,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -3521,6 +3748,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -3537,6 +3765,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -3551,6 +3780,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -3565,6 +3795,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -3579,6 +3810,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -3595,6 +3827,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -3609,6 +3842,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -3622,6 +3856,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 282.5, cy: 889 },
@@ -3637,6 +3872,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -3651,6 +3887,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -3665,6 +3902,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -3678,6 +3916,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -3692,6 +3931,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -3708,6 +3948,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -3722,6 +3963,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -3736,6 +3978,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -3751,6 +3994,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -3765,6 +4009,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -3778,6 +4023,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -3792,6 +4038,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -3806,6 +4053,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -3820,6 +4068,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -3836,6 +4085,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -3850,6 +4100,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -3864,6 +4115,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -3878,6 +4130,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 285, cy: 598 },
@@ -3891,6 +4144,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -3905,6 +4159,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 282.5, cy: 889 },
@@ -3918,6 +4173,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 281.25, cy: 1034.5 },
@@ -3933,6 +4189,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -3947,6 +4204,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -3961,6 +4219,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -3975,6 +4234,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -3989,6 +4249,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -4003,6 +4264,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4017,6 +4279,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -4031,6 +4294,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -4047,6 +4311,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -4061,6 +4326,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -4075,6 +4341,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -4089,6 +4356,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -4103,6 +4371,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -4117,6 +4386,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -4135,6 +4405,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -4150,6 +4421,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -4164,6 +4436,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4180,6 +4453,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -4194,6 +4468,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -4208,6 +4483,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -4222,6 +4498,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -4238,6 +4515,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -4252,6 +4530,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -4265,6 +4544,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 317.5, cy: 889 },
@@ -4280,6 +4560,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -4294,6 +4575,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -4308,6 +4590,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -4321,6 +4604,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4335,6 +4619,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -4351,6 +4636,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -4365,6 +4651,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -4379,6 +4666,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -4394,6 +4682,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -4408,6 +4697,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -4421,6 +4711,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -4435,6 +4726,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -4449,6 +4741,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -4463,6 +4756,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -4479,6 +4773,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -4493,6 +4788,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -4507,6 +4803,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -4521,6 +4818,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 315, cy: 598 },
@@ -4534,6 +4832,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -4548,6 +4847,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 317.5, cy: 889 },
@@ -4561,6 +4861,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 318.75, cy: 1034.5 },
@@ -4576,6 +4877,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -4590,6 +4892,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -4604,6 +4907,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -4618,6 +4922,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -4632,6 +4937,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -4646,6 +4952,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4660,6 +4967,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -4674,6 +4982,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -4690,6 +4999,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -4704,6 +5014,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -4718,6 +5029,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -4732,6 +5044,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -4746,6 +5059,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -4760,6 +5074,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -4778,6 +5093,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -4793,6 +5109,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -4807,6 +5124,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4823,6 +5141,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -4837,6 +5156,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -4851,6 +5171,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -4865,6 +5186,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -4881,6 +5203,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -4895,6 +5218,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -4908,6 +5232,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 352.5, cy: 889 },
@@ -4923,6 +5248,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -4937,6 +5263,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -4951,6 +5278,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -4964,6 +5292,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -4978,6 +5307,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -4994,6 +5324,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -5008,6 +5339,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -5022,6 +5354,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -5037,6 +5370,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -5051,6 +5385,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -5064,6 +5399,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -5078,6 +5414,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -5092,6 +5429,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -5106,6 +5444,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -5122,6 +5461,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -5136,6 +5476,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -5150,6 +5491,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -5164,6 +5506,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 345, cy: 598 },
@@ -5177,6 +5520,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -5191,6 +5535,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 352.5, cy: 889 },
@@ -5204,6 +5549,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 356.25, cy: 1034.5 },
@@ -5219,6 +5565,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -5233,6 +5580,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -5247,6 +5595,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -5261,6 +5610,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -5275,6 +5625,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -5289,6 +5640,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -5303,6 +5655,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -5317,6 +5670,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -5333,6 +5687,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -5347,6 +5702,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -5361,6 +5717,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -5375,6 +5732,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -5389,6 +5747,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -5403,6 +5762,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -5423,6 +5783,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 270, cy: 598 },
@@ -5438,6 +5799,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -5452,6 +5814,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -5468,6 +5831,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -5482,6 +5846,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -5496,6 +5861,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -5510,6 +5876,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -5526,6 +5893,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -5540,6 +5908,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 270, cy: 598 },
@@ -5553,6 +5922,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 264, cy: 889 },
@@ -5568,6 +5938,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -5582,6 +5953,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -5596,6 +5968,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 270, cy: 598 },
@@ -5609,6 +5982,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -5623,6 +5997,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -5639,6 +6014,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -5653,6 +6029,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -5667,6 +6044,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -5682,6 +6060,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -5696,6 +6075,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 270, cy: 598 },
@@ -5709,6 +6089,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -5723,6 +6104,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -5737,6 +6119,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -5751,6 +6134,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -5767,6 +6151,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -5781,6 +6166,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -5795,6 +6181,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -5809,6 +6196,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 270, cy: 598 },
@@ -5822,6 +6210,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -5836,6 +6225,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 264, cy: 889 },
@@ -5849,6 +6239,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 261, cy: 1034.5 },
@@ -5864,6 +6255,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -5878,6 +6270,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -5892,6 +6285,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -5906,6 +6300,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -5920,6 +6315,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -5934,6 +6330,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -5948,6 +6345,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -5962,6 +6360,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -5978,6 +6377,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -5992,6 +6392,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -6006,6 +6407,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -6020,6 +6422,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -6034,6 +6437,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -6048,6 +6452,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B♭", German: "B" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -6066,6 +6471,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 290, cy: 598 },
@@ -6081,6 +6487,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -6095,6 +6502,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -6111,6 +6519,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -6125,6 +6534,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -6139,6 +6549,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -6153,6 +6564,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -6169,6 +6581,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -6183,6 +6596,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 290, cy: 598 },
@@ -6196,6 +6610,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 288, cy: 889 },
@@ -6211,6 +6626,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -6225,6 +6641,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -6239,6 +6656,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 290, cy: 598 },
@@ -6252,6 +6670,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -6266,6 +6685,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -6282,6 +6702,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -6296,6 +6717,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -6310,6 +6732,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -6325,6 +6748,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -6339,6 +6763,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 290, cy: 598 },
@@ -6352,6 +6777,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -6366,6 +6792,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -6380,6 +6807,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -6394,6 +6822,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -6410,6 +6839,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -6424,6 +6854,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -6438,6 +6869,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -6452,6 +6884,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 290, cy: 598 },
@@ -6465,6 +6898,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -6479,6 +6913,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 288, cy: 889 },
@@ -6492,6 +6927,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 287, cy: 1034.5 },
@@ -6507,6 +6943,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -6521,6 +6958,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -6535,6 +6973,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -6549,6 +6988,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -6563,6 +7003,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -6577,6 +7018,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -6591,6 +7033,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -6605,6 +7048,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -6621,6 +7065,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -6635,6 +7080,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -6649,6 +7095,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -6663,6 +7110,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -6677,6 +7125,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -6691,6 +7140,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -6709,6 +7159,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 310, cy: 598 },
@@ -6724,6 +7175,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -6738,6 +7190,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -6754,6 +7207,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -6768,6 +7222,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -6782,6 +7237,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -6796,6 +7252,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -6812,6 +7269,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -6826,6 +7284,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 310, cy: 598 },
@@ -6839,6 +7298,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 312, cy: 889 },
@@ -6854,6 +7314,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -6868,6 +7329,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -6882,6 +7344,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 310, cy: 598 },
@@ -6895,6 +7358,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -6909,6 +7373,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -6925,6 +7390,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -6939,6 +7405,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -6953,6 +7420,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -6968,6 +7436,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -6982,6 +7451,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 310, cy: 598 },
@@ -6995,6 +7465,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -7009,6 +7480,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -7023,6 +7495,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -7037,6 +7510,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -7053,6 +7527,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -7067,6 +7542,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -7081,6 +7557,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -7095,6 +7572,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 310, cy: 598 },
@@ -7108,6 +7586,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -7122,6 +7601,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 312, cy: 889 },
@@ -7135,6 +7615,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 313, cy: 1034.5 },
@@ -7150,6 +7631,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -7164,6 +7646,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -7178,6 +7661,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -7192,6 +7676,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -7206,6 +7691,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -7220,6 +7706,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -7234,6 +7721,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -7248,6 +7736,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -7264,6 +7753,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -7278,6 +7768,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -7292,6 +7783,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -7306,6 +7798,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -7320,6 +7813,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -7334,6 +7828,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -7352,6 +7847,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 330, cy: 598 },
@@ -7367,6 +7863,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -7381,6 +7878,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -7397,6 +7895,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -7411,6 +7910,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -7425,6 +7925,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -7439,6 +7940,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -7455,6 +7957,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -7469,6 +7972,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 330, cy: 598 },
@@ -7482,6 +7986,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 336, cy: 889 },
@@ -7497,6 +8002,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -7511,6 +8017,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -7525,6 +8032,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 330, cy: 598 },
@@ -7538,6 +8046,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -7552,6 +8061,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -7568,6 +8078,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -7582,6 +8093,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -7596,6 +8108,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -7611,6 +8124,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -7625,6 +8139,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 330, cy: 598 },
@@ -7638,6 +8153,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -7652,6 +8168,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -7666,6 +8183,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -7680,6 +8198,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -7696,6 +8215,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -7710,6 +8230,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -7724,6 +8245,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -7738,6 +8260,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 330, cy: 598 },
@@ -7751,6 +8274,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -7765,6 +8289,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 336, cy: 889 },
@@ -7778,6 +8303,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 339, cy: 1034.5 },
@@ -7793,6 +8319,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -7807,6 +8334,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -7821,6 +8349,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -7835,6 +8364,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -7849,6 +8379,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -7863,6 +8394,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -7877,6 +8409,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -7891,6 +8424,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -7907,6 +8441,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -7921,6 +8456,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -7935,6 +8471,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -7949,6 +8486,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -7963,6 +8501,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -7977,6 +8516,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -7997,6 +8537,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 267, cy: 598 },
@@ -8012,6 +8553,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -8026,6 +8568,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -8042,6 +8585,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -8056,6 +8600,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -8070,6 +8615,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -8084,6 +8630,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -8100,6 +8647,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -8114,6 +8662,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 267, cy: 598 },
@@ -8127,6 +8676,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 259.5, cy: 889 },
@@ -8142,6 +8692,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -8156,6 +8707,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -8170,6 +8722,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 267, cy: 598 },
@@ -8183,6 +8736,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -8197,6 +8751,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -8213,6 +8768,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -8227,6 +8783,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -8241,6 +8798,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -8256,6 +8814,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -8270,6 +8829,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 267, cy: 598 },
@@ -8283,6 +8843,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -8297,6 +8858,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -8311,6 +8873,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -8325,6 +8888,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G#", German: "Gis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -8341,6 +8905,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -8355,6 +8920,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -8369,6 +8935,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -8383,6 +8950,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 267, cy: 598 },
@@ -8396,6 +8964,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -8410,6 +8979,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 259.5, cy: 889 },
@@ -8423,6 +8993,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 255.75, cy: 1034.5 },
@@ -8438,6 +9009,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -8452,6 +9024,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -8466,6 +9039,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -8480,6 +9054,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -8494,6 +9069,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -8508,6 +9084,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -8522,6 +9099,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -8536,6 +9114,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -8552,6 +9131,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -8566,6 +9146,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -8580,6 +9161,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -8594,6 +9176,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -8608,6 +9191,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -8622,6 +9206,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -8640,6 +9225,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 289, cy: 598 },
@@ -8655,6 +9241,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -8669,6 +9256,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -8685,6 +9273,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -8699,6 +9288,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -8713,6 +9303,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -8727,6 +9318,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -8743,6 +9335,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -8757,6 +9350,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 289, cy: 598 },
@@ -8770,6 +9364,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 286.5, cy: 889 },
@@ -8785,6 +9380,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -8799,6 +9395,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -8813,6 +9410,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 289, cy: 598 },
@@ -8826,6 +9424,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -8840,6 +9439,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -8856,6 +9456,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -8870,6 +9471,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -8884,6 +9486,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -8899,6 +9502,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -8913,6 +9517,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 289, cy: 598 },
@@ -8926,6 +9531,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -8940,6 +9546,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -8954,6 +9561,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -8968,6 +9576,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C#", German: "Cis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -8984,6 +9593,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -8998,6 +9608,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -9012,6 +9623,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -9026,6 +9638,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 289, cy: 598 },
@@ -9039,6 +9652,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -9053,6 +9667,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 286.5, cy: 889 },
@@ -9066,6 +9681,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 285.25, cy: 1034.5 },
@@ -9081,6 +9697,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -9095,6 +9712,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -9109,6 +9727,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -9123,6 +9742,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -9137,6 +9757,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -9151,6 +9772,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -9165,6 +9787,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -9179,6 +9802,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -9195,6 +9819,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -9209,6 +9834,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -9223,6 +9849,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -9237,6 +9864,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -9251,6 +9879,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -9265,6 +9894,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -9283,6 +9913,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 311, cy: 598 },
@@ -9298,6 +9929,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -9312,6 +9944,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -9328,6 +9961,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -9342,6 +9976,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -9356,6 +9991,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -9370,6 +10006,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -9386,6 +10023,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -9400,6 +10038,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 311, cy: 598 },
@@ -9413,6 +10052,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 313.5, cy: 889 },
@@ -9428,6 +10068,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -9442,6 +10083,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -9456,6 +10098,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 311, cy: 598 },
@@ -9469,6 +10112,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -9483,6 +10127,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -9499,6 +10144,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -9513,6 +10159,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -9527,6 +10174,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -9542,6 +10190,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -9556,6 +10205,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 311, cy: 598 },
@@ -9569,6 +10219,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -9583,6 +10234,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -9597,6 +10249,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -9611,6 +10264,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F#", German: "Fis" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -9627,6 +10281,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -9641,6 +10296,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -9655,6 +10311,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -9669,6 +10326,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 311, cy: 598 },
@@ -9682,6 +10340,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -9696,6 +10355,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 313.5, cy: 889 },
@@ -9709,6 +10369,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 314.75, cy: 1034.5 },
@@ -9724,6 +10385,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -9738,6 +10400,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -9752,6 +10415,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -9766,6 +10430,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -9780,6 +10445,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -9794,6 +10460,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -9808,6 +10475,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -9822,6 +10490,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "E", German: "E" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -9838,6 +10507,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -9852,6 +10522,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -9866,6 +10537,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -9880,6 +10552,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -9894,6 +10567,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -9908,6 +10582,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "C", German: "C" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
@@ -9926,6 +10601,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 333, cy: 598 },
@@ -9941,6 +10617,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -9955,6 +10632,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -9971,6 +10649,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -9985,6 +10664,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -9999,6 +10679,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -10013,6 +10694,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -10029,6 +10711,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -10043,6 +10726,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 333, cy: 598 },
@@ -10056,6 +10740,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 340.5, cy: 889 },
@@ -10071,6 +10756,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "+16",
           ratio: 1 / 6,
@@ -10085,6 +10771,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -10099,6 +10786,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 333, cy: 598 },
@@ -10112,6 +10800,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -10126,6 +10815,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 5 / 6,
@@ -10142,6 +10832,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "-18",
           ratio: 1 / 10,
@@ -10156,6 +10847,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 1 / 5,
@@ -10170,6 +10862,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "+17",
           ratio: 3 / 10,
@@ -10185,6 +10878,7 @@ export const harmonicPoints = {
 
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 2 / 5,
@@ -10199,6 +10893,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 333, cy: 598 },
@@ -10212,6 +10907,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 3 / 5,
@@ -10226,6 +10922,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 9,
           cents: "-16",
           ratio: 7 / 10,
@@ -10240,6 +10937,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 4 / 5,
@@ -10254,6 +10952,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "B", German: "H" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "-14",
           ratio: 9 / 10,
@@ -10270,6 +10969,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+31",
           ratio: 1 / 8,
@@ -10284,6 +10984,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 1 / 4,
@@ -10298,6 +10999,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 8,
           cents: "+14",
           ratio: 3 / 8,
@@ -10312,6 +11014,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 1 / 2,
           coordinates: { cx: 333, cy: 598 },
@@ -10325,6 +11028,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 5,
           cents: "-2",
           ratio: 5 / 8,
@@ -10339,6 +11043,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 3 / 4,
           coordinates: { cx: 340.5, cy: 889 },
@@ -10352,6 +11057,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "G", German: "G" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 12,
           ratio: 7 / 8,
           coordinates: { cx: 344.25, cy: 1034.5 },
@@ -10367,6 +11073,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 1 / 9,
@@ -10381,6 +11088,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 4,
           cents: "+35",
           ratio: 2 / 9,
@@ -10395,6 +11103,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 1 / 3,
@@ -10409,6 +11118,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "+18",
           ratio: 4 / 9,
@@ -10423,6 +11133,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 5 / 9,
@@ -10437,6 +11148,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "D", German: "D" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 7,
           cents: "+2",
           ratio: 2 / 3,
@@ -10451,6 +11163,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 7 / 9,
@@ -10465,6 +11178,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "A", German: "A" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 2,
           cents: "+4",
           ratio: 8 / 9,
@@ -10481,6 +11195,7 @@ export const harmonicPoints = {
       [
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 1 / 7,
@@ -10495,6 +11210,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 6,
           cents: "-17",
           ratio: 2 / 7,
@@ -10509,6 +11225,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 3 / 7,
@@ -10523,6 +11240,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 3,
           cents: "-33",
           ratio: 4 / 7,
@@ -10537,6 +11255,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 5 / 7,
@@ -10551,6 +11270,7 @@ export const harmonicPoints = {
         },
         {
           name: { English: "F", German: "F" },
+          fontSize: { name: 1.6, number: 1.7 },
           number: 10,
           cents: "-31",
           ratio: 6 / 7,
