@@ -33,10 +33,20 @@ export function EqualPoint({ point }) {
             point.number
           ) : point.name2 ? (
             <>
-              <tspan x={xCoordinate} y={yCoordinate} dy="-0.16%">
+              <tspan
+                x={xCoordinate}
+                y={yCoordinate}
+                dy="-0.16%"
+                dominantBaseline="central"
+              >
                 {point.name[language]}
               </tspan>
-              <tspan x={xCoordinate} y={yCoordinate} dy="0.16%">
+              <tspan
+                x={xCoordinate}
+                y={yCoordinate}
+                dy="0.16%"
+                dominantBaseline="central"
+              >
                 {point.name2[language]}
               </tspan>
             </>
