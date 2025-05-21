@@ -418,3 +418,6 @@ input:checked + .slider:before {
   opacity: 0.2;
   cursor: not-allowed;
 }
+
+.text-point {
+}

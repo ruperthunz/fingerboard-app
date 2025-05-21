@@ -35,8 +35,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 268.3162293804508, cy: 81.33030003850874 },
@@ -63,8 +64,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 265.2268924576114, cy: 201.1965726446763 },
@@ -105,8 +107,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 261.2132034355964, cy: 356.92770669885863 },
@@ -133,8 +136,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 258.8988157484231, cy: 446.7259489611838 },
@@ -175,8 +179,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 255.89194641538944, cy: 563.3924790828901 },
@@ -205,8 +210,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 254.1581146902254, cy: 630.6651500192544 },
@@ -233,8 +239,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 252.6134462288057, cy: 690.5982863223383 },
@@ -275,8 +282,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 250.6066017177982, cy: 768.4638533494294 },
@@ -303,8 +311,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 249.44940787421154, cy: 813.3629744805918 },
@@ -345,8 +354,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 247.94597320769472, cy: 871.696239541445 },
@@ -375,8 +385,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 247.0790573451127, cy: 905.3325750096271 },
@@ -403,8 +414,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 246.30672311440287, cy: 935.2991431611691 },
@@ -445,8 +457,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 245.3033008588991, cy: 974.2319266747147 },
@@ -473,8 +486,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 244.72470393710577, cy: 996.681487240296 },
@@ -515,8 +529,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 243.97298660384735, cy: 1025.8481197707224 },
@@ -547,8 +562,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 289.4387431268169, cy: 81.33030003850874 },
@@ -589,8 +605,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 287.937005259841, cy: 256.1325877545079 },
@@ -617,8 +634,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 287.0710678118655, cy: 356.92770669885863 },
@@ -645,8 +663,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 286.2996052494744, cy: 446.7259489611838 },
@@ -687,8 +706,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 285.2973154717965, cy: 563.3924790828901 },
@@ -717,8 +737,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 284.71937156340846, cy: 630.6651500192544 },
@@ -759,8 +780,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 283.9685026299205, cy: 718.066293877254 },
@@ -787,8 +809,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 283.7457676921917, cy: 768.4638533494294 },
@@ -815,8 +838,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 283.14980262473716, cy: 813.3629744805918 },
@@ -857,8 +881,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 282.6486577358982, cy: 871.696239541445 },
@@ -887,8 +912,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 282.35968578170423, cy: 905.3325750096271 },
@@ -929,8 +955,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 281.98425131496026, cy: 949.0331469386269 },
@@ -957,8 +984,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 281.7677669529664, cy: 974.2319266747147 },
@@ -985,8 +1013,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 281.5749013123686, cy: 996.681487240296 },
@@ -1027,8 +1056,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 281.32432886794913, cy: 1025.8481197707224 },
@@ -1059,8 +1089,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 310.5612568731831, cy: 81.33030003850874 },
@@ -1101,8 +1132,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 312.062994740159, cy: 256.1325877545079 },
@@ -1129,8 +1161,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 312.9289321881345, cy: 356.92770669885863 },
@@ -1171,8 +1204,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 314.0539644249864, cy: 487.88145906841635 },
@@ -1199,8 +1233,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 314.7026845282035, cy: 563.3924790828901 },
@@ -1229,8 +1264,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 315.28062843659154, cy: 630.6651500192544 },
@@ -1271,8 +1307,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 316.0314973700795, cy: 718.066293877254 },
@@ -1299,8 +1336,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 316.46446609406723, cy: 768.4638533494294 },
@@ -1341,8 +1379,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 317.0269822124932, cy: 833.9407295342082 },
@@ -1369,8 +1408,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 317.3513422641018, cy: 871.696239541445 },
@@ -1399,8 +1439,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 317.64031421829577, cy: 905.3325750096271 },
@@ -1441,8 +1482,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 318.01574868503974, cy: 949.0331469386269 },
@@ -1469,8 +1511,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 318.2322330470336, cy: 974.2319266747147 },
@@ -1511,8 +1554,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 318.5134911062466, cy: 1006.9703647671041 },
@@ -1539,8 +1583,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 318.67567113205087, cy: 1025.8481197707224 },
@@ -1585,8 +1630,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.10910128185966073,
           coordinates: { cx: 333.27303845578984, cy: 142.9938920846451 },
@@ -1613,8 +1659,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 336.188984220477, cy: 256.1325877545079 },
@@ -1641,8 +1688,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 338.7867965644036, cy: 356.92770669885863 },
@@ -1683,8 +1731,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 342.1618932749592, cy: 487.88145906841635 },
@@ -1711,8 +1760,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 344.10805358461056, cy: 563.3924790828901 },
@@ -1755,8 +1805,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.5545506409298304,
           coordinates: { cx: 346.6365192278949, cy: 661.4969460423226 },
@@ -1783,8 +1834,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 348.0944921102385, cy: 718.066293877254 },
@@ -1811,8 +1863,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 349.3933982822018, cy: 768.4638533494294 },
@@ -1853,8 +1906,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 351.0809466374796, cy: 833.9407295342082 },
@@ -1881,8 +1935,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 352.0540267923053, cy: 871.696239541445 },
@@ -1925,8 +1980,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.7772753204649152,
           coordinates: { cx: 353.3182596139475, cy: 920.7484730211613 },
@@ -1953,8 +2009,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 354.0472460551193, cy: 949.0331469386269 },
@@ -1981,8 +2038,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 354.6966991411009, cy: 974.2319266747147 },
@@ -2023,8 +2081,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 355.54047331873977, cy: 1006.9703647671041 },
@@ -2051,8 +2110,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 356.02701339615265, cy: 1025.8481197707224 },
@@ -2085,8 +2145,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 268.3162293804508, cy: 81.33030003850874 },
@@ -2113,8 +2174,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 265.2268924576114, cy: 201.1965726446763 },
@@ -2155,8 +2217,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 261.2132034355964, cy: 356.92770669885863 },
@@ -2183,8 +2246,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 258.8988157484231, cy: 446.7259489611838 },
@@ -2211,8 +2275,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.4387689758453135,
           coordinates: { cx: 256.8369307246406, cy: 526.7270878839449 },
@@ -2255,8 +2320,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 254.1581146902254, cy: 630.6651500192544 },
@@ -2283,8 +2349,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 252.6134462288057, cy: 690.5982863223383 },
@@ -2325,8 +2392,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 250.6066017177982, cy: 768.4638533494294 },
@@ -2353,8 +2421,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 249.44940787421154, cy: 813.3629744805918 },
@@ -2381,8 +2450,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.7193844879226567,
           coordinates: { cx: 248.4184653623203, cy: 853.3635439419725 },
@@ -2425,8 +2495,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 247.0790573451127, cy: 905.3325750096271 },
@@ -2453,8 +2524,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 246.30672311440287, cy: 935.2991431611691 },
@@ -2495,8 +2567,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 245.3033008588991, cy: 974.2319266747147 },
@@ -2523,8 +2596,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 244.72470393710577, cy: 996.681487240296 },
@@ -2551,8 +2625,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.8596922439613284,
           coordinates: { cx: 244.20923268116016, cy: 1016.6817719709862 },
@@ -2597,8 +2672,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 289.4387431268169, cy: 81.33030003850874 },
@@ -2625,8 +2701,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 288.4089641525371, cy: 201.1965726446763 },
@@ -2667,8 +2744,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 287.0710678118655, cy: 356.92770669885863 },
@@ -2695,8 +2773,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 286.2996052494744, cy: 446.7259489611838 },
@@ -2737,8 +2816,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 285.2973154717965, cy: 563.3924790828901 },
@@ -2767,8 +2847,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 284.71937156340846, cy: 630.6651500192544 },
@@ -2795,8 +2876,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 284.20448207626856, cy: 690.5982863223383 },
@@ -2837,8 +2919,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 283.53553390593277, cy: 768.4638533494294 },
@@ -2865,8 +2948,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 283.14980262473716, cy: 813.3629744805918 },
@@ -2907,8 +2991,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 282.6486577358982, cy: 871.696239541445 },
@@ -2937,8 +3022,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 282.35968578170423, cy: 905.3325750096271 },
@@ -2965,8 +3051,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 282.1022410381343, cy: 935.2991431611691 },
@@ -3007,8 +3094,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 281.7677669529664, cy: 974.2319266747147 },
@@ -3035,8 +3123,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 281.5749013123686, cy: 996.681487240296 },
@@ -3077,8 +3166,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 281.32432886794913, cy: 1025.8481197707224 },
@@ -3109,8 +3199,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 310.5612568731831, cy: 81.33030003850874 },
@@ -3151,8 +3242,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 312.062994740159, cy: 256.1325877545079 },
@@ -3179,8 +3271,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 312.9289321881345, cy: 356.92770669885863 },
@@ -3207,8 +3300,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 313.7003947505256, cy: 446.7259489611838 },
@@ -3249,8 +3343,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 314.7026845282035, cy: 563.3924790828901 },
@@ -3279,8 +3374,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 315.28062843659154, cy: 630.6651500192544 },
@@ -3321,8 +3417,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 316.0314973700795, cy: 718.066293877254 },
@@ -3349,8 +3446,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 316.46446609406723, cy: 768.4638533494294 },
@@ -3377,8 +3475,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 316.85019737526284, cy: 813.3629744805918 },
@@ -3419,8 +3518,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 317.3513422641018, cy: 871.696239541445 },
@@ -3449,8 +3549,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 317.64031421829577, cy: 905.3325750096271 },
@@ -3491,8 +3592,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 318.01574868503974, cy: 949.0331469386269 },
@@ -3519,8 +3621,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 318.2322330470336, cy: 974.2319266747147 },
@@ -3547,8 +3650,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 318.4250986876314, cy: 996.681487240296 },
@@ -3589,8 +3693,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 318.67567113205087, cy: 1025.8481197707224 },
@@ -3621,8 +3726,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 331.6837706195492, cy: 81.33030003850874 },
@@ -3663,8 +3769,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 336.188984220477, cy: 256.1325877545079 },
@@ -3691,8 +3798,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 338.7867965644036, cy: 356.92770669885863 },
@@ -3733,8 +3841,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 342.1618932749592, cy: 487.88145906841635 },
@@ -3761,8 +3870,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 344.10805358461056, cy: 563.3924790828901 },
@@ -3791,8 +3901,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 345.8418853097746, cy: 630.6651500192544 },
@@ -3833,8 +3944,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 348.0944921102385, cy: 718.066293877254 },
@@ -3861,8 +3973,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 349.3933982822018, cy: 768.4638533494294 },
@@ -3903,8 +4016,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 351.0809466374796, cy: 833.9407295342082 },
@@ -3931,8 +4045,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 352.0540267923053, cy: 871.696239541445 },
@@ -3961,8 +4076,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 352.9209426548873, cy: 905.3325750096271 },
@@ -4003,8 +4119,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 354.0472460551193, cy: 949.0331469386269 },
@@ -4031,8 +4148,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 354.6966991411009, cy: 974.2319266747147 },
@@ -4073,8 +4191,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 355.54047331873977, cy: 1006.9703647671041 },
@@ -4101,8 +4220,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 356.02701339615265, cy: 1025.8481197707224 },
@@ -4135,8 +4255,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 280.65298350436063, cy: 81.33030003850874 },
@@ -4163,8 +4284,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 278.18151396608914, cy: 201.1965726446763 },
@@ -4205,8 +4327,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 274.97056274847716, cy: 356.92770669885863 },
@@ -4233,8 +4356,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 273.11905259873845, cy: 446.7259489611838 },
@@ -4261,8 +4385,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.4387689758453135,
           coordinates: { cx: 271.4695445797125, cy: 526.7270878839449 },
@@ -4305,8 +4430,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 269.32649175218035, cy: 630.6651500192544 },
@@ -4333,8 +4459,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 268.09075698304457, cy: 690.5982863223383 },
@@ -4375,8 +4502,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 266.4852813742386, cy: 768.4638533494294 },
@@ -4403,8 +4531,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 265.5595262993692, cy: 813.3629744805918 },
@@ -4431,8 +4560,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.7193844879226567,
           coordinates: { cx: 264.7347722898562, cy: 853.3635439419725 },
@@ -4475,8 +4605,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 263.6632458760902, cy: 905.3325750096271 },
@@ -4503,8 +4634,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 263.0453784915223, cy: 935.2991431611691 },
@@ -4545,8 +4677,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 262.24264068711926, cy: 974.2319266747147 },
@@ -4573,8 +4706,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 261.77976314968464, cy: 996.681487240296 },
@@ -4601,8 +4735,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 10,
           ratio: 0.8596922439613284,
           coordinates: { cx: 261.3673861449281, cy: 1016.6817719709862 },
@@ -4647,8 +4782,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 293.55099450145354, cy: 81.33030003850874 },
@@ -4675,8 +4811,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 292.72717132202973, cy: 201.1965726446763 },
@@ -4717,8 +4854,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 291.65685424949237, cy: 356.92770669885863 },
@@ -4745,8 +4883,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 291.0396841995795, cy: 446.7259489611838 },
@@ -4787,8 +4926,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 290.2378523774372, cy: 563.3924790828901 },
@@ -4817,8 +4957,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 289.7754972507268, cy: 630.6651500192544 },
@@ -4845,8 +4986,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 289.36358566101484, cy: 690.5982863223383 },
@@ -4887,8 +5029,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 288.8284271247462, cy: 768.4638533494294 },
@@ -4915,8 +5058,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 288.51984209978974, cy: 813.3629744805918 },
@@ -4957,8 +5101,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 288.1189261887186, cy: 871.696239541445 },
@@ -4987,8 +5132,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 287.8877486253634, cy: 905.3325750096271 },
@@ -5015,8 +5161,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 287.68179283050745, cy: 935.2991431611691 },
@@ -5057,8 +5204,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 287.4142135623731, cy: 974.2319266747147 },
@@ -5085,8 +5233,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 287.2599210498949, cy: 996.681487240296 },
@@ -5127,8 +5276,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 287.0594630943593, cy: 1025.8481197707224 },
@@ -5159,8 +5309,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 306.44900549854646, cy: 81.33030003850874 },
@@ -5201,8 +5352,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 307.6503957921272, cy: 256.1325877545079 },
@@ -5229,8 +5381,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 308.34314575050763, cy: 356.92770669885863 },
@@ -5257,8 +5410,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 308.9603158004205, cy: 446.7259489611838 },
@@ -5299,8 +5453,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 309.7621476225628, cy: 563.3924790828901 },
@@ -5329,8 +5484,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 310.2245027492732, cy: 630.6651500192544 },
@@ -5371,8 +5527,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 310.8251978960636, cy: 718.066293877254 },
@@ -5399,8 +5556,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 311.1715728752538, cy: 768.4638533494294 },
@@ -5427,8 +5585,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 311.48015790021026, cy: 813.3629744805918 },
@@ -5469,8 +5628,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 311.8810738112814, cy: 871.696239541445 },
@@ -5499,8 +5659,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 312.1122513746366, cy: 905.3325750096271 },
@@ -5541,8 +5702,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 312.4125989480318, cy: 949.0331469386269 },
@@ -5569,8 +5731,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 312.5857864376269, cy: 974.2319266747147 },
@@ -5597,8 +5760,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 312.7400789501051, cy: 996.681487240296 },
@@ -5639,8 +5803,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 312.9405369056407, cy: 1025.8481197707224 },
@@ -5671,8 +5836,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 319.34701649563937, cy: 81.33030003850874 },
@@ -5713,8 +5879,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 322.9511873763816, cy: 256.1325877545079 },
@@ -5741,8 +5908,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 325.02943725152284, cy: 356.92770669885863 },
@@ -5783,8 +5951,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 327.72951461996735, cy: 487.88145906841635 },
@@ -5811,8 +5980,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 329.28644286768844, cy: 563.3924790828901 },
@@ -5841,8 +6011,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 330.67350824781965, cy: 630.6651500192544 },
@@ -5883,8 +6054,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 332.4755936881908, cy: 718.066293877254 },
@@ -5911,8 +6083,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 333.5147186257614, cy: 768.4638533494294 },
@@ -5953,8 +6126,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 334.8647573099837, cy: 833.9407295342082 },
@@ -5981,8 +6155,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 335.64322143384425, cy: 871.696239541445 },
@@ -6011,8 +6186,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 336.3367541239098, cy: 905.3325750096271 },
@@ -6053,8 +6229,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 337.2377968440954, cy: 949.0331469386269 },
@@ -6081,8 +6258,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 337.75735931288074, cy: 974.2319266747147 },
@@ -6123,8 +6301,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 338.43237865499185, cy: 1006.9703647671041 },
@@ -6151,8 +6330,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 338.8216107169221, cy: 1025.8481197707224 },
@@ -6199,8 +6379,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.10910128185966073,
           coordinates: { cx: 278.72696154421016, cy: 142.9938920846451 },
@@ -6227,8 +6408,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 275.811015779523, cy: 256.1325877545079 },
@@ -6255,8 +6437,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 273.2132034355964, cy: 356.92770669885863 },
@@ -6297,8 +6480,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 269.8381067250408, cy: 487.88145906841635 },
@@ -6325,8 +6509,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 267.89194641538944, cy: 563.3924790828901 },
@@ -6369,8 +6554,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.5545506409298304,
           coordinates: { cx: 265.3634807721051, cy: 661.4969460423226 },
@@ -6397,8 +6583,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 263.9055078897615, cy: 718.066293877254 },
@@ -6425,8 +6612,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 262.6066017177982, cy: 768.4638533494294 },
@@ -6467,8 +6655,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 260.9190533625204, cy: 833.9407295342082 },
@@ -6495,8 +6684,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 259.9459732076947, cy: 871.696239541445 },
@@ -6539,8 +6729,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 2,
           ratio: 0.7772753204649152,
           coordinates: { cx: 258.6817403860525, cy: 920.7484730211613 },
@@ -6567,8 +6758,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 257.9527539448807, cy: 949.0331469386269 },
@@ -6595,8 +6787,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 257.3033008588991, cy: 974.2319266747147 },
@@ -6637,8 +6830,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 256.45952668126023, cy: 1006.9703647671041 },
@@ -6665,8 +6859,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 255.97298660384735, cy: 1025.8481197707224 },
@@ -6697,8 +6892,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 293.4387431268169, cy: 81.33030003850874 },
@@ -6739,8 +6935,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 291.937005259841, cy: 256.1325877545079 },
@@ -6767,8 +6964,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 291.0710678118655, cy: 356.92770669885863 },
@@ -6809,8 +7007,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.4053964424986395,
           coordinates: { cx: 289.9460355750136, cy: 487.88145906841635 },
@@ -6837,8 +7036,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 289.2973154717965, cy: 563.3924790828901 },
@@ -6867,8 +7067,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 288.71937156340846, cy: 630.6651500192544 },
@@ -6909,8 +7110,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 287.9685026299205, cy: 718.066293877254 },
@@ -6937,8 +7139,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 287.53553390593277, cy: 768.4638533494294 },
@@ -6979,8 +7182,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.7026982212493198,
           coordinates: { cx: 286.9730177875068, cy: 833.9407295342082 },
@@ -7007,8 +7211,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 286.6486577358982, cy: 871.696239541445 },
@@ -7037,8 +7242,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 286.35968578170423, cy: 905.3325750096271 },
@@ -7079,8 +7285,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 285.98425131496026, cy: 949.0331469386269 },
@@ -7107,8 +7314,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 285.7677669529664, cy: 974.2319266747147 },
@@ -7149,8 +7357,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 9,
           ratio: 0.8513491106246599,
           coordinates: { cx: 285.4865088937534, cy: 1006.9703647671041 },
@@ -7177,8 +7386,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 285.32432886794913, cy: 1025.8481197707224 },
@@ -7209,8 +7419,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 306.5612568731831, cy: 81.33030003850874 },
@@ -7251,8 +7462,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.2062994740159002,
           coordinates: { cx: 308.062994740159, cy: 256.1325877545079 },
@@ -7279,8 +7491,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 308.9289321881345, cy: 356.92770669885863 },
@@ -7307,8 +7520,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 309.7003947505256, cy: 446.7259489611838 },
@@ -7349,8 +7563,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 310.7026845282035, cy: 563.3924790828901 },
@@ -7379,8 +7594,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 311.28062843659154, cy: 630.6651500192544 },
@@ -7421,8 +7637,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.6031497370079502,
           coordinates: { cx: 312.0314973700795, cy: 718.066293877254 },
@@ -7449,8 +7666,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 312.46446609406723, cy: 768.4638533494294 },
@@ -7477,8 +7695,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 312.85019737526284, cy: 813.3629744805918 },
@@ -7519,8 +7738,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 313.3513422641018, cy: 871.696239541445 },
@@ -7549,8 +7769,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 313.64031421829577, cy: 905.3325750096271 },
@@ -7591,8 +7812,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 4,
           ratio: 0.8015748685039751,
           coordinates: { cx: 314.01574868503974, cy: 949.0331469386269 },
@@ -7619,8 +7841,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 314.2322330470336, cy: 974.2319266747147 },
@@ -7647,8 +7870,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 314.4250986876314, cy: 996.681487240296 },
@@ -7689,8 +7913,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 314.67567113205087, cy: 1025.8481197707224 },
@@ -7721,8 +7946,9 @@ export const equalPoints = {
     [
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.05612568731830647,
           coordinates: { cx: 319.6837706195492, cy: 81.33030003850874 },
@@ -7749,8 +7975,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.1591035847462855,
           coordinates: { cx: 322.7731075423886, cy: 201.1965726446763 },
@@ -7791,8 +8018,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.2928932188134524,
           coordinates: { cx: 326.7867965644036, cy: 356.92770669885863 },
@@ -7819,8 +8047,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.3700394750525634,
           coordinates: { cx: 329.1011842515769, cy: 446.7259489611838 },
@@ -7861,8 +8090,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.47026845282035235,
           coordinates: { cx: 332.10805358461056, cy: 563.3924790828901 },
@@ -7891,8 +8121,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.5280628436591532,
           coordinates: { cx: 333.8418853097746, cy: 630.6651500192544 },
@@ -7919,8 +8150,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.5795517923731428,
           coordinates: { cx: 335.38655377119426, cy: 690.5982863223383 },
@@ -7961,8 +8193,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.6464466094067263,
           coordinates: { cx: 337.3933982822018, cy: 768.4638533494294 },
@@ -7989,8 +8222,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.6850197375262816,
           coordinates: { cx: 338.55059212578846, cy: 813.3629744805918 },
@@ -8031,8 +8265,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.7351342264101761,
           coordinates: { cx: 340.0540267923053, cy: 871.696239541445 },
@@ -8061,8 +8296,9 @@ export const equalPoints = {
       ],
       [
         {
-          name: { English: "G# A♭", German: "Gis As" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "G#", German: "Gis" },
+          name2: { English: "A♭", German: "As" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 1,
           ratio: 0.7640314218295766,
           coordinates: { cx: 340.9209426548873, cy: 905.3325750096271 },
@@ -8089,8 +8325,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "A# B♭", German: "Ais B" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "A#", German: "Ais" },
+          name2: { English: "B♭", German: "B" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 3,
           ratio: 0.7897758961865714,
           coordinates: { cx: 341.69327688559713, cy: 935.2991431611691 },
@@ -8131,8 +8368,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "C# D♭", German: "Cis Des" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "C#", German: "Cis" },
+          name2: { English: "D♭", German: "Des" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 6,
           ratio: 0.8232233047033631,
           coordinates: { cx: 342.6966991411009, cy: 974.2319266747147 },
@@ -8159,8 +8397,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "D# E♭", German: "Dis Es" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "D#", German: "Dis" },
+          name2: { English: "E♭", German: "Es" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 8,
           ratio: 0.8425098687631408,
           coordinates: { cx: 343.2752960628942, cy: 996.681487240296 },
@@ -8201,8 +8440,9 @@ export const equalPoints = {
           }
         },
         {
-          name: { English: "F# G♭", German: "Fis Ges" },
-          fontSize: { name: 0.9, number: 1.8 },
+          name: { English: "F#", German: "Fis" },
+          name2: { English: "G♭", German: "Ges" },
+          fontSize: { name: 1.1, number: 1.8 },
           number: 11,
           ratio: 0.8675671132050881,
           coordinates: { cx: 344.02701339615265, cy: 1025.8481197707224 },

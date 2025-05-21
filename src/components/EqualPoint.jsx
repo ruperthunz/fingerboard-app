@@ -8,27 +8,41 @@ export function EqualPoint({ point }) {
   const { width, height, equalPointsColor, show, language } =
     useContext(Context)
 
-  console.log(point.fontSize[show])
+  const xCoordinate = point.coordinates.cx * (width / x)
+  const yCoordinate = point.coordinates.cy * (height / y)
 
   return (
     <>
       <circle
-        cx={point.coordinates.cx * (width / x)}
-        cy={point.coordinates.cy * (height / y)}
+        cx={xCoordinate}
+        cy={yCoordinate}
         r={width / (x / 6)}
         fill={point.colors[equalPointsColor]}
       ></circle>
       {show === "none" ? undefined : (
         <text
-          x={point.coordinates.cx * (width / x)}
-          y={point.coordinates.cy * (height / y)}
-          // fontSize={`${height / (y / 1.3)}mm`}
+          x={xCoordinate}
+          y={yCoordinate}
           fontSize={`${height / (y / point.fontSize[show])}mm`}
           fill="black"
           textAnchor="middle"
           alignmentBaseline="central"
+          dominantBaseline="central"
         >
-          {show === "name" ? point.name[language] : point.number}
+          {show === "number" ? (
+            point.number
+          ) : point.name2 ? (
+            <>
+              <tspan x={xCoordinate} y={yCoordinate} dy="-0.16%">
+                {point.name[language]}
+              </tspan>
+              <tspan x={xCoordinate} y={yCoordinate} dy="0.16%">
+                {point.name2[language]}
+              </tspan>
+            </>
+          ) : (
+            point.name[language]
+          )}
         </text>
       )}
     </>
