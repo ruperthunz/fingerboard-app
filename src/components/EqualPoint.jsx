@@ -23,7 +23,7 @@ export function EqualPoint({ point }) {
         <text
           x={xCoordinate}
           y={yCoordinate}
-          fontSize={`${height / (y / point.fontSize[show])}mm`}
+          fontSize={`${height / (y / point.fontSize[show])}em`}
           fill="black"
           textAnchor="middle"
           alignmentBaseline="central"
@@ -36,16 +36,18 @@ export function EqualPoint({ point }) {
               <tspan
                 x={xCoordinate}
                 y={yCoordinate}
-                dy="-0.16%"
-                dominantBaseline="central"
+                dy="-0.45em"
+                dominantBaseline="inherit"
+                alignmentBaseline="inherit"
               >
                 {point.name[language]}
               </tspan>
               <tspan
                 x={xCoordinate}
                 y={yCoordinate}
-                dy="0.16%"
-                dominantBaseline="central"
+                dy="0.45em"
+                dominantBaseline="inherit"
+                alignmentBaseline="inherit"
               >
                 {point.name2[language]}
               </tspan>
