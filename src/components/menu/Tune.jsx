@@ -1,8 +1,8 @@
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { Context } from "../../App"
 
 export function Tune() {
-  const { t, tune, setTune } = useContext(Context)
+  const { t, tune, setTune, displayEP } = useContext(Context)
 
   function handleTune(clickedTune) {
     if (clickedTune === tune) {
@@ -13,7 +13,7 @@ export function Tune() {
   }
 
   return (
-    <div className="widget">
+    <div className={displayEP ? "widget" : "widget todo"}>
       <div className="widget-content alt-1">
         <div className="widget-label">{t.tune}</div>
         <div className="btn-container">
