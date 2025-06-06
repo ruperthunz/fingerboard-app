@@ -5,7 +5,8 @@ const x = 600
 const y = 1200
 
 export function JustPoint({ point }) {
-  const { width, height, justPointsColor, show, language } = useContext(Context)
+  const { width, height, justPointsColor, show, language, tune } =
+    useContext(Context)
 
   return (
     <>

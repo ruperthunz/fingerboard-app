@@ -5,11 +5,18 @@ const x = 600
 const y = 1200
 
 export function EqualPoint({ point }) {
-  const { width, height, equalPointsColor, show, language } =
+  const { width, height, equalPointsColor, show, language, tune } =
     useContext(Context)
 
-  const xCoordinate = point.coordinates.cx * (width / x)
-  const yCoordinate = point.coordinates.cy * (height / y)
+  let xCoordinate = null
+  tune === null
+    ? (xCoordinate = point.coordinates.equal.cx * (width / x))
+    : (xCoordinate = point.coordinates[tune].cx * (width / x))
+
+  let yCoordinate = null
+  tune === null
+    ? (yCoordinate = point.coordinates.equal.cy * (height / y))
+    : (yCoordinate = point.coordinates[tune].cy * (height / y))
 
   return (
     <>
