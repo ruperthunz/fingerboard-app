@@ -1,2684 +1,1395 @@
-;[
-  [
-    {
-      name: { English: "G#", German: "Gis" },
-      name2: { English: "A♭", German: "As" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 1,
-      ratio: 0.05612568731830647,
-      coordinates: { cx: 268.3162293804508, cy: 81.33030003850874 },
-      coordinates: {
-        equal: { cx: 268.3162293804508, cy: 81.33030003850874 },
-        just: { cx: null, cy: 85.0460299312686 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret1,
-        name: gSharp_aFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "A", German: "A" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 2,
-      ratio: 0.10910128185966073,
-      coordinates: { cx: 266.72696154421016, cy: 142.9938920846451 },
-      coordinates: {
-        equal: { cx: 266.72696154421016, cy: 142.9938920846451 },
-        just: { cx: null, cy: 146.50107408328464 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret2,
-        name: a,
-        piano: white
-      }
-    },
-    {
-      name: { English: "A#", German: "Ais" },
-      name2: { English: "B♭", German: "B" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 3,
-      ratio: 0.1591035847462855,
-      coordinates: { cx: 265.2268924576114, cy: 201.1965726446763 },
-      coordinates: {
-        equal: { cx: 265.2268924576114, cy: 201.1965726446763 },
-        just: { cx: null, cy: 204.50691164309183 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret3,
-        name: aSharp_bFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "B", German: "H" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 4,
-      ratio: 0.2062994740159002,
-      coordinates: { cx: 263.811015779523, cy: 256.1325877545079 },
-      coordinates: {
-        equal: { cx: 263.811015779523, cy: 256.1325877545079 },
-        just: { cx: null, cy: 259.2571317013807 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret4,
-        name: b,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C", German: "C" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 5,
-      ratio: 0.25084646156165924,
-      coordinates: { cx: 262.4746061531502, cy: 307.98528125777136 },
-      coordinates: {
-        equal: { cx: 262.4746061531502, cy: 307.98528125777136 },
-        just: { cx: null, cy: 310.9344580280697 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret5,
-        name: c,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C#", German: "Cis" },
-      name2: { English: "D♭", German: "Des" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 6,
-      ratio: 0.2928932188134524,
-      coordinates: { cx: 261.2132034355964, cy: 356.92770669885863 },
-      coordinates: {
-        equal: { cx: 261.2132034355964, cy: 356.92770669885863 },
-        just: { cx: null, cy: 359.7113588959008 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret6,
-        name: cSharp_dFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "D", German: "D" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 7,
-      ratio: 0.3325800729149828,
-      coordinates: { cx: 260.02259781255054, cy: 403.12320487304 },
-      coordinates: {
-        equal: { cx: 260.02259781255054, cy: 403.12320487304 },
-        just: { cx: null, cy: 405.7506226772681 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret7,
-        name: d,
-        piano: white
-      }
-    },
-    {
-      name: { English: "D#", German: "Dis" },
-      name2: { English: "E♭", German: "Es" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 8,
-      ratio: 0.3700394750525634,
-      coordinates: { cx: 258.8988157484231, cy: 446.7259489611838 },
-      coordinates: {
-        equal: { cx: 258.8988157484231, cy: 446.7259489611838 },
-        just: { cx: null, cy: 449.2059011352772 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret8,
-        name: dSharp_eFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "E", German: "E" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 9,
-      ratio: 0.4053964424986395,
-      coordinates: { cx: 257.8381067250408, cy: 487.88145906841635 },
-      coordinates: {
-        equal: { cx: 257.8381067250408, cy: 487.88145906841635 },
-        just: { cx: null, cy: 490.2222222222223 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret9,
-        name: e,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F", German: "F" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 10,
-      ratio: 0.4387689758453135,
-      coordinates: { cx: 256.8369307246406, cy: 526.7270878839449 },
-      coordinates: {
-        equal: { cx: 256.8369307246406, cy: 526.7270878839449 },
-        just: { cx: null, cy: 528.9364740968941 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret10,
-        name: f,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F#", German: "Fis" },
-      name2: { English: "G♭", German: "Ges" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 11,
-      ratio: 0.47026845282035235,
-      coordinates: { cx: 255.89194641538944, cy: 563.3924790828901 },
-      coordinates: {
-        equal: { cx: 255.89194641538944, cy: 563.3924790828901 },
-        just: { cx: null, cy: 565.4778619760859 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret11,
-        name: fSharp_gFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "G", German: "G" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 12,
-      ratio: 0.5,
-      coordinates: { cx: 255, cy: 598 },
-      coordinates: {
-        equal: { cx: 255, cy: 598 },
-        just: { cx: null, cy: 599.9683393449933 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: octave,
-        fret: fret12,
-        name: g,
-        piano: white
-      }
-    }
-  ],
-  [
-    {
-      name: { English: "G#", German: "Gis" },
-      name2: { English: "A♭", German: "As" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 1,
-      ratio: 0.5280628436591532,
-      coordinates: { cx: 254.1581146902254, cy: 630.6651500192544 },
-      coordinates: {
-        equal: { cx: 254.1581146902254, cy: 630.6651500192544 },
-        just: { cx: null, cy: 632.5230149656343 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret1,
-        name: gSharp_aFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "A", German: "A" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 2,
-      ratio: 0.5545506409298304,
-      coordinates: { cx: 253.36348077210508, cy: 661.4969460423226 },
-      coordinates: {
-        equal: { cx: 253.36348077210508, cy: 661.4969460423226 },
-        just: { cx: null, cy: 663.2505370416424 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret2,
-        name: a,
-        piano: white
-      }
-    },
-    {
-      name: { English: "A#", German: "Ais" },
-      name2: { English: "B♭", German: "B" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 3,
-      ratio: 0.5795517923731428,
-      coordinates: { cx: 252.6134462288057, cy: 690.5982863223383 },
-      coordinates: {
-        equal: { cx: 252.6134462288057, cy: 690.5982863223383 },
-        just: { cx: null, cy: 692.2534558215459 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret3,
-        name: aSharp_bFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "B", German: "H" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 4,
-      ratio: 0.6031497370079502,
-      coordinates: { cx: 251.9055078897615, cy: 718.066293877254 },
-      coordinates: {
-        equal: { cx: 251.9055078897615, cy: 718.066293877254 },
-        just: { cx: null, cy: 719.6285658506905 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret4,
-        name: b,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C", German: "C" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 5,
-      ratio: 0.6254232307808296,
-      coordinates: { cx: 251.2373030765751, cy: 743.9926406288856 },
-      coordinates: {
-        equal: { cx: 251.2373030765751, cy: 743.9926406288856 },
-        just: { cx: null, cy: 745.467229014035 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret5,
-        name: c,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C#", German: "Cis" },
-      name2: { English: "D♭", German: "Des" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 6,
-      ratio: 0.6464466094067263,
-      coordinates: { cx: 250.6066017177982, cy: 768.4638533494294 },
-      coordinates: {
-        equal: { cx: 250.6066017177982, cy: 768.4638533494294 },
-        just: { cx: null, cy: 769.8556794479505 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret6,
-        name: cSharp_dFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "D", German: "D" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 7,
-      ratio: 0.6662900364574914,
-      coordinates: { cx: 250.01129890627527, cy: 791.56160243652 },
-      coordinates: {
-        equal: { cx: 250.01129890627527, cy: 791.56160243652 },
-        just: { cx: null, cy: 792.8753113386341 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret7,
-        name: d,
-        piano: white
-      }
-    },
-    {
-      name: { English: "D#", German: "Dis" },
-      name2: { English: "E♭", German: "Es" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 8,
-      ratio: 0.6850197375262816,
-      coordinates: { cx: 249.44940787421154, cy: 813.3629744805918 },
-      coordinates: {
-        equal: { cx: 249.44940787421154, cy: 813.3629744805918 },
-        just: { cx: null, cy: 814.6029505676386 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret8,
-        name: dSharp_eFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "E", German: "E" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 9,
-      ratio: 0.7026982212493198,
-      coordinates: { cx: 248.9190533625204, cy: 833.9407295342082 },
-      coordinates: {
-        equal: { cx: 248.9190533625204, cy: 833.9407295342082 },
-        just: { cx: null, cy: 835.1111111111111 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret9,
-        name: e,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F", German: "F" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 10,
-      ratio: 0.7193844879226567,
-      coordinates: { cx: 248.4184653623203, cy: 853.3635439419725 },
-      coordinates: {
-        equal: { cx: 248.4184653623203, cy: 853.3635439419725 },
-        just: { cx: null, cy: 854.468237048447 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret10,
-        name: f,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F#", German: "Fis" },
-      name2: { English: "G♭", German: "Ges" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 11,
-      ratio: 0.7351342264101761,
-      coordinates: { cx: 247.94597320769472, cy: 871.696239541445 },
-      coordinates: {
-        equal: { cx: 247.94597320769472, cy: 871.696239541445 },
-        just: { cx: null, cy: 872.7389309880429 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret11,
-        name: fSharp_gFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "G", German: "G" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 12,
-      ratio: 0.75,
-      coordinates: { cx: 247.5, cy: 889 },
-      coordinates: {
-        equal: { cx: 247.5, cy: 889 },
-        just: { cx: null, cy: 889.9841696724966 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: octave,
-        fret: fret12,
-        name: g,
-        piano: white
-      }
-    }
-  ],
-  [
-    {
-      name: { English: "G#", German: "Gis" },
-      name2: { English: "A♭", German: "As" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 1,
-      ratio: 0.7640314218295766,
-      coordinates: { cx: 247.0790573451127, cy: 905.3325750096271 },
-      coordinates: {
-        equal: { cx: 247.0790573451127, cy: 905.3325750096271 },
-        just: { cx: null, cy: 906.2615074828173 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret1,
-        name: gSharp_aFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "A", German: "A" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 2,
-      ratio: 0.7772753204649152,
-      coordinates: { cx: 246.68174038605255, cy: 920.7484730211613 },
-      coordinates: {
-        equal: { cx: 246.68174038605255, cy: 920.7484730211613 },
-        just: { cx: null, cy: 921.6252685208212 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret2,
-        name: a,
-        piano: white
-      }
-    },
-    {
-      name: { English: "A#", German: "Ais" },
-      name2: { English: "B♭", German: "B" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 3,
-      ratio: 0.7897758961865714,
-      coordinates: { cx: 246.30672311440287, cy: 935.2991431611691 },
-      coordinates: {
-        equal: { cx: 246.30672311440287, cy: 935.2991431611691 },
-        just: { cx: null, cy: 936.1267279107731 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret3,
-        name: aSharp_bFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "B", German: "H" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 4,
-      ratio: 0.8015748685039751,
-      coordinates: { cx: 245.95275394488075, cy: 949.0331469386269 },
-      coordinates: {
-        equal: { cx: 245.95275394488075, cy: 949.0331469386269 },
-        just: { cx: null, cy: 949.8142829253452 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret4,
-        name: b,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C", German: "C" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 5,
-      ratio: 0.8127116153904148,
-      coordinates: { cx: 245.61865153828757, cy: 961.9963203144429 },
-      coordinates: {
-        equal: { cx: 245.61865153828757, cy: 961.9963203144429 },
-        just: { cx: null, cy: 962.7336145070174 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret5,
-        name: c,
-        piano: white
-      }
-    },
-    {
-      name: { English: "C#", German: "Cis" },
-      name2: { English: "D♭", German: "Des" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 6,
-      ratio: 0.8232233047033631,
-      coordinates: { cx: 245.3033008588991, cy: 974.2319266747147 },
-      coordinates: {
-        equal: { cx: 245.3033008588991, cy: 974.2319266747147 },
-        just: { cx: null, cy: 974.9278397239752 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret6,
-        name: cSharp_dFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "D", German: "D" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 7,
-      ratio: 0.8331450182287458,
-      coordinates: { cx: 245.00564945313764, cy: 985.7808012182601 },
-      coordinates: {
-        equal: { cx: 245.00564945313764, cy: 985.7808012182601 },
-        just: { cx: null, cy: 986.4376556693171 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret7,
-        name: d,
-        piano: white
-      }
-    },
-    {
-      name: { English: "D#", German: "Dis" },
-      name2: { English: "E♭", German: "Es" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 8,
-      ratio: 0.8425098687631408,
-      coordinates: { cx: 244.72470393710577, cy: 996.681487240296 },
-      coordinates: {
-        equal: { cx: 244.72470393710577, cy: 996.681487240296 },
-        just: { cx: null, cy: 997.3014752838193 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret8,
-        name: dSharp_eFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "E", German: "E" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 9,
-      ratio: 0.8513491106246599,
-      coordinates: { cx: 244.4595266812602, cy: 1006.9703647671041 },
-      coordinates: {
-        equal: { cx: 244.4595266812602, cy: 1006.9703647671041 },
-        just: { cx: null, cy: 1007.5555555555555 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret9,
-        name: e,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F", German: "F" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 10,
-      ratio: 0.8596922439613284,
-      coordinates: { cx: 244.20923268116016, cy: 1016.6817719709862 },
-      coordinates: {
-        equal: { cx: 244.20923268116016, cy: 1016.6817719709862 },
-        just: { cx: null, cy: 1017.2341185242236 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret10,
-        name: f,
-        piano: white
-      }
-    },
-    {
-      name: { English: "F#", German: "Fis" },
-      name2: { English: "G♭", German: "Ges" },
-      fontSize: { name: 0.3, number: 1.8 },
-      number: 11,
-      ratio: 0.8675671132050881,
-      coordinates: { cx: 243.97298660384735, cy: 1025.8481197707224 },
-      coordinates: {
-        equal: { cx: 243.97298660384735, cy: 1025.8481197707224 },
-        just: { cx: null, cy: 1026.3694654940214 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: uni,
-        fret: fret11,
-        name: fSharp_gFlat,
-        piano: black
-      }
-    },
-    {
-      name: { English: "G", German: "G" },
-      fontSize: { name: 0.5, number: 1.8 },
-      number: 12,
-      ratio: 0.875,
-      coordinates: { cx: 243.75, cy: 1034.5 },
-      coordinates: {
-        equal: { cx: 243.75, cy: 1034.5 },
-        just: { cx: null, cy: 1034.9920848362485 }
-      },
-      colors: {
-        uni: uni,
-        uniPlus8: octave,
-        fret: fret12,
-        name: g,
-        piano: white
-      }
-    }
-  ]
-],
-  [
     [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.05612568731830647,
-        coordinates: { cx: 268.3162293804508, cy: 81.33030003850874 },
-        coordinates: {
-          equal: { cx: 268.3162293804508, cy: 81.33030003850874 },
-          just: { cx: null, cy: null }
+      [
+        {
+          name: { English: "D´", German: "D´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 0,
+          string: "d",
+          ratio: 1 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 306.12345679012344, cy: 30.37037037037037 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret12,
+            name: d,
+            row: upper1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.10910128185966073,
-        coordinates: { cx: 266.72696154421016, cy: 142.9938920846451 },
-        coordinates: {
-          equal: { cx: 266.72696154421016, cy: 142.9938920846451 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "D#`", German: "Dis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 7 / 135,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 306.51851851851853, cy: 76.35555555555555 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: dSharp,
+            row: lower1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.1591035847462855,
-        coordinates: { cx: 265.2268924576114, cy: 201.1965726446763 },
-        coordinates: {
-          equal: { cx: 265.2268924576114, cy: 201.1965726446763 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "E♭´", German: "Es´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 1 / 16,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 306.625, cy: 88.75 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: eFlat,
+            row: upper1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.2062994740159002,
-        coordinates: { cx: 263.811015779523, cy: 256.1325877545079 },
-        coordinates: {
-          equal: { cx: 263.811015779523, cy: 256.1325877545079 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "E`", German: "E`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 1 / 10,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 307, cy: 132.4 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: lower1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.25084646156165924,
-        coordinates: { cx: 262.4746061531502, cy: 307.98528125777136 },
-        coordinates: {
-          equal: { cx: 262.4746061531502, cy: 307.98528125777136 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "E°", German: "E°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 1 / 9,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 307.1111111111111, cy: 145.33333333333333 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: middle
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.2928932188134524,
-        coordinates: { cx: 261.2132034355964, cy: 356.92770669885863 },
-        coordinates: {
-          equal: { cx: 261.2132034355964, cy: 356.92770669885863 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "F°", German: "F°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 5 / 32,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 307.5625, cy: 197.875 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: middle
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.3325800729149828,
-        coordinates: { cx: 260.02259781255054, cy: 403.12320487304 },
-        coordinates: {
-          equal: { cx: 260.02259781255054, cy: 403.12320487304 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "F´", German: "F´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 1 / 6,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 307.6666666666667, cy: 210 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: upper1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.3700394750525634,
-        coordinates: { cx: 258.8988157484231, cy: 446.7259489611838 },
-        coordinates: {
-          equal: { cx: 258.8988157484231, cy: 446.7259489611838 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "F#`", German: "Fis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 1 / 5,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308, cy: 248.8 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: lower1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.4053964424986395,
-        coordinates: { cx: 257.8381067250408, cy: 487.88145906841635 },
-        coordinates: {
-          equal: { cx: 257.8381067250408, cy: 487.88145906841635 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "F#°", German: "Fis°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 17 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308.0987654320988, cy: 260.2962962962963 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: middle
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.4387689758453135,
-        coordinates: { cx: 256.8369307246406, cy: 526.7270878839449 },
-        coordinates: {
-          equal: { cx: 256.8369307246406, cy: 526.7270878839449 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "G°", German: "G°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 1 / 4,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308.5, cy: 307 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: middle
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.47026845282035235,
-        coordinates: { cx: 255.89194641538944, cy: 563.3924790828901 },
-        coordinates: {
-          equal: { cx: 255.89194641538944, cy: 563.3924790828901 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "G´", German: "G´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 7 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308.5925925925926, cy: 317.77777777777777 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: upper1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.5,
-        coordinates: { cx: 255, cy: 598 },
-        coordinates: {
-          equal: { cx: 255, cy: 598 },
-          just: { cx: null, cy: null }
+        {
+          name: { English: "G#`", German: "Gis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 13 / 45,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308.8888888888889, cy: 352.26666666666666 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: gSharp,
+            row: lower1
+          }
         },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
+        {
+          name: { English: "A♭´", German: "As´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 19 / 64,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 308.96875, cy: 361.5625 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: aFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "A`", German: "A`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 13 / 40,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 309.25, cy: 394.3 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "A°", German: "A°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 1 / 3,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 309.3333333333333, cy: 404 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: middle
+          }
+        },
+        {
+          name: { English: "A#`", German: "Ais`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 149 / 405,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 309.679012345679, cy: 444.23703703703706 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: aSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B♭´", German: "B´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 3 / 8,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 309.75, cy: 452.5 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: bFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "B`", German: "H`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 2 / 5,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310, cy: 481.6 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B°", German: "H°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 11 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310.0740740740741, cy: 490.2222222222222 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C°", German: "C°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 7 / 16,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310.375, cy: 525.25 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C´", German: "C´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 4 / 9,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310.44444444444446, cy: 533.3333333333333 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "C#`", German: "Cis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 7 / 15,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310.6666666666667, cy: 559.2 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: cSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "D♭´", German: "Des´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 121 / 256,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 310.7265625, cy: 566.171875 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: dFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "D°", German: "D°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 1 / 2,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311, cy: 598 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: octave,
+            fret: fret12,
+            name: d,
+            row: middle
+          }
+        },
+        {
+          name: { English: "D´", German: "D´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 41 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.0617283950617, cy: 605.1851851851852 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret12,
+            name: d,
+            row: upper1
+          }
         }
-      }
+      ],
+      [
+        {
+          name: { English: "D#`", German: "Dis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 71 / 135,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.25925925925924, cy: 628.1777777777777 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: dSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "E♭´", German: "Es´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 17 / 32,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.3125, cy: 634.375 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: eFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "E`", German: "E`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 11 / 20,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.5, cy: 656.2 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "E°", German: "E°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 5 / 9,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.55555555555554, cy: 662.6666666666666 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: middle
+          }
+        },
+        {
+          name: { English: "F°", German: "F°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 37 / 64,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.78125, cy: 688.9375 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "F´", German: "F´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 7 / 12,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 311.8333333333333, cy: 695 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "F#`", German: "Fis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 3 / 5,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312, cy: 714.4 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "F#°", German: "Fis°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 49 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.04938271604937, cy: 720.1481481481482 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: middle
+          }
+        },
+        {
+          name: { English: "G°", German: "G°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 5 / 8,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.25, cy: 743.5 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: middle
+          }
+        },
+        {
+          name: { English: "G´", German: "G´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 17 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.2962962962963, cy: 748.8888888888888 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "G#`", German: "Gis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 29 / 45,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.44444444444446, cy: 766.1333333333333 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: gSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "A♭´", German: "As´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 83 / 128,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.484375, cy: 770.78125 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: aFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "A`", German: "A`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 53 / 80,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.625, cy: 787.15 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "A°", German: "A°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 2 / 3,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.6666666666667, cy: 792 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: middle
+          }
+        },
+        {
+          name: { English: "A#`", German: "Ais`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 277 / 405,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.8395061728395, cy: 812.1185185185185 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: aSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B♭´", German: "B´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 11 / 16,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 312.875, cy: 816.25 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: bFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "B`", German: "H`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 7 / 10,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313, cy: 830.8 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B°", German: "H°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 19 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.037037037037, cy: 835.1111111111111 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C°", German: "C°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 23 / 32,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.1875, cy: 852.625 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C´", German: "C´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 13 / 18,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.22222222222223, cy: 856.6666666666666 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "C#`", German: "Cis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 11 / 15,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.3333333333333, cy: 869.5999999999999 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: cSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "D♭´", German: "Des´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 377 / 512,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.36328125, cy: 873.0859375 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: dFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "D°", German: "D°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 3 / 4,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.5, cy: 889 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: octave,
+            fret: fret12,
+            name: d,
+            row: middle
+          }
+        },
+        {
+          name: { English: "D´", German: "D´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 61 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.5308641975309, cy: 892.5925925925926 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret12,
+            name: d,
+            row: upper1
+          }
+        }
+      ],
+      [
+        {
+          name: { English: "D#`", German: "Dis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 103 / 135,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.6296296296296, cy: 904.0888888888888 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: dSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "E♭´", German: "Es´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 1,
+          string: "d",
+          ratio: 49 / 64,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.65625, cy: 907.1875 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret1,
+            name: eFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "E`", German: "E`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 31 / 40,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.75, cy: 918.1 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "E°", German: "E°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 2,
+          string: "d",
+          ratio: 7 / 9,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.77777777777777, cy: 921.3333333333333 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret2,
+            name: e,
+            row: middle
+          }
+        },
+        {
+          name: { English: "F°", German: "F°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 101 / 128,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.890625, cy: 934.46875 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "F´", German: "F´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 3,
+          string: "d",
+          ratio: 19 / 24,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 313.9166666666667, cy: 937.5 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret3,
+            name: f,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "F#`", German: "Fis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 4 / 5,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314, cy: 947.2 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "F#°", German: "Fis°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 4,
+          string: "d",
+          ratio: 65 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.0246913580247, cy: 950.0740740740741 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret4,
+            name: fSharp,
+            row: middle
+          }
+        },
+        {
+          name: { English: "G°", German: "G°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 13 / 16,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.125, cy: 961.75 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: middle
+          }
+        },
+        {
+          name: { English: "G´", German: "G´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 5,
+          string: "d",
+          ratio: 22 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.14814814814815, cy: 964.4444444444444 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret5,
+            name: g,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "G#`", German: "Gis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 37 / 45,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.22222222222223, cy: 973.0666666666666 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: gSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "A♭´", German: "As´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 6,
+          string: "d",
+          ratio: 211 / 256,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.2421875, cy: 975.390625 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret6,
+            name: aFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "A`", German: "A`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 133 / 160,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.3125, cy: 983.575 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "A°", German: "A°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 7,
+          string: "d",
+          ratio: 5 / 6,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.3333333333333, cy: 986 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret7,
+            name: a,
+            row: middle
+          }
+        },
+        {
+          name: { English: "A#`", German: "Ais`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 341 / 405,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.41975308641975, cy: 996.0592592592593 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: aSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B♭´", German: "B´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 8,
+          string: "d",
+          ratio: 27 / 32,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.4375, cy: 998.125 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret8,
+            name: bFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "B`", German: "H`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 17 / 20,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.5, cy: 1005.4 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "B°", German: "H°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 9,
+          string: "d",
+          ratio: 23 / 27,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.51851851851853, cy: 1007.5555555555555 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret9,
+            name: b,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C°", German: "C°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 55 / 64,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.59375, cy: 1016.3125 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: middle
+          }
+        },
+        {
+          name: { English: "C´", German: "C´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 10,
+          string: "d",
+          ratio: 31 / 36,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.6111111111111, cy: 1018.3333333333333 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret10,
+            name: c,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "C#`", German: "Cis`" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 13 / 15,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.6666666666667, cy: 1024.8000000000002 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: cSharp,
+            row: lower1
+          }
+        },
+        {
+          name: { English: "D♭´", German: "Des´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 11,
+          string: "d",
+          ratio: 889 / 1024,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.681640625, cy: 1026.54296875 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret11,
+            name: dFlat,
+            row: upper1
+          }
+        },
+        {
+          name: { English: "D°", German: "D°" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 7 / 8,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.75, cy: 1034.5 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: octave,
+            fret: fret12,
+            name: d,
+            row: middle
+          }
+        },
+        {
+          name: { English: "D´", German: "D´" },
+          cents: { equal: "", just: "" },
+          fontSize: { name: 1.5, number: 1.7 },
+          number: 12,
+          string: "d",
+          ratio: 71 / 81,
+          coordinates: {
+            equal: { cx: null, cy: null },
+            just: { cx: 314.7654320987654, cy: 1036.2962962962963 }
+          },
+          colors: {
+            uni: uni,
+            uniPlus8: uni,
+            fret: fret12,
+            name: d,
+            row: upper1
+          }
+        }
+      ]
     ],
-    [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.5280628436591532,
-        coordinates: { cx: 254.1581146902254, cy: 630.6651500192544 },
-        coordinates: {
-          equal: { cx: 254.1581146902254, cy: 630.6651500192544 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.5545506409298304,
-        coordinates: { cx: 253.36348077210508, cy: 661.4969460423226 },
-        coordinates: {
-          equal: { cx: 253.36348077210508, cy: 661.4969460423226 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.5795517923731428,
-        coordinates: { cx: 252.6134462288057, cy: 690.5982863223383 },
-        coordinates: {
-          equal: { cx: 252.6134462288057, cy: 690.5982863223383 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.6031497370079502,
-        coordinates: { cx: 251.9055078897615, cy: 718.066293877254 },
-        coordinates: {
-          equal: { cx: 251.9055078897615, cy: 718.066293877254 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.6254232307808296,
-        coordinates: { cx: 251.2373030765751, cy: 743.9926406288856 },
-        coordinates: {
-          equal: { cx: 251.2373030765751, cy: 743.9926406288856 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.6464466094067263,
-        coordinates: { cx: 250.6066017177982, cy: 768.4638533494294 },
-        coordinates: {
-          equal: { cx: 250.6066017177982, cy: 768.4638533494294 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.6662900364574914,
-        coordinates: { cx: 250.01129890627527, cy: 791.56160243652 },
-        coordinates: {
-          equal: { cx: 250.01129890627527, cy: 791.56160243652 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.6850197375262816,
-        coordinates: { cx: 249.44940787421154, cy: 813.3629744805918 },
-        coordinates: {
-          equal: { cx: 249.44940787421154, cy: 813.3629744805918 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.7026982212493198,
-        coordinates: { cx: 248.9190533625204, cy: 833.9407295342082 },
-        coordinates: {
-          equal: { cx: 248.9190533625204, cy: 833.9407295342082 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.7193844879226567,
-        coordinates: { cx: 248.4184653623203, cy: 853.3635439419725 },
-        coordinates: {
-          equal: { cx: 248.4184653623203, cy: 853.3635439419725 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.7351342264101761,
-        coordinates: { cx: 247.94597320769472, cy: 871.696239541445 },
-        coordinates: {
-          equal: { cx: 247.94597320769472, cy: 871.696239541445 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.75,
-        coordinates: { cx: 247.5, cy: 889 },
-        coordinates: {
-          equal: { cx: 247.5, cy: 889 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
-        }
-      }
-    ],
-    [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.7640314218295766,
-        coordinates: { cx: 247.0790573451127, cy: 905.3325750096271 },
-        coordinates: {
-          equal: { cx: 247.0790573451127, cy: 905.3325750096271 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.7772753204649152,
-        coordinates: { cx: 246.68174038605255, cy: 920.7484730211613 },
-        coordinates: {
-          equal: { cx: 246.68174038605255, cy: 920.7484730211613 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.7897758961865714,
-        coordinates: { cx: 246.30672311440287, cy: 935.2991431611691 },
-        coordinates: {
-          equal: { cx: 246.30672311440287, cy: 935.2991431611691 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.8015748685039751,
-        coordinates: { cx: 245.95275394488075, cy: 949.0331469386269 },
-        coordinates: {
-          equal: { cx: 245.95275394488075, cy: 949.0331469386269 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.8127116153904148,
-        coordinates: { cx: 245.61865153828757, cy: 961.9963203144429 },
-        coordinates: {
-          equal: { cx: 245.61865153828757, cy: 961.9963203144429 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.8232233047033631,
-        coordinates: { cx: 245.3033008588991, cy: 974.2319266747147 },
-        coordinates: {
-          equal: { cx: 245.3033008588991, cy: 974.2319266747147 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.8331450182287458,
-        coordinates: { cx: 245.00564945313764, cy: 985.7808012182601 },
-        coordinates: {
-          equal: { cx: 245.00564945313764, cy: 985.7808012182601 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.8425098687631408,
-        coordinates: { cx: 244.72470393710577, cy: 996.681487240296 },
-        coordinates: {
-          equal: { cx: 244.72470393710577, cy: 996.681487240296 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.8513491106246599,
-        coordinates: { cx: 244.4595266812602, cy: 1006.9703647671041 },
-        coordinates: {
-          equal: { cx: 244.4595266812602, cy: 1006.9703647671041 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.8596922439613284,
-        coordinates: { cx: 244.20923268116016, cy: 1016.6817719709862 },
-        coordinates: {
-          equal: { cx: 244.20923268116016, cy: 1016.6817719709862 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.8675671132050881,
-        coordinates: { cx: 243.97298660384735, cy: 1025.8481197707224 },
-        coordinates: {
-          equal: { cx: 243.97298660384735, cy: 1025.8481197707224 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.875,
-        coordinates: { cx: 243.75, cy: 1034.5 },
-        coordinates: {
-          equal: { cx: 243.75, cy: 1034.5 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
-        }
-      }
-    ]
-  ],
-  [
-    [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.05612568731830647,
-        coordinates: { cx: 280.65298350436063, cy: 81.33030003850874 },
-        coordinates: {
-          equal: { cx: 280.65298350436063, cy: 81.33030003850874 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.10910128185966073,
-        coordinates: { cx: 279.38156923536815, cy: 142.9938920846451 },
-        coordinates: {
-          equal: { cx: 279.38156923536815, cy: 142.9938920846451 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.1591035847462855,
-        coordinates: { cx: 278.18151396608914, cy: 201.1965726446763 },
-        coordinates: {
-          equal: { cx: 278.18151396608914, cy: 201.1965726446763 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.2062994740159002,
-        coordinates: { cx: 277.0488126236184, cy: 256.1325877545079 },
-        coordinates: {
-          equal: { cx: 277.0488126236184, cy: 256.1325877545079 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.25084646156165924,
-        coordinates: { cx: 275.97968492252016, cy: 307.98528125777136 },
-        coordinates: {
-          equal: { cx: 275.97968492252016, cy: 307.98528125777136 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.2928932188134524,
-        coordinates: { cx: 274.97056274847716, cy: 356.92770669885863 },
-        coordinates: {
-          equal: { cx: 274.97056274847716, cy: 356.92770669885863 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.3325800729149828,
-        coordinates: { cx: 274.0180782500404, cy: 403.12320487304 },
-        coordinates: {
-          equal: { cx: 274.0180782500404, cy: 403.12320487304 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.3700394750525634,
-        coordinates: { cx: 273.11905259873845, cy: 446.7259489611838 },
-        coordinates: {
-          equal: { cx: 273.11905259873845, cy: 446.7259489611838 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.4053964424986395,
-        coordinates: { cx: 272.27048538003265, cy: 487.88145906841635 },
-        coordinates: {
-          equal: { cx: 272.27048538003265, cy: 487.88145906841635 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.4387689758453135,
-        coordinates: { cx: 271.4695445797125, cy: 526.7270878839449 },
-        coordinates: {
-          equal: { cx: 271.4695445797125, cy: 526.7270878839449 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.47026845282035235,
-        coordinates: { cx: 270.71355713231156, cy: 563.3924790828901 },
-        coordinates: {
-          equal: { cx: 270.71355713231156, cy: 563.3924790828901 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.5,
-        coordinates: { cx: 270, cy: 598 },
-        coordinates: {
-          equal: { cx: 270, cy: 598 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
-        }
-      }
-    ],
-    [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.5280628436591532,
-        coordinates: { cx: 269.32649175218035, cy: 630.6651500192544 },
-        coordinates: {
-          equal: { cx: 269.32649175218035, cy: 630.6651500192544 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.5545506409298304,
-        coordinates: { cx: 268.6907846176841, cy: 661.4969460423226 },
-        coordinates: {
-          equal: { cx: 268.6907846176841, cy: 661.4969460423226 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.5795517923731428,
-        coordinates: { cx: 268.09075698304457, cy: 690.5982863223383 },
-        coordinates: {
-          equal: { cx: 268.09075698304457, cy: 690.5982863223383 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.6031497370079502,
-        coordinates: { cx: 267.5244063118092, cy: 718.066293877254 },
-        coordinates: {
-          equal: { cx: 267.5244063118092, cy: 718.066293877254 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.6254232307808296,
-        coordinates: { cx: 266.9898424612601, cy: 743.9926406288856 },
-        coordinates: {
-          equal: { cx: 266.9898424612601, cy: 743.9926406288856 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.6464466094067263,
-        coordinates: { cx: 266.4852813742386, cy: 768.4638533494294 },
-        coordinates: {
-          equal: { cx: 266.4852813742386, cy: 768.4638533494294 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.6662900364574914,
-        coordinates: { cx: 266.0090391250202, cy: 791.56160243652 },
-        coordinates: {
-          equal: { cx: 266.0090391250202, cy: 791.56160243652 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.6850197375262816,
-        coordinates: { cx: 265.5595262993692, cy: 813.3629744805918 },
-        coordinates: {
-          equal: { cx: 265.5595262993692, cy: 813.3629744805918 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.7026982212493198,
-        coordinates: { cx: 265.1352426900163, cy: 833.9407295342082 },
-        coordinates: {
-          equal: { cx: 265.1352426900163, cy: 833.9407295342082 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.7193844879226567,
-        coordinates: { cx: 264.7347722898562, cy: 853.3635439419725 },
-        coordinates: {
-          equal: { cx: 264.7347722898562, cy: 853.3635439419725 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.7351342264101761,
-        coordinates: { cx: 264.35677856615575, cy: 871.696239541445 },
-        coordinates: {
-          equal: { cx: 264.35677856615575, cy: 871.696239541445 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.75,
-        coordinates: { cx: 264, cy: 889 },
-        coordinates: {
-          equal: { cx: 264, cy: 889 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
-        }
-      }
-    ],
-    [
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 1,
-        ratio: 0.7640314218295766,
-        coordinates: { cx: 263.6632458760902, cy: 905.3325750096271 },
-        coordinates: {
-          equal: { cx: 263.6632458760902, cy: 905.3325750096271 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 2,
-        ratio: 0.7772753204649152,
-        coordinates: { cx: 263.34539230884207, cy: 920.7484730211613 },
-        coordinates: {
-          equal: { cx: 263.34539230884207, cy: 920.7484730211613 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 3,
-        ratio: 0.7897758961865714,
-        coordinates: { cx: 263.0453784915223, cy: 935.2991431611691 },
-        coordinates: {
-          equal: { cx: 263.0453784915223, cy: 935.2991431611691 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 4,
-        ratio: 0.8015748685039751,
-        coordinates: { cx: 262.7622031559046, cy: 949.0331469386269 },
-        coordinates: {
-          equal: { cx: 262.7622031559046, cy: 949.0331469386269 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: e,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.8127116153904148,
-        coordinates: { cx: 262.49492123063004, cy: 961.9963203144429 },
-        coordinates: {
-          equal: { cx: 262.49492123063004, cy: 961.9963203144429 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.8232233047033631,
-        coordinates: { cx: 262.24264068711926, cy: 974.2319266747147 },
-        coordinates: {
-          equal: { cx: 262.24264068711926, cy: 974.2319266747147 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.8331450182287458,
-        coordinates: { cx: 262.0045195625101, cy: 985.7808012182601 },
-        coordinates: {
-          equal: { cx: 262.0045195625101, cy: 985.7808012182601 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 8,
-        ratio: 0.8425098687631408,
-        coordinates: { cx: 261.77976314968464, cy: 996.681487240296 },
-        coordinates: {
-          equal: { cx: 261.77976314968464, cy: 996.681487240296 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 9,
-        ratio: 0.8513491106246599,
-        coordinates: { cx: 261.56762134500815, cy: 1006.9703647671041 },
-        coordinates: {
-          equal: { cx: 261.56762134500815, cy: 1006.9703647671041 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 10,
-        ratio: 0.8596922439613284,
-        coordinates: { cx: 261.3673861449281, cy: 1016.6817719709862 },
-        coordinates: {
-          equal: { cx: 261.3673861449281, cy: 1016.6817719709862 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 11,
-        ratio: 0.8675671132050881,
-        coordinates: { cx: 261.1783892830779, cy: 1025.8481197707224 },
-        coordinates: {
-          equal: { cx: 261.1783892830779, cy: 1025.8481197707224 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.875,
-        coordinates: { cx: 261, cy: 1034.5 },
-        coordinates: {
-          equal: { cx: 261, cy: 1034.5 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: c,
-          piano: white
-        }
-      }
-    ]
-  ],
-  [
-    [
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 1,
-        ratio: 0.05612568731830647,
-        coordinates: { cx: 280.3162293804508, cy: 81.33030003850874 },
-        coordinates: {
-          equal: { cx: 280.3162293804508, cy: 81.33030003850874 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 2,
-        ratio: 0.10910128185966073,
-        coordinates: { cx: 278.72696154421016, cy: 142.9938920846451 },
-        coordinates: {
-          equal: { cx: 278.72696154421016, cy: 142.9938920846451 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 3,
-        ratio: 0.1591035847462855,
-        coordinates: { cx: 277.2268924576114, cy: 201.1965726446763 },
-        coordinates: {
-          equal: { cx: 277.2268924576114, cy: 201.1965726446763 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 4,
-        ratio: 0.2062994740159002,
-        coordinates: { cx: 275.811015779523, cy: 256.1325877545079 },
-        coordinates: {
-          equal: { cx: 275.811015779523, cy: 256.1325877545079 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.25084646156165924,
-        coordinates: { cx: 274.4746061531502, cy: 307.98528125777136 },
-        coordinates: {
-          equal: { cx: 274.4746061531502, cy: 307.98528125777136 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.2928932188134524,
-        coordinates: { cx: 273.2132034355964, cy: 356.92770669885863 },
-        coordinates: {
-          equal: { cx: 273.2132034355964, cy: 356.92770669885863 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.3325800729149828,
-        coordinates: { cx: 272.02259781255054, cy: 403.12320487304 },
-        coordinates: {
-          equal: { cx: 272.02259781255054, cy: 403.12320487304 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 8,
-        ratio: 0.3700394750525634,
-        coordinates: { cx: 270.8988157484231, cy: 446.7259489611838 },
-        coordinates: {
-          equal: { cx: 270.8988157484231, cy: 446.7259489611838 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: c,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 9,
-        ratio: 0.4053964424986395,
-        coordinates: { cx: 269.8381067250408, cy: 487.88145906841635 },
-        coordinates: {
-          equal: { cx: 269.8381067250408, cy: 487.88145906841635 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 10,
-        ratio: 0.4387689758453135,
-        coordinates: { cx: 268.8369307246406, cy: 526.7270878839449 },
-        coordinates: {
-          equal: { cx: 268.8369307246406, cy: 526.7270878839449 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 11,
-        ratio: 0.47026845282035235,
-        coordinates: { cx: 267.89194641538944, cy: 563.3924790828901 },
-        coordinates: {
-          equal: { cx: 267.89194641538944, cy: 563.3924790828901 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.5,
-        coordinates: { cx: 267, cy: 598 },
-        coordinates: {
-          equal: { cx: 267, cy: 598 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: e,
-          piano: white
-        }
-      }
-    ],
-    [
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 1,
-        ratio: 0.5280628436591532,
-        coordinates: { cx: 266.1581146902254, cy: 630.6651500192544 },
-        coordinates: {
-          equal: { cx: 266.1581146902254, cy: 630.6651500192544 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 2,
-        ratio: 0.5545506409298304,
-        coordinates: { cx: 265.3634807721051, cy: 661.4969460423226 },
-        coordinates: {
-          equal: { cx: 265.3634807721051, cy: 661.4969460423226 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 3,
-        ratio: 0.5795517923731428,
-        coordinates: { cx: 264.61344622880574, cy: 690.5982863223383 },
-        coordinates: {
-          equal: { cx: 264.61344622880574, cy: 690.5982863223383 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 4,
-        ratio: 0.6031497370079502,
-        coordinates: { cx: 263.9055078897615, cy: 718.066293877254 },
-        coordinates: {
-          equal: { cx: 263.9055078897615, cy: 718.066293877254 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.6254232307808296,
-        coordinates: { cx: 263.23730307657513, cy: 743.9926406288856 },
-        coordinates: {
-          equal: { cx: 263.23730307657513, cy: 743.9926406288856 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.6464466094067263,
-        coordinates: { cx: 262.6066017177982, cy: 768.4638533494294 },
-        coordinates: {
-          equal: { cx: 262.6066017177982, cy: 768.4638533494294 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.6662900364574914,
-        coordinates: { cx: 262.0112989062753, cy: 791.56160243652 },
-        coordinates: {
-          equal: { cx: 262.0112989062753, cy: 791.56160243652 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 8,
-        ratio: 0.6850197375262816,
-        coordinates: { cx: 261.44940787421154, cy: 813.3629744805918 },
-        coordinates: {
-          equal: { cx: 261.44940787421154, cy: 813.3629744805918 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: c,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 9,
-        ratio: 0.7026982212493198,
-        coordinates: { cx: 260.9190533625204, cy: 833.9407295342082 },
-        coordinates: {
-          equal: { cx: 260.9190533625204, cy: 833.9407295342082 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 10,
-        ratio: 0.7193844879226567,
-        coordinates: { cx: 260.4184653623203, cy: 853.3635439419725 },
-        coordinates: {
-          equal: { cx: 260.4184653623203, cy: 853.3635439419725 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 11,
-        ratio: 0.7351342264101761,
-        coordinates: { cx: 259.9459732076947, cy: 871.696239541445 },
-        coordinates: {
-          equal: { cx: 259.9459732076947, cy: 871.696239541445 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.75,
-        coordinates: { cx: 259.5, cy: 889 },
-        coordinates: {
-          equal: { cx: 259.5, cy: 889 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: e,
-          piano: white
-        }
-      }
-    ],
-    [
-      {
-        name: { English: "F", German: "F" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 1,
-        ratio: 0.7640314218295766,
-        coordinates: { cx: 259.0790573451127, cy: 905.3325750096271 },
-        coordinates: {
-          equal: { cx: 259.0790573451127, cy: 905.3325750096271 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret1,
-          name: f,
-          piano: white
-        }
-      },
-      {
-        name: { English: "F#", German: "Fis" },
-        name2: { English: "G♭", German: "Ges" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 2,
-        ratio: 0.7772753204649152,
-        coordinates: { cx: 258.6817403860525, cy: 920.7484730211613 },
-        coordinates: {
-          equal: { cx: 258.6817403860525, cy: 920.7484730211613 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret2,
-          name: fSharp_gFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "G", German: "G" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 3,
-        ratio: 0.7897758961865714,
-        coordinates: { cx: 258.30672311440287, cy: 935.2991431611691 },
-        coordinates: {
-          equal: { cx: 258.30672311440287, cy: 935.2991431611691 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret3,
-          name: g,
-          piano: white
-        }
-      },
-      {
-        name: { English: "G#", German: "Gis" },
-        name2: { English: "A♭", German: "As" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 4,
-        ratio: 0.8015748685039751,
-        coordinates: { cx: 257.9527539448807, cy: 949.0331469386269 },
-        coordinates: {
-          equal: { cx: 257.9527539448807, cy: 949.0331469386269 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret4,
-          name: gSharp_aFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "A", German: "A" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 5,
-        ratio: 0.8127116153904148,
-        coordinates: { cx: 257.61865153828757, cy: 961.9963203144429 },
-        coordinates: {
-          equal: { cx: 257.61865153828757, cy: 961.9963203144429 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret5,
-          name: a,
-          piano: white
-        }
-      },
-      {
-        name: { English: "A#", German: "Ais" },
-        name2: { English: "B♭", German: "B" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 6,
-        ratio: 0.8232233047033631,
-        coordinates: { cx: 257.3033008588991, cy: 974.2319266747147 },
-        coordinates: {
-          equal: { cx: 257.3033008588991, cy: 974.2319266747147 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret6,
-          name: aSharp_bFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "B", German: "H" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 7,
-        ratio: 0.8331450182287458,
-        coordinates: { cx: 257.0056494531376, cy: 985.7808012182601 },
-        coordinates: {
-          equal: { cx: 257.0056494531376, cy: 985.7808012182601 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret7,
-          name: b,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C", German: "C" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 8,
-        ratio: 0.8425098687631408,
-        coordinates: { cx: 256.7247039371058, cy: 996.681487240296 },
-        coordinates: {
-          equal: { cx: 256.7247039371058, cy: 996.681487240296 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret8,
-          name: c,
-          piano: white
-        }
-      },
-      {
-        name: { English: "C#", German: "Cis" },
-        name2: { English: "D♭", German: "Des" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 9,
-        ratio: 0.8513491106246599,
-        coordinates: { cx: 256.45952668126023, cy: 1006.9703647671041 },
-        coordinates: {
-          equal: { cx: 256.45952668126023, cy: 1006.9703647671041 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret9,
-          name: cSharp_dFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "D", German: "D" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 10,
-        ratio: 0.8596922439613284,
-        coordinates: { cx: 256.20923268116013, cy: 1016.6817719709862 },
-        coordinates: {
-          equal: { cx: 256.20923268116013, cy: 1016.6817719709862 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret10,
-          name: d,
-          piano: white
-        }
-      },
-      {
-        name: { English: "D#", German: "Dis" },
-        name2: { English: "E♭", German: "Es" },
-        fontSize: { name: 0.3, number: 1.8 },
-        number: 11,
-        ratio: 0.8675671132050881,
-        coordinates: { cx: 255.97298660384735, cy: 1025.8481197707224 },
-        coordinates: {
-          equal: { cx: 255.97298660384735, cy: 1025.8481197707224 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: uni,
-          fret: fret11,
-          name: dSharp_eFlat,
-          piano: black
-        }
-      },
-      {
-        name: { English: "E", German: "E" },
-        fontSize: { name: 0.5, number: 1.8 },
-        number: 12,
-        ratio: 0.875,
-        coordinates: { cx: 255.75, cy: 1034.5 },
-        coordinates: {
-          equal: { cx: 255.75, cy: 1034.5 },
-          just: { cx: null, cy: null }
-        },
-        colors: {
-          uni: uni,
-          uniPlus8: octave,
-          fret: fret12,
-          name: e,
-          piano: white
-        }
-      }
-    ]
-  ]
