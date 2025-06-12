@@ -36,912 +36,6 @@ const {
   gFlat
 } = justPointsColors
 
-const vectors = {
-  Violin: [
-    { vectorX: -30, vectorY: 1164, originX: 270, originY: 16 },
-    { vectorX: -10, vectorY: 1164, originX: 290, originY: 16 },
-    { vectorX: 10, vectorY: 1164, originX: 310, originY: 16 },
-    { vectorX: 30, vectorY: 1164, originX: 330, originY: 16 }
-  ],
-  Viola: [
-    { vectorX: -30, vectorY: 1164, originX: 270, originY: 16 },
-    { vectorX: -10, vectorY: 1164, originX: 290, originY: 16 },
-    { vectorX: 10, vectorY: 1164, originX: 310, originY: 16 },
-    { vectorX: 30, vectorY: 1164, originX: 330, originY: 16 }
-  ],
-  Cello: [
-    { vectorX: -24, vectorY: 1164, originX: 282, originY: 16 },
-    { vectorX: -8, vectorY: 1164, originX: 294, originY: 16 },
-    { vectorX: 8, vectorY: 1164, originX: 306, originY: 16 },
-    { vectorX: 24, vectorY: 1164, originX: 318, originY: 16 }
-  ],
-  Bass: [
-    { vectorX: -30, vectorY: 1164, originX: 282, originY: 16 },
-    { vectorX: -10, vectorY: 1164, originX: 294, originY: 16 },
-    { vectorX: 10, vectorY: 1164, originX: 306, originY: 16 },
-    { vectorX: 30, vectorY: 1164, originX: 318, originY: 16 }
-  ]
-}
-
-const justRatiosString = [
-  [
-    "1 / 81",
-    "7 / 135",
-    "1 / 16",
-    "1 / 10",
-    "1 / 9",
-    "191 / 1215",
-    "1 / 6",
-    "1 / 5",
-    "17 / 81",
-    "1 / 4",
-    "7 / 27",
-    "13 / 45",
-    "19 / 64",
-    "1 / 3",
-    "83 / 243",
-    "149 / 405",
-    "3 / 8",
-    "2 / 5",
-    "11 / 27",
-    "7 / 16",
-    "4 / 9",
-    "7 / 15",
-    "115 / 243",
-    "1 / 2",
-    "41 / 81",
-    "71 / 135",
-    "17 / 32",
-    "11 / 20",
-    "5 / 9",
-    "703 / 1215",
-    "7 / 12",
-    "3 / 5",
-    "49 / 81",
-    "5 / 8",
-    "17 / 27",
-    "29 / 45",
-    "83 / 128",
-    "2 / 3",
-    "163 / 243",
-    "277 / 405",
-    "11 / 16",
-    "7 / 10",
-    "19 / 27",
-    "23 / 32",
-    "13 / 18",
-    "11 / 15",
-    "179 / 243",
-    "3 / 4",
-    "61 / 81",
-    "103 / 135",
-    "49 / 64",
-    "31 / 40",
-    "7 / 9",
-    "959 / 1215",
-    "19 / 24",
-    "4 / 5",
-    "65 / 81",
-    "13 / 16",
-    "22 / 27",
-    "37 / 45",
-    "211 / 256",
-    "5 / 6",
-    "203 / 243",
-    "341 / 405",
-    "27 / 32",
-    "17 / 20",
-    "23 / 27",
-    "55 / 64",
-    "31 / 36",
-    "13 / 15",
-    "211 / 243",
-    "7 / 8",
-    "71 / 81"
-  ],
-  [
-    "1 / 81",
-    "7 / 135",
-    "1 / 16",
-    "1 / 10",
-    "1 / 9",
-    "5 / 32",
-    "1 / 6",
-    "1 / 5",
-    "17 / 81",
-    "1 / 4",
-    "7 / 27",
-    "13 / 45",
-    "19 / 64",
-    "13 / 40",
-    "1 / 3",
-    "149 / 405",
-    "3 / 8",
-    "2 / 5",
-    "11 / 27",
-    "7 / 16",
-    "4 / 9",
-    "7 / 15",
-    "121 / 256",
-    "1 / 2",
-    "41 / 81",
-    "71 / 135",
-    "17 / 32",
-    "11 / 20",
-    "5 / 9",
-    "37 / 64",
-    "7 / 12",
-    "3 / 5",
-    "49 / 81",
-    "5 / 8",
-    "17 / 27",
-    "29 / 45",
-    "83 / 128",
-    "53 / 80",
-    "2 / 3",
-    "277 / 405",
-    "11 / 16",
-    "7 / 10",
-    "19 / 27",
-    "23 / 32",
-    "13 / 18",
-    "11 / 15",
-    "377 / 512",
-    "3 / 4",
-    "61 / 81",
-    "103 / 135",
-    "49 / 64",
-    "31 / 40",
-    "7 / 9",
-    "101 / 128",
-    "19 / 24",
-    "4 / 5",
-    "65 / 81",
-    "13 / 16",
-    "22 / 27",
-    "37 / 45",
-    "211 / 256",
-    "133 / 160",
-    "5 / 6",
-    "341 / 405",
-    "27 / 32",
-    "17 / 20",
-    "23 / 27",
-    "55 / 64",
-    "31 / 36",
-    "13 / 15",
-    "889 / 1024",
-    "7 / 8",
-    "71 / 81"
-  ],
-  [
-    "7 / 135",
-    "1 / 16",
-    "1 / 10",
-    "1 / 9",
-    "5 / 32",
-    "1 / 6",
-    "1 / 5",
-    "107 / 512",
-    "1 / 4",
-    "7 / 27",
-    "13 / 45",
-    "19 / 64",
-    "13 / 40",
-    "1 / 3",
-    "47 / 128",
-    "3 / 8",
-    "2 / 5",
-    "11 / 27",
-    "7 / 16",
-    "4 / 9",
-    "7 / 15",
-    "121 / 256",
-    "79 / 160",
-    "1 / 2",
-    "71 / 135",
-    "17 / 32",
-    "11 / 20",
-    "5 / 9",
-    "37 / 64",
-    "7 / 12",
-    "3 / 5",
-    "619 / 1024",
-    "5 / 8",
-    "17 / 27",
-    "29 / 45",
-    "83 / 128",
-    "53 / 80",
-    "2 / 3",
-    "175 / 256",
-    "11 / 16",
-    "7 / 10",
-    "19 / 27",
-    "23 / 32",
-    "13 / 18",
-    "11 / 15",
-    "377 / 512",
-    "239 / 320",
-    "3 / 4",
-    "103 / 135",
-    "49 / 64",
-    "31 / 40",
-    "7 / 9",
-    "101 / 128",
-    "19 / 24",
-    "4 / 5",
-    "1643 / 2048",
-    "13 / 16",
-    "22 / 27",
-    "37 / 45",
-    "211 / 256",
-    "133 / 160",
-    "5 / 6",
-    "431 / 512",
-    "27 / 32",
-    "17 / 20",
-    "23 / 27",
-    "55 / 64",
-    "31 / 36",
-    "13 / 15",
-    "889 / 1024",
-    "559 / 640",
-    "7 / 8"
-  ],
-  [
-    "13 / 256",
-    "1 / 16",
-    "1 / 10",
-    "1 / 9",
-    "5 / 32",
-    "1 / 6",
-    "1 / 5",
-    "107 / 512",
-    "77 / 320",
-    "1 / 4",
-    "13 / 45",
-    "19 / 64",
-    "13 / 40",
-    "1 / 3",
-    "47 / 128",
-    "3 / 8",
-    "2 / 5",
-    "833 / 2048",
-    "7 / 16",
-    "4 / 9",
-    "7 / 15",
-    "121 / 256",
-    "79 / 160",
-    "1 / 2",
-    "269 / 512",
-    "17 / 32",
-    "11 / 20",
-    "5 / 9",
-    "37 / 64",
-    "7 / 12",
-    "3 / 5",
-    "619 / 1024",
-    "397 / 640",
-    "5 / 8",
-    "29 / 45",
-    "83 / 128",
-    "53 / 80",
-    "2 / 3",
-    "175 / 256",
-    "11 / 16",
-    "7 / 10",
-    "2881 / 4096",
-    "23 / 32",
-    "13 / 18",
-    "11 / 15",
-    "377 / 512",
-    "239 / 320",
-    "3 / 4",
-    "781 / 1024",
-    "49 / 64",
-    "31 / 40",
-    "7 / 9",
-    "101 / 128",
-    "19 / 24",
-    "4 / 5",
-    "1643 / 2048",
-    "1037 / 1280",
-    "13 / 16",
-    "37 / 45",
-    "211 / 256",
-    "133 / 160",
-    "5 / 6",
-    "431 / 512",
-    "27 / 32",
-    "17 / 20",
-    "6977 / 8192",
-    "55 / 64",
-    "31 / 36",
-    "13 / 15",
-    "889 / 1024",
-    "559 / 640",
-    "7 / 8"
-  ]
-]
-
-const justRatios = [
-  [
-    1 / 81,
-    7 / 135,
-    1 / 16,
-    1 / 10,
-    1 / 9,
-    191 / 1215,
-    1 / 6,
-    1 / 5,
-    17 / 81,
-    1 / 4,
-    7 / 27,
-    13 / 45,
-    19 / 64,
-    1 / 3,
-    83 / 243,
-    149 / 405,
-    3 / 8,
-    2 / 5,
-    11 / 27,
-    7 / 16,
-    4 / 9,
-    7 / 15,
-    115 / 243,
-    1 / 2,
-    41 / 81,
-    71 / 135,
-    17 / 32,
-    11 / 20,
-    5 / 9,
-    703 / 1215,
-    7 / 12,
-    3 / 5,
-    49 / 81,
-    5 / 8,
-    17 / 27,
-    29 / 45,
-    83 / 128,
-    2 / 3,
-    163 / 243,
-    277 / 405,
-    11 / 16,
-    7 / 10,
-    19 / 27,
-    23 / 32,
-    13 / 18,
-    11 / 15,
-    179 / 243,
-    3 / 4,
-    61 / 81,
-    103 / 135,
-    49 / 64,
-    31 / 40,
-    7 / 9,
-    959 / 1215,
-    19 / 24,
-    4 / 5,
-    65 / 81,
-    13 / 16,
-    22 / 27,
-    37 / 45,
-    211 / 256,
-    5 / 6,
-    203 / 243,
-    341 / 405,
-    27 / 32,
-    17 / 20,
-    23 / 27,
-    55 / 64,
-    31 / 36,
-    13 / 15,
-    211 / 243,
-    7 / 8,
-    71 / 81
-  ],
-  [
-    1 / 81,
-    7 / 135,
-    1 / 16,
-    1 / 10,
-    1 / 9,
-    5 / 32,
-    1 / 6,
-    1 / 5,
-    17 / 81,
-    1 / 4,
-    7 / 27,
-    13 / 45,
-    19 / 64,
-    13 / 40,
-    1 / 3,
-    149 / 405,
-    3 / 8,
-    2 / 5,
-    11 / 27,
-    7 / 16,
-    4 / 9,
-    7 / 15,
-    121 / 256,
-    1 / 2,
-    41 / 81,
-    71 / 135,
-    17 / 32,
-    11 / 20,
-    5 / 9,
-    37 / 64,
-    7 / 12,
-    3 / 5,
-    49 / 81,
-    5 / 8,
-    17 / 27,
-    29 / 45,
-    83 / 128,
-    53 / 80,
-    2 / 3,
-    277 / 405,
-    11 / 16,
-    7 / 10,
-    19 / 27,
-    23 / 32,
-    13 / 18,
-    11 / 15,
-    377 / 512,
-    3 / 4,
-    61 / 81,
-    103 / 135,
-    49 / 64,
-    31 / 40,
-    7 / 9,
-    101 / 128,
-    19 / 24,
-    4 / 5,
-    65 / 81,
-    13 / 16,
-    22 / 27,
-    37 / 45,
-    211 / 256,
-    133 / 160,
-    5 / 6,
-    341 / 405,
-    27 / 32,
-    17 / 20,
-    23 / 27,
-    55 / 64,
-    31 / 36,
-    13 / 15,
-    889 / 1024,
-    7 / 8,
-    71 / 81
-  ],
-  [
-    7 / 135,
-    1 / 16,
-    1 / 10,
-    1 / 9,
-    5 / 32,
-    1 / 6,
-    1 / 5,
-    107 / 512,
-    1 / 4,
-    7 / 27,
-    13 / 45,
-    19 / 64,
-    13 / 40,
-    1 / 3,
-    47 / 128,
-    3 / 8,
-    2 / 5,
-    11 / 27,
-    7 / 16,
-    4 / 9,
-    7 / 15,
-    121 / 256,
-    79 / 160,
-    1 / 2,
-    71 / 135,
-    17 / 32,
-    11 / 20,
-    5 / 9,
-    37 / 64,
-    7 / 12,
-    3 / 5,
-    619 / 1024,
-    5 / 8,
-    17 / 27,
-    29 / 45,
-    83 / 128,
-    53 / 80,
-    2 / 3,
-    175 / 256,
-    11 / 16,
-    7 / 10,
-    19 / 27,
-    23 / 32,
-    13 / 18,
-    11 / 15,
-    377 / 512,
-    239 / 320,
-    3 / 4,
-    103 / 135,
-    49 / 64,
-    31 / 40,
-    7 / 9,
-    101 / 128,
-    19 / 24,
-    4 / 5,
-    1643 / 2048,
-    13 / 16,
-    22 / 27,
-    37 / 45,
-    211 / 256,
-    133 / 160,
-    5 / 6,
-    431 / 512,
-    27 / 32,
-    17 / 20,
-    23 / 27,
-    55 / 64,
-    31 / 36,
-    13 / 15,
-    889 / 1024,
-    559 / 640,
-    7 / 8
-  ],
-  [
-    13 / 256,
-    1 / 16,
-    1 / 10,
-    1 / 9,
-    5 / 32,
-    1 / 6,
-    1 / 5,
-    107 / 512,
-    77 / 320,
-    1 / 4,
-    13 / 45,
-    19 / 64,
-    13 / 40,
-    1 / 3,
-    47 / 128,
-    3 / 8,
-    2 / 5,
-    833 / 2048,
-    7 / 16,
-    4 / 9,
-    7 / 15,
-    121 / 256,
-    79 / 160,
-    1 / 2,
-    269 / 512,
-    17 / 32,
-    11 / 20,
-    5 / 9,
-    37 / 64,
-    7 / 12,
-    3 / 5,
-    619 / 1024,
-    397 / 640,
-    5 / 8,
-    29 / 45,
-    83 / 128,
-    53 / 80,
-    2 / 3,
-    175 / 256,
-    11 / 16,
-    7 / 10,
-    2881 / 4096,
-    23 / 32,
-    13 / 18,
-    11 / 15,
-    377 / 512,
-    239 / 320,
-    3 / 4,
-    781 / 1024,
-    49 / 64,
-    31 / 40,
-    7 / 9,
-    101 / 128,
-    19 / 24,
-    4 / 5,
-    1643 / 2048,
-    1037 / 1280,
-    13 / 16,
-    37 / 45,
-    211 / 256,
-    133 / 160,
-    5 / 6,
-    431 / 512,
-    27 / 32,
-    17 / 20,
-    6977 / 8192,
-    55 / 64,
-    31 / 36,
-    13 / 15,
-    889 / 1024,
-    559 / 640,
-    7 / 8
-  ]
-]
-
-// Difference/ratio between a just fifth and an equal fifth
-let twoCentPlus = 2 ** (7 / 12) / (3 / 2)
-let twoCentMinus = 3 / 2 / 2 ** (7 / 12)
-
-// let cyOfEqualTunedCString = []
-// cyOfEqualTunedCString = calculateCyOfEqualTunedCString()
-// function calculateCyOfEqualTunedCString() {
-//   justRatios.map((string, index) => {
-//     string.map((ratio, index2) => {
-//       let cy =
-//         vectors.Viola[0].vectorY *
-//           (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
-//         vectors.Viola[0].originY
-//       cyOfEqualTunedCString.push(cy)
-//       console.log(
-//         `String: ${index + 1} | Ratio: ${
-//           justRatiosString[index][index2]
-//         } | cy: ${cy}`
-//       )
-//     })
-//   })
-//   return cyOfEqualTunedCString
-// }
-
-// let cyOfEqualTunedGString = []
-// cyOfEqualTunedGString = calculateCyOfEqualTunedGString()
-// function calculateCyOfEqualTunedGString() {
-//   justRatios.map((string, index) => {
-//     string.map((ratio, index2) => {
-//       let cy =
-//         vectors.Viola[1].vectorY *
-//           (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
-//         vectors.Viola[1].originY
-//       cyOfEqualTunedGString.push(cy)
-//       console.log(
-//         `String: ${index + 1} | Ratio: ${
-//           justRatiosString[index][index2]
-//         } | cy: ${cy}`
-//       )
-//     })
-//   })
-//   return cyOfEqualTunedGString
-// }
-
-// let cyOfEqualTunedDString = []
-// cyOfEqualTunedDString = calculateCyOfEqualTunedDString()
-// function calculateCyOfEqualTunedDString() {
-//   justRatios.map((string, index) => {
-//     string.map((ratio, index2) => {
-//       let cy =
-//         vectors.Viola[2].vectorY *
-//           (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
-//         vectors.Viola[2].originY
-//       cyOfEqualTunedDString.push(cy)
-//       console.log(
-//         `String: ${index + 1} | Ratio: ${
-//           justRatiosString[index][index2]
-//         } | cy: ${cy}`
-//       )
-//     })
-//   })
-//   return cyOfEqualTunedDString
-// }
-
-// let cyOfEqualTunedEString = []
-// cyOfEqualTunedEString = calculateCyOfEqualTunedEString()
-// function calculateCyOfEqualTunedEString() {
-//   justRatios.map((string, index) => {
-//     string.map((ratio, index2) => {
-//       let cy =
-//         vectors.Violin[3].vectorY *
-//           (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
-//         vectors.Violin[3].originY
-//       cyOfEqualTunedEString.push(cy)
-//       console.log(
-//         `String: ${index + 1} | Ratio: ${
-//           justRatiosString[index][index2]
-//         } | cy: ${cy}`
-//       )
-//     })
-//   })
-//   return cyOfEqualTunedEString
-// }
-
-// let cxOfViolinGString = []
-// cxOfViolinGString = calculateCxOfViolinGString()
-// function calculateCxOfViolinGString() {
-//   justRatios[0].map((ratio, index) => {
-//     let cx = ratio * vectors.Violin[0].vectorX + vectors.Violin[0].originX
-//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-//     cxOfViolinGString.push(cx)
-//   })
-//   return cxOfViolinGString
-// }
-
-// let cxOfJustTunedViolinGString = []
-// cxOfJustTunedViolinGString = calculateCxOfJustTunedViolinGString()
-// function calculateCxOfJustTunedViolinGString() {
-//   equalRatios.map((ratio, index) => {
-//     let cx =
-//       vectors.Violin[0].vectorX *
-//         (ratio * twoCentPlus ** 2 + (1 - twoCentPlus ** 2)) +
-//       vectors.Violin[0].originX
-//     cxOfJustTunedViolinGString.push(cx)
-//     console.log(`${index + 1}: ${cx}`)
-//   })
-//   return cxOfJustTunedViolinGString
-// }
-
-// let cxOfEqualTunedViolinGString = []
-// cxOfEqualTunedViolinGString = calculateCxOfEqualTunedViolinGString()
-// function calculateCxOfEqualTunedViolinGString() {
-//   justRatios[0].map((ratio, index) => {
-//     let cx =
-//       vectors.Violin[0].vectorX *
-//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
-//       vectors.Violin[0].originX
-//     cxOfEqualTunedViolinGString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolinGString
-// }
-
-// let cxOfEqualTunedViolinDString = []
-// cxOfEqualTunedViolinDString = calculateCxOfEqualTunedViolinDString()
-// function calculateCxOfEqualTunedViolinDString() {
-//   justRatios[1].map((ratio, index) => {
-//     let cx =
-//       vectors.Violin[1].vectorX *
-//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
-//       vectors.Violin[1].originX
-//     cxOfEqualTunedViolinDString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolinDString
-// }
-
-// let cxOfEqualTunedViolinEString = []
-// cxOfEqualTunedViolinEString = calculateCxOfEqualTunedViolinEString()
-// function calculateCxOfEqualTunedViolinEString() {
-//   justRatios[3].map((ratio, index) => {
-//     let cx =
-//       vectors.Violin[3].vectorX *
-//         (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
-//       vectors.Violin[3].originX
-//     cxOfEqualTunedViolinEString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolinEString
-// }
-
-// let cxOfEqualTunedViolaCString = []
-// cxOfEqualTunedViolaCString = calculateCxOfEqualTunedViolaCString()
-// function calculateCxOfEqualTunedViolaCString() {
-//   justRatios[0].map((ratio, index) => {
-//     let cx =
-//       vectors.Viola[0].vectorX *
-//         (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
-//       vectors.Viola[0].originX
-//     cxOfEqualTunedViolaCString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolaCString
-// }
-
-// let cxOfEqualTunedViolaGString = []
-// cxOfEqualTunedViolaGString = calculateCxOfEqualTunedViolaGString()
-// function calculateCxOfEqualTunedViolaGString() {
-//   justRatios[1].map((ratio, index) => {
-//     let cx =
-//       vectors.Viola[1].vectorX *
-//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
-//       vectors.Viola[1].originX
-//     cxOfEqualTunedViolaGString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolaGString
-// }
-
-// let cxOfEqualTunedViolaDString = []
-// cxOfEqualTunedViolaDString = calculateCxOfEqualTunedViolaDString()
-// function calculateCxOfEqualTunedViolaDString() {
-//   justRatios[2].map((ratio, index) => {
-//     let cx =
-//       vectors.Viola[2].vectorX *
-//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
-//       vectors.Viola[2].originX
-//     cxOfEqualTunedViolaDString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[2][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedViolaDString
-// }
-
-// let cxOfEqualTunedCelloCString = []
-// cxOfEqualTunedCelloCString = calculateCxOfEqualTunedCelloCString()
-// function calculateCxOfEqualTunedCelloCString() {
-//   justRatios[0].map((ratio, index) => {
-//     let cx =
-//       vectors.Cello[0].vectorX *
-//         (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
-//       vectors.Cello[0].originX
-//     cxOfEqualTunedCelloCString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedCelloCString
-// }
-
-// let cxOfEqualTunedCelloGString = []
-// cxOfEqualTunedCelloGString = calculateCxOfEqualTunedCelloGString()
-// function calculateCxOfEqualTunedCelloGString() {
-//   justRatios[1].map((ratio, index) => {
-//     let cx =
-//       vectors.Cello[1].vectorX *
-//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
-//       vectors.Cello[1].originX
-//     cxOfEqualTunedCelloGString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedCelloGString
-// }
-
-// let cxOfEqualTunedCelloDString = []
-// cxOfEqualTunedCelloDString = calculateCxOfEqualTunedCelloDString()
-// function calculateCxOfEqualTunedCelloDString() {
-//   justRatios[2].map((ratio, index) => {
-//     let cx =
-//       vectors.Cello[2].vectorX *
-//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
-//       vectors.Cello[2].originX
-//     cxOfEqualTunedCelloDString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[2][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedCelloDString
-// }
-
-// let cxOfEqualTunedBassEString = []
-// cxOfEqualTunedBassEString = calculateCxOfEqualTunedBassEString()
-// function calculateCxOfEqualTunedBassEString() {
-//   justRatios[3].map((ratio, index) => {
-//     let cx =
-//       vectors.Bass[0].vectorX *
-//         (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
-//       vectors.Bass[0].originX
-//     cxOfEqualTunedBassEString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedBassEString
-// }
-
-// let cxOfEqualTunedBassDString = []
-// cxOfEqualTunedBassDString = calculateCxOfEqualTunedBassDString()
-// function calculateCxOfEqualTunedBassDString() {
-//   justRatios[1].map((ratio, index) => {
-//     let cx =
-//       vectors.Bass[2].vectorX *
-//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
-//       vectors.Bass[2].originX
-//     cxOfEqualTunedBassDString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedBassDString
-// }
-
-// let cxOfEqualTunedBassGString = []
-// cxOfEqualTunedBassGString = calculateCxOfEqualTunedBassGString()
-// function calculateCxOfEqualTunedBassGString() {
-//   justRatios[0].map((ratio, index) => {
-//     let cx =
-//       vectors.Bass[3].vectorX *
-//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
-//       vectors.Bass[3].originX
-//     cxOfEqualTunedBassGString.push(cx)
-//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-//   })
-//   return cxOfEqualTunedBassGString
-// }
-
 export const justPoints = {
   Violin: [
     [
@@ -949,7 +43,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "g",
           ratio: 1 / 81,
@@ -968,7 +62,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 7 / 135,
@@ -987,7 +81,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 1 / 16,
@@ -1006,7 +100,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 10,
@@ -1025,7 +119,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 9,
@@ -1044,7 +138,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 191 / 1215,
@@ -1063,7 +157,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 1 / 6,
@@ -1082,7 +176,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 1 / 5,
@@ -1101,7 +195,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 17 / 81,
@@ -1120,7 +214,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 1 / 4,
@@ -1139,7 +233,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 7 / 27,
@@ -1158,7 +252,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 13 / 45,
@@ -1177,7 +271,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 19 / 64,
@@ -1196,7 +290,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 1 / 3,
@@ -1215,7 +309,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 83 / 243,
@@ -1234,7 +328,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 149 / 405,
@@ -1253,7 +347,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 3 / 8,
@@ -1272,7 +366,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 2 / 5,
@@ -1291,7 +385,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 11 / 27,
@@ -1310,7 +404,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 7 / 16,
@@ -1329,7 +423,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 4 / 9,
@@ -1348,7 +442,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 7 / 15,
@@ -1367,7 +461,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 115 / 243,
@@ -1386,7 +480,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 1 / 2,
@@ -1405,7 +499,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 41 / 81,
@@ -1426,7 +520,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 71 / 135,
@@ -1445,7 +539,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 17 / 32,
@@ -1464,7 +558,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 11 / 20,
@@ -1483,7 +577,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 5 / 9,
@@ -1502,7 +596,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 703 / 1215,
@@ -1521,7 +615,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 7 / 12,
@@ -1540,7 +634,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 3 / 5,
@@ -1559,7 +653,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 49 / 81,
@@ -1578,7 +672,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 5 / 8,
@@ -1597,7 +691,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 17 / 27,
@@ -1616,7 +710,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 29 / 45,
@@ -1635,7 +729,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 83 / 128,
@@ -1654,7 +748,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 2 / 3,
@@ -1673,7 +767,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 163 / 243,
@@ -1692,7 +786,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 277 / 405,
@@ -1711,7 +805,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 11 / 16,
@@ -1730,7 +824,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 7 / 10,
@@ -1749,7 +843,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 19 / 27,
@@ -1768,7 +862,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 23 / 32,
@@ -1787,7 +881,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 13 / 18,
@@ -1806,7 +900,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 11 / 15,
@@ -1825,7 +919,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 179 / 243,
@@ -1844,7 +938,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 3 / 4,
@@ -1863,7 +957,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 61 / 81,
@@ -1884,7 +978,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 103 / 135,
@@ -1903,7 +997,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 49 / 64,
@@ -1922,7 +1016,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 31 / 40,
@@ -1941,7 +1035,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 7 / 9,
@@ -1960,7 +1054,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 959 / 1215,
@@ -1979,7 +1073,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 19 / 24,
@@ -1998,7 +1092,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 4 / 5,
@@ -2017,7 +1111,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 65 / 81,
@@ -2036,7 +1130,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 13 / 16,
@@ -2055,7 +1149,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 22 / 27,
@@ -2074,7 +1168,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 37 / 45,
@@ -2093,7 +1187,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 211 / 256,
@@ -2112,7 +1206,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 5 / 6,
@@ -2131,7 +1225,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 203 / 243,
@@ -2150,7 +1244,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 341 / 405,
@@ -2169,7 +1263,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 27 / 32,
@@ -2188,7 +1282,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 17 / 20,
@@ -2207,7 +1301,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 23 / 27,
@@ -2226,7 +1320,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 55 / 64,
@@ -2245,7 +1339,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 31 / 36,
@@ -2264,7 +1358,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 13 / 15,
@@ -2283,7 +1377,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 211 / 243,
@@ -2302,7 +1396,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 7 / 8,
@@ -2321,7 +1415,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 71 / 81,
@@ -2344,7 +1438,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "d",
           ratio: 1 / 81,
@@ -2363,7 +1457,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 7 / 135,
@@ -2382,7 +1476,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 1 / 16,
@@ -2401,7 +1495,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 10,
@@ -2420,7 +1514,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 9,
@@ -2439,7 +1533,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 5 / 32,
@@ -2458,7 +1552,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 1 / 6,
@@ -2477,7 +1571,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1 / 5,
@@ -2496,7 +1590,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 17 / 81,
@@ -2515,7 +1609,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 1 / 4,
@@ -2534,7 +1628,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 7 / 27,
@@ -2553,7 +1647,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 13 / 45,
@@ -2572,7 +1666,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 19 / 64,
@@ -2591,7 +1685,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 13 / 40,
@@ -2610,7 +1704,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 1 / 3,
@@ -2629,7 +1723,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 149 / 405,
@@ -2648,7 +1742,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 3 / 8,
@@ -2667,7 +1761,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 2 / 5,
@@ -2686,7 +1780,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 11 / 27,
@@ -2705,7 +1799,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 7 / 16,
@@ -2724,7 +1818,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 4 / 9,
@@ -2743,7 +1837,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 7 / 15,
@@ -2762,7 +1856,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 121 / 256,
@@ -2781,7 +1875,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 1 / 2,
@@ -2800,7 +1894,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 41 / 81,
@@ -2821,7 +1915,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 71 / 135,
@@ -2840,7 +1934,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 17 / 32,
@@ -2859,7 +1953,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 11 / 20,
@@ -2878,7 +1972,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 5 / 9,
@@ -2897,7 +1991,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 37 / 64,
@@ -2916,7 +2010,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 7 / 12,
@@ -2935,7 +2029,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 3 / 5,
@@ -2954,7 +2048,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 49 / 81,
@@ -2973,7 +2067,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 5 / 8,
@@ -2992,7 +2086,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 17 / 27,
@@ -3011,7 +2105,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 29 / 45,
@@ -3030,7 +2124,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 83 / 128,
@@ -3049,7 +2143,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 53 / 80,
@@ -3068,7 +2162,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 2 / 3,
@@ -3087,7 +2181,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 277 / 405,
@@ -3106,7 +2200,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 11 / 16,
@@ -3125,7 +2219,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 7 / 10,
@@ -3144,7 +2238,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 19 / 27,
@@ -3163,7 +2257,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 23 / 32,
@@ -3182,7 +2276,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 13 / 18,
@@ -3201,7 +2295,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 11 / 15,
@@ -3220,7 +2314,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 377 / 512,
@@ -3239,7 +2333,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 3 / 4,
@@ -3258,7 +2352,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 61 / 81,
@@ -3279,7 +2373,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 103 / 135,
@@ -3298,7 +2392,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 49 / 64,
@@ -3317,7 +2411,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 31 / 40,
@@ -3336,7 +2430,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 7 / 9,
@@ -3355,7 +2449,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 101 / 128,
@@ -3374,7 +2468,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 19 / 24,
@@ -3393,7 +2487,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 4 / 5,
@@ -3412,7 +2506,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 65 / 81,
@@ -3431,7 +2525,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 13 / 16,
@@ -3450,7 +2544,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 22 / 27,
@@ -3469,7 +2563,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 37 / 45,
@@ -3488,7 +2582,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 211 / 256,
@@ -3507,7 +2601,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 133 / 160,
@@ -3526,7 +2620,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 5 / 6,
@@ -3545,7 +2639,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 341 / 405,
@@ -3564,7 +2658,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 27 / 32,
@@ -3583,7 +2677,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 17 / 20,
@@ -3602,7 +2696,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 23 / 27,
@@ -3621,7 +2715,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 55 / 64,
@@ -3640,7 +2734,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 31 / 36,
@@ -3659,7 +2753,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 13 / 15,
@@ -3678,7 +2772,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 889 / 1024,
@@ -3697,7 +2791,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 7 / 8,
@@ -3716,7 +2810,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 71 / 81,
@@ -3739,7 +2833,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 7 / 135,
@@ -3758,7 +2852,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 1 / 16,
@@ -3777,7 +2871,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 10,
@@ -3796,7 +2890,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 9,
@@ -3815,7 +2909,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 5 / 32,
@@ -3834,7 +2928,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 1 / 6,
@@ -3853,7 +2947,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1 / 5,
@@ -3872,7 +2966,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 107 / 512,
@@ -3891,7 +2985,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1 / 4,
@@ -3910,7 +3004,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 7 / 27,
@@ -3929,7 +3023,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 13 / 45,
@@ -3948,7 +3042,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 19 / 64,
@@ -3967,7 +3061,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 13 / 40,
@@ -3986,7 +3080,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 1 / 3,
@@ -4005,7 +3099,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 47 / 128,
@@ -4024,7 +3118,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 3 / 8,
@@ -4043,7 +3137,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2 / 5,
@@ -4062,7 +3156,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 11 / 27,
@@ -4081,7 +3175,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 7 / 16,
@@ -4100,7 +3194,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 4 / 9,
@@ -4119,7 +3213,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 7 / 15,
@@ -4138,7 +3232,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 121 / 256,
@@ -4157,7 +3251,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 79 / 160,
@@ -4176,7 +3270,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 1 / 2,
@@ -4197,7 +3291,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 71 / 135,
@@ -4216,7 +3310,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 17 / 32,
@@ -4235,7 +3329,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 11 / 20,
@@ -4254,7 +3348,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 5 / 9,
@@ -4273,7 +3367,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 37 / 64,
@@ -4292,7 +3386,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 7 / 12,
@@ -4311,7 +3405,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 3 / 5,
@@ -4330,7 +3424,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 619 / 1024,
@@ -4349,7 +3443,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 5 / 8,
@@ -4368,7 +3462,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 17 / 27,
@@ -4387,7 +3481,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 29 / 45,
@@ -4406,7 +3500,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 83 / 128,
@@ -4425,7 +3519,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 53 / 80,
@@ -4444,7 +3538,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 2 / 3,
@@ -4463,7 +3557,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 175 / 256,
@@ -4482,7 +3576,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 11 / 16,
@@ -4501,7 +3595,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 7 / 10,
@@ -4520,7 +3614,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 19 / 27,
@@ -4539,7 +3633,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 23 / 32,
@@ -4558,7 +3652,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 13 / 18,
@@ -4577,7 +3671,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 11 / 15,
@@ -4596,7 +3690,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 377 / 512,
@@ -4615,7 +3709,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 239 / 320,
@@ -4634,7 +3728,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 3 / 4,
@@ -4655,7 +3749,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 103 / 135,
@@ -4674,7 +3768,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 49 / 64,
@@ -4693,7 +3787,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 31 / 40,
@@ -4712,7 +3806,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 7 / 9,
@@ -4731,7 +3825,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 101 / 128,
@@ -4750,7 +3844,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 19 / 24,
@@ -4769,7 +3863,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 4 / 5,
@@ -4788,7 +3882,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1643 / 2048,
@@ -4807,7 +3901,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 13 / 16,
@@ -4826,7 +3920,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 22 / 27,
@@ -4845,7 +3939,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 37 / 45,
@@ -4864,7 +3958,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 211 / 256,
@@ -4883,7 +3977,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 133 / 160,
@@ -4902,7 +3996,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 5 / 6,
@@ -4921,7 +4015,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 431 / 512,
@@ -4940,7 +4034,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 27 / 32,
@@ -4959,7 +4053,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 17 / 20,
@@ -4978,7 +4072,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 23 / 27,
@@ -4997,7 +4091,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 55 / 64,
@@ -5016,7 +4110,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 31 / 36,
@@ -5035,7 +4129,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 13 / 15,
@@ -5054,7 +4148,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 889 / 1024,
@@ -5073,7 +4167,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 559 / 640,
@@ -5092,7 +4186,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 7 / 8,
@@ -5115,7 +4209,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 13 / 256,
@@ -5134,7 +4228,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 1 / 16,
@@ -5153,7 +4247,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 1 / 10,
@@ -5172,7 +4266,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 1 / 9,
@@ -5191,7 +4285,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 5 / 32,
@@ -5210,7 +4304,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 1 / 6,
@@ -5229,7 +4323,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 1 / 5,
@@ -5248,7 +4342,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 107 / 512,
@@ -5267,7 +4361,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 77 / 320,
@@ -5286,7 +4380,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 1 / 4,
@@ -5305,7 +4399,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 13 / 45,
@@ -5324,7 +4418,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 19 / 64,
@@ -5343,7 +4437,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 13 / 40,
@@ -5362,7 +4456,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 1 / 3,
@@ -5381,7 +4475,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 47 / 128,
@@ -5400,7 +4494,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 3 / 8,
@@ -5419,7 +4513,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 2 / 5,
@@ -5438,7 +4532,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "Ges´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 833 / 2048,
@@ -5457,7 +4551,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 7 / 16,
@@ -5476,7 +4570,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 4 / 9,
@@ -5495,7 +4589,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 7 / 15,
@@ -5514,7 +4608,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 121 / 256,
@@ -5533,7 +4627,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 79 / 160,
@@ -5552,7 +4646,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 1 / 2,
@@ -5573,7 +4667,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 269 / 512,
@@ -5592,7 +4686,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 17 / 32,
@@ -5611,7 +4705,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 11 / 20,
@@ -5630,7 +4724,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 5 / 9,
@@ -5649,7 +4743,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 37 / 64,
@@ -5668,7 +4762,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 7 / 12,
@@ -5687,7 +4781,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 3 / 5,
@@ -5706,7 +4800,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 619 / 1024,
@@ -5725,7 +4819,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 397 / 640,
@@ -5744,7 +4838,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 5 / 8,
@@ -5763,7 +4857,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 29 / 45,
@@ -5782,7 +4876,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 83 / 128,
@@ -5801,7 +4895,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 53 / 80,
@@ -5820,7 +4914,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 2 / 3,
@@ -5839,7 +4933,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 175 / 256,
@@ -5858,7 +4952,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 11 / 16,
@@ -5877,7 +4971,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 7 / 10,
@@ -5896,7 +4990,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 2881 / 4096,
@@ -5915,7 +5009,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 23 / 32,
@@ -5934,7 +5028,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 13 / 18,
@@ -5953,7 +5047,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 11 / 15,
@@ -5972,7 +5066,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 377 / 512,
@@ -5991,7 +5085,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 239 / 320,
@@ -6010,7 +5104,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 3 / 4,
@@ -6031,7 +5125,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 781 / 1024,
@@ -6050,7 +5144,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 49 / 64,
@@ -6069,7 +5163,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 31 / 40,
@@ -6088,7 +5182,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 7 / 9,
@@ -6107,7 +5201,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 101 / 128,
@@ -6126,7 +5220,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 19 / 24,
@@ -6145,7 +5239,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 4 / 5,
@@ -6164,7 +5258,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 1643 / 2048,
@@ -6183,7 +5277,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 1037 / 1280,
@@ -6202,7 +5296,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 13 / 16,
@@ -6221,7 +5315,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 37 / 45,
@@ -6240,7 +5334,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 211 / 256,
@@ -6259,7 +5353,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 133 / 160,
@@ -6278,7 +5372,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 5 / 6,
@@ -6297,7 +5391,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 431 / 512,
@@ -6316,7 +5410,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 27 / 32,
@@ -6335,7 +5429,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 17 / 20,
@@ -6354,7 +5448,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 6977 / 8192,
@@ -6373,7 +5467,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 55 / 64,
@@ -6392,7 +5486,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 31 / 36,
@@ -6411,7 +5505,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 13 / 15,
@@ -6430,7 +5524,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 889 / 1024,
@@ -6449,7 +5543,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 559 / 640,
@@ -6468,7 +5562,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 7 / 8,
@@ -6493,7 +5587,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "c",
           ratio: 1 / 81,
@@ -6512,7 +5606,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 7 / 135,
@@ -6531,7 +5625,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 1 / 16,
@@ -6550,7 +5644,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 1 / 10,
@@ -6569,7 +5663,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 1 / 9,
@@ -6588,7 +5682,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 191 / 1215,
@@ -6607,7 +5701,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 1 / 6,
@@ -6626,7 +5720,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 1 / 5,
@@ -6645,7 +5739,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 17 / 81,
@@ -6664,7 +5758,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 1 / 4,
@@ -6683,7 +5777,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 7 / 27,
@@ -6702,7 +5796,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 13 / 45,
@@ -6721,7 +5815,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 19 / 64,
@@ -6740,7 +5834,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 1 / 3,
@@ -6759,7 +5853,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 83 / 243,
@@ -6778,7 +5872,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 149 / 405,
@@ -6797,7 +5891,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 3 / 8,
@@ -6816,7 +5910,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 2 / 5,
@@ -6835,7 +5929,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 11 / 27,
@@ -6854,7 +5948,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 7 / 16,
@@ -6873,7 +5967,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 4 / 9,
@@ -6892,7 +5986,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 7 / 15,
@@ -6911,7 +6005,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 115 / 243,
@@ -6930,7 +6024,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 1 / 2,
@@ -6949,7 +6043,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 41 / 81,
@@ -6970,7 +6064,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 71 / 135,
@@ -6989,7 +6083,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 17 / 32,
@@ -7008,7 +6102,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 11 / 20,
@@ -7027,7 +6121,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 5 / 9,
@@ -7046,7 +6140,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 703 / 1215,
@@ -7065,7 +6159,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 7 / 12,
@@ -7084,7 +6178,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 3 / 5,
@@ -7103,7 +6197,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 49 / 81,
@@ -7122,7 +6216,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 5 / 8,
@@ -7141,7 +6235,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 17 / 27,
@@ -7160,7 +6254,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 29 / 45,
@@ -7179,7 +6273,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 83 / 128,
@@ -7198,7 +6292,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 2 / 3,
@@ -7217,7 +6311,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 163 / 243,
@@ -7236,7 +6330,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 277 / 405,
@@ -7255,7 +6349,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 11 / 16,
@@ -7274,7 +6368,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 7 / 10,
@@ -7293,7 +6387,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 19 / 27,
@@ -7312,7 +6406,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 23 / 32,
@@ -7331,7 +6425,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 13 / 18,
@@ -7350,7 +6444,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 11 / 15,
@@ -7369,7 +6463,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 179 / 243,
@@ -7388,7 +6482,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 3 / 4,
@@ -7407,7 +6501,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 61 / 81,
@@ -7428,7 +6522,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 103 / 135,
@@ -7447,7 +6541,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 49 / 64,
@@ -7466,7 +6560,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 31 / 40,
@@ -7485,7 +6579,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 7 / 9,
@@ -7504,7 +6598,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 959 / 1215,
@@ -7523,7 +6617,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 19 / 24,
@@ -7542,7 +6636,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 4 / 5,
@@ -7561,7 +6655,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 65 / 81,
@@ -7580,7 +6674,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 13 / 16,
@@ -7599,7 +6693,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 22 / 27,
@@ -7618,7 +6712,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 37 / 45,
@@ -7637,7 +6731,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 211 / 256,
@@ -7656,7 +6750,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 5 / 6,
@@ -7675,7 +6769,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 203 / 243,
@@ -7694,7 +6788,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 341 / 405,
@@ -7713,7 +6807,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 27 / 32,
@@ -7732,7 +6826,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 17 / 20,
@@ -7751,7 +6845,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 23 / 27,
@@ -7770,7 +6864,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 55 / 64,
@@ -7789,7 +6883,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 31 / 36,
@@ -7808,7 +6902,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 13 / 15,
@@ -7827,7 +6921,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 211 / 243,
@@ -7846,7 +6940,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 7 / 8,
@@ -7865,7 +6959,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 71 / 81,
@@ -7888,7 +6982,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "g",
           ratio: 1 / 81,
@@ -7907,7 +7001,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 7 / 135,
@@ -7926,7 +7020,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 1 / 16,
@@ -7945,7 +7039,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 10,
@@ -7964,7 +7058,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 9,
@@ -7983,7 +7077,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 5 / 32,
@@ -8002,7 +7096,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 1 / 6,
@@ -8021,7 +7115,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 1 / 5,
@@ -8040,7 +7134,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 17 / 81,
@@ -8059,7 +7153,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 1 / 4,
@@ -8078,7 +7172,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 7 / 27,
@@ -8097,7 +7191,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 13 / 45,
@@ -8116,7 +7210,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 19 / 64,
@@ -8135,7 +7229,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 13 / 40,
@@ -8154,7 +7248,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 1 / 3,
@@ -8173,7 +7267,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 149 / 405,
@@ -8192,7 +7286,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 3 / 8,
@@ -8211,7 +7305,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 2 / 5,
@@ -8230,7 +7324,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 11 / 27,
@@ -8249,7 +7343,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 7 / 16,
@@ -8268,7 +7362,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 4 / 9,
@@ -8287,7 +7381,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 7 / 15,
@@ -8306,7 +7400,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 121 / 256,
@@ -8325,7 +7419,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 1 / 2,
@@ -8344,7 +7438,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 41 / 81,
@@ -8365,7 +7459,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 71 / 135,
@@ -8384,7 +7478,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 17 / 32,
@@ -8403,7 +7497,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 11 / 20,
@@ -8422,7 +7516,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 5 / 9,
@@ -8441,7 +7535,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 37 / 64,
@@ -8460,7 +7554,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 7 / 12,
@@ -8479,7 +7573,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 3 / 5,
@@ -8498,7 +7592,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 49 / 81,
@@ -8517,7 +7611,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 5 / 8,
@@ -8536,7 +7630,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 17 / 27,
@@ -8555,7 +7649,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 29 / 45,
@@ -8574,7 +7668,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 83 / 128,
@@ -8593,7 +7687,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 53 / 80,
@@ -8612,7 +7706,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 2 / 3,
@@ -8631,7 +7725,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 277 / 405,
@@ -8650,7 +7744,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 11 / 16,
@@ -8669,7 +7763,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 7 / 10,
@@ -8688,7 +7782,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 19 / 27,
@@ -8707,7 +7801,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 23 / 32,
@@ -8726,7 +7820,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 13 / 18,
@@ -8745,7 +7839,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 11 / 15,
@@ -8764,7 +7858,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 377 / 512,
@@ -8783,7 +7877,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 3 / 4,
@@ -8802,7 +7896,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 61 / 81,
@@ -8823,7 +7917,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 103 / 135,
@@ -8842,7 +7936,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 49 / 64,
@@ -8861,7 +7955,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 31 / 40,
@@ -8880,7 +7974,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 7 / 9,
@@ -8899,7 +7993,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 101 / 128,
@@ -8918,7 +8012,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 19 / 24,
@@ -8937,7 +8031,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 4 / 5,
@@ -8956,7 +8050,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 65 / 81,
@@ -8975,7 +8069,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 13 / 16,
@@ -8994,7 +8088,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 22 / 27,
@@ -9013,7 +8107,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 37 / 45,
@@ -9032,7 +8126,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 211 / 256,
@@ -9051,7 +8145,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 133 / 160,
@@ -9070,7 +8164,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 5 / 6,
@@ -9089,7 +8183,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 341 / 405,
@@ -9108,7 +8202,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 27 / 32,
@@ -9127,7 +8221,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 17 / 20,
@@ -9146,7 +8240,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 23 / 27,
@@ -9165,7 +8259,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 55 / 64,
@@ -9184,7 +8278,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 31 / 36,
@@ -9203,7 +8297,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 13 / 15,
@@ -9222,7 +8316,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 889 / 1024,
@@ -9241,7 +8335,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 7 / 8,
@@ -9260,7 +8354,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 71 / 81,
@@ -9283,7 +8377,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 7 / 135,
@@ -9302,7 +8396,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 1 / 16,
@@ -9321,7 +8415,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 10,
@@ -9340,7 +8434,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 9,
@@ -9359,7 +8453,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 5 / 32,
@@ -9378,7 +8472,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 1 / 6,
@@ -9397,7 +8491,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1 / 5,
@@ -9416,7 +8510,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 107 / 512,
@@ -9435,7 +8529,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 1 / 4,
@@ -9454,7 +8548,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 7 / 27,
@@ -9473,7 +8567,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 13 / 45,
@@ -9492,7 +8586,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 19 / 64,
@@ -9511,7 +8605,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 13 / 40,
@@ -9530,7 +8624,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 1 / 3,
@@ -9549,7 +8643,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 47 / 128,
@@ -9568,7 +8662,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 3 / 8,
@@ -9587,7 +8681,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 2 / 5,
@@ -9606,7 +8700,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 11 / 27,
@@ -9625,7 +8719,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 7 / 16,
@@ -9644,7 +8738,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 4 / 9,
@@ -9663,7 +8757,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 7 / 15,
@@ -9682,7 +8776,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 121 / 256,
@@ -9701,7 +8795,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 79 / 160,
@@ -9720,7 +8814,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 1 / 2,
@@ -9741,7 +8835,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 71 / 135,
@@ -9760,7 +8854,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 17 / 32,
@@ -9779,7 +8873,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 11 / 20,
@@ -9798,7 +8892,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 5 / 9,
@@ -9817,7 +8911,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 37 / 64,
@@ -9836,7 +8930,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 7 / 12,
@@ -9855,7 +8949,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 3 / 5,
@@ -9874,7 +8968,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 619 / 1024,
@@ -9893,7 +8987,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 5 / 8,
@@ -9912,7 +9006,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 17 / 27,
@@ -9931,7 +9025,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 29 / 45,
@@ -9950,7 +9044,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 83 / 128,
@@ -9969,7 +9063,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 53 / 80,
@@ -9988,7 +9082,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 2 / 3,
@@ -10007,7 +9101,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 175 / 256,
@@ -10026,7 +9120,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 11 / 16,
@@ -10045,7 +9139,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 7 / 10,
@@ -10064,7 +9158,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 19 / 27,
@@ -10083,7 +9177,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 23 / 32,
@@ -10102,7 +9196,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 13 / 18,
@@ -10121,7 +9215,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 11 / 15,
@@ -10140,7 +9234,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 377 / 512,
@@ -10159,7 +9253,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 239 / 320,
@@ -10178,7 +9272,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 3 / 4,
@@ -10199,7 +9293,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 103 / 135,
@@ -10218,7 +9312,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 49 / 64,
@@ -10237,7 +9331,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 31 / 40,
@@ -10256,7 +9350,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 7 / 9,
@@ -10275,7 +9369,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 101 / 128,
@@ -10294,7 +9388,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 19 / 24,
@@ -10313,7 +9407,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 4 / 5,
@@ -10332,7 +9426,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1643 / 2048,
@@ -10351,7 +9445,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 13 / 16,
@@ -10370,7 +9464,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 22 / 27,
@@ -10389,7 +9483,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 37 / 45,
@@ -10408,7 +9502,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 211 / 256,
@@ -10427,7 +9521,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 133 / 160,
@@ -10446,7 +9540,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 5 / 6,
@@ -10465,7 +9559,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 431 / 512,
@@ -10484,7 +9578,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 27 / 32,
@@ -10503,7 +9597,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 17 / 20,
@@ -10522,7 +9616,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 23 / 27,
@@ -10541,7 +9635,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 55 / 64,
@@ -10560,7 +9654,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 31 / 36,
@@ -10579,7 +9673,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 13 / 15,
@@ -10598,7 +9692,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 889 / 1024,
@@ -10617,7 +9711,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 559 / 640,
@@ -10636,7 +9730,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 7 / 8,
@@ -10659,7 +9753,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 13 / 256,
@@ -10678,7 +9772,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 1 / 16,
@@ -10697,7 +9791,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 10,
@@ -10716,7 +9810,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 9,
@@ -10735,7 +9829,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 5 / 32,
@@ -10754,7 +9848,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 1 / 6,
@@ -10773,7 +9867,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1 / 5,
@@ -10792,7 +9886,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 107 / 512,
@@ -10811,7 +9905,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 77 / 320,
@@ -10830,7 +9924,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1 / 4,
@@ -10849,7 +9943,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 13 / 45,
@@ -10868,7 +9962,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 19 / 64,
@@ -10887,7 +9981,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 13 / 40,
@@ -10906,7 +10000,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 1 / 3,
@@ -10925,7 +10019,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 47 / 128,
@@ -10944,7 +10038,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 3 / 8,
@@ -10963,7 +10057,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2 / 5,
@@ -10982,7 +10076,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 833 / 2048,
@@ -11001,7 +10095,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 7 / 16,
@@ -11020,7 +10114,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 4 / 9,
@@ -11039,7 +10133,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 7 / 15,
@@ -11058,7 +10152,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 121 / 256,
@@ -11077,7 +10171,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 79 / 160,
@@ -11096,7 +10190,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 1 / 2,
@@ -11117,7 +10211,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 269 / 512,
@@ -11136,7 +10230,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 17 / 32,
@@ -11155,7 +10249,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 11 / 20,
@@ -11174,7 +10268,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 5 / 9,
@@ -11193,7 +10287,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 37 / 64,
@@ -11212,7 +10306,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 7 / 12,
@@ -11231,7 +10325,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 3 / 5,
@@ -11250,7 +10344,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 619 / 1024,
@@ -11269,7 +10363,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 397 / 640,
@@ -11288,7 +10382,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 5 / 8,
@@ -11307,7 +10401,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 29 / 45,
@@ -11326,7 +10420,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 83 / 128,
@@ -11345,7 +10439,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 53 / 80,
@@ -11364,7 +10458,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 2 / 3,
@@ -11383,7 +10477,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 175 / 256,
@@ -11402,7 +10496,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 11 / 16,
@@ -11421,7 +10515,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 7 / 10,
@@ -11440,7 +10534,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2881 / 4096,
@@ -11459,7 +10553,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 23 / 32,
@@ -11478,7 +10572,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 13 / 18,
@@ -11497,7 +10591,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 11 / 15,
@@ -11516,7 +10610,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 377 / 512,
@@ -11535,7 +10629,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 239 / 320,
@@ -11554,7 +10648,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 3 / 4,
@@ -11575,7 +10669,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 781 / 1024,
@@ -11594,7 +10688,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 49 / 64,
@@ -11613,7 +10707,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 31 / 40,
@@ -11632,7 +10726,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 7 / 9,
@@ -11651,7 +10745,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 101 / 128,
@@ -11670,7 +10764,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 19 / 24,
@@ -11689,7 +10783,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 4 / 5,
@@ -11708,7 +10802,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1643 / 2048,
@@ -11727,7 +10821,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1037 / 1280,
@@ -11746,7 +10840,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 13 / 16,
@@ -11765,7 +10859,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 37 / 45,
@@ -11784,7 +10878,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 211 / 256,
@@ -11803,7 +10897,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 133 / 160,
@@ -11822,7 +10916,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 5 / 6,
@@ -11841,7 +10935,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 431 / 512,
@@ -11860,7 +10954,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 27 / 32,
@@ -11879,7 +10973,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 17 / 20,
@@ -11898,7 +10992,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 6977 / 8192,
@@ -11917,7 +11011,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 55 / 64,
@@ -11936,7 +11030,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 31 / 36,
@@ -11955,7 +11049,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 13 / 15,
@@ -11974,7 +11068,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 889 / 1024,
@@ -11993,7 +11087,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 559 / 640,
@@ -12012,7 +11106,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 7 / 8,
@@ -12037,7 +11131,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "c",
           ratio: 1 / 81,
@@ -12056,7 +11150,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 7 / 135,
@@ -12075,7 +11169,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 1 / 16,
@@ -12094,7 +11188,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 1 / 10,
@@ -12113,7 +11207,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 1 / 9,
@@ -12132,7 +11226,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 191 / 1215,
@@ -12151,7 +11245,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 1 / 6,
@@ -12170,7 +11264,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 1 / 5,
@@ -12189,7 +11283,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 17 / 81,
@@ -12208,7 +11302,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 1 / 4,
@@ -12227,7 +11321,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 7 / 27,
@@ -12246,7 +11340,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 13 / 45,
@@ -12265,7 +11359,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 19 / 64,
@@ -12284,7 +11378,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 1 / 3,
@@ -12303,7 +11397,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 83 / 243,
@@ -12322,7 +11416,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 149 / 405,
@@ -12341,7 +11435,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 3 / 8,
@@ -12360,7 +11454,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 2 / 5,
@@ -12379,7 +11473,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 11 / 27,
@@ -12398,7 +11492,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 7 / 16,
@@ -12417,7 +11511,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 4 / 9,
@@ -12436,7 +11530,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 7 / 15,
@@ -12455,7 +11549,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 115 / 243,
@@ -12474,7 +11568,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 1 / 2,
@@ -12493,7 +11587,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 41 / 81,
@@ -12514,7 +11608,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 71 / 135,
@@ -12533,7 +11627,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 17 / 32,
@@ -12552,7 +11646,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 11 / 20,
@@ -12571,7 +11665,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 5 / 9,
@@ -12590,7 +11684,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 703 / 1215,
@@ -12609,7 +11703,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 7 / 12,
@@ -12628,7 +11722,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 3 / 5,
@@ -12647,7 +11741,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 49 / 81,
@@ -12666,7 +11760,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 5 / 8,
@@ -12685,7 +11779,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 17 / 27,
@@ -12704,7 +11798,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 29 / 45,
@@ -12723,7 +11817,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 83 / 128,
@@ -12742,7 +11836,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 2 / 3,
@@ -12761,7 +11855,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 163 / 243,
@@ -12780,7 +11874,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 277 / 405,
@@ -12799,7 +11893,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 11 / 16,
@@ -12818,7 +11912,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 7 / 10,
@@ -12837,7 +11931,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 19 / 27,
@@ -12856,7 +11950,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 23 / 32,
@@ -12875,7 +11969,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 13 / 18,
@@ -12894,7 +11988,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 11 / 15,
@@ -12913,7 +12007,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 179 / 243,
@@ -12932,7 +12026,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 3 / 4,
@@ -12951,7 +12045,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 61 / 81,
@@ -12972,7 +12066,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 103 / 135,
@@ -12991,7 +12085,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "c",
           ratio: 49 / 64,
@@ -13010,7 +12104,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 31 / 40,
@@ -13029,7 +12123,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "c",
           ratio: 7 / 9,
@@ -13048,7 +12142,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 959 / 1215,
@@ -13067,7 +12161,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "c",
           ratio: 19 / 24,
@@ -13086,7 +12180,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 4 / 5,
@@ -13105,7 +12199,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "c",
           ratio: 65 / 81,
@@ -13124,7 +12218,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 13 / 16,
@@ -13143,7 +12237,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "c",
           ratio: 22 / 27,
@@ -13162,7 +12256,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 37 / 45,
@@ -13181,7 +12275,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "c",
           ratio: 211 / 256,
@@ -13200,7 +12294,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 5 / 6,
@@ -13219,7 +12313,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "c",
           ratio: 203 / 243,
@@ -13238,7 +12332,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 341 / 405,
@@ -13257,7 +12351,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "c",
           ratio: 27 / 32,
@@ -13276,7 +12370,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 17 / 20,
@@ -13295,7 +12389,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "c",
           ratio: 23 / 27,
@@ -13314,7 +12408,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 55 / 64,
@@ -13333,7 +12427,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "c",
           ratio: 31 / 36,
@@ -13352,7 +12446,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 13 / 15,
@@ -13371,7 +12465,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "c",
           ratio: 211 / 243,
@@ -13390,7 +12484,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 7 / 8,
@@ -13409,7 +12503,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "c",
           ratio: 71 / 81,
@@ -13432,7 +12526,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "g",
           ratio: 1 / 81,
@@ -13451,7 +12545,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 7 / 135,
@@ -13470,7 +12564,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 1 / 16,
@@ -13489,7 +12583,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 10,
@@ -13508,7 +12602,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 9,
@@ -13527,7 +12621,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 5 / 32,
@@ -13546,7 +12640,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 1 / 6,
@@ -13565,7 +12659,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 1 / 5,
@@ -13584,7 +12678,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 17 / 81,
@@ -13603,7 +12697,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 1 / 4,
@@ -13622,7 +12716,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 7 / 27,
@@ -13641,7 +12735,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 13 / 45,
@@ -13660,7 +12754,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 19 / 64,
@@ -13679,7 +12773,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 13 / 40,
@@ -13698,7 +12792,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 1 / 3,
@@ -13717,7 +12811,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 149 / 405,
@@ -13736,7 +12830,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 3 / 8,
@@ -13755,7 +12849,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 2 / 5,
@@ -13774,7 +12868,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 11 / 27,
@@ -13793,7 +12887,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 7 / 16,
@@ -13812,7 +12906,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 4 / 9,
@@ -13831,7 +12925,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 7 / 15,
@@ -13850,7 +12944,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 121 / 256,
@@ -13869,7 +12963,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 1 / 2,
@@ -13888,7 +12982,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 41 / 81,
@@ -13909,7 +13003,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 71 / 135,
@@ -13928,7 +13022,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 17 / 32,
@@ -13947,7 +13041,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 11 / 20,
@@ -13966,7 +13060,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 5 / 9,
@@ -13985,7 +13079,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 37 / 64,
@@ -14004,7 +13098,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 7 / 12,
@@ -14023,7 +13117,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 3 / 5,
@@ -14042,7 +13136,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 49 / 81,
@@ -14061,7 +13155,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 5 / 8,
@@ -14080,7 +13174,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 17 / 27,
@@ -14099,7 +13193,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 29 / 45,
@@ -14118,7 +13212,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 83 / 128,
@@ -14137,7 +13231,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 53 / 80,
@@ -14156,7 +13250,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 2 / 3,
@@ -14175,7 +13269,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 277 / 405,
@@ -14194,7 +13288,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 11 / 16,
@@ -14213,7 +13307,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 7 / 10,
@@ -14232,7 +13326,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 19 / 27,
@@ -14251,7 +13345,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 23 / 32,
@@ -14270,7 +13364,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 13 / 18,
@@ -14289,7 +13383,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 11 / 15,
@@ -14308,7 +13402,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 377 / 512,
@@ -14327,7 +13421,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 3 / 4,
@@ -14346,7 +13440,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 61 / 81,
@@ -14367,7 +13461,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 103 / 135,
@@ -14386,7 +13480,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 49 / 64,
@@ -14405,7 +13499,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 31 / 40,
@@ -14424,7 +13518,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 7 / 9,
@@ -14443,7 +13537,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 101 / 128,
@@ -14462,7 +13556,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 19 / 24,
@@ -14481,7 +13575,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 4 / 5,
@@ -14500,7 +13594,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 65 / 81,
@@ -14519,7 +13613,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 13 / 16,
@@ -14538,7 +13632,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 22 / 27,
@@ -14557,7 +13651,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 37 / 45,
@@ -14576,7 +13670,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 211 / 256,
@@ -14595,7 +13689,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 133 / 160,
@@ -14614,7 +13708,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 5 / 6,
@@ -14633,7 +13727,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 341 / 405,
@@ -14652,7 +13746,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 27 / 32,
@@ -14671,7 +13765,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 17 / 20,
@@ -14690,7 +13784,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 23 / 27,
@@ -14709,7 +13803,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 55 / 64,
@@ -14728,7 +13822,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 31 / 36,
@@ -14747,7 +13841,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 13 / 15,
@@ -14766,7 +13860,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 889 / 1024,
@@ -14785,7 +13879,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 7 / 8,
@@ -14804,7 +13898,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 71 / 81,
@@ -14827,7 +13921,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 7 / 135,
@@ -14846,7 +13940,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 1 / 16,
@@ -14865,7 +13959,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 10,
@@ -14884,7 +13978,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 9,
@@ -14903,7 +13997,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 5 / 32,
@@ -14922,7 +14016,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 1 / 6,
@@ -14941,7 +14035,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1 / 5,
@@ -14960,7 +14054,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 107 / 512,
@@ -14979,7 +14073,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 1 / 4,
@@ -14998,7 +14092,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 7 / 27,
@@ -15017,7 +14111,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 13 / 45,
@@ -15036,7 +14130,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 19 / 64,
@@ -15055,7 +14149,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 13 / 40,
@@ -15074,7 +14168,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 1 / 3,
@@ -15093,7 +14187,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 47 / 128,
@@ -15112,7 +14206,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 3 / 8,
@@ -15131,7 +14225,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 2 / 5,
@@ -15150,7 +14244,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 11 / 27,
@@ -15169,7 +14263,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 7 / 16,
@@ -15188,7 +14282,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 4 / 9,
@@ -15207,7 +14301,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 7 / 15,
@@ -15226,7 +14320,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 121 / 256,
@@ -15245,7 +14339,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 79 / 160,
@@ -15264,7 +14358,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 1 / 2,
@@ -15285,7 +14379,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 71 / 135,
@@ -15304,7 +14398,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 17 / 32,
@@ -15323,7 +14417,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 11 / 20,
@@ -15342,7 +14436,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 5 / 9,
@@ -15361,7 +14455,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 37 / 64,
@@ -15380,7 +14474,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 7 / 12,
@@ -15399,7 +14493,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 3 / 5,
@@ -15418,7 +14512,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 619 / 1024,
@@ -15437,7 +14531,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 5 / 8,
@@ -15456,7 +14550,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 17 / 27,
@@ -15475,7 +14569,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 29 / 45,
@@ -15494,7 +14588,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 83 / 128,
@@ -15513,7 +14607,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 53 / 80,
@@ -15532,7 +14626,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 2 / 3,
@@ -15551,7 +14645,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 175 / 256,
@@ -15570,7 +14664,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 11 / 16,
@@ -15589,7 +14683,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 7 / 10,
@@ -15608,7 +14702,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 19 / 27,
@@ -15627,7 +14721,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 23 / 32,
@@ -15646,7 +14740,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 13 / 18,
@@ -15665,7 +14759,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 11 / 15,
@@ -15684,7 +14778,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 377 / 512,
@@ -15703,7 +14797,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 239 / 320,
@@ -15722,7 +14816,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 3 / 4,
@@ -15743,7 +14837,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 103 / 135,
@@ -15762,7 +14856,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 49 / 64,
@@ -15781,7 +14875,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 31 / 40,
@@ -15800,7 +14894,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 7 / 9,
@@ -15819,7 +14913,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 101 / 128,
@@ -15838,7 +14932,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 19 / 24,
@@ -15857,7 +14951,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 4 / 5,
@@ -15876,7 +14970,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1643 / 2048,
@@ -15895,7 +14989,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 13 / 16,
@@ -15914,7 +15008,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 22 / 27,
@@ -15933,7 +15027,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 37 / 45,
@@ -15952,7 +15046,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 211 / 256,
@@ -15971,7 +15065,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 133 / 160,
@@ -15990,7 +15084,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 5 / 6,
@@ -16009,7 +15103,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 431 / 512,
@@ -16028,7 +15122,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 27 / 32,
@@ -16047,7 +15141,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 17 / 20,
@@ -16066,7 +15160,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 23 / 27,
@@ -16085,7 +15179,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 55 / 64,
@@ -16104,7 +15198,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 31 / 36,
@@ -16123,7 +15217,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 13 / 15,
@@ -16142,7 +15236,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 889 / 1024,
@@ -16161,7 +15255,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 559 / 640,
@@ -16180,7 +15274,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 7 / 8,
@@ -16203,7 +15297,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 13 / 256,
@@ -16222,7 +15316,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 1 / 16,
@@ -16241,7 +15335,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 10,
@@ -16260,7 +15354,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 9,
@@ -16279,7 +15373,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 5 / 32,
@@ -16298,7 +15392,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 1 / 6,
@@ -16317,7 +15411,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1 / 5,
@@ -16336,7 +15430,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 107 / 512,
@@ -16355,7 +15449,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 77 / 320,
@@ -16374,7 +15468,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1 / 4,
@@ -16393,7 +15487,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 13 / 45,
@@ -16412,7 +15506,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 19 / 64,
@@ -16431,7 +15525,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 13 / 40,
@@ -16450,7 +15544,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 1 / 3,
@@ -16469,7 +15563,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 47 / 128,
@@ -16488,7 +15582,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 3 / 8,
@@ -16507,7 +15601,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2 / 5,
@@ -16526,7 +15620,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 833 / 2048,
@@ -16545,7 +15639,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 7 / 16,
@@ -16564,7 +15658,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 4 / 9,
@@ -16583,7 +15677,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 7 / 15,
@@ -16602,7 +15696,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 121 / 256,
@@ -16621,7 +15715,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 79 / 160,
@@ -16640,7 +15734,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 1 / 2,
@@ -16661,7 +15755,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 269 / 512,
@@ -16680,7 +15774,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 17 / 32,
@@ -16699,7 +15793,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 11 / 20,
@@ -16718,7 +15812,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 5 / 9,
@@ -16737,7 +15831,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 37 / 64,
@@ -16756,7 +15850,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 7 / 12,
@@ -16775,7 +15869,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 3 / 5,
@@ -16794,7 +15888,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 619 / 1024,
@@ -16813,7 +15907,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 397 / 640,
@@ -16832,7 +15926,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 5 / 8,
@@ -16851,7 +15945,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 29 / 45,
@@ -16870,7 +15964,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 83 / 128,
@@ -16889,7 +15983,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 53 / 80,
@@ -16908,7 +16002,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 2 / 3,
@@ -16927,7 +16021,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 175 / 256,
@@ -16946,7 +16040,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 11 / 16,
@@ -16965,7 +16059,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 7 / 10,
@@ -16984,7 +16078,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2881 / 4096,
@@ -17003,7 +16097,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 23 / 32,
@@ -17022,7 +16116,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 13 / 18,
@@ -17041,7 +16135,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 11 / 15,
@@ -17060,7 +16154,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 377 / 512,
@@ -17079,7 +16173,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 239 / 320,
@@ -17098,7 +16192,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 3 / 4,
@@ -17119,7 +16213,7 @@ export const justPoints = {
         {
           name: { English: "B♭°", German: "B°" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 781 / 1024,
@@ -17138,7 +16232,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "+12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 49 / 64,
@@ -17157,7 +16251,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "-18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 31 / 40,
@@ -17176,7 +16270,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 7 / 9,
@@ -17195,7 +16289,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "-6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 101 / 128,
@@ -17214,7 +16308,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "+16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 19 / 24,
@@ -17233,7 +16327,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "-14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 4 / 5,
@@ -17252,7 +16346,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "+6" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1643 / 2048,
@@ -17271,7 +16365,7 @@ export const justPoints = {
         {
           name: { English: "D`", German: "D`" },
           cents: { equal: "", just: "-23" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1037 / 1280,
@@ -17290,7 +16384,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "-2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 13 / 16,
@@ -17309,7 +16403,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "-10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 37 / 45,
@@ -17328,7 +16422,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "+10" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 211 / 256,
@@ -17347,7 +16441,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "-20" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 133 / 160,
@@ -17366,7 +16460,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "+2" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 5 / 6,
@@ -17385,7 +16479,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "-8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 431 / 512,
@@ -17404,7 +16498,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "+14" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 27 / 32,
@@ -17423,7 +16517,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "-16" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 17 / 20,
@@ -17442,7 +16536,7 @@ export const justPoints = {
         {
           name: { English: "G♭´", German: "Ges´" },
           cents: { equal: "", just: "+4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 6977 / 8192,
@@ -17461,7 +16555,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "-4" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 55 / 64,
@@ -17480,7 +16574,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "+18" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 31 / 36,
@@ -17499,7 +16593,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "-12" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 13 / 15,
@@ -17518,7 +16612,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "+8" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 889 / 1024,
@@ -17537,7 +16631,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "-22" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 559 / 640,
@@ -17556,7 +16650,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 7 / 8,
@@ -17581,7 +16675,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 13 / 256,
@@ -17600,7 +16694,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 1 / 16,
@@ -17619,7 +16713,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 1 / 10,
@@ -17638,7 +16732,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 1 / 9,
@@ -17657,7 +16751,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 5 / 32,
@@ -17676,7 +16770,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 1 / 6,
@@ -17695,7 +16789,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 1 / 5,
@@ -17714,7 +16808,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 107 / 512,
@@ -17733,7 +16827,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 77 / 320,
@@ -17752,7 +16846,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 1 / 4,
@@ -17771,7 +16865,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 13 / 45,
@@ -17790,7 +16884,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 19 / 64,
@@ -17809,7 +16903,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 13 / 40,
@@ -17828,7 +16922,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 1 / 3,
@@ -17847,7 +16941,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 47 / 128,
@@ -17866,7 +16960,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 3 / 8,
@@ -17885,7 +16979,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 2 / 5,
@@ -17904,7 +16998,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "Ges´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 833 / 2048,
@@ -17923,7 +17017,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 7 / 16,
@@ -17942,7 +17036,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 4 / 9,
@@ -17961,7 +17055,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 7 / 15,
@@ -17980,7 +17074,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 121 / 256,
@@ -17999,7 +17093,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 79 / 160,
@@ -18018,7 +17112,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 1 / 2,
@@ -18039,7 +17133,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 269 / 512,
@@ -18058,7 +17152,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 17 / 32,
@@ -18077,7 +17171,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 11 / 20,
@@ -18096,7 +17190,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 5 / 9,
@@ -18115,7 +17209,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 37 / 64,
@@ -18134,7 +17228,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 7 / 12,
@@ -18153,7 +17247,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 3 / 5,
@@ -18172,7 +17266,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 619 / 1024,
@@ -18191,7 +17285,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 397 / 640,
@@ -18210,7 +17304,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 5 / 8,
@@ -18229,7 +17323,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 29 / 45,
@@ -18248,7 +17342,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 83 / 128,
@@ -18267,7 +17361,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 53 / 80,
@@ -18286,7 +17380,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 2 / 3,
@@ -18305,7 +17399,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 175 / 256,
@@ -18324,7 +17418,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 11 / 16,
@@ -18343,7 +17437,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 7 / 10,
@@ -18362,7 +17456,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 2881 / 4096,
@@ -18381,7 +17475,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 23 / 32,
@@ -18400,7 +17494,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 13 / 18,
@@ -18419,7 +17513,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 11 / 15,
@@ -18438,7 +17532,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 377 / 512,
@@ -18457,7 +17551,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 239 / 320,
@@ -18476,7 +17570,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 3 / 4,
@@ -18497,7 +17591,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 781 / 1024,
@@ -18516,7 +17610,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "e",
           ratio: 49 / 64,
@@ -18535,7 +17629,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 31 / 40,
@@ -18554,7 +17648,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "e",
           ratio: 7 / 9,
@@ -18573,7 +17667,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 101 / 128,
@@ -18592,7 +17686,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "e",
           ratio: 19 / 24,
@@ -18611,7 +17705,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 4 / 5,
@@ -18630,7 +17724,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "e",
           ratio: 1643 / 2048,
@@ -18649,7 +17743,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 1037 / 1280,
@@ -18668,7 +17762,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "e",
           ratio: 13 / 16,
@@ -18687,7 +17781,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 37 / 45,
@@ -18706,7 +17800,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "e",
           ratio: 211 / 256,
@@ -18725,7 +17819,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 133 / 160,
@@ -18744,7 +17838,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "e",
           ratio: 5 / 6,
@@ -18763,7 +17857,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 431 / 512,
@@ -18782,7 +17876,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "e",
           ratio: 27 / 32,
@@ -18801,7 +17895,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 17 / 20,
@@ -18820,7 +17914,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "e",
           ratio: 6977 / 8192,
@@ -18839,7 +17933,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 55 / 64,
@@ -18858,7 +17952,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "e",
           ratio: 31 / 36,
@@ -18877,7 +17971,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 13 / 15,
@@ -18896,7 +17990,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "e",
           ratio: 889 / 1024,
@@ -18915,7 +18009,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 559 / 640,
@@ -18934,7 +18028,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "e",
           ratio: 7 / 8,
@@ -18957,7 +18051,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 7 / 135,
@@ -18976,7 +18070,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 1 / 16,
@@ -18995,7 +18089,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 10,
@@ -19014,7 +18108,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 1 / 9,
@@ -19033,7 +18127,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 5 / 32,
@@ -19052,7 +18146,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 1 / 6,
@@ -19071,7 +18165,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1 / 5,
@@ -19090,7 +18184,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 107 / 512,
@@ -19109,7 +18203,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 1 / 4,
@@ -19128,7 +18222,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 7 / 27,
@@ -19147,7 +18241,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 13 / 45,
@@ -19166,7 +18260,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 19 / 64,
@@ -19185,7 +18279,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 13 / 40,
@@ -19204,7 +18298,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 1 / 3,
@@ -19223,7 +18317,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 47 / 128,
@@ -19242,7 +18336,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 3 / 8,
@@ -19261,7 +18355,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 2 / 5,
@@ -19280,7 +18374,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 11 / 27,
@@ -19299,7 +18393,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 7 / 16,
@@ -19318,7 +18412,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 4 / 9,
@@ -19337,7 +18431,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 7 / 15,
@@ -19356,7 +18450,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 121 / 256,
@@ -19375,7 +18469,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 79 / 160,
@@ -19394,7 +18488,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 1 / 2,
@@ -19415,7 +18509,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 71 / 135,
@@ -19434,7 +18528,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 17 / 32,
@@ -19453,7 +18547,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 11 / 20,
@@ -19472,7 +18566,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 5 / 9,
@@ -19491,7 +18585,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 37 / 64,
@@ -19510,7 +18604,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 7 / 12,
@@ -19529,7 +18623,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 3 / 5,
@@ -19548,7 +18642,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 619 / 1024,
@@ -19567,7 +18661,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 5 / 8,
@@ -19586,7 +18680,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 17 / 27,
@@ -19605,7 +18699,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 29 / 45,
@@ -19624,7 +18718,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 83 / 128,
@@ -19643,7 +18737,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 53 / 80,
@@ -19662,7 +18756,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 2 / 3,
@@ -19681,7 +18775,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 175 / 256,
@@ -19700,7 +18794,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 11 / 16,
@@ -19719,7 +18813,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 7 / 10,
@@ -19738,7 +18832,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 19 / 27,
@@ -19757,7 +18851,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 23 / 32,
@@ -19776,7 +18870,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 13 / 18,
@@ -19795,7 +18889,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 11 / 15,
@@ -19814,7 +18908,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 377 / 512,
@@ -19833,7 +18927,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 239 / 320,
@@ -19852,7 +18946,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 3 / 4,
@@ -19873,7 +18967,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 103 / 135,
@@ -19892,7 +18986,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "a",
           ratio: 49 / 64,
@@ -19911,7 +19005,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 31 / 40,
@@ -19930,7 +19024,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "a",
           ratio: 7 / 9,
@@ -19949,7 +19043,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 101 / 128,
@@ -19968,7 +19062,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "a",
           ratio: 19 / 24,
@@ -19987,7 +19081,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 4 / 5,
@@ -20006,7 +19100,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "a",
           ratio: 1643 / 2048,
@@ -20025,7 +19119,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 13 / 16,
@@ -20044,7 +19138,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "a",
           ratio: 22 / 27,
@@ -20063,7 +19157,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 37 / 45,
@@ -20082,7 +19176,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "a",
           ratio: 211 / 256,
@@ -20101,7 +19195,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 133 / 160,
@@ -20120,7 +19214,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "a",
           ratio: 5 / 6,
@@ -20139,7 +19233,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 431 / 512,
@@ -20158,7 +19252,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "a",
           ratio: 27 / 32,
@@ -20177,7 +19271,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 17 / 20,
@@ -20196,7 +19290,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "a",
           ratio: 23 / 27,
@@ -20215,7 +19309,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 55 / 64,
@@ -20234,7 +19328,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "a",
           ratio: 31 / 36,
@@ -20253,7 +19347,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 13 / 15,
@@ -20272,7 +19366,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "a",
           ratio: 889 / 1024,
@@ -20291,7 +19385,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 559 / 640,
@@ -20310,7 +19404,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "a",
           ratio: 7 / 8,
@@ -20333,7 +19427,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "d",
           ratio: 1 / 81,
@@ -20352,7 +19446,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 7 / 135,
@@ -20371,7 +19465,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 1 / 16,
@@ -20390,7 +19484,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 10,
@@ -20409,7 +19503,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 1 / 9,
@@ -20428,7 +19522,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 5 / 32,
@@ -20447,7 +19541,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 1 / 6,
@@ -20466,7 +19560,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 1 / 5,
@@ -20485,7 +19579,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 17 / 81,
@@ -20504,7 +19598,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 1 / 4,
@@ -20523,7 +19617,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 7 / 27,
@@ -20542,7 +19636,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 13 / 45,
@@ -20561,7 +19655,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 19 / 64,
@@ -20580,7 +19674,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 13 / 40,
@@ -20599,7 +19693,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 1 / 3,
@@ -20618,7 +19712,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 149 / 405,
@@ -20637,7 +19731,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 3 / 8,
@@ -20656,7 +19750,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 2 / 5,
@@ -20675,7 +19769,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 11 / 27,
@@ -20694,7 +19788,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 7 / 16,
@@ -20713,7 +19807,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 4 / 9,
@@ -20732,7 +19826,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 7 / 15,
@@ -20751,7 +19845,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 121 / 256,
@@ -20770,7 +19864,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 1 / 2,
@@ -20789,7 +19883,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 41 / 81,
@@ -20810,7 +19904,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 71 / 135,
@@ -20829,7 +19923,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 17 / 32,
@@ -20848,7 +19942,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 11 / 20,
@@ -20867,7 +19961,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 5 / 9,
@@ -20886,7 +19980,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 37 / 64,
@@ -20905,7 +19999,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 7 / 12,
@@ -20924,7 +20018,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 3 / 5,
@@ -20943,7 +20037,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 49 / 81,
@@ -20962,7 +20056,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 5 / 8,
@@ -20981,7 +20075,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 17 / 27,
@@ -21000,7 +20094,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 29 / 45,
@@ -21019,7 +20113,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 83 / 128,
@@ -21038,7 +20132,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 53 / 80,
@@ -21057,7 +20151,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 2 / 3,
@@ -21076,7 +20170,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 277 / 405,
@@ -21095,7 +20189,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 11 / 16,
@@ -21114,7 +20208,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 7 / 10,
@@ -21133,7 +20227,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 19 / 27,
@@ -21152,7 +20246,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 23 / 32,
@@ -21171,7 +20265,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 13 / 18,
@@ -21190,7 +20284,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 11 / 15,
@@ -21209,7 +20303,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 377 / 512,
@@ -21228,7 +20322,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 3 / 4,
@@ -21247,7 +20341,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 61 / 81,
@@ -21268,7 +20362,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 103 / 135,
@@ -21287,7 +20381,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "d",
           ratio: 49 / 64,
@@ -21306,7 +20400,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 31 / 40,
@@ -21325,7 +20419,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "d",
           ratio: 7 / 9,
@@ -21344,7 +20438,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 101 / 128,
@@ -21363,7 +20457,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "d",
           ratio: 19 / 24,
@@ -21382,7 +20476,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 4 / 5,
@@ -21401,7 +20495,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "d",
           ratio: 65 / 81,
@@ -21420,7 +20514,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 13 / 16,
@@ -21439,7 +20533,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "d",
           ratio: 22 / 27,
@@ -21458,7 +20552,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 37 / 45,
@@ -21477,7 +20571,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "d",
           ratio: 211 / 256,
@@ -21496,7 +20590,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 133 / 160,
@@ -21515,7 +20609,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "d",
           ratio: 5 / 6,
@@ -21534,7 +20628,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 341 / 405,
@@ -21553,7 +20647,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "d",
           ratio: 27 / 32,
@@ -21572,7 +20666,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 17 / 20,
@@ -21591,7 +20685,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "d",
           ratio: 23 / 27,
@@ -21610,7 +20704,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 55 / 64,
@@ -21629,7 +20723,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "d",
           ratio: 31 / 36,
@@ -21648,7 +20742,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 13 / 15,
@@ -21667,7 +20761,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "d",
           ratio: 889 / 1024,
@@ -21686,7 +20780,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 7 / 8,
@@ -21705,7 +20799,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "d",
           ratio: 71 / 81,
@@ -21728,7 +20822,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 0,
           string: "g",
           ratio: 1 / 81,
@@ -21747,7 +20841,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 7 / 135,
@@ -21766,7 +20860,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 1 / 16,
@@ -21785,7 +20879,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 10,
@@ -21804,7 +20898,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 1 / 9,
@@ -21823,7 +20917,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 191 / 1215,
@@ -21842,7 +20936,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 1 / 6,
@@ -21861,7 +20955,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 1 / 5,
@@ -21880,7 +20974,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 17 / 81,
@@ -21899,7 +20993,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 1 / 4,
@@ -21918,7 +21012,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 7 / 27,
@@ -21937,7 +21031,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 13 / 45,
@@ -21956,7 +21050,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 19 / 64,
@@ -21975,7 +21069,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 1 / 3,
@@ -21994,7 +21088,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 83 / 243,
@@ -22013,7 +21107,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 149 / 405,
@@ -22032,7 +21126,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 3 / 8,
@@ -22051,7 +21145,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 2 / 5,
@@ -22070,7 +21164,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 11 / 27,
@@ -22089,7 +21183,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 7 / 16,
@@ -22108,7 +21202,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 4 / 9,
@@ -22127,7 +21221,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 7 / 15,
@@ -22146,7 +21240,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 115 / 243,
@@ -22165,7 +21259,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 1 / 2,
@@ -22184,7 +21278,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 41 / 81,
@@ -22205,7 +21299,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 71 / 135,
@@ -22224,7 +21318,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 17 / 32,
@@ -22243,7 +21337,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 11 / 20,
@@ -22262,7 +21356,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 5 / 9,
@@ -22281,7 +21375,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 703 / 1215,
@@ -22300,7 +21394,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 7 / 12,
@@ -22319,7 +21413,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 3 / 5,
@@ -22338,7 +21432,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 49 / 81,
@@ -22357,7 +21451,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 5 / 8,
@@ -22376,7 +21470,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 17 / 27,
@@ -22395,7 +21489,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 29 / 45,
@@ -22414,7 +21508,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 83 / 128,
@@ -22433,7 +21527,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 2 / 3,
@@ -22452,7 +21546,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 163 / 243,
@@ -22471,7 +21565,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 277 / 405,
@@ -22490,7 +21584,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 11 / 16,
@@ -22509,7 +21603,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 7 / 10,
@@ -22528,7 +21622,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 19 / 27,
@@ -22547,7 +21641,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 23 / 32,
@@ -22566,7 +21660,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 13 / 18,
@@ -22585,7 +21679,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 11 / 15,
@@ -22604,7 +21698,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 179 / 243,
@@ -22623,7 +21717,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 3 / 4,
@@ -22642,7 +21736,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 61 / 81,
@@ -22663,7 +21757,7 @@ export const justPoints = {
         {
           name: { English: "G#`", German: "Gis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 103 / 135,
@@ -22682,7 +21776,7 @@ export const justPoints = {
         {
           name: { English: "A♭´", German: "As´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 1,
           string: "g",
           ratio: 49 / 64,
@@ -22701,7 +21795,7 @@ export const justPoints = {
         {
           name: { English: "A`", German: "A`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 31 / 40,
@@ -22720,7 +21814,7 @@ export const justPoints = {
         {
           name: { English: "A°", German: "A°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 2,
           string: "g",
           ratio: 7 / 9,
@@ -22739,7 +21833,7 @@ export const justPoints = {
         {
           name: { English: "A#`", German: "Ais`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 959 / 1215,
@@ -22758,7 +21852,7 @@ export const justPoints = {
         {
           name: { English: "B♭´", German: "B´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 3,
           string: "g",
           ratio: 19 / 24,
@@ -22777,7 +21871,7 @@ export const justPoints = {
         {
           name: { English: "B`", German: "H`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 4 / 5,
@@ -22796,7 +21890,7 @@ export const justPoints = {
         {
           name: { English: "B°", German: "H°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 4,
           string: "g",
           ratio: 65 / 81,
@@ -22815,7 +21909,7 @@ export const justPoints = {
         {
           name: { English: "C°", German: "C°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 13 / 16,
@@ -22834,7 +21928,7 @@ export const justPoints = {
         {
           name: { English: "C´", German: "C´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 5,
           string: "g",
           ratio: 22 / 27,
@@ -22853,7 +21947,7 @@ export const justPoints = {
         {
           name: { English: "C#`", German: "Cis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 37 / 45,
@@ -22872,7 +21966,7 @@ export const justPoints = {
         {
           name: { English: "D♭´", German: "Des´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 6,
           string: "g",
           ratio: 211 / 256,
@@ -22891,7 +21985,7 @@ export const justPoints = {
         {
           name: { English: "D°", German: "D°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 5 / 6,
@@ -22910,7 +22004,7 @@ export const justPoints = {
         {
           name: { English: "D´", German: "D´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 7,
           string: "g",
           ratio: 203 / 243,
@@ -22929,7 +22023,7 @@ export const justPoints = {
         {
           name: { English: "D#`", German: "Dis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 341 / 405,
@@ -22948,7 +22042,7 @@ export const justPoints = {
         {
           name: { English: "E♭´", German: "Es´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 8,
           string: "g",
           ratio: 27 / 32,
@@ -22967,7 +22061,7 @@ export const justPoints = {
         {
           name: { English: "E`", German: "E`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 17 / 20,
@@ -22986,7 +22080,7 @@ export const justPoints = {
         {
           name: { English: "E°", German: "E°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 9,
           string: "g",
           ratio: 23 / 27,
@@ -23005,7 +22099,7 @@ export const justPoints = {
         {
           name: { English: "F°", German: "F°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 55 / 64,
@@ -23024,7 +22118,7 @@ export const justPoints = {
         {
           name: { English: "F´", German: "F´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 10,
           string: "g",
           ratio: 31 / 36,
@@ -23043,7 +22137,7 @@ export const justPoints = {
         {
           name: { English: "F#`", German: "Fis`" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 13 / 15,
@@ -23062,7 +22156,7 @@ export const justPoints = {
         {
           name: { English: "F#°", German: "Fis°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 11,
           string: "g",
           ratio: 211 / 243,
@@ -23081,7 +22175,7 @@ export const justPoints = {
         {
           name: { English: "G°", German: "G°" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 7 / 8,
@@ -23100,7 +22194,7 @@ export const justPoints = {
         {
           name: { English: "G´", German: "G´" },
           cents: { equal: "", just: "" },
-          fontSize: { name: 1.5, number: 1.7 },
+          fontSize: { name: 1.5, number: 1.8 },
           number: 12,
           string: "g",
           ratio: 71 / 81,

@@ -30,7 +30,7 @@ export function EqualPoint({ point }) {
         <text
           x={xCoordinate}
           y={yCoordinate}
-          fontSize={`${height / (y / point.fontSize[show])}em`}
+          fontSize={`${height / (y / point.fontSize[show])}mm`}
           fill="black"
           textAnchor="middle"
           alignmentBaseline="central"
