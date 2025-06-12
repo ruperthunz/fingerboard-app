@@ -858,19 +858,89 @@ let twoCentMinus = 3 / 2 / 2 ** (7 / 12)
 //   return cxOfEqualTunedViolaDString
 // }
 
-let cxOfEqualTunedCelloCString = []
-cxOfEqualTunedCelloCString = calculateCxOfEqualTunedCelloCString()
-function calculateCxOfEqualTunedCelloCString() {
-  justRatios[0].map((ratio, index) => {
-    let cx =
-      vectors.Cello[0].vectorX *
-        (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
-      vectors.Cello[0].originX
-    cxOfEqualTunedCelloCString.push(cx)
-    console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
-  })
-  return cxOfEqualTunedCelloCString
-}
+// let cxOfEqualTunedCelloCString = []
+// cxOfEqualTunedCelloCString = calculateCxOfEqualTunedCelloCString()
+// function calculateCxOfEqualTunedCelloCString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[0].vectorX *
+//         (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
+//       vectors.Cello[0].originX
+//     cxOfEqualTunedCelloCString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloCString
+// }
+
+// let cxOfEqualTunedCelloGString = []
+// cxOfEqualTunedCelloGString = calculateCxOfEqualTunedCelloGString()
+// function calculateCxOfEqualTunedCelloGString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[1].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Cello[1].originX
+//     cxOfEqualTunedCelloGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloGString
+// }
+
+// let cxOfEqualTunedCelloDString = []
+// cxOfEqualTunedCelloDString = calculateCxOfEqualTunedCelloDString()
+// function calculateCxOfEqualTunedCelloDString() {
+//   justRatios[2].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[2].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Cello[2].originX
+//     cxOfEqualTunedCelloDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[2][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloDString
+// }
+
+// let cxOfEqualTunedBassEString = []
+// cxOfEqualTunedBassEString = calculateCxOfEqualTunedBassEString()
+// function calculateCxOfEqualTunedBassEString() {
+//   justRatios[3].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[0].vectorX *
+//         (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
+//       vectors.Bass[0].originX
+//     cxOfEqualTunedBassEString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassEString
+// }
+
+// let cxOfEqualTunedBassDString = []
+// cxOfEqualTunedBassDString = calculateCxOfEqualTunedBassDString()
+// function calculateCxOfEqualTunedBassDString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[2].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Bass[2].originX
+//     cxOfEqualTunedBassDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassDString
+// }
+
+// let cxOfEqualTunedBassGString = []
+// cxOfEqualTunedBassGString = calculateCxOfEqualTunedBassGString()
+// function calculateCxOfEqualTunedBassGString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[3].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Bass[3].originX
+//     cxOfEqualTunedBassGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassGString
+// }
 
 export const justPoints = {
   Violin: [
@@ -11972,7 +12042,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 81,
           coordinates: {
-            equal: { cx: null, cy: 26.46909844736104 },
+            equal: { cx: 281.7841423000544, cy: 26.46909844736104 },
             just: { cx: 281.7037037037037, cy: 30.37037037037037 }
           },
           colors: {
@@ -11991,7 +12061,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 135,
           coordinates: {
-            equal: { cx: null, cy: 72.61033450946661 },
+            equal: { cx: 280.83277660805226, cy: 72.61033450946661 },
             just: { cx: 280.75555555555553, cy: 76.35555555555555 }
           },
           colors: {
@@ -12010,7 +12080,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 85.04683954183099 },
+            equal: { cx: 280.5763538238798, cy: 85.04683954183099 },
             just: { cx: 280.5, cy: 88.75 }
           },
           colors: {
@@ -12029,7 +12099,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 128.84496596015777 },
+            equal: { cx: 279.67329967092456, cy: 128.84496596015777 },
             just: { cx: 279.6, cy: 132.4 }
           },
           colors: {
@@ -12048,7 +12118,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 141.82218860262492 },
+            equal: { cx: 279.40572807004895, cy: 141.82218860262492 },
             just: { cx: 279.3333333333333, cy: 145.33333333333333 }
           },
           colors: {
@@ -12067,7 +12137,7 @@ export const justPoints = {
           string: "c",
           ratio: 191 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 195.65363067508142 },
+            equal: { cx: 278.29580142937976, cy: 195.65363067508142 },
             just: { cx: 278.22716049382717, cy: 198.9827160493827 }
           },
           colors: {
@@ -12086,7 +12156,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 206.70830181496086 },
+            equal: { cx: 278.0678700656709, cy: 206.70830181496086 },
             just: { cx: 278, cy: 210 }
           },
           colors: {
@@ -12105,7 +12175,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 245.63996974236247 },
+            equal: { cx: 277.26515526304405, cy: 245.63996974236247 },
             just: { cx: 277.2, cy: 248.8 }
           },
           colors: {
@@ -12124,7 +12194,7 @@ export const justPoints = {
           string: "c",
           ratio: 17 / 81,
           coordinates: {
-            equal: { cx: null, cy: 257.1752787578888 },
+            equal: { cx: 277.0273138400435, cy: 257.1752787578888 },
             just: { cx: 276.962962962963, cy: 260.2962962962963 }
           },
           colors: {
@@ -12143,7 +12213,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 304.0374716334648 },
+            equal: { cx: 276.0610830591038, cy: 304.0374716334648 },
             just: { cx: 276, cy: 307 }
           },
           colors: {
@@ -12162,7 +12232,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 27,
           coordinates: {
-            equal: { cx: null, cy: 314.85182383552075 },
+            equal: { cx: 275.8381067250408, cy: 314.85182383552075 },
             just: { cx: 275.77777777777777, cy: 317.77777777777777 }
           },
           colors: {
@@ -12181,7 +12251,7 @@ export const justPoints = {
           string: "c",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 349.45775088209996 },
+            equal: { cx: 275.12458245603915, cy: 349.45775088209996 },
             just: { cx: 275.06666666666666, cy: 352.26666666666666 }
           },
           colors: {
@@ -12200,7 +12270,7 @@ export const justPoints = {
           string: "c",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 358.7851296563732 },
+            equal: { cx: 274.93226536790985, cy: 358.7851296563732 },
             just: { cx: 274.875, cy: 361.5625 }
           },
           colors: {
@@ -12219,7 +12289,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 401.3666414519687 },
+            equal: { cx: 274.05429605253676, cy: 401.3666414519687 },
             just: { cx: 274, cy: 404 }
           },
           colors: {
@@ -12238,7 +12308,7 @@ export const justPoints = {
           string: "c",
           ratio: 83 / 243,
           coordinates: {
-            equal: { cx: null, cy: 410.9793989649073 },
+            equal: { cx: 273.85609486670296, cy: 410.9793989649073 },
             just: { cx: 273.8024691358025, cy: 413.58024691358025 }
           },
           colors: {
@@ -12257,7 +12327,7 @@ export const justPoints = {
           string: "c",
           ratio: 149 / 405,
           coordinates: {
-            equal: { cx: null, cy: 441.74022300631106 },
+            equal: { cx: 273.22185107203484, cy: 441.74022300631106 },
             just: { cx: 273.1703703703704, cy: 444.23703703703706 }
           },
           colors: {
@@ -12276,7 +12346,7 @@ export const justPoints = {
           string: "c",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 450.03122636122066 },
+            equal: { cx: 273.0509025492532, cy: 450.03122636122066 },
             just: { cx: 273, cy: 452.5 }
           },
           colors: {
@@ -12295,7 +12365,7 @@ export const justPoints = {
           string: "c",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 479.2299773067719 },
+            equal: { cx: 272.4488664472831, cy: 479.2299773067719 },
             just: { cx: 272.4, cy: 481.6 }
           },
           colors: {
@@ -12314,7 +12384,7 @@ export const justPoints = {
           string: "c",
           ratio: 11 / 27,
           coordinates: {
-            equal: { cx: null, cy: 487.88145906841663 },
+            equal: { cx: 272.27048538003265, cy: 487.88145906841663 },
             just: { cx: 272.22222222222223, cy: 490.2222222222222 }
           },
           colors: {
@@ -12333,7 +12403,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 523.0281037250986 },
+            equal: { cx: 271.54581229432785, cy: 523.0281037250986 },
             just: { cx: 271.5, cy: 525.25 }
           },
           colors: {
@@ -12352,7 +12422,7 @@ export const justPoints = {
           string: "c",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 531.1388678766406 },
+            equal: { cx: 271.37858004378063, cy: 531.1388678766406 },
             just: { cx: 271.3333333333333, cy: 533.3333333333333 }
           },
           colors: {
@@ -12371,7 +12441,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 557.093313161575 },
+            equal: { cx: 270.8434368420294, cy: 557.093313161575 },
             just: { cx: 270.8, cy: 559.2 }
           },
           colors: {
@@ -12390,7 +12460,7 @@ export const justPoints = {
           string: "c",
           ratio: 115 / 243,
           coordinates: {
-            equal: { cx: null, cy: 564.783519171926 },
+            equal: { cx: 270.68487589336235, cy: 564.783519171926 },
             just: { cx: 270.641975308642, cy: 566.8641975308642 }
           },
           colors: {
@@ -12409,7 +12479,7 @@ export const justPoints = {
           string: "c",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 596.0249810889766 },
+            equal: { cx: 270.04072203940257, cy: 596.0249810889766 },
             just: { cx: 270, cy: 598 }
           },
           colors: {
@@ -12428,7 +12498,7 @@ export const justPoints = {
           string: "c",
           ratio: 41 / 81,
           coordinates: {
-            equal: { cx: null, cy: 603.2345492236806 },
+            equal: { cx: 269.8920711500272, cy: 603.2345492236806 },
             just: { cx: 269.85185185185185, cy: 605.1851851851852 }
           },
           colors: {
@@ -12449,7 +12519,7 @@ export const justPoints = {
           string: "c",
           ratio: 71 / 135,
           coordinates: {
-            equal: { cx: null, cy: 626.3051672547333 },
+            equal: { cx: 269.4163883040261, cy: 626.3051672547333 },
             just: { cx: 269.3777777777778, cy: 628.1777777777777 }
           },
           colors: {
@@ -12468,7 +12538,7 @@ export const justPoints = {
           string: "c",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 632.5234197709156 },
+            equal: { cx: 269.2881769119399, cy: 632.5234197709156 },
             just: { cx: 269.25, cy: 634.375 }
           },
           colors: {
@@ -12487,7 +12557,7 @@ export const justPoints = {
           string: "c",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 654.4224829800789 },
+            equal: { cx: 268.8366498354623, cy: 654.4224829800789 },
             just: { cx: 268.8, cy: 656.2 }
           },
           colors: {
@@ -12506,7 +12576,7 @@ export const justPoints = {
           string: "c",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 660.9110943013125 },
+            equal: { cx: 268.7028640350245, cy: 660.9110943013125 },
             just: { cx: 268.6666666666667, cy: 662.6666666666666 }
           },
           colors: {
@@ -12525,7 +12595,7 @@ export const justPoints = {
           string: "c",
           ratio: 703 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 687.8268153375408 },
+            equal: { cx: 268.14790071468985, cy: 687.8268153375408 },
             just: { cx: 268.11358024691356, cy: 689.4913580246914 }
           },
           colors: {
@@ -12544,7 +12614,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 693.3541509074805 },
+            equal: { cx: 268.0339350328355, cy: 693.3541509074805 },
             just: { cx: 268, cy: 695 }
           },
           colors: {
@@ -12563,7 +12633,7 @@ export const justPoints = {
           string: "c",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 712.8199848711812 },
+            equal: { cx: 267.63257763152205, cy: 712.8199848711812 },
             just: { cx: 267.6, cy: 714.4 }
           },
           colors: {
@@ -12582,7 +12652,7 @@ export const justPoints = {
           string: "c",
           ratio: 49 / 81,
           coordinates: {
-            equal: { cx: null, cy: 718.5876393789445 },
+            equal: { cx: 267.5136569200218, cy: 718.5876393789445 },
             just: { cx: 267.48148148148147, cy: 720.1481481481482 }
           },
           colors: {
@@ -12601,7 +12671,7 @@ export const justPoints = {
           string: "c",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 742.0187358167324 },
+            equal: { cx: 267.0305415295519, cy: 742.0187358167324 },
             just: { cx: 267, cy: 743.5 }
           },
           colors: {
@@ -12620,7 +12690,7 @@ export const justPoints = {
           string: "c",
           ratio: 17 / 27,
           coordinates: {
-            equal: { cx: null, cy: 747.4259119177603 },
+            equal: { cx: 266.9190533625204, cy: 747.4259119177603 },
             just: { cx: 266.8888888888889, cy: 748.8888888888888 }
           },
           colors: {
@@ -12639,7 +12709,7 @@ export const justPoints = {
           string: "c",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 764.7288754410499 },
+            equal: { cx: 266.5622912280196, cy: 764.7288754410499 },
             just: { cx: 266.5333333333333, cy: 766.1333333333333 }
           },
           colors: {
@@ -12658,7 +12728,7 @@ export const justPoints = {
           string: "c",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 769.3925648281867 },
+            equal: { cx: 266.4661326839549, cy: 769.3925648281867 },
             just: { cx: 266.4375, cy: 770.78125 }
           },
           colors: {
@@ -12677,7 +12747,7 @@ export const justPoints = {
           string: "c",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 790.6833207259843 },
+            equal: { cx: 266.0271480262684, cy: 790.6833207259843 },
             just: { cx: 266, cy: 792 }
           },
           colors: {
@@ -12696,7 +12766,7 @@ export const justPoints = {
           string: "c",
           ratio: 163 / 243,
           coordinates: {
-            equal: { cx: null, cy: 795.4896994824537 },
+            equal: { cx: 265.9280474333515, cy: 795.4896994824537 },
             just: { cx: 265.9012345679012, cy: 796.7901234567902 }
           },
           colors: {
@@ -12715,7 +12785,7 @@ export const justPoints = {
           string: "c",
           ratio: 277 / 405,
           coordinates: {
-            equal: { cx: null, cy: 810.8701115031555 },
+            equal: { cx: 265.6109255360174, cy: 810.8701115031555 },
             just: { cx: 265.5851851851852, cy: 812.1185185185185 }
           },
           colors: {
@@ -12734,7 +12804,7 @@ export const justPoints = {
           string: "c",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 815.0156131806103 },
+            equal: { cx: 265.52545127462656, cy: 815.0156131806103 },
             just: { cx: 265.5, cy: 816.25 }
           },
           colors: {
@@ -12753,7 +12823,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 829.6149886533858 },
+            equal: { cx: 265.22443322364154, cy: 829.6149886533858 },
             just: { cx: 265.2, cy: 830.8 }
           },
           colors: {
@@ -12772,7 +12842,7 @@ export const justPoints = {
           string: "c",
           ratio: 19 / 27,
           coordinates: {
-            equal: { cx: null, cy: 833.9407295342083 },
+            equal: { cx: 265.1352426900163, cy: 833.9407295342083 },
             just: { cx: 265.1111111111111, cy: 835.1111111111111 }
           },
           colors: {
@@ -12791,7 +12861,7 @@ export const justPoints = {
           string: "c",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 851.5140518625492 },
+            equal: { cx: 264.77290614716395, cy: 851.5140518625492 },
             just: { cx: 264.75, cy: 852.625 }
           },
           colors: {
@@ -12810,7 +12880,7 @@ export const justPoints = {
           string: "c",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 855.5694339383202 },
+            equal: { cx: 264.6892900218903, cy: 855.5694339383202 },
             just: { cx: 264.6666666666667, cy: 856.6666666666666 }
           },
           colors: {
@@ -12829,7 +12899,7 @@ export const justPoints = {
           string: "c",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 868.5466565807875 },
+            equal: { cx: 264.4217184210147, cy: 868.5466565807875 },
             just: { cx: 264.4, cy: 869.5999999999999 }
           },
           colors: {
@@ -12848,7 +12918,7 @@ export const justPoints = {
           string: "c",
           ratio: 179 / 243,
           coordinates: {
-            equal: { cx: null, cy: 872.3917595859629 },
+            equal: { cx: 264.3424379466812, cy: 872.3917595859629 },
             just: { cx: 264.320987654321, cy: 873.4320987654321 }
           },
           colors: {
@@ -12867,7 +12937,7 @@ export const justPoints = {
           string: "c",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 888.0124905444883 },
+            equal: { cx: 264.0203610197013, cy: 888.0124905444883 },
             just: { cx: 264, cy: 889 }
           },
           colors: {
@@ -12886,7 +12956,7 @@ export const justPoints = {
           string: "c",
           ratio: 61 / 81,
           coordinates: {
-            equal: { cx: null, cy: 891.6172746118403 },
+            equal: { cx: 263.9460355750136, cy: 891.6172746118403 },
             just: { cx: 263.9259259259259, cy: 892.5925925925926 }
           },
           colors: {
@@ -12907,7 +12977,7 @@ export const justPoints = {
           string: "c",
           ratio: 103 / 135,
           coordinates: {
-            equal: { cx: null, cy: 903.1525836273667 },
+            equal: { cx: 263.70819415201305, cy: 903.1525836273667 },
             just: { cx: 263.68888888888887, cy: 904.0888888888888 }
           },
           colors: {
@@ -12926,7 +12996,7 @@ export const justPoints = {
           string: "c",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 906.2617098854578 },
+            equal: { cx: 263.64408845596995, cy: 906.2617098854578 },
             just: { cx: 263.625, cy: 907.1875 }
           },
           colors: {
@@ -12945,7 +13015,7 @@ export const justPoints = {
           string: "c",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 917.2112414900395 },
+            equal: { cx: 263.4183249177311, cy: 917.2112414900395 },
             just: { cx: 263.4, cy: 918.1 }
           },
           colors: {
@@ -12964,7 +13034,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 920.4555471506562 },
+            equal: { cx: 263.35143201751225, cy: 920.4555471506562 },
             just: { cx: 263.3333333333333, cy: 921.3333333333333 }
           },
           colors: {
@@ -12983,7 +13053,7 @@ export const justPoints = {
           string: "c",
           ratio: 959 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 933.9134076687703 },
+            equal: { cx: 263.0739503573449, cy: 933.9134076687703 },
             just: { cx: 263.0567901234568, cy: 934.7456790123457 }
           },
           colors: {
@@ -13002,7 +13072,7 @@ export const justPoints = {
           string: "c",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 936.6770754537401 },
+            equal: { cx: 263.0169675164177, cy: 936.6770754537401 },
             just: { cx: 263, cy: 937.5 }
           },
           colors: {
@@ -13021,7 +13091,7 @@ export const justPoints = {
           string: "c",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 946.4099924355908 },
+            equal: { cx: 262.816288815761, cy: 946.4099924355908 },
             just: { cx: 262.8, cy: 947.2 }
           },
           colors: {
@@ -13040,7 +13110,7 @@ export const justPoints = {
           string: "c",
           ratio: 65 / 81,
           coordinates: {
-            equal: { cx: null, cy: 949.2938196894722 },
+            equal: { cx: 262.75682846001087, cy: 949.2938196894722 },
             just: { cx: 262.74074074074076, cy: 950.0740740740741 }
           },
           colors: {
@@ -13059,7 +13129,7 @@ export const justPoints = {
           string: "c",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.0093679083662 },
+            equal: { cx: 262.51527076477595, cy: 961.0093679083662 },
             just: { cx: 262.5, cy: 961.75 }
           },
           colors: {
@@ -13078,7 +13148,7 @@ export const justPoints = {
           string: "c",
           ratio: 22 / 27,
           coordinates: {
-            equal: { cx: null, cy: 963.7129559588802 },
+            equal: { cx: 262.4595266812602, cy: 963.7129559588802 },
             just: { cx: 262.44444444444446, cy: 964.4444444444444 }
           },
           colors: {
@@ -13097,7 +13167,7 @@ export const justPoints = {
           string: "c",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 972.364437720525 },
+            equal: { cx: 262.2811456140098, cy: 972.364437720525 },
             just: { cx: 262.26666666666665, cy: 973.0666666666666 }
           },
           colors: {
@@ -13116,7 +13186,7 @@ export const justPoints = {
           string: "c",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 974.6962824140934 },
+            equal: { cx: 262.23306634197746, cy: 974.6962824140934 },
             just: { cx: 262.21875, cy: 975.390625 }
           },
           colors: {
@@ -13135,7 +13205,7 @@ export const justPoints = {
           string: "c",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 985.3416603629922 },
+            equal: { cx: 262.0135740131342, cy: 985.3416603629922 },
             just: { cx: 262, cy: 986 }
           },
           colors: {
@@ -13154,7 +13224,7 @@ export const justPoints = {
           string: "c",
           ratio: 203 / 243,
           coordinates: {
-            equal: { cx: null, cy: 987.7448497412269 },
+            equal: { cx: 261.96402371667574, cy: 987.7448497412269 },
             just: { cx: 261.95061728395063, cy: 988.395061728395 }
           },
           colors: {
@@ -13173,7 +13243,7 @@ export const justPoints = {
           string: "c",
           ratio: 341 / 405,
           coordinates: {
-            equal: { cx: null, cy: 995.4350557515778 },
+            equal: { cx: 261.8054627680087, cy: 995.4350557515778 },
             just: { cx: 261.7925925925926, cy: 996.0592592592593 }
           },
           colors: {
@@ -13192,7 +13262,7 @@ export const justPoints = {
           string: "c",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 997.5078065903051 },
+            equal: { cx: 261.7627256373133, cy: 997.5078065903051 },
             just: { cx: 261.75, cy: 998.125 }
           },
           colors: {
@@ -13211,7 +13281,7 @@ export const justPoints = {
           string: "c",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1004.8074943266929 },
+            equal: { cx: 261.61221661182077, cy: 1004.8074943266929 },
             just: { cx: 261.6, cy: 1005.4 }
           },
           colors: {
@@ -13230,7 +13300,7 @@ export const justPoints = {
           string: "c",
           ratio: 23 / 27,
           coordinates: {
-            equal: { cx: null, cy: 1006.9703647671041 },
+            equal: { cx: 261.56762134500815, cy: 1006.9703647671041 },
             just: { cx: 261.55555555555554, cy: 1007.5555555555555 }
           },
           colors: {
@@ -13249,7 +13319,7 @@ export const justPoints = {
           string: "c",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1015.7570259312746 },
+            equal: { cx: 261.38645307358195, cy: 1015.7570259312746 },
             just: { cx: 261.375, cy: 1016.3125 }
           },
           colors: {
@@ -13268,7 +13338,7 @@ export const justPoints = {
           string: "c",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1017.7847169691602 },
+            equal: { cx: 261.34464501094516, cy: 1017.7847169691602 },
             just: { cx: 261.3333333333333, cy: 1018.3333333333333 }
           },
           colors: {
@@ -13287,7 +13357,7 @@ export const justPoints = {
           string: "c",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.2733282903937 },
+            equal: { cx: 261.21085921050735, cy: 1024.2733282903937 },
             just: { cx: 261.2, cy: 1024.8000000000002 }
           },
           colors: {
@@ -13306,7 +13376,7 @@ export const justPoints = {
           string: "c",
           ratio: 211 / 243,
           coordinates: {
-            equal: { cx: null, cy: 1026.1958797929815 },
+            equal: { cx: 261.1712189733406, cy: 1026.1958797929815 },
             just: { cx: 261.1604938271605, cy: 1026.716049382716 }
           },
           colors: {
@@ -13325,7 +13395,7 @@ export const justPoints = {
           string: "c",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.006245272244 },
+            equal: { cx: 261.0101805098506, cy: 1034.006245272244 },
             just: { cx: 261, cy: 1034.5 }
           },
           colors: {
@@ -13344,7 +13414,7 @@ export const justPoints = {
           string: "c",
           ratio: 71 / 81,
           coordinates: {
-            equal: { cx: null, cy: 1035.80863730592 },
+            equal: { cx: 260.9730177875068, cy: 1035.80863730592 },
             just: { cx: 260.96296296296293, cy: 1036.2962962962963 }
           },
           colors: {
@@ -13367,7 +13437,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 81,
           coordinates: {
-            equal: { cx: null, cy: 27.770991205161476 },
+            equal: { cx: 293.91909971680303, cy: 27.770991205161476 },
             just: { cx: 293.9012345679012, cy: 30.37037037037037 }
           },
           colors: {
@@ -13386,7 +13456,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 135,
           coordinates: {
-            equal: { cx: null, cy: 73.86015155695502 },
+            equal: { cx: 293.60233572813087, cy: 73.86015155695502 },
             just: { cx: 293.5851851851852, cy: 76.35555555555555 }
           },
           colors: {
@@ -13405,7 +13475,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 86.28262055802438 },
+            equal: { cx: 293.5169579343091, cy: 86.28262055802438 },
             just: { cx: 293.5, cy: 88.75 }
           },
           colors: {
@@ -13424,7 +13494,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 130.0313157357034 },
+            equal: { cx: 293.21627961693673, cy: 130.0313157357034 },
             just: { cx: 293.2, cy: 132.4 }
           },
           colors: {
@@ -13443,7 +13513,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 142.99389208464532 },
+            equal: { cx: 293.12718974512273, cy: 142.99389208464532 },
             just: { cx: 293.1111111111111, cy: 145.33333333333333 }
           },
           colors: {
@@ -13462,7 +13532,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 32,
           coordinates: {
-            equal: { cx: null, cy: 195.65435850222195 },
+            equal: { cx: 292.7652621408782, cy: 195.65435850222195 },
             just: { cx: 292.75, cy: 197.875 }
           },
           colors: {
@@ -13481,7 +13551,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 207.806773829355 },
+            equal: { cx: 292.6817403860525, cy: 207.806773829355 },
             just: { cx: 292.6666666666667, cy: 210 }
           },
           colors: {
@@ -13500,7 +13570,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 246.69450287618082 },
+            equal: { cx: 292.4144707706104, cy: 246.69450287618082 },
             just: { cx: 292.4, cy: 248.8 }
           },
           colors: {
@@ -13519,7 +13589,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 81,
           coordinates: {
-            equal: { cx: null, cy: 258.2167929641292 },
+            equal: { cx: 292.33527977344244, cy: 258.2167929641292 },
             just: { cx: 292.320987654321, cy: 260.2962962962963 }
           },
           colors: {
@@ -13538,7 +13608,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 305.0260964464195 },
+            equal: { cx: 292.0135663474473, cy: 305.0260964464195 },
             just: { cx: 292, cy: 307 }
           },
           colors: {
@@ -13557,7 +13627,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 27,
           coordinates: {
-            equal: { cx: null, cy: 315.8282434038711 },
+            equal: { cx: 291.9393247876023, cy: 315.8282434038711 },
             just: { cx: 291.9259259259259, cy: 317.77777777777777 }
           },
           colors: {
@@ -13576,7 +13646,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 350.3951136677162 },
+            equal: { cx: 291.70175179609816, cy: 350.3951136677162 },
             just: { cx: 291.68888888888887, cy: 352.26666666666666 }
           },
           colors: {
@@ -13595,7 +13665,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 359.7119654185183 },
+            equal: { cx: 291.6377184507318, cy: 359.7119654185183 },
             just: { cx: 291.625, cy: 361.5625 }
           },
           colors: {
@@ -13614,7 +13684,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 40,
           coordinates: {
-            equal: { cx: null, cy: 392.52348680177755 },
+            equal: { cx: 291.4122097127026, cy: 392.52348680177755 },
             just: { cx: 291.4, cy: 394.3 }
           },
           colors: {
@@ -13633,7 +13703,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 402.24541906348395 },
+            equal: { cx: 291.345392308842, cy: 402.24541906348395 },
             just: { cx: 291.3333333333333, cy: 404 }
           },
           colors: {
@@ -13652,7 +13722,7 @@ export const justPoints = {
           string: "g",
           ratio: 149 / 405,
           coordinates: {
-            equal: { cx: null, cy: 442.57343437130334 },
+            equal: { cx: 291.06822381875395, cy: 442.57343437130334 },
             just: { cx: 291.0567901234568, cy: 444.23703703703706 }
           },
           colors: {
@@ -13671,7 +13741,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 450.85508037201623 },
+            equal: { cx: 291.0113052895394, cy: 450.85508037201623 },
             just: { cx: 291, cy: 452.5 }
           },
           colors: {
@@ -13690,7 +13760,7 @@ export const justPoints = {
           string: "g",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 480.02087715713566 },
+            equal: { cx: 290.81085307795786, cy: 480.02087715713566 },
             just: { cx: 290.8, cy: 481.6 }
           },
           colors: {
@@ -13709,7 +13779,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 27,
           coordinates: {
-            equal: { cx: null, cy: 488.66259472309684 },
+            equal: { cx: 290.7514598300818, cy: 488.66259472309684 },
             just: { cx: 290.74074074074076, cy: 490.2222222222222 }
           },
           colors: {
@@ -13728,7 +13798,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 523.7695723348146 },
+            equal: { cx: 290.51017476058547, cy: 523.7695723348146 },
             just: { cx: 290.5, cy: 525.25 }
           },
           colors: {
@@ -13747,7 +13817,7 @@ export const justPoints = {
           string: "g",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 531.8711825529033 },
+            equal: { cx: 290.4544935907017, cy: 531.8711825529033 },
             just: { cx: 290.44444444444446, cy: 533.3333333333333 }
           },
           colors: {
@@ -13766,7 +13836,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 557.7963352507873 },
+            equal: { cx: 290.27631384707365, cy: 557.7963352507873 },
             just: { cx: 290.26666666666665, cy: 559.2 }
           },
           colors: {
@@ -13785,7 +13855,7 @@ export const justPoints = {
           string: "g",
           ratio: 121 / 256,
           coordinates: {
-            equal: { cx: null, cy: 564.7839740638888 },
+            equal: { cx: 290.22828883804885, cy: 564.7839740638888 },
             just: { cx: 290.21875, cy: 566.171875 }
           },
           colors: {
@@ -13804,7 +13874,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 596.684064297613 },
+            equal: { cx: 290.00904423163155, cy: 596.684064297613 },
             just: { cx: 290, cy: 598 }
           },
           colors: {
@@ -13823,7 +13893,7 @@ export const justPoints = {
           string: "g",
           ratio: 41 / 81,
           coordinates: {
-            equal: { cx: null, cy: 603.8854956025808 },
+            equal: { cx: 289.9595498584015, cy: 603.8854956025808 },
             just: { cx: 289.95061728395063, cy: 605.1851851851852 }
           },
           colors: {
@@ -13844,7 +13914,7 @@ export const justPoints = {
           string: "g",
           ratio: 71 / 135,
           coordinates: {
-            equal: { cx: null, cy: 626.9300757784774 },
+            equal: { cx: 289.80116786406546, cy: 626.9300757784774 },
             just: { cx: 289.7925925925926, cy: 628.1777777777777 }
           },
           colors: {
@@ -13863,7 +13933,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 633.1413102790121 },
+            equal: { cx: 289.75847896715453, cy: 633.1413102790121 },
             just: { cx: 289.75, cy: 634.375 }
           },
           colors: {
@@ -13882,7 +13952,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 655.0156578678518 },
+            equal: { cx: 289.60813980846837, cy: 655.0156578678518 },
             just: { cx: 289.6, cy: 656.2 }
           },
           colors: {
@@ -13901,7 +13971,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 661.4969460423227 },
+            equal: { cx: 289.56359487256134, cy: 661.4969460423227 },
             just: { cx: 289.55555555555554, cy: 662.6666666666666 }
           },
           colors: {
@@ -13920,7 +13990,7 @@ export const justPoints = {
           string: "g",
           ratio: 37 / 64,
           coordinates: {
-            equal: { cx: null, cy: 687.8271792511109 },
+            equal: { cx: 289.3826310704391, cy: 687.8271792511109 },
             just: { cx: 289.375, cy: 688.9375 }
           },
           colors: {
@@ -13939,7 +14009,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 693.9033869146775 },
+            equal: { cx: 289.34087019302626, cy: 693.9033869146775 },
             just: { cx: 289.3333333333333, cy: 695 }
           },
           colors: {
@@ -13958,7 +14028,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 713.3472514380904 },
+            equal: { cx: 289.20723538530524, cy: 713.3472514380904 },
             just: { cx: 289.2, cy: 714.4 }
           },
           colors: {
@@ -13977,7 +14047,7 @@ export const justPoints = {
           string: "g",
           ratio: 49 / 81,
           coordinates: {
-            equal: { cx: null, cy: 719.1083964820647 },
+            equal: { cx: 289.1676398867212, cy: 719.1083964820647 },
             just: { cx: 289.1604938271605, cy: 720.1481481481482 }
           },
           colors: {
@@ -13996,7 +14066,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 742.5130482232098 },
+            equal: { cx: 289.00678317372365, cy: 742.5130482232098 },
             just: { cx: 289, cy: 743.5 }
           },
           colors: {
@@ -14015,7 +14085,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 27,
           coordinates: {
-            equal: { cx: null, cy: 747.9141217019356 },
+            equal: { cx: 288.9696623938011, cy: 747.9141217019356 },
             just: { cx: 288.962962962963, cy: 748.8888888888888 }
           },
           colors: {
@@ -14034,7 +14104,7 @@ export const justPoints = {
           string: "g",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 765.1975568338582 },
+            equal: { cx: 288.8508758980491, cy: 765.1975568338582 },
             just: { cx: 288.84444444444443, cy: 766.1333333333333 }
           },
           colors: {
@@ -14053,7 +14123,7 @@ export const justPoints = {
           string: "g",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 769.8559827092591 },
+            equal: { cx: 288.81885922536594, cy: 769.8559827092591 },
             just: { cx: 288.8125, cy: 770.78125 }
           },
           colors: {
@@ -14072,7 +14142,7 @@ export const justPoints = {
           string: "g",
           ratio: 53 / 80,
           coordinates: {
-            equal: { cx: null, cy: 786.2617434008887 },
+            equal: { cx: 288.70610485635126, cy: 786.2617434008887 },
             just: { cx: 288.7, cy: 787.15 }
           },
           colors: {
@@ -14091,7 +14161,7 @@ export const justPoints = {
           string: "g",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 791.122709531742 },
+            equal: { cx: 288.67269615442103, cy: 791.122709531742 },
             just: { cx: 288.6666666666667, cy: 792 }
           },
           colors: {
@@ -14110,7 +14180,7 @@ export const justPoints = {
           string: "g",
           ratio: 277 / 405,
           coordinates: {
-            equal: { cx: null, cy: 811.2867171856516 },
+            equal: { cx: 288.534111909377, cy: 811.2867171856516 },
             just: { cx: 288.5283950617284, cy: 812.1185185185185 }
           },
           colors: {
@@ -14129,7 +14199,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 815.4275401860081 },
+            equal: { cx: 288.5056526447697, cy: 815.4275401860081 },
             just: { cx: 288.5, cy: 816.25 }
           },
           colors: {
@@ -14148,7 +14218,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 830.0104385785677 },
+            equal: { cx: 288.40542653897893, cy: 830.0104385785677 },
             just: { cx: 288.4, cy: 830.8 }
           },
           colors: {
@@ -14167,7 +14237,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 27,
           coordinates: {
-            equal: { cx: null, cy: 834.3312973615484 },
+            equal: { cx: 288.3757299150409, cy: 834.3312973615484 },
             just: { cx: 288.3703703703704, cy: 835.1111111111111 }
           },
           colors: {
@@ -14186,7 +14256,7 @@ export const justPoints = {
           string: "g",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 851.8847861674074 },
+            equal: { cx: 288.2550873802927, cy: 851.8847861674074 },
             just: { cx: 288.25, cy: 852.625 }
           },
           colors: {
@@ -14205,7 +14275,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 855.9355912764516 },
+            equal: { cx: 288.2272467953508, cy: 855.9355912764516 },
             just: { cx: 288.22222222222223, cy: 856.6666666666666 }
           },
           colors: {
@@ -14224,7 +14294,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 868.8981676253935 },
+            equal: { cx: 288.1381569235368, cy: 868.8981676253935 },
             just: { cx: 288.1333333333333, cy: 869.5999999999999 }
           },
           colors: {
@@ -14243,7 +14313,7 @@ export const justPoints = {
           string: "g",
           ratio: 377 / 512,
           coordinates: {
-            equal: { cx: null, cy: 872.3919870319443 },
+            equal: { cx: 288.11414441902446, cy: 872.3919870319443 },
             just: { cx: 288.109375, cy: 873.0859375 }
           },
           colors: {
@@ -14262,7 +14332,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 888.3420321488065 },
+            equal: { cx: 288.00452211581575, cy: 888.3420321488065 },
             just: { cx: 288, cy: 889 }
           },
           colors: {
@@ -14281,7 +14351,7 @@ export const justPoints = {
           string: "g",
           ratio: 61 / 81,
           coordinates: {
-            equal: { cx: null, cy: 891.9427478012904 },
+            equal: { cx: 287.97977492920074, cy: 891.9427478012904 },
             just: { cx: 287.9753086419753, cy: 892.5925925925926 }
           },
           colors: {
@@ -14302,7 +14372,7 @@ export const justPoints = {
           string: "g",
           ratio: 103 / 135,
           coordinates: {
-            equal: { cx: null, cy: 903.4650378892388 },
+            equal: { cx: 287.9005839320327, cy: 903.4650378892388 },
             just: { cx: 287.89629629629627, cy: 904.0888888888888 }
           },
           colors: {
@@ -14321,7 +14391,7 @@ export const justPoints = {
           string: "g",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 906.570655139506 },
+            equal: { cx: 287.8792394835773, cy: 906.570655139506 },
             just: { cx: 287.875, cy: 907.1875 }
           },
           colors: {
@@ -14340,7 +14410,7 @@ export const justPoints = {
           string: "g",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 917.5078289339259 },
+            equal: { cx: 287.8040699042342, cy: 917.5078289339259 },
             just: { cx: 287.8, cy: 918.1 }
           },
           colors: {
@@ -14359,7 +14429,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 920.7484730211613 },
+            equal: { cx: 287.78179743628067, cy: 920.7484730211613 },
             just: { cx: 287.77777777777777, cy: 921.3333333333333 }
           },
           colors: {
@@ -14378,7 +14448,7 @@ export const justPoints = {
           string: "g",
           ratio: 101 / 128,
           coordinates: {
-            equal: { cx: null, cy: 933.9135896255555 },
+            equal: { cx: 287.69131553521953, cy: 933.9135896255555 },
             just: { cx: 287.6875, cy: 934.46875 }
           },
           colors: {
@@ -14397,7 +14467,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 936.9516934573386 },
+            equal: { cx: 287.67043509651313, cy: 936.9516934573386 },
             just: { cx: 287.6666666666667, cy: 937.5 }
           },
           colors: {
@@ -14416,7 +14486,7 @@ export const justPoints = {
           string: "g",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 946.6736257190453 },
+            equal: { cx: 287.6036176926526, cy: 946.6736257190453 },
             just: { cx: 287.6, cy: 947.2 }
           },
           colors: {
@@ -14435,7 +14505,7 @@ export const justPoints = {
           string: "g",
           ratio: 65 / 81,
           coordinates: {
-            equal: { cx: null, cy: 949.5541982410323 },
+            equal: { cx: 287.5838199433606, cy: 949.5541982410323 },
             just: { cx: 287.58024691358025, cy: 950.0740740740741 }
           },
           colors: {
@@ -14454,7 +14524,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.2565241116049 },
+            equal: { cx: 287.5033915868618, cy: 961.2565241116049 },
             just: { cx: 287.5, cy: 961.75 }
           },
           colors: {
@@ -14473,7 +14543,7 @@ export const justPoints = {
           string: "g",
           ratio: 22 / 27,
           coordinates: {
-            equal: { cx: null, cy: 963.9570608509677 },
+            equal: { cx: 287.4848311969006, cy: 963.9570608509677 },
             just: { cx: 287.48148148148147, cy: 964.4444444444444 }
           },
           colors: {
@@ -14492,7 +14562,7 @@ export const justPoints = {
           string: "g",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 972.598778416929 },
+            equal: { cx: 287.42543794902457, cy: 972.598778416929 },
             just: { cx: 287.4222222222222, cy: 973.0666666666666 }
           },
           colors: {
@@ -14511,7 +14581,7 @@ export const justPoints = {
           string: "g",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 974.9279913546296 },
+            equal: { cx: 287.40942961268297, cy: 974.9279913546296 },
             just: { cx: 287.40625, cy: 975.390625 }
           },
           colors: {
@@ -14530,7 +14600,7 @@ export const justPoints = {
           string: "g",
           ratio: 133 / 160,
           coordinates: {
-            equal: { cx: null, cy: 983.1308717004445 },
+            equal: { cx: 287.35305242817566, cy: 983.1308717004445 },
             just: { cx: 287.35, cy: 983.575 }
           },
           colors: {
@@ -14549,7 +14619,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 985.561354765871 },
+            equal: { cx: 287.3363480772105, cy: 985.561354765871 },
             just: { cx: 287.3333333333333, cy: 986 }
           },
           colors: {
@@ -14568,7 +14638,7 @@ export const justPoints = {
           string: "g",
           ratio: 341 / 405,
           coordinates: {
-            equal: { cx: null, cy: 995.6433585928258 },
+            equal: { cx: 287.2670559546885, cy: 995.6433585928258 },
             just: { cx: 287.2641975308642, cy: 996.0592592592593 }
           },
           colors: {
@@ -14587,7 +14657,7 @@ export const justPoints = {
           string: "g",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 997.7137700930041 },
+            equal: { cx: 287.25282632238486, cy: 997.7137700930041 },
             just: { cx: 287.25, cy: 998.125 }
           },
           colors: {
@@ -14606,7 +14676,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1005.0052192892839 },
+            equal: { cx: 287.20271326948944, cy: 1005.0052192892839 },
             just: { cx: 287.2, cy: 1005.4 }
           },
           colors: {
@@ -14625,7 +14695,7 @@ export const justPoints = {
           string: "g",
           ratio: 23 / 27,
           coordinates: {
-            equal: { cx: null, cy: 1007.1656486807743 },
+            equal: { cx: 287.18786495752045, cy: 1007.1656486807743 },
             just: { cx: 287.18518518518516, cy: 1007.5555555555555 }
           },
           colors: {
@@ -14644,7 +14714,7 @@ export const justPoints = {
           string: "g",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1015.9423930837036 },
+            equal: { cx: 287.12754369014635, cy: 1015.9423930837036 },
             just: { cx: 287.125, cy: 1016.3125 }
           },
           colors: {
@@ -14663,7 +14733,7 @@ export const justPoints = {
           string: "g",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1017.9677956382259 },
+            equal: { cx: 287.11362339767544, cy: 1017.9677956382259 },
             just: { cx: 287.1111111111111, cy: 1018.3333333333333 }
           },
           colors: {
@@ -14682,7 +14752,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.4490838126967 },
+            equal: { cx: 287.0690784617684, cy: 1024.4490838126967 },
             just: { cx: 287.06666666666666, cy: 1024.8000000000002 }
           },
           colors: {
@@ -14701,7 +14771,7 @@ export const justPoints = {
           string: "g",
           ratio: 889 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 1026.195993515972 },
+            equal: { cx: 287.0570722095122, cy: 1026.195993515972 },
             just: { cx: 287.0546875, cy: 1026.54296875 }
           },
           colors: {
@@ -14720,7 +14790,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.1710160744033 },
+            equal: { cx: 287.0022610579079, cy: 1034.1710160744033 },
             just: { cx: 287, cy: 1034.5 }
           },
           colors: {
@@ -14739,7 +14809,7 @@ export const justPoints = {
           string: "g",
           ratio: 71 / 81,
           coordinates: {
-            equal: { cx: null, cy: 1035.9713739006452 },
+            equal: { cx: 286.9898874646004, cy: 1035.9713739006452 },
             just: { cx: 286.98765432098764, cy: 1036.2962962962963 }
           },
           colors: {
@@ -14762,7 +14832,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 135,
           coordinates: {
-            equal: { cx: null, cy: 75.108558041657 },
+            equal: { cx: 306.406244385166, cy: 75.108558041657 },
             just: { cx: 306.4148148148148, cy: 76.35555555555555 }
           },
           colors: {
@@ -14781,7 +14851,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 87.51700685271261 },
+            equal: { cx: 306.49152582029353, cy: 87.51700685271261 },
             just: { cx: 306.5, cy: 88.75 }
           },
           colors: {
@@ -14800,7 +14870,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 131.2163265786041 },
+            equal: { cx: 306.7918647874818, cy: 131.2163265786041 },
             just: { cx: 306.8, cy: 132.4 }
           },
           colors: {
@@ -14819,7 +14889,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 144.16427316405344 },
+            equal: { cx: 306.88085411109313, cy: 144.16427316405344 },
             just: { cx: 306.8888888888889, cy: 145.33333333333333 }
           },
           colors: {
@@ -14838,7 +14908,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 32,
           coordinates: {
-            equal: { cx: null, cy: 196.76530616744137 },
+            equal: { cx: 307.2423732382642, cy: 196.76530616744137 },
             just: { cx: 307.25, cy: 197.875 }
           },
           colors: {
@@ -14857,7 +14927,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 208.9040060913001 },
+            equal: { cx: 307.3258007291498, cy: 208.9040060913001 },
             just: { cx: 307.3333333333333, cy: 210 }
           },
           colors: {
@@ -14876,7 +14946,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 247.7478458476481 },
+            equal: { cx: 307.5927686999838, cy: 247.7478458476481 },
             just: { cx: 307.6, cy: 248.8 }
           },
           colors: {
@@ -14895,7 +14965,7 @@ export const justPoints = {
           string: "d",
           ratio: 107 / 512,
           coordinates: {
-            equal: { cx: null, cy: 258.2174745319763 },
+            equal: { cx: 307.6647249108727, cy: 258.2174745319763 },
             just: { cx: 307.671875, cy: 259.2578125 }
           },
           colors: {
@@ -14914,7 +14984,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 306.0136054821701 },
+            equal: { cx: 307.9932206562348, cy: 306.0136054821701 },
             just: { cx: 308, cy: 307 }
           },
           colors: {
@@ -14933,7 +15003,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 27,
           coordinates: {
-            equal: { cx: null, cy: 316.80356097004454 },
+            equal: { cx: 308.06737842591093, cy: 316.80356097004454 },
             just: { cx: 308.0740740740741, cy: 317.77777777777777 }
           },
           colors: {
@@ -14952,7 +15022,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 351.3314185312427 },
+            equal: { cx: 308.3046832888745, cy: 351.3314185312427 },
             just: { cx: 308.31111111111113, cy: 352.26666666666666 }
           },
           colors: {
@@ -14971,7 +15041,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 360.6377551395345 },
+            equal: { cx: 308.3686443652202, cy: 360.6377551395345 },
             just: { cx: 308.375, cy: 361.5625 }
           },
           colors: {
@@ -14990,7 +15060,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 40,
           coordinates: {
-            equal: { cx: null, cy: 393.4122449339531 },
+            equal: { cx: 308.5938985906114, cy: 393.4122449339531 },
             just: { cx: 308.6, cy: 394.3 }
           },
           colors: {
@@ -15009,7 +15079,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 403.12320487304004 },
+            equal: { cx: 308.6606405833199, cy: 403.12320487304004 },
             just: { cx: 308.6666666666667, cy: 404 }
           },
           colors: {
@@ -15028,7 +15098,7 @@ export const justPoints = {
           string: "d",
           ratio: 47 / 128,
           coordinates: {
-            equal: { cx: null, cy: 442.57397962558105 },
+            equal: { cx: 308.9317799286982, cy: 442.57397962558105 },
             just: { cx: 308.9375, cy: 443.40625 }
           },
           colors: {
@@ -15047,7 +15117,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 451.6780045684751 },
+            equal: { cx: 308.9943505468624, cy: 451.6780045684751 },
             just: { cx: 309, cy: 452.5 }
           },
           colors: {
@@ -15066,7 +15136,7 @@ export const justPoints = {
           string: "d",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 480.8108843857361 },
+            equal: { cx: 309.1945765249879, cy: 480.8108843857361 },
             just: { cx: 309.2, cy: 481.6 }
           },
           colors: {
@@ -15085,7 +15155,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 27,
           coordinates: {
-            equal: { cx: null, cy: 489.4428487760356 },
+            equal: { cx: 309.2539027407288, cy: 489.4428487760356 },
             just: { cx: 309.25925925925924, cy: 490.2222222222222 }
           },
           colors: {
@@ -15104,7 +15174,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 524.5102041116276 },
+            equal: { cx: 309.4949154921761, cy: 524.5102041116276 },
             just: { cx: 309.5, cy: 525.25 }
           },
           colors: {
@@ -15123,7 +15193,7 @@ export const justPoints = {
           string: "d",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 532.6026707275335 },
+            equal: { cx: 309.5505338194332, cy: 532.6026707275335 },
             just: { cx: 309.55555555555554, cy: 533.3333333333333 }
           },
           colors: {
@@ -15142,7 +15212,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 558.498563898432 },
+            equal: { cx: 309.7285124666559, cy: 558.498563898432 },
             just: { cx: 309.73333333333335, cy: 559.2 }
           },
           colors: {
@@ -15161,7 +15231,7 @@ export const justPoints = {
           string: "d",
           ratio: 121 / 256,
           coordinates: {
-            equal: { cx: null, cy: 565.4783163546508 },
+            equal: { cx: 309.7764832739151, cy: 565.4783163546508 },
             just: { cx: 309.78125, cy: 566.171875 }
           },
           colors: {
@@ -15180,7 +15250,7 @@ export const justPoints = {
           string: "d",
           ratio: 79 / 160,
           coordinates: {
-            equal: { cx: null, cy: 590.0591837004648 },
+            equal: { cx: 309.94542394295854, cy: 590.0591837004648 },
             just: { cx: 309.95, cy: 590.725 }
           },
           colors: {
@@ -15199,7 +15269,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 597.34240365478 },
+            equal: { cx: 309.9954804374899, cy: 597.34240365478 },
             just: { cx: 310, cy: 598 }
           },
           colors: {
@@ -15220,7 +15290,7 @@ export const justPoints = {
           string: "d",
           ratio: 71 / 135,
           coordinates: {
-            equal: { cx: null, cy: 627.5542790208285 },
+            equal: { cx: 310.203122192583, cy: 627.5542790208285 },
             just: { cx: 310.2074074074074, cy: 628.1777777777777 }
           },
           colors: {
@@ -15239,7 +15309,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 633.7585034263562 },
+            equal: { cx: 310.24576291014677, cy: 633.7585034263562 },
             just: { cx: 310.25, cy: 634.375 }
           },
           colors: {
@@ -15258,7 +15328,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 655.6081632893021 },
+            equal: { cx: 310.3959323937409, cy: 655.6081632893021 },
             just: { cx: 310.4, cy: 656.2 }
           },
           colors: {
@@ -15277,7 +15347,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 662.0821365820268 },
+            equal: { cx: 310.4404270555466, cy: 662.0821365820268 },
             just: { cx: 310.44444444444446, cy: 662.6666666666666 }
           },
           colors: {
@@ -15296,7 +15366,7 @@ export const justPoints = {
           string: "d",
           ratio: 37 / 64,
           coordinates: {
-            equal: { cx: null, cy: 688.3826530837207 },
+            equal: { cx: 310.6211866191321, cy: 688.3826530837207 },
             just: { cx: 310.625, cy: 688.9375 }
           },
           colors: {
@@ -15315,7 +15385,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 694.4520030456501 },
+            equal: { cx: 310.6629003645749, cy: 694.4520030456501 },
             just: { cx: 310.6666666666667, cy: 695 }
           },
           colors: {
@@ -15334,7 +15404,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 713.873922923824 },
+            equal: { cx: 310.7963843499919, cy: 713.873922923824 },
             just: { cx: 310.8, cy: 714.4 }
           },
           colors: {
@@ -15353,7 +15423,7 @@ export const justPoints = {
           string: "d",
           ratio: 619 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 719.1087372659881 },
+            equal: { cx: 310.83236245543634, cy: 719.1087372659881 },
             just: { cx: 310.8359375, cy: 719.62890625 }
           },
           colors: {
@@ -15372,7 +15442,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 743.0068027410852 },
+            equal: { cx: 310.9966103281174, cy: 743.0068027410852 },
             just: { cx: 311, cy: 743.5 }
           },
           colors: {
@@ -15391,7 +15461,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 27,
           coordinates: {
-            equal: { cx: null, cy: 748.4017804850223 },
+            equal: { cx: 311.0336892129555, cy: 748.4017804850223 },
             just: { cx: 311.037037037037, cy: 748.8888888888888 }
           },
           colors: {
@@ -15410,7 +15480,7 @@ export const justPoints = {
           string: "d",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 765.6657092656214 },
+            equal: { cx: 311.1523416444373, cy: 765.6657092656214 },
             just: { cx: 311.15555555555557, cy: 766.1333333333333 }
           },
           colors: {
@@ -15429,7 +15499,7 @@ export const justPoints = {
           string: "d",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 770.3188775697672 },
+            equal: { cx: 311.18432218261006, cy: 770.3188775697672 },
             just: { cx: 311.1875, cy: 770.78125 }
           },
           colors: {
@@ -15448,7 +15518,7 @@ export const justPoints = {
           string: "d",
           ratio: 53 / 80,
           coordinates: {
-            equal: { cx: null, cy: 786.7061224669766 },
+            equal: { cx: 311.2969492953057, cy: 786.7061224669766 },
             just: { cx: 311.3, cy: 787.15 }
           },
           colors: {
@@ -15467,7 +15537,7 @@ export const justPoints = {
           string: "d",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 791.56160243652 },
+            equal: { cx: 311.3303202916599, cy: 791.56160243652 },
             just: { cx: 311.3333333333333, cy: 792 }
           },
           colors: {
@@ -15486,7 +15556,7 @@ export const justPoints = {
           string: "d",
           ratio: 175 / 256,
           coordinates: {
-            equal: { cx: null, cy: 811.2869898127906 },
+            equal: { cx: 311.46588996434906, cy: 811.2869898127906 },
             just: { cx: 311.46875, cy: 811.703125 }
           },
           colors: {
@@ -15505,7 +15575,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 815.8390022842375 },
+            equal: { cx: 311.4971752734312, cy: 815.8390022842375 },
             just: { cx: 311.5, cy: 816.25 }
           },
           colors: {
@@ -15524,7 +15594,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 830.405442192868 },
+            equal: { cx: 311.5972882624939, cy: 830.405442192868 },
             just: { cx: 311.6, cy: 830.8 }
           },
           colors: {
@@ -15543,7 +15613,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 27,
           coordinates: {
-            equal: { cx: null, cy: 834.7214243880178 },
+            equal: { cx: 311.6269513703644, cy: 834.7214243880178 },
             just: { cx: 311.6296296296296, cy: 835.1111111111111 }
           },
           colors: {
@@ -15562,7 +15632,7 @@ export const justPoints = {
           string: "d",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 852.2551020558138 },
+            equal: { cx: 311.74745774608806, cy: 852.2551020558138 },
             just: { cx: 311.75, cy: 852.625 }
           },
           colors: {
@@ -15581,7 +15651,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 856.3013353637667 },
+            equal: { cx: 311.7752669097166, cy: 856.3013353637667 },
             just: { cx: 311.77777777777777, cy: 856.6666666666666 }
           },
           colors: {
@@ -15600,7 +15670,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 869.249281949216 },
+            equal: { cx: 311.8642562333279, cy: 869.249281949216 },
             just: { cx: 311.8666666666667, cy: 869.5999999999999 }
           },
           colors: {
@@ -15619,7 +15689,7 @@ export const justPoints = {
           string: "d",
           ratio: 377 / 512,
           coordinates: {
-            equal: { cx: null, cy: 872.7391581773254 },
+            equal: { cx: 311.88824163695756, cy: 872.7391581773254 },
             just: { cx: 311.890625, cy: 873.0859375 }
           },
           colors: {
@@ -15638,7 +15708,7 @@ export const justPoints = {
           string: "d",
           ratio: 239 / 320,
           coordinates: {
-            equal: { cx: null, cy: 885.0295918502324 },
+            equal: { cx: 311.97271197147927, cy: 885.0295918502324 },
             just: { cx: 311.975, cy: 885.3625 }
           },
           colors: {
@@ -15657,7 +15727,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 888.6712018273901 },
+            equal: { cx: 311.9977402187449, cy: 888.6712018273901 },
             just: { cx: 312, cy: 889 }
           },
           colors: {
@@ -15678,7 +15748,7 @@ export const justPoints = {
           string: "d",
           ratio: 103 / 135,
           coordinates: {
-            equal: { cx: null, cy: 903.7771395104143 },
+            equal: { cx: 312.1015610962915, cy: 903.7771395104143 },
             just: { cx: 312.10370370370373, cy: 904.0888888888888 }
           },
           colors: {
@@ -15697,7 +15767,7 @@ export const justPoints = {
           string: "d",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 906.8792517131782 },
+            equal: { cx: 312.1228814550734, cy: 906.8792517131782 },
             just: { cx: 312.125, cy: 907.1875 }
           },
           colors: {
@@ -15716,7 +15786,7 @@ export const justPoints = {
           string: "d",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 917.8040816446511 },
+            equal: { cx: 312.1979661968705, cy: 917.8040816446511 },
             just: { cx: 312.2, cy: 918.1 }
           },
           colors: {
@@ -15735,7 +15805,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 921.0410682910133 },
+            equal: { cx: 312.2202135277733, cy: 921.0410682910133 },
             just: { cx: 312.22222222222223, cy: 921.3333333333333 }
           },
           colors: {
@@ -15754,7 +15824,7 @@ export const justPoints = {
           string: "d",
           ratio: 101 / 128,
           coordinates: {
-            equal: { cx: null, cy: 934.1913265418602 },
+            equal: { cx: 312.31059330956606, cy: 934.1913265418602 },
             just: { cx: 312.3125, cy: 934.46875 }
           },
           colors: {
@@ -15773,7 +15843,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 937.226001522825 },
+            equal: { cx: 312.3314501822875, cy: 937.226001522825 },
             just: { cx: 312.3333333333333, cy: 937.5 }
           },
           colors: {
@@ -15792,7 +15862,7 @@ export const justPoints = {
           string: "d",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 946.936961461912 },
+            equal: { cx: 312.398192174996, cy: 946.936961461912 },
             just: { cx: 312.4, cy: 947.2 }
           },
           colors: {
@@ -15811,7 +15881,7 @@ export const justPoints = {
           string: "d",
           ratio: 1643 / 2048,
           coordinates: {
-            equal: { cx: null, cy: 949.554368632994 },
+            equal: { cx: 312.4161812277182, cy: 949.554368632994 },
             just: { cx: 312.41796875, cy: 949.814453125 }
           },
           colors: {
@@ -15830,7 +15900,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.5034013705425 },
+            equal: { cx: 312.4983051640587, cy: 961.5034013705425 },
             just: { cx: 312.5, cy: 961.75 }
           },
           colors: {
@@ -15849,7 +15919,7 @@ export const justPoints = {
           string: "d",
           ratio: 22 / 27,
           coordinates: {
-            equal: { cx: null, cy: 964.200890242511 },
+            equal: { cx: 312.5168446064777, cy: 964.200890242511 },
             just: { cx: 312.51851851851853, cy: 964.4444444444444 }
           },
           colors: {
@@ -15868,7 +15938,7 @@ export const justPoints = {
           string: "d",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 972.8328546328106 },
+            equal: { cx: 312.5761708222186, cy: 972.8328546328106 },
             just: { cx: 312.5777777777778, cy: 973.0666666666666 }
           },
           colors: {
@@ -15887,7 +15957,7 @@ export const justPoints = {
           string: "d",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 975.1594387848836 },
+            equal: { cx: 312.59216109130506, cy: 975.1594387848836 },
             just: { cx: 312.59375, cy: 975.390625 }
           },
           colors: {
@@ -15906,7 +15976,7 @@ export const justPoints = {
           string: "d",
           ratio: 133 / 160,
           coordinates: {
-            equal: { cx: null, cy: 983.3530612334883 },
+            equal: { cx: 312.64847464765285, cy: 983.3530612334883 },
             just: { cx: 312.65, cy: 983.575 }
           },
           colors: {
@@ -15925,7 +15995,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 985.7808012182601 },
+            equal: { cx: 312.66516014583, cy: 985.7808012182601 },
             just: { cx: 312.6666666666667, cy: 986 }
           },
           colors: {
@@ -15944,7 +16014,7 @@ export const justPoints = {
           string: "d",
           ratio: 431 / 512,
           coordinates: {
-            equal: { cx: null, cy: 995.6434949063953 },
+            equal: { cx: 312.73294498217456, cy: 995.6434949063953 },
             just: { cx: 312.734375, cy: 995.8515625 }
           },
           colors: {
@@ -15963,7 +16033,7 @@ export const justPoints = {
           string: "d",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 997.9195011421187 },
+            equal: { cx: 312.74858763671557, cy: 997.9195011421187 },
             just: { cx: 312.75, cy: 998.125 }
           },
           colors: {
@@ -15982,7 +16052,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1005.2027210964341 },
+            equal: { cx: 312.798644131247, cy: 1005.2027210964341 },
             just: { cx: 312.8, cy: 1005.4 }
           },
           colors: {
@@ -16001,7 +16071,7 @@ export const justPoints = {
           string: "d",
           ratio: 23 / 27,
           coordinates: {
-            equal: { cx: null, cy: 1007.360712194009 },
+            equal: { cx: 312.8134756851822, cy: 1007.360712194009 },
             just: { cx: 312.81481481481484, cy: 1007.5555555555555 }
           },
           colors: {
@@ -16020,7 +16090,7 @@ export const justPoints = {
           string: "d",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1016.1275510279069 },
+            equal: { cx: 312.87372887304406, cy: 1016.1275510279069 },
             just: { cx: 312.875, cy: 1016.3125 }
           },
           colors: {
@@ -16039,7 +16109,7 @@ export const justPoints = {
           string: "d",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1018.1506676818834 },
+            equal: { cx: 312.8876334548583, cy: 1018.1506676818834 },
             just: { cx: 312.8888888888889, cy: 1018.3333333333333 }
           },
           colors: {
@@ -16058,7 +16128,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.6246409746082 },
+            equal: { cx: 312.932128116664, cy: 1024.6246409746082 },
             just: { cx: 312.93333333333334, cy: 1024.8000000000002 }
           },
           colors: {
@@ -16077,7 +16147,7 @@ export const justPoints = {
           string: "d",
           ratio: 889 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 1026.3695790886627 },
+            equal: { cx: 312.9441208184788, cy: 1026.3695790886627 },
             just: { cx: 312.9453125, cy: 1026.54296875 }
           },
           colors: {
@@ -16096,7 +16166,7 @@ export const justPoints = {
           string: "d",
           ratio: 559 / 640,
           coordinates: {
-            equal: { cx: null, cy: 1032.5147959251162 },
+            equal: { cx: 312.98635598573964, cy: 1032.5147959251162 },
             just: { cx: 312.9875, cy: 1032.68125 }
           },
           colors: {
@@ -16115,7 +16185,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.335600913695 },
+            equal: { cx: 312.9988701093725, cy: 1034.335600913695 },
             just: { cx: 313, cy: 1034.5 }
           },
           colors: {
@@ -17516,7 +17586,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 256,
           coordinates: {
-            equal: { cx: null, cy: 76.35637159186686 },
+            equal: { cx: 280.44442341258076, cy: 76.35637159186686 },
             just: { cx: 280.4765625, cy: 75.109375 }
           },
           colors: {
@@ -17535,7 +17605,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 89.98160157221419 },
+            equal: { cx: 280.09325769143777, cy: 89.98160157221419 },
             just: { cx: 280.125, cy: 88.75 }
           },
           colors: {
@@ -17554,7 +17624,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 133.5823375093256 },
+            equal: { cx: 278.96952738378025, cy: 133.5823375093256 },
             just: { cx: 279, cy: 132.4 }
           },
           colors: {
@@ -17573,7 +17643,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 146.50107408328455 },
+            equal: { cx: 278.63657025558547, cy: 146.50107408328455 },
             just: { cx: 278.6666666666667, cy: 145.33333333333333 }
           },
           colors: {
@@ -17592,7 +17662,7 @@ export const justPoints = {
           string: "e",
           ratio: 5 / 32,
           coordinates: {
-            equal: { cx: null, cy: 198.98344141499277 },
+            equal: { cx: 277.283931922294, cy: 198.98344141499277 },
             just: { cx: 277.3125, cy: 197.875 }
           },
           colors: {
@@ -17611,7 +17681,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 211.09475695307927 },
+            equal: { cx: 276.97178461461135, cy: 211.09475695307927 },
             just: { cx: 277, cy: 210 }
           },
           colors: {
@@ -17630,7 +17700,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 249.8509666749561 },
+            equal: { cx: 275.9729132300269, cy: 249.8509666749561 },
             just: { cx: 276, cy: 248.8 }
           },
           colors: {
@@ -17649,7 +17719,7 @@ export const justPoints = {
           string: "e",
           ratio: 107 / 512,
           coordinates: {
-            equal: { cx: null, cy: 260.29697632655575 },
+            equal: { cx: 275.70368617715064, cy: 260.29697632655575 },
             just: { cx: 275.73046875, cy: 259.2578125 }
           },
           colors: {
@@ -17668,7 +17738,7 @@ export const justPoints = {
           string: "e",
           ratio: 77 / 320,
           coordinates: {
-            equal: { cx: null, cy: 297.0850972734935 },
+            equal: { cx: 274.7555387300646, cy: 297.0850972734935 },
             just: { cx: 274.78125, cy: 296.08750000000003 }
           },
           colors: {
@@ -17687,7 +17757,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 307.98528125777136 },
+            equal: { cx: 274.4746061531502, cy: 307.98528125777136 },
             just: { cx: 274.5, cy: 307 }
           },
           colors: {
@@ -17706,7 +17776,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 353.2008592666276 },
+            equal: { cx: 273.30925620446834, cy: 353.2008592666276 },
             just: { cx: 273.3333333333333, cy: 352.26666666666666 }
           },
           colors: {
@@ -17725,7 +17795,7 @@ export const justPoints = {
           string: "e",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 362.4862011791607 },
+            equal: { cx: 273.06994326857836, cy: 362.4862011791607 },
             just: { cx: 273.09375, cy: 361.5625 }
           },
           colors: {
@@ -17744,7 +17814,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 40,
           coordinates: {
-            equal: { cx: null, cy: 395.18675313199424 },
+            equal: { cx: 272.2271455378352, cy: 395.18675313199424 },
             just: { cx: 272.25, cy: 394.3 }
           },
           colors: {
@@ -17763,7 +17833,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 404.8758055624634 },
+            equal: { cx: 271.97742769168906, cy: 404.8758055624634 },
             just: { cx: 272, cy: 404 }
           },
           colors: {
@@ -17782,7 +17852,7 @@ export const justPoints = {
           string: "e",
           ratio: 47 / 128,
           coordinates: {
-            equal: { cx: null, cy: 444.23758106124455 },
+            equal: { cx: 270.9629489417205, cy: 444.23758106124455 },
             just: { cx: 270.984375, cy: 443.40625 }
           },
           colors: {
@@ -17801,7 +17871,7 @@ export const justPoints = {
           string: "e",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 453.3210677148095 },
+            equal: { cx: 270.7288384609585, cy: 453.3210677148095 },
             just: { cx: 270.75, cy: 452.5 }
           },
           colors: {
@@ -17820,7 +17890,7 @@ export const justPoints = {
           string: "e",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 482.3882250062171 },
+            equal: { cx: 269.97968492252016, cy: 482.3882250062171 },
             just: { cx: 270, cy: 481.6 }
           },
           colors: {
@@ -17839,7 +17909,7 @@ export const justPoints = {
           string: "e",
           ratio: 833 / 2048,
           coordinates: {
-            equal: { cx: null, cy: 490.2227322449168 },
+            equal: { cx: 269.77776463286295, cy: 490.2227322449168 },
             just: { cx: 269.7978515625, cy: 489.443359375 }
           },
           colors: {
@@ -17858,7 +17928,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 525.9889609433285 },
+            equal: { cx: 268.85595461486264, cy: 525.9889609433285 },
             just: { cx: 268.875, cy: 525.25 }
           },
           colors: {
@@ -17877,7 +17947,7 @@ export const justPoints = {
           string: "e",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 534.0631713020528 },
+            equal: { cx: 268.6478564097409, cy: 534.0631713020528 },
             just: { cx: 268.6666666666667, cy: 533.3333333333333 }
           },
           colors: {
@@ -17896,7 +17966,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 559.9006444499707 },
+            equal: { cx: 267.98194215335127, cy: 559.9006444499707 },
             just: { cx: 268, cy: 559.2 }
           },
           colors: {
@@ -17915,7 +17985,7 @@ export const justPoints = {
           string: "e",
           ratio: 121 / 256,
           coordinates: {
-            equal: { cx: null, cy: 566.8646508843705 },
+            equal: { cx: 267.8024574514337, cy: 566.8646508843705 },
             just: { cx: 267.8203125, cy: 566.171875 }
           },
           colors: {
@@ -17934,7 +18004,7 @@ export const justPoints = {
           string: "e",
           ratio: 79 / 160,
           coordinates: {
-            equal: { cx: null, cy: 591.3900648489956 },
+            equal: { cx: 267.1703591533764, cy: 591.3900648489956 },
             just: { cx: 267.1875, cy: 590.725 }
           },
           colors: {
@@ -17953,7 +18023,7 @@ export const justPoints = {
           string: "e",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 598.6568541718476 },
+            equal: { cx: 266.9830707687668, cy: 598.6568541718476 },
             just: { cx: 267, cy: 598 }
           },
           colors: {
@@ -17974,7 +18044,7 @@ export const justPoints = {
           string: "e",
           ratio: 269 / 512,
           coordinates: {
-            equal: { cx: null, cy: 628.1781857959335 },
+            equal: { cx: 266.22221170629035, cy: 628.1781857959335 },
             just: { cx: 266.23828125, cy: 627.5546875 }
           },
           colors: {
@@ -17993,7 +18063,7 @@ export const justPoints = {
           string: "e",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 634.9908007861071 },
+            equal: { cx: 266.0466288457189, cy: 634.9908007861071 },
             just: { cx: 266.0625, cy: 634.375 }
           },
           colors: {
@@ -18012,7 +18082,7 @@ export const justPoints = {
           string: "e",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 656.7911687546629 },
+            equal: { cx: 265.4847636918901, cy: 656.7911687546629 },
             just: { cx: 265.5, cy: 656.2 }
           },
           colors: {
@@ -18031,7 +18101,7 @@ export const justPoints = {
           string: "e",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 663.2505370416422 },
+            equal: { cx: 265.3182851277927, cy: 663.2505370416422 },
             just: { cx: 265.3333333333333, cy: 662.6666666666666 }
           },
           colors: {
@@ -18050,7 +18120,7 @@ export const justPoints = {
           string: "e",
           ratio: 37 / 64,
           coordinates: {
-            equal: { cx: null, cy: 689.4917207074964 },
+            equal: { cx: 264.641965961147, cy: 689.4917207074964 },
             just: { cx: 264.65625, cy: 688.9375 }
           },
           colors: {
@@ -18069,7 +18139,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 695.5473784765397 },
+            equal: { cx: 264.4858923073057, cy: 695.5473784765397 },
             just: { cx: 264.5, cy: 695 }
           },
           colors: {
@@ -18088,7 +18158,7 @@ export const justPoints = {
           string: "e",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 714.925483337478 },
+            equal: { cx: 263.9864566150135, cy: 714.925483337478 },
             just: { cx: 264, cy: 714.4 }
           },
           colors: {
@@ -18107,7 +18177,7 @@ export const justPoints = {
           string: "e",
           ratio: 619 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 720.1484881632779 },
+            equal: { cx: 263.8518430885753, cy: 720.1484881632779 },
             just: { cx: 263.865234375, cy: 719.62890625 }
           },
           colors: {
@@ -18126,7 +18196,7 @@ export const justPoints = {
           string: "e",
           ratio: 397 / 640,
           coordinates: {
-            equal: { cx: null, cy: 738.5425486367468 },
+            equal: { cx: 263.3777693650323, cy: 738.5425486367468 },
             just: { cx: 263.390625, cy: 738.04375 }
           },
           colors: {
@@ -18145,7 +18215,7 @@ export const justPoints = {
           string: "e",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 743.9926406288856 },
+            equal: { cx: 263.23730307657513, cy: 743.9926406288856 },
             just: { cx: 263.25, cy: 743.5 }
           },
           colors: {
@@ -18164,7 +18234,7 @@ export const justPoints = {
           string: "e",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 766.6004296333139 },
+            equal: { cx: 262.6546281022342, cy: 766.6004296333139 },
             just: { cx: 262.6666666666667, cy: 766.1333333333333 }
           },
           colors: {
@@ -18183,7 +18253,7 @@ export const justPoints = {
           string: "e",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 771.2431005895804 },
+            equal: { cx: 262.53497163428915, cy: 771.2431005895804 },
             just: { cx: 262.546875, cy: 770.78125 }
           },
           colors: {
@@ -18202,7 +18272,7 @@ export const justPoints = {
           string: "e",
           ratio: 53 / 80,
           coordinates: {
-            equal: { cx: null, cy: 787.5933765659971 },
+            equal: { cx: 262.1135727689176, cy: 787.5933765659971 },
             just: { cx: 262.125, cy: 787.15 }
           },
           colors: {
@@ -18221,7 +18291,7 @@ export const justPoints = {
           string: "e",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 792.4379027812316 },
+            equal: { cx: 261.98871384584453, cy: 792.4379027812316 },
             just: { cx: 262, cy: 792 }
           },
           colors: {
@@ -18240,7 +18310,7 @@ export const justPoints = {
           string: "e",
           ratio: 175 / 256,
           coordinates: {
-            equal: { cx: null, cy: 812.1187905306223 },
+            equal: { cx: 261.48147447086023, cy: 812.1187905306223 },
             just: { cx: 261.4921875, cy: 811.703125 }
           },
           colors: {
@@ -18259,7 +18329,7 @@ export const justPoints = {
           string: "e",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 816.6605338574047 },
+            equal: { cx: 261.36441923047926, cy: 816.6605338574047 },
             just: { cx: 261.375, cy: 816.25 }
           },
           colors: {
@@ -18278,7 +18348,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 831.1941125031085 },
+            equal: { cx: 260.9898424612601, cy: 831.1941125031085 },
             just: { cx: 261, cy: 830.8 }
           },
           colors: {
@@ -18297,7 +18367,7 @@ export const justPoints = {
           string: "e",
           ratio: 2881 / 4096,
           coordinates: {
-            equal: { cx: null, cy: 835.1113661224584 },
+            equal: { cx: 260.8888823164315, cy: 835.1113661224584 },
             just: { cx: 260.89892578125, cy: 834.7216796875 }
           },
           colors: {
@@ -18316,7 +18386,7 @@ export const justPoints = {
           string: "e",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 852.9944804716642 },
+            equal: { cx: 260.4279773074313, cy: 852.9944804716642 },
             just: { cx: 260.4375, cy: 852.625 }
           },
           colors: {
@@ -18335,7 +18405,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 857.0315856510264 },
+            equal: { cx: 260.32392820487047, cy: 857.0315856510264 },
             just: { cx: 260.3333333333333, cy: 856.6666666666666 }
           },
           colors: {
@@ -18354,7 +18424,7 @@ export const justPoints = {
           string: "e",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 869.9503222249853 },
+            equal: { cx: 259.99097107667563, cy: 869.9503222249853 },
             just: { cx: 260, cy: 869.5999999999999 }
           },
           colors: {
@@ -18373,7 +18443,7 @@ export const justPoints = {
           string: "e",
           ratio: 377 / 512,
           coordinates: {
-            equal: { cx: null, cy: 873.4323254421852 },
+            equal: { cx: 259.90122872571686, cy: 873.4323254421852 },
             just: { cx: 259.91015625, cy: 873.0859375 }
           },
           colors: {
@@ -18392,7 +18462,7 @@ export const justPoints = {
           string: "e",
           ratio: 239 / 320,
           coordinates: {
-            equal: { cx: null, cy: 885.6950324244979 },
+            equal: { cx: 259.5851795766882, cy: 885.6950324244979 },
             just: { cx: 259.59375, cy: 885.3625 }
           },
           colors: {
@@ -18411,7 +18481,7 @@ export const justPoints = {
           string: "e",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 889.3284270859237 },
+            equal: { cx: 259.4915353843834, cy: 889.3284270859237 },
             just: { cx: 259.5, cy: 889 }
           },
           colors: {
@@ -18432,7 +18502,7 @@ export const justPoints = {
           string: "e",
           ratio: 781 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 904.0890928979667 },
+            equal: { cx: 259.1111058531452, cy: 904.0890928979667 },
             just: { cx: 259.119140625, cy: 903.77734375 }
           },
           colors: {
@@ -18451,7 +18521,7 @@ export const justPoints = {
           string: "e",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 907.4954003930535 },
+            equal: { cx: 259.02331442285947, cy: 907.4954003930535 },
             just: { cx: 259.03125, cy: 907.1875 }
           },
           colors: {
@@ -18470,7 +18540,7 @@ export const justPoints = {
           string: "e",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 918.3955843773314 },
+            equal: { cx: 258.7423818459451, cy: 918.3955843773314 },
             just: { cx: 258.75, cy: 918.1 }
           },
           colors: {
@@ -18489,7 +18559,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 921.6252685208212 },
+            equal: { cx: 258.65914256389635, cy: 921.6252685208212 },
             just: { cx: 258.6666666666667, cy: 921.3333333333333 }
           },
           colors: {
@@ -18508,7 +18578,7 @@ export const justPoints = {
           string: "e",
           ratio: 101 / 128,
           coordinates: {
-            equal: { cx: null, cy: 934.7458603537482 },
+            equal: { cx: 258.3209829805735, cy: 934.7458603537482 },
             just: { cx: 258.328125, cy: 934.46875 }
           },
           colors: {
@@ -18527,7 +18597,7 @@ export const justPoints = {
           string: "e",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 937.7736892382698 },
+            equal: { cx: 258.24294615365284, cy: 937.7736892382698 },
             just: { cx: 258.25, cy: 937.5 }
           },
           colors: {
@@ -18546,7 +18616,7 @@ export const justPoints = {
           string: "e",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 947.462741668739 },
+            equal: { cx: 257.99322830750674, cy: 947.462741668739 },
             just: { cx: 258, cy: 947.2 }
           },
           colors: {
@@ -18565,7 +18635,7 @@ export const justPoints = {
           string: "e",
           ratio: 1643 / 2048,
           coordinates: {
-            equal: { cx: null, cy: 950.0742440816389 },
+            equal: { cx: 257.92592154428763, cy: 950.0742440816389 },
             just: { cx: 257.9326171875, cy: 949.814453125 }
           },
           colors: {
@@ -18584,7 +18654,7 @@ export const justPoints = {
           string: "e",
           ratio: 1037 / 1280,
           coordinates: {
-            equal: { cx: null, cy: 959.2712743183733 },
+            equal: { cx: 257.6888846825162, cy: 959.2712743183733 },
             just: { cx: 257.6953125, cy: 959.021875 }
           },
           colors: {
@@ -18603,7 +18673,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.9963203144429 },
+            equal: { cx: 257.61865153828757, cy: 961.9963203144429 },
             just: { cx: 257.625, cy: 961.75 }
           },
           colors: {
@@ -18622,7 +18692,7 @@ export const justPoints = {
           string: "e",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 973.3002148166569 },
+            equal: { cx: 257.32731405111707, cy: 973.3002148166569 },
             just: { cx: 257.3333333333333, cy: 973.0666666666666 }
           },
           colors: {
@@ -18641,7 +18711,7 @@ export const justPoints = {
           string: "e",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 975.6215502947902 },
+            equal: { cx: 257.2674858171446, cy: 975.6215502947902 },
             just: { cx: 257.2734375, cy: 975.390625 }
           },
           colors: {
@@ -18660,7 +18730,7 @@ export const justPoints = {
           string: "e",
           ratio: 133 / 160,
           coordinates: {
-            equal: { cx: null, cy: 983.7966882829985 },
+            equal: { cx: 257.0567863844588, cy: 983.7966882829985 },
             just: { cx: 257.0625, cy: 983.575 }
           },
           colors: {
@@ -18679,7 +18749,7 @@ export const justPoints = {
           string: "e",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 986.2189513906159 },
+            equal: { cx: 256.9943569229223, cy: 986.2189513906159 },
             just: { cx: 257, cy: 986 }
           },
           colors: {
@@ -18698,7 +18768,7 @@ export const justPoints = {
           string: "e",
           ratio: 431 / 512,
           coordinates: {
-            equal: { cx: null, cy: 996.0593952653112 },
+            equal: { cx: 256.7407372354301, cy: 996.0593952653112 },
             just: { cx: 256.74609375, cy: 995.8515625 }
           },
           colors: {
@@ -18717,7 +18787,7 @@ export const justPoints = {
           string: "e",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 998.3302669287024 },
+            equal: { cx: 256.6822096152396, cy: 998.3302669287024 },
             just: { cx: 256.6875, cy: 998.125 }
           },
           colors: {
@@ -18736,7 +18806,7 @@ export const justPoints = {
           string: "e",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1005.5970562515542 },
+            equal: { cx: 256.49492123063004, cy: 1005.5970562515542 },
             just: { cx: 256.5, cy: 1005.4 }
           },
           colors: {
@@ -18755,7 +18825,7 @@ export const justPoints = {
           string: "e",
           ratio: 6977 / 8192,
           coordinates: {
-            equal: { cx: null, cy: 1007.5556830612293 },
+            equal: { cx: 256.44444115821574, cy: 1007.5556830612293 },
             just: { cx: 256.449462890625, cy: 1007.36083984375 }
           },
           colors: {
@@ -18774,7 +18844,7 @@ export const justPoints = {
           string: "e",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1016.4972402358321 },
+            equal: { cx: 256.21398865371566, cy: 1016.4972402358321 },
             just: { cx: 256.21875, cy: 1016.3125 }
           },
           colors: {
@@ -18793,7 +18863,7 @@ export const justPoints = {
           string: "e",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1018.5157928255134 },
+            equal: { cx: 256.1619641024352, cy: 1018.5157928255134 },
             just: { cx: 256.1666666666667, cy: 1018.3333333333333 }
           },
           colors: {
@@ -18812,7 +18882,7 @@ export const justPoints = {
           string: "e",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.9751611124927 },
+            equal: { cx: 255.99548553833782, cy: 1024.9751611124927 },
             just: { cx: 256, cy: 1024.8000000000002 }
           },
           colors: {
@@ -18831,7 +18901,7 @@ export const justPoints = {
           string: "e",
           ratio: 889 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 1026.7161627210926 },
+            equal: { cx: 255.95061436285843, cy: 1026.7161627210926 },
             just: { cx: 255.955078125, cy: 1026.54296875 }
           },
           colors: {
@@ -18850,7 +18920,7 @@ export const justPoints = {
           string: "e",
           ratio: 559 / 640,
           coordinates: {
-            equal: { cx: null, cy: 1032.8475162122488 },
+            equal: { cx: 255.79258978834412, cy: 1032.8475162122488 },
             just: { cx: 255.796875, cy: 1032.68125 }
           },
           colors: {
@@ -18869,7 +18939,7 @@ export const justPoints = {
           string: "e",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.664213542962 },
+            equal: { cx: 255.7457676921917, cy: 1034.664213542962 },
             just: { cx: 255.75, cy: 1034.5 }
           },
           colors: {
@@ -20268,7 +20338,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 81,
           coordinates: {
-            equal: { cx: null, cy: 29.07141462672605 },
+            equal: { cx: 306.11229737651826, cy: 29.07141462672605 },
             just: { cx: 306.12345679012344, cy: 30.37037037037037 }
           },
           colors: {
@@ -20287,7 +20357,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 135,
           coordinates: {
-            equal: { cx: null, cy: 75.108558041657 },
+            equal: { cx: 306.5078054814575, cy: 75.108558041657 },
             just: { cx: 306.51851851851853, cy: 76.35555555555555 }
           },
           colors: {
@@ -20306,7 +20376,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 87.51700685271261 },
+            equal: { cx: 306.61440727536694, cy: 87.51700685271261 },
             just: { cx: 306.625, cy: 88.75 }
           },
           colors: {
@@ -20325,7 +20395,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 131.2163265786041 },
+            equal: { cx: 306.9898309843523, cy: 131.2163265786041 },
             just: { cx: 307, cy: 132.4 }
           },
           colors: {
@@ -20344,7 +20414,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 144.16427316405344 },
+            equal: { cx: 307.1010676388664, cy: 144.16427316405344 },
             just: { cx: 307.1111111111111, cy: 145.33333333333333 }
           },
           colors: {
@@ -20363,7 +20433,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 32,
           coordinates: {
-            equal: { cx: null, cy: 196.76530616744137 },
+            equal: { cx: 307.55296654783024, cy: 196.76530616744137 },
             just: { cx: 307.5625, cy: 197.875 }
           },
           colors: {
@@ -20382,7 +20452,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 208.9040060913001 },
+            equal: { cx: 307.6572509114373, cy: 208.9040060913001 },
             just: { cx: 307.6666666666667, cy: 210 }
           },
           colors: {
@@ -20401,7 +20471,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 247.7478458476481 },
+            equal: { cx: 307.9909608749798, cy: 247.7478458476481 },
             just: { cx: 308, cy: 248.8 }
           },
           colors: {
@@ -20420,7 +20490,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 81,
           coordinates: {
-            equal: { cx: null, cy: 259.25713170138084 },
+            equal: { cx: 308.0898379012146, cy: 259.25713170138084 },
             just: { cx: 308.0987654320988, cy: 260.2962962962963 }
           },
           colors: {
@@ -20439,7 +20509,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 306.0136054821701 },
+            equal: { cx: 308.49152582029353, cy: 306.0136054821701 },
             just: { cx: 308.5, cy: 307 }
           },
           colors: {
@@ -20458,7 +20528,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 27,
           coordinates: {
-            equal: { cx: null, cy: 316.80356097004454 },
+            equal: { cx: 308.5842230323887, cy: 316.80356097004454 },
             just: { cx: 308.5925925925926, cy: 317.77777777777777 }
           },
           colors: {
@@ -20477,7 +20547,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 351.3314185312427 },
+            equal: { cx: 308.88085411109313, cy: 351.3314185312427 },
             just: { cx: 308.8888888888889, cy: 352.26666666666666 }
           },
           colors: {
@@ -20496,7 +20566,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 360.6377551395345 },
+            equal: { cx: 308.96080545652524, cy: 360.6377551395345 },
             just: { cx: 308.96875, cy: 361.5625 }
           },
           colors: {
@@ -20515,7 +20585,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 40,
           coordinates: {
-            equal: { cx: null, cy: 393.4122449339531 },
+            equal: { cx: 309.2423732382642, cy: 393.4122449339531 },
             just: { cx: 309.25, cy: 394.3 }
           },
           colors: {
@@ -20534,7 +20604,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 403.12320487304004 },
+            equal: { cx: 309.3258007291498, cy: 403.12320487304004 },
             just: { cx: 309.3333333333333, cy: 404 }
           },
           colors: {
@@ -20553,7 +20623,7 @@ export const justPoints = {
           string: "d",
           ratio: 149 / 405,
           coordinates: {
-            equal: { cx: null, cy: 443.40570536110465 },
+            equal: { cx: 309.67187032097166, cy: 443.40570536110465 },
             just: { cx: 309.679012345679, cy: 444.23703703703706 }
           },
           colors: {
@@ -20572,7 +20642,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 451.6780045684751 },
+            equal: { cx: 309.74293818357796, cy: 451.6780045684751 },
             just: { cx: 309.75, cy: 452.5 }
           },
           colors: {
@@ -20591,7 +20661,7 @@ export const justPoints = {
           string: "d",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 480.8108843857361 },
+            equal: { cx: 309.9932206562348, cy: 480.8108843857361 },
             just: { cx: 310, cy: 481.6 }
           },
           colors: {
@@ -20610,7 +20680,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 27,
           coordinates: {
-            equal: { cx: null, cy: 489.4428487760356 },
+            equal: { cx: 310.06737842591093, cy: 489.4428487760356 },
             just: { cx: 310.0740740740741, cy: 490.2222222222222 }
           },
           colors: {
@@ -20629,7 +20699,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 524.5102041116276 },
+            equal: { cx: 310.3686443652202, cy: 524.5102041116276 },
             just: { cx: 310.375, cy: 525.25 }
           },
           colors: {
@@ -20648,7 +20718,7 @@ export const justPoints = {
           string: "d",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 532.6026707275335 },
+            equal: { cx: 310.4381672742915, cy: 532.6026707275335 },
             just: { cx: 310.44444444444446, cy: 533.3333333333333 }
           },
           colors: {
@@ -20667,7 +20737,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 558.498563898432 },
+            equal: { cx: 310.6606405833199, cy: 558.498563898432 },
             just: { cx: 310.6666666666667, cy: 559.2 }
           },
           colors: {
@@ -20686,7 +20756,7 @@ export const justPoints = {
           string: "d",
           ratio: 121 / 256,
           coordinates: {
-            equal: { cx: null, cy: 565.4783163546508 },
+            equal: { cx: 310.7206040923939, cy: 565.4783163546508 },
             just: { cx: 310.7265625, cy: 566.171875 }
           },
           colors: {
@@ -20705,7 +20775,7 @@ export const justPoints = {
           string: "d",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 597.34240365478 },
+            equal: { cx: 310.9943505468624, cy: 597.34240365478 },
             just: { cx: 311, cy: 598 }
           },
           colors: {
@@ -20724,7 +20794,7 @@ export const justPoints = {
           string: "d",
           ratio: 41 / 81,
           coordinates: {
-            equal: { cx: null, cy: 604.5357073133631 },
+            equal: { cx: 311.05614868825916, cy: 604.5357073133631 },
             just: { cx: 311.0617283950617, cy: 605.1851851851852 }
           },
           colors: {
@@ -20745,7 +20815,7 @@ export const justPoints = {
           string: "d",
           ratio: 71 / 135,
           coordinates: {
-            equal: { cx: null, cy: 627.5542790208285 },
+            equal: { cx: 311.2539027407288, cy: 627.5542790208285 },
             just: { cx: 311.25925925925924, cy: 628.1777777777777 }
           },
           colors: {
@@ -20764,7 +20834,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 633.7585034263562 },
+            equal: { cx: 311.3072036376835, cy: 633.7585034263562 },
             just: { cx: 311.3125, cy: 634.375 }
           },
           colors: {
@@ -20783,7 +20853,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 655.6081632893021 },
+            equal: { cx: 311.4949154921761, cy: 655.6081632893021 },
             just: { cx: 311.5, cy: 656.2 }
           },
           colors: {
@@ -20802,7 +20872,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 662.0821365820268 },
+            equal: { cx: 311.5505338194332, cy: 662.0821365820268 },
             just: { cx: 311.55555555555554, cy: 662.6666666666666 }
           },
           colors: {
@@ -20821,7 +20891,7 @@ export const justPoints = {
           string: "d",
           ratio: 37 / 64,
           coordinates: {
-            equal: { cx: null, cy: 688.3826530837207 },
+            equal: { cx: 311.7764832739151, cy: 688.3826530837207 },
             just: { cx: 311.78125, cy: 688.9375 }
           },
           colors: {
@@ -20840,7 +20910,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 694.4520030456501 },
+            equal: { cx: 311.8286254557186, cy: 694.4520030456501 },
             just: { cx: 311.8333333333333, cy: 695 }
           },
           colors: {
@@ -20859,7 +20929,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 713.873922923824 },
+            equal: { cx: 311.9954804374899, cy: 713.873922923824 },
             just: { cx: 312, cy: 714.4 }
           },
           colors: {
@@ -20878,7 +20948,7 @@ export const justPoints = {
           string: "d",
           ratio: 49 / 81,
           coordinates: {
-            equal: { cx: null, cy: 719.6285658506905 },
+            equal: { cx: 312.0449189506073, cy: 719.6285658506905 },
             just: { cx: 312.04938271604937, cy: 720.1481481481482 }
           },
           colors: {
@@ -20897,7 +20967,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 743.0068027410852 },
+            equal: { cx: 312.24576291014677, cy: 743.0068027410852 },
             just: { cx: 312.25, cy: 743.5 }
           },
           colors: {
@@ -20916,7 +20986,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 27,
           coordinates: {
-            equal: { cx: null, cy: 748.4017804850223 },
+            equal: { cx: 312.2921115161943, cy: 748.4017804850223 },
             just: { cx: 312.2962962962963, cy: 748.8888888888888 }
           },
           colors: {
@@ -20935,7 +21005,7 @@ export const justPoints = {
           string: "d",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 765.6657092656214 },
+            equal: { cx: 312.4404270555466, cy: 765.6657092656214 },
             just: { cx: 312.44444444444446, cy: 766.1333333333333 }
           },
           colors: {
@@ -20954,7 +21024,7 @@ export const justPoints = {
           string: "d",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 770.3188775697672 },
+            equal: { cx: 312.4804027282626, cy: 770.3188775697672 },
             just: { cx: 312.484375, cy: 770.78125 }
           },
           colors: {
@@ -20973,7 +21043,7 @@ export const justPoints = {
           string: "d",
           ratio: 53 / 80,
           coordinates: {
-            equal: { cx: null, cy: 786.7061224669766 },
+            equal: { cx: 312.6211866191321, cy: 786.7061224669766 },
             just: { cx: 312.625, cy: 787.15 }
           },
           colors: {
@@ -20992,7 +21062,7 @@ export const justPoints = {
           string: "d",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 791.56160243652 },
+            equal: { cx: 312.6629003645749, cy: 791.56160243652 },
             just: { cx: 312.6666666666667, cy: 792 }
           },
           colors: {
@@ -21011,7 +21081,7 @@ export const justPoints = {
           string: "d",
           ratio: 277 / 405,
           coordinates: {
-            equal: { cx: null, cy: 811.7028526805523 },
+            equal: { cx: 312.83593516048586, cy: 811.7028526805523 },
             just: { cx: 312.8395061728395, cy: 812.1185185185185 }
           },
           colors: {
@@ -21030,7 +21100,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 815.8390022842375 },
+            equal: { cx: 312.871469091789, cy: 815.8390022842375 },
             just: { cx: 312.875, cy: 816.25 }
           },
           colors: {
@@ -21049,7 +21119,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 830.405442192868 },
+            equal: { cx: 312.9966103281174, cy: 830.405442192868 },
             just: { cx: 313, cy: 830.8 }
           },
           colors: {
@@ -21068,7 +21138,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 27,
           coordinates: {
-            equal: { cx: null, cy: 834.7214243880178 },
+            equal: { cx: 313.0336892129555, cy: 834.7214243880178 },
             just: { cx: 313.037037037037, cy: 835.1111111111111 }
           },
           colors: {
@@ -21087,7 +21157,7 @@ export const justPoints = {
           string: "d",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 852.2551020558138 },
+            equal: { cx: 313.18432218261006, cy: 852.2551020558138 },
             just: { cx: 313.1875, cy: 852.625 }
           },
           colors: {
@@ -21106,7 +21176,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 856.3013353637667 },
+            equal: { cx: 313.2190836371458, cy: 856.3013353637667 },
             just: { cx: 313.22222222222223, cy: 856.6666666666666 }
           },
           colors: {
@@ -21125,7 +21195,7 @@ export const justPoints = {
           string: "d",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 869.249281949216 },
+            equal: { cx: 313.3303202916599, cy: 869.249281949216 },
             just: { cx: 313.3333333333333, cy: 869.5999999999999 }
           },
           colors: {
@@ -21144,7 +21214,7 @@ export const justPoints = {
           string: "d",
           ratio: 377 / 512,
           coordinates: {
-            equal: { cx: null, cy: 872.7391581773254 },
+            equal: { cx: 313.360302046197, cy: 872.7391581773254 },
             just: { cx: 313.36328125, cy: 873.0859375 }
           },
           colors: {
@@ -21163,7 +21233,7 @@ export const justPoints = {
           string: "d",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 888.6712018273901 },
+            equal: { cx: 313.4971752734312, cy: 888.6712018273901 },
             just: { cx: 313.5, cy: 889 }
           },
           colors: {
@@ -21182,7 +21252,7 @@ export const justPoints = {
           string: "d",
           ratio: 61 / 81,
           coordinates: {
-            equal: { cx: null, cy: 892.2678536566815 },
+            equal: { cx: 313.52807434412955, cy: 892.2678536566815 },
             just: { cx: 313.5308641975309, cy: 892.5925925925926 }
           },
           colors: {
@@ -21203,7 +21273,7 @@ export const justPoints = {
           string: "d",
           ratio: 103 / 135,
           coordinates: {
-            equal: { cx: null, cy: 903.7771395104143 },
+            equal: { cx: 313.6269513703644, cy: 903.7771395104143 },
             just: { cx: 313.6296296296296, cy: 904.0888888888888 }
           },
           colors: {
@@ -21222,7 +21292,7 @@ export const justPoints = {
           string: "d",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 906.8792517131782 },
+            equal: { cx: 313.65360181884176, cy: 906.8792517131782 },
             just: { cx: 313.65625, cy: 907.1875 }
           },
           colors: {
@@ -21241,7 +21311,7 @@ export const justPoints = {
           string: "d",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 917.8040816446511 },
+            equal: { cx: 313.74745774608806, cy: 917.8040816446511 },
             just: { cx: 313.75, cy: 918.1 }
           },
           colors: {
@@ -21260,7 +21330,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 921.0410682910133 },
+            equal: { cx: 313.7752669097166, cy: 921.0410682910133 },
             just: { cx: 313.77777777777777, cy: 921.3333333333333 }
           },
           colors: {
@@ -21279,7 +21349,7 @@ export const justPoints = {
           string: "d",
           ratio: 101 / 128,
           coordinates: {
-            equal: { cx: null, cy: 934.1913265418602 },
+            equal: { cx: 313.88824163695756, cy: 934.1913265418602 },
             just: { cx: 313.890625, cy: 934.46875 }
           },
           colors: {
@@ -21298,7 +21368,7 @@ export const justPoints = {
           string: "d",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 937.226001522825 },
+            equal: { cx: 313.91431272785934, cy: 937.226001522825 },
             just: { cx: 313.9166666666667, cy: 937.5 }
           },
           colors: {
@@ -21317,7 +21387,7 @@ export const justPoints = {
           string: "d",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 946.936961461912 },
+            equal: { cx: 313.9977402187449, cy: 946.936961461912 },
             just: { cx: 314, cy: 947.2 }
           },
           colors: {
@@ -21336,7 +21406,7 @@ export const justPoints = {
           string: "d",
           ratio: 65 / 81,
           coordinates: {
-            equal: { cx: null, cy: 949.8142829253452 },
+            equal: { cx: 314.02245947530366, cy: 949.8142829253452 },
             just: { cx: 314.0246913580247, cy: 950.0740740740741 }
           },
           colors: {
@@ -21355,7 +21425,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.5034013705425 },
+            equal: { cx: 314.1228814550734, cy: 961.5034013705425 },
             just: { cx: 314.125, cy: 961.75 }
           },
           colors: {
@@ -21374,7 +21444,7 @@ export const justPoints = {
           string: "d",
           ratio: 22 / 27,
           coordinates: {
-            equal: { cx: null, cy: 964.200890242511 },
+            equal: { cx: 314.1460557580972, cy: 964.200890242511 },
             just: { cx: 314.14814814814815, cy: 964.4444444444444 }
           },
           colors: {
@@ -21393,7 +21463,7 @@ export const justPoints = {
           string: "d",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 972.8328546328106 },
+            equal: { cx: 314.2202135277733, cy: 972.8328546328106 },
             just: { cx: 314.22222222222223, cy: 973.0666666666666 }
           },
           colors: {
@@ -21412,7 +21482,7 @@ export const justPoints = {
           string: "d",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 975.1594387848836 },
+            equal: { cx: 314.2402013641313, cy: 975.1594387848836 },
             just: { cx: 314.2421875, cy: 975.390625 }
           },
           colors: {
@@ -21431,7 +21501,7 @@ export const justPoints = {
           string: "d",
           ratio: 133 / 160,
           coordinates: {
-            equal: { cx: null, cy: 983.3530612334883 },
+            equal: { cx: 314.31059330956606, cy: 983.3530612334883 },
             just: { cx: 314.3125, cy: 983.575 }
           },
           colors: {
@@ -21450,7 +21520,7 @@ export const justPoints = {
           string: "d",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 985.7808012182601 },
+            equal: { cx: 314.3314501822875, cy: 985.7808012182601 },
             just: { cx: 314.3333333333333, cy: 986 }
           },
           colors: {
@@ -21469,7 +21539,7 @@ export const justPoints = {
           string: "d",
           ratio: 341 / 405,
           coordinates: {
-            equal: { cx: null, cy: 995.8514263402762 },
+            equal: { cx: 314.41796758024293, cy: 995.8514263402762 },
             just: { cx: 314.41975308641975, cy: 996.0592592592593 }
           },
           colors: {
@@ -21488,7 +21558,7 @@ export const justPoints = {
           string: "d",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 997.9195011421187 },
+            equal: { cx: 314.4357345458945, cy: 997.9195011421187 },
             just: { cx: 314.4375, cy: 998.125 }
           },
           colors: {
@@ -21507,7 +21577,7 @@ export const justPoints = {
           string: "d",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1005.2027210964341 },
+            equal: { cx: 314.4983051640587, cy: 1005.2027210964341 },
             just: { cx: 314.5, cy: 1005.4 }
           },
           colors: {
@@ -21526,7 +21596,7 @@ export const justPoints = {
           string: "d",
           ratio: 23 / 27,
           coordinates: {
-            equal: { cx: null, cy: 1007.360712194009 },
+            equal: { cx: 314.5168446064777, cy: 1007.360712194009 },
             just: { cx: 314.51851851851853, cy: 1007.5555555555555 }
           },
           colors: {
@@ -21545,7 +21615,7 @@ export const justPoints = {
           string: "d",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1016.1275510279069 },
+            equal: { cx: 314.59216109130506, cy: 1016.1275510279069 },
             just: { cx: 314.59375, cy: 1016.3125 }
           },
           colors: {
@@ -21564,7 +21634,7 @@ export const justPoints = {
           string: "d",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1018.1506676818834 },
+            equal: { cx: 314.6095418185729, cy: 1018.1506676818834 },
             just: { cx: 314.6111111111111, cy: 1018.3333333333333 }
           },
           colors: {
@@ -21583,7 +21653,7 @@ export const justPoints = {
           string: "d",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.6246409746082 },
+            equal: { cx: 314.66516014583, cy: 1024.6246409746082 },
             just: { cx: 314.6666666666667, cy: 1024.8000000000002 }
           },
           colors: {
@@ -21602,7 +21672,7 @@ export const justPoints = {
           string: "d",
           ratio: 889 / 1024,
           coordinates: {
-            equal: { cx: null, cy: 1026.3695790886627 },
+            equal: { cx: 314.68015102309846, cy: 1026.3695790886627 },
             just: { cx: 314.681640625, cy: 1026.54296875 }
           },
           colors: {
@@ -21621,7 +21691,7 @@ export const justPoints = {
           string: "d",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.335600913695 },
+            equal: { cx: 314.74858763671557, cy: 1034.335600913695 },
             just: { cx: 314.75, cy: 1034.5 }
           },
           colors: {
@@ -21640,7 +21710,7 @@ export const justPoints = {
           string: "d",
           ratio: 71 / 81,
           coordinates: {
-            equal: { cx: null, cy: 1036.133926828341 },
+            equal: { cx: 314.7640371720648, cy: 1036.133926828341 },
             just: { cx: 314.7654320987654, cy: 1036.2962962962963 }
           },
           colors: {
@@ -21663,7 +21733,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 81,
           coordinates: {
-            equal: { cx: null, cy: 27.770991205161476 },
+            equal: { cx: 318.3033760619887, cy: 27.770991205161476 },
             just: { cx: 318.3703703703704, cy: 30.37037037037037 }
           },
           colors: {
@@ -21682,7 +21752,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 135,
           coordinates: {
-            equal: { cx: null, cy: 73.86015155695502 },
+            equal: { cx: 319.4912410195092, cy: 73.86015155695502 },
             just: { cx: 319.55555555555554, cy: 76.35555555555555 }
           },
           colors: {
@@ -21701,7 +21771,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 16,
           coordinates: {
-            equal: { cx: null, cy: 86.28262055802438 },
+            equal: { cx: 319.8114077463408, cy: 86.28262055802438 },
             just: { cx: 319.875, cy: 88.75 }
           },
           colors: {
@@ -21720,7 +21790,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 10,
           coordinates: {
-            equal: { cx: null, cy: 130.0313157357034 },
+            equal: { cx: 320.9389514364872, cy: 130.0313157357034 },
             just: { cx: 321, cy: 132.4 }
           },
           colors: {
@@ -21739,7 +21809,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 9,
           coordinates: {
-            equal: { cx: null, cy: 142.99389208464532 },
+            equal: { cx: 321.27303845578984, cy: 142.99389208464532 },
             just: { cx: 321.3333333333333, cy: 145.33333333333333 }
           },
           colors: {
@@ -21758,7 +21828,7 @@ export const justPoints = {
           string: "g",
           ratio: 191 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 196.7645791617378 },
+            equal: { cx: 322.65888090623037, cy: 196.7645791617378 },
             just: { cx: 322.71604938271605, cy: 198.9827160493827 }
           },
           colors: {
@@ -21777,7 +21847,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 6,
           coordinates: {
-            equal: { cx: null, cy: 207.806773829355 },
+            equal: { cx: 322.943473552303, cy: 207.806773829355 },
             just: { cx: 323, cy: 210 }
           },
           colors: {
@@ -21796,7 +21866,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 5,
           coordinates: {
-            equal: { cx: null, cy: 246.69450287618082 },
+            equal: { cx: 323.9457346102108, cy: 246.69450287618082 },
             just: { cx: 324, cy: 248.8 }
           },
           colors: {
@@ -21815,7 +21885,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 81,
           coordinates: {
-            equal: { cx: null, cy: 258.2167929641292 },
+            equal: { cx: 324.24270084959096, cy: 258.2167929641292 },
             just: { cx: 324.2962962962963, cy: 260.2962962962963 }
           },
           colors: {
@@ -21834,7 +21904,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 4,
           coordinates: {
-            equal: { cx: null, cy: 305.0260964464195 },
+            equal: { cx: 325.44912619707264, cy: 305.0260964464195 },
             just: { cx: 325.5, cy: 307 }
           },
           colors: {
@@ -21853,7 +21923,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 27,
           coordinates: {
-            equal: { cx: null, cy: 315.8282434038711 },
+            equal: { cx: 325.72753204649155, cy: 315.8282434038711 },
             just: { cx: 325.77777777777777, cy: 317.77777777777777 }
           },
           colors: {
@@ -21872,7 +21942,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 45,
           coordinates: {
-            equal: { cx: null, cy: 350.3951136677162 },
+            equal: { cx: 326.61843076463185, cy: 350.3951136677162 },
             just: { cx: 326.6666666666667, cy: 352.26666666666666 }
           },
           colors: {
@@ -21891,7 +21961,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 64,
           coordinates: {
-            equal: { cx: null, cy: 359.7119654185183 },
+            equal: { cx: 326.8585558097556, cy: 359.7119654185183 },
             just: { cx: 326.90625, cy: 361.5625 }
           },
           colors: {
@@ -21910,7 +21980,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 3,
           coordinates: {
-            equal: { cx: null, cy: 402.24541906348395 },
+            equal: { cx: 327.95477884184237, cy: 402.24541906348395 },
             just: { cx: 328, cy: 404 }
           },
           colors: {
@@ -21929,7 +21999,7 @@ export const justPoints = {
           string: "g",
           ratio: 83 / 243,
           coordinates: {
-            equal: { cx: null, cy: 411.84732747010764 },
+            equal: { cx: 328.20225070799245, cy: 411.84732747010764 },
             just: { cx: 328.24691358024694, cy: 413.58024691358025 }
           },
           colors: {
@@ -21948,7 +22018,7 @@ export const justPoints = {
           string: "g",
           ratio: 149 / 405,
           coordinates: {
-            equal: { cx: null, cy: 442.57343437130334 },
+            equal: { cx: 328.99416067967275, cy: 442.57343437130334 },
             just: { cx: 329.03703703703707, cy: 444.23703703703706 }
           },
           colors: {
@@ -21967,7 +22037,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 8,
           coordinates: {
-            equal: { cx: null, cy: 450.85508037201623 },
+            equal: { cx: 329.20760516422723, cy: 450.85508037201623 },
             just: { cx: 329.25, cy: 452.5 }
           },
           colors: {
@@ -21986,7 +22056,7 @@ export const justPoints = {
           string: "g",
           ratio: 2 / 5,
           coordinates: {
-            equal: { cx: null, cy: 480.02087715713566 },
+            equal: { cx: 329.9593009576581, cy: 480.02087715713566 },
             just: { cx: 330, cy: 481.6 }
           },
           colors: {
@@ -22005,7 +22075,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 27,
           coordinates: {
-            equal: { cx: null, cy: 488.66259472309684 },
+            equal: { cx: 330.1820256371932, cy: 488.66259472309684 },
             just: { cx: 330.22222222222223, cy: 490.2222222222222 }
           },
           colors: {
@@ -22024,7 +22094,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 16,
           coordinates: {
-            equal: { cx: null, cy: 523.7695723348146 },
+            equal: { cx: 331.0868446478045, cy: 523.7695723348146 },
             just: { cx: 331.125, cy: 525.25 }
           },
           colors: {
@@ -22043,7 +22113,7 @@ export const justPoints = {
           string: "g",
           ratio: 4 / 9,
           coordinates: {
-            equal: { cx: null, cy: 531.8711825529033 },
+            equal: { cx: 331.29564903486863, cy: 531.8711825529033 },
             just: { cx: 331.3333333333333, cy: 533.3333333333333 }
           },
           colors: {
@@ -22062,7 +22132,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 15,
           coordinates: {
-            equal: { cx: null, cy: 557.7963352507873 },
+            equal: { cx: 331.9638230734739, cy: 557.7963352507873 },
             just: { cx: 332, cy: 559.2 }
           },
           colors: {
@@ -22081,7 +22151,7 @@ export const justPoints = {
           string: "g",
           ratio: 115 / 243,
           coordinates: {
-            equal: { cx: null, cy: 565.4778619760862 },
+            equal: { cx: 332.161800566394, cy: 565.4778619760862 },
             just: { cx: 332.1975308641975, cy: 566.8641975308642 }
           },
           colors: {
@@ -22100,7 +22170,7 @@ export const justPoints = {
           string: "g",
           ratio: 1 / 2,
           coordinates: {
-            equal: { cx: null, cy: 596.684064297613 },
+            equal: { cx: 332.96608413138176, cy: 596.684064297613 },
             just: { cx: 333, cy: 598 }
           },
           colors: {
@@ -22119,7 +22189,7 @@ export const justPoints = {
           string: "g",
           ratio: 41 / 81,
           coordinates: {
-            equal: { cx: null, cy: 603.8854956025808 },
+            equal: { cx: 333.15168803099436, cy: 603.8854956025808 },
             just: { cx: 333.18518518518516, cy: 605.1851851851852 }
           },
           colors: {
@@ -22140,7 +22210,7 @@ export const justPoints = {
           string: "g",
           ratio: 71 / 135,
           coordinates: {
-            equal: { cx: null, cy: 626.9300757784774 },
+            equal: { cx: 333.7456205097546, cy: 626.9300757784774 },
             just: { cx: 333.77777777777777, cy: 628.1777777777777 }
           },
           colors: {
@@ -22159,7 +22229,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 32,
           coordinates: {
-            equal: { cx: null, cy: 633.1413102790121 },
+            equal: { cx: 333.9057038731704, cy: 633.1413102790121 },
             just: { cx: 333.9375, cy: 634.375 }
           },
           colors: {
@@ -22178,7 +22248,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 20,
           coordinates: {
-            equal: { cx: null, cy: 655.0156578678518 },
+            equal: { cx: 334.4694757182436, cy: 655.0156578678518 },
             just: { cx: 334.5, cy: 656.2 }
           },
           colors: {
@@ -22197,7 +22267,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 9,
           coordinates: {
-            equal: { cx: null, cy: 661.4969460423227 },
+            equal: { cx: 334.6365192278949, cy: 661.4969460423227 },
             just: { cx: 334.6666666666667, cy: 662.6666666666666 }
           },
           colors: {
@@ -22216,7 +22286,7 @@ export const justPoints = {
           string: "g",
           ratio: 703 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 688.3822895808688 },
+            equal: { cx: 335.3294404531152, cy: 688.3822895808688 },
             just: { cx: 335.358024691358, cy: 689.4913580246914 }
           },
           colors: {
@@ -22235,7 +22305,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 12,
           coordinates: {
-            equal: { cx: null, cy: 693.9033869146775 },
+            equal: { cx: 335.4717367761515, cy: 693.9033869146775 },
             just: { cx: 335.5, cy: 695 }
           },
           colors: {
@@ -22254,7 +22324,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 5,
           coordinates: {
-            equal: { cx: null, cy: 713.3472514380904 },
+            equal: { cx: 335.9728673051054, cy: 713.3472514380904 },
             just: { cx: 336, cy: 714.4 }
           },
           colors: {
@@ -22273,7 +22343,7 @@ export const justPoints = {
           string: "g",
           ratio: 49 / 81,
           coordinates: {
-            equal: { cx: null, cy: 719.1083964820647 },
+            equal: { cx: 336.1213504247955, cy: 719.1083964820647 },
             just: { cx: 336.14814814814815, cy: 720.1481481481482 }
           },
           colors: {
@@ -22292,7 +22362,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 8,
           coordinates: {
-            equal: { cx: null, cy: 742.5130482232098 },
+            equal: { cx: 336.72456309853635, cy: 742.5130482232098 },
             just: { cx: 336.75, cy: 743.5 }
           },
           colors: {
@@ -22311,7 +22381,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 27,
           coordinates: {
-            equal: { cx: null, cy: 747.9141217019356 },
+            equal: { cx: 336.8637660232458, cy: 747.9141217019356 },
             just: { cx: 336.8888888888889, cy: 748.8888888888888 }
           },
           colors: {
@@ -22330,7 +22400,7 @@ export const justPoints = {
           string: "g",
           ratio: 29 / 45,
           coordinates: {
-            equal: { cx: null, cy: 765.1975568338582 },
+            equal: { cx: 337.3092153823159, cy: 765.1975568338582 },
             just: { cx: 337.3333333333333, cy: 766.1333333333333 }
           },
           colors: {
@@ -22349,7 +22419,7 @@ export const justPoints = {
           string: "g",
           ratio: 83 / 128,
           coordinates: {
-            equal: { cx: null, cy: 769.8559827092591 },
+            equal: { cx: 337.42927790487784, cy: 769.8559827092591 },
             just: { cx: 337.453125, cy: 770.78125 }
           },
           colors: {
@@ -22368,7 +22438,7 @@ export const justPoints = {
           string: "g",
           ratio: 2 / 3,
           coordinates: {
-            equal: { cx: null, cy: 791.122709531742 },
+            equal: { cx: 337.9773894209212, cy: 791.122709531742 },
             just: { cx: 338, cy: 792 }
           },
           colors: {
@@ -22387,7 +22457,7 @@ export const justPoints = {
           string: "g",
           ratio: 163 / 243,
           coordinates: {
-            equal: { cx: null, cy: 795.9236637350539 },
+            equal: { cx: 338.1011253539962, cy: 795.9236637350539 },
             just: { cx: 338.12345679012344, cy: 796.7901234567902 }
           },
           colors: {
@@ -22406,7 +22476,7 @@ export const justPoints = {
           string: "g",
           ratio: 277 / 405,
           coordinates: {
-            equal: { cx: null, cy: 811.2867171856516 },
+            equal: { cx: 338.4970803398364, cy: 811.2867171856516 },
             just: { cx: 338.51851851851853, cy: 812.1185185185185 }
           },
           colors: {
@@ -22425,7 +22495,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 16,
           coordinates: {
-            equal: { cx: null, cy: 815.4275401860081 },
+            equal: { cx: 338.6038025821136, cy: 815.4275401860081 },
             just: { cx: 338.625, cy: 816.25 }
           },
           colors: {
@@ -22444,7 +22514,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 10,
           coordinates: {
-            equal: { cx: null, cy: 830.0104385785677 },
+            equal: { cx: 338.97965047882906, cy: 830.0104385785677 },
             just: { cx: 339, cy: 830.8 }
           },
           colors: {
@@ -22463,7 +22533,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 27,
           coordinates: {
-            equal: { cx: null, cy: 834.3312973615484 },
+            equal: { cx: 339.0910128185966, cy: 834.3312973615484 },
             just: { cx: 339.1111111111111, cy: 835.1111111111111 }
           },
           colors: {
@@ -22482,7 +22552,7 @@ export const justPoints = {
           string: "g",
           ratio: 23 / 32,
           coordinates: {
-            equal: { cx: null, cy: 851.8847861674074 },
+            equal: { cx: 339.54342232390223, cy: 851.8847861674074 },
             just: { cx: 339.5625, cy: 852.625 }
           },
           colors: {
@@ -22501,7 +22571,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 18,
           coordinates: {
-            equal: { cx: null, cy: 855.9355912764516 },
+            equal: { cx: 339.64782451743434, cy: 855.9355912764516 },
             just: { cx: 339.6666666666667, cy: 856.6666666666666 }
           },
           colors: {
@@ -22520,7 +22590,7 @@ export const justPoints = {
           string: "g",
           ratio: 11 / 15,
           coordinates: {
-            equal: { cx: null, cy: 868.8981676253935 },
+            equal: { cx: 339.98191153673696, cy: 868.8981676253935 },
             just: { cx: 340, cy: 869.5999999999999 }
           },
           colors: {
@@ -22539,7 +22609,7 @@ export const justPoints = {
           string: "g",
           ratio: 179 / 243,
           coordinates: {
-            equal: { cx: null, cy: 872.738930988043 },
+            equal: { cx: 340.08090028319697, cy: 872.738930988043 },
             just: { cx: 340.0987654320988, cy: 873.4320987654321 }
           },
           colors: {
@@ -22558,7 +22628,7 @@ export const justPoints = {
           string: "g",
           ratio: 3 / 4,
           coordinates: {
-            equal: { cx: null, cy: 888.3420321488065 },
+            equal: { cx: 340.4830420656909, cy: 888.3420321488065 },
             just: { cx: 340.5, cy: 889 }
           },
           colors: {
@@ -22577,7 +22647,7 @@ export const justPoints = {
           string: "g",
           ratio: 61 / 81,
           coordinates: {
-            equal: { cx: null, cy: 891.9427478012904 },
+            equal: { cx: 340.5758440154972, cy: 891.9427478012904 },
             just: { cx: 340.5925925925926, cy: 892.5925925925926 }
           },
           colors: {
@@ -22598,7 +22668,7 @@ export const justPoints = {
           string: "g",
           ratio: 103 / 135,
           coordinates: {
-            equal: { cx: null, cy: 903.4650378892388 },
+            equal: { cx: 340.87281025487727, cy: 903.4650378892388 },
             just: { cx: 340.8888888888889, cy: 904.0888888888888 }
           },
           colors: {
@@ -22617,7 +22687,7 @@ export const justPoints = {
           string: "g",
           ratio: 49 / 64,
           coordinates: {
-            equal: { cx: null, cy: 906.570655139506 },
+            equal: { cx: 340.9528519365852, cy: 906.570655139506 },
             just: { cx: 340.96875, cy: 907.1875 }
           },
           colors: {
@@ -22636,7 +22706,7 @@ export const justPoints = {
           string: "g",
           ratio: 31 / 40,
           coordinates: {
-            equal: { cx: null, cy: 917.5078289339259 },
+            equal: { cx: 341.2347378591218, cy: 917.5078289339259 },
             just: { cx: 341.25, cy: 918.1 }
           },
           colors: {
@@ -22655,7 +22725,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 9,
           coordinates: {
-            equal: { cx: null, cy: 920.7484730211613 },
+            equal: { cx: 341.3182596139475, cy: 920.7484730211613 },
             just: { cx: 341.3333333333333, cy: 921.3333333333333 }
           },
           colors: {
@@ -22674,7 +22744,7 @@ export const justPoints = {
           string: "g",
           ratio: 959 / 1215,
           coordinates: {
-            equal: { cx: null, cy: 934.1911447904345 },
+            equal: { cx: 341.66472022655756, cy: 934.1911447904345 },
             just: { cx: 341.679012345679, cy: 934.7456790123457 }
           },
           colors: {
@@ -22693,7 +22763,7 @@ export const justPoints = {
           string: "g",
           ratio: 19 / 24,
           coordinates: {
-            equal: { cx: null, cy: 936.9516934573386 },
+            equal: { cx: 341.73586838807574, cy: 936.9516934573386 },
             just: { cx: 341.75, cy: 937.5 }
           },
           colors: {
@@ -22712,7 +22782,7 @@ export const justPoints = {
           string: "g",
           ratio: 4 / 5,
           coordinates: {
-            equal: { cx: null, cy: 946.6736257190453 },
+            equal: { cx: 341.9864336525527, cy: 946.6736257190453 },
             just: { cx: 342, cy: 947.2 }
           },
           colors: {
@@ -22731,7 +22801,7 @@ export const justPoints = {
           string: "g",
           ratio: 65 / 81,
           coordinates: {
-            equal: { cx: null, cy: 949.5541982410323 },
+            equal: { cx: 342.06067521239777, cy: 949.5541982410323 },
             just: { cx: 342.0740740740741, cy: 950.0740740740741 }
           },
           colors: {
@@ -22750,7 +22820,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 16,
           coordinates: {
-            equal: { cx: null, cy: 961.2565241116049 },
+            equal: { cx: 342.3622815492682, cy: 961.2565241116049 },
             just: { cx: 342.375, cy: 961.75 }
           },
           colors: {
@@ -22769,7 +22839,7 @@ export const justPoints = {
           string: "g",
           ratio: 22 / 27,
           coordinates: {
-            equal: { cx: null, cy: 963.9570608509677 },
+            equal: { cx: 342.43188301162286, cy: 963.9570608509677 },
             just: { cx: 342.44444444444446, cy: 964.4444444444444 }
           },
           colors: {
@@ -22788,7 +22858,7 @@ export const justPoints = {
           string: "g",
           ratio: 37 / 45,
           coordinates: {
-            equal: { cx: null, cy: 972.598778416929 },
+            equal: { cx: 342.65460769115793, cy: 972.598778416929 },
             just: { cx: 342.6666666666667, cy: 973.0666666666666 }
           },
           colors: {
@@ -22807,7 +22877,7 @@ export const justPoints = {
           string: "g",
           ratio: 211 / 256,
           coordinates: {
-            equal: { cx: null, cy: 974.9279913546296 },
+            equal: { cx: 342.7146389524389, cy: 974.9279913546296 },
             just: { cx: 342.7265625, cy: 975.390625 }
           },
           colors: {
@@ -22826,7 +22896,7 @@ export const justPoints = {
           string: "g",
           ratio: 5 / 6,
           coordinates: {
-            equal: { cx: null, cy: 985.561354765871 },
+            equal: { cx: 342.9886947104606, cy: 985.561354765871 },
             just: { cx: 343, cy: 986 }
           },
           colors: {
@@ -22845,7 +22915,7 @@ export const justPoints = {
           string: "g",
           ratio: 203 / 243,
           coordinates: {
-            equal: { cx: null, cy: 987.9618318675269 },
+            equal: { cx: 343.05056267699814, cy: 987.9618318675269 },
             just: { cx: 343.0617283950617, cy: 988.395061728395 }
           },
           colors: {
@@ -22864,7 +22934,7 @@ export const justPoints = {
           string: "g",
           ratio: 341 / 405,
           coordinates: {
-            equal: { cx: null, cy: 995.6433585928258 },
+            equal: { cx: 343.2485401699182, cy: 995.6433585928258 },
             just: { cx: 343.25925925925924, cy: 996.0592592592593 }
           },
           colors: {
@@ -22883,7 +22953,7 @@ export const justPoints = {
           string: "g",
           ratio: 27 / 32,
           coordinates: {
-            equal: { cx: null, cy: 997.7137700930041 },
+            equal: { cx: 343.3019012910568, cy: 997.7137700930041 },
             just: { cx: 343.3125, cy: 998.125 }
           },
           colors: {
@@ -22902,7 +22972,7 @@ export const justPoints = {
           string: "g",
           ratio: 17 / 20,
           coordinates: {
-            equal: { cx: null, cy: 1005.0052192892839 },
+            equal: { cx: 343.48982523941453, cy: 1005.0052192892839 },
             just: { cx: 343.5, cy: 1005.4 }
           },
           colors: {
@@ -22921,7 +22991,7 @@ export const justPoints = {
           string: "g",
           ratio: 23 / 27,
           coordinates: {
-            equal: { cx: null, cy: 1007.1656486807743 },
+            equal: { cx: 343.5455064092983, cy: 1007.1656486807743 },
             just: { cx: 343.55555555555554, cy: 1007.5555555555555 }
           },
           colors: {
@@ -22940,7 +23010,7 @@ export const justPoints = {
           string: "g",
           ratio: 55 / 64,
           coordinates: {
-            equal: { cx: null, cy: 1015.9423930837036 },
+            equal: { cx: 343.77171116195115, cy: 1015.9423930837036 },
             just: { cx: 343.78125, cy: 1016.3125 }
           },
           colors: {
@@ -22959,7 +23029,7 @@ export const justPoints = {
           string: "g",
           ratio: 31 / 36,
           coordinates: {
-            equal: { cx: null, cy: 1017.9677956382259 },
+            equal: { cx: 343.82391225871714, cy: 1017.9677956382259 },
             just: { cx: 343.8333333333333, cy: 1018.3333333333333 }
           },
           colors: {
@@ -22978,7 +23048,7 @@ export const justPoints = {
           string: "g",
           ratio: 13 / 15,
           coordinates: {
-            equal: { cx: null, cy: 1024.4490838126967 },
+            equal: { cx: 343.99095576836845, cy: 1024.4490838126967 },
             just: { cx: 344, cy: 1024.8000000000002 }
           },
           colors: {
@@ -22997,7 +23067,7 @@ export const justPoints = {
           string: "g",
           ratio: 211 / 243,
           coordinates: {
-            equal: { cx: null, cy: 1026.3694654940216 },
+            equal: { cx: 344.0404501415985, cy: 1026.3694654940216 },
             just: { cx: 344.04938271604937, cy: 1026.716049382716 }
           },
           colors: {
@@ -23016,7 +23086,7 @@ export const justPoints = {
           string: "g",
           ratio: 7 / 8,
           coordinates: {
-            equal: { cx: null, cy: 1034.1710160744033 },
+            equal: { cx: 344.24152103284547, cy: 1034.1710160744033 },
             just: { cx: 344.25, cy: 1034.5 }
           },
           colors: {
@@ -23035,7 +23105,7 @@ export const justPoints = {
           string: "g",
           ratio: 71 / 81,
           coordinates: {
-            equal: { cx: null, cy: 1035.9713739006452 },
+            equal: { cx: 344.2879220077486, cy: 1035.9713739006452 },
             just: { cx: 344.2962962962963, cy: 1036.2962962962963 }
           },
           colors: {

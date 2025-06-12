@@ -824,3 +824,255 @@ const justRatios = [
 //   })
 //   return cxOfBassGString
 // }
+
+// Difference/ratio between a just fifth and an equal fifth
+let twoCentPlus = 2 ** (7 / 12) / (3 / 2)
+let twoCentMinus = 3 / 2 / 2 ** (7 / 12)
+
+// let cyOfEqualTunedCString = []
+// cyOfEqualTunedCString = calculateCyOfEqualTunedCString()
+// function calculateCyOfEqualTunedCString() {
+//   justRatios.map((string, index) => {
+//     string.map((ratio, index2) => {
+//       let cy =
+//         vectors.Viola[0].vectorY *
+//           (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
+//         vectors.Viola[0].originY
+//       cyOfEqualTunedCString.push(cy)
+//       console.log(
+//         `String: ${index + 1} | Ratio: ${
+//           justRatiosString[index][index2]
+//         } | cy: ${cy}`
+//       )
+//     })
+//   })
+//   return cyOfEqualTunedCString
+// }
+
+// let cyOfEqualTunedGString = []
+// cyOfEqualTunedGString = calculateCyOfEqualTunedGString()
+// function calculateCyOfEqualTunedGString() {
+//   justRatios.map((string, index) => {
+//     string.map((ratio, index2) => {
+//       let cy =
+//         vectors.Viola[1].vectorY *
+//           (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//         vectors.Viola[1].originY
+//       cyOfEqualTunedGString.push(cy)
+//       console.log(
+//         `String: ${index + 1} | Ratio: ${
+//           justRatiosString[index][index2]
+//         } | cy: ${cy}`
+//       )
+//     })
+//   })
+//   return cyOfEqualTunedGString
+// }
+
+// let cyOfEqualTunedDString = []
+// cyOfEqualTunedDString = calculateCyOfEqualTunedDString()
+// function calculateCyOfEqualTunedDString() {
+//   justRatios.map((string, index) => {
+//     string.map((ratio, index2) => {
+//       let cy =
+//         vectors.Viola[2].vectorY *
+//           (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//         vectors.Viola[2].originY
+//       cyOfEqualTunedDString.push(cy)
+//       console.log(
+//         `String: ${index + 1} | Ratio: ${
+//           justRatiosString[index][index2]
+//         } | cy: ${cy}`
+//       )
+//     })
+//   })
+//   return cyOfEqualTunedDString
+// }
+
+// let cyOfEqualTunedEString = []
+// cyOfEqualTunedEString = calculateCyOfEqualTunedEString()
+// function calculateCyOfEqualTunedEString() {
+//   justRatios.map((string, index) => {
+//     string.map((ratio, index2) => {
+//       let cy =
+//         vectors.Violin[3].vectorY *
+//           (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
+//         vectors.Violin[3].originY
+//       cyOfEqualTunedEString.push(cy)
+//       console.log(
+//         `String: ${index + 1} | Ratio: ${
+//           justRatiosString[index][index2]
+//         } | cy: ${cy}`
+//       )
+//     })
+//   })
+//   return cyOfEqualTunedEString
+// }
+
+// let cxOfEqualTunedViolinGString = []
+// cxOfEqualTunedViolinGString = calculateCxOfEqualTunedViolinGString()
+// function calculateCxOfEqualTunedViolinGString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Violin[0].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Violin[0].originX
+//     cxOfEqualTunedViolinGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolinGString
+// }
+
+// let cxOfEqualTunedViolinDString = []
+// cxOfEqualTunedViolinDString = calculateCxOfEqualTunedViolinDString()
+// function calculateCxOfEqualTunedViolinDString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Violin[1].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Violin[1].originX
+//     cxOfEqualTunedViolinDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolinDString
+// }
+
+// let cxOfEqualTunedViolinEString = []
+// cxOfEqualTunedViolinEString = calculateCxOfEqualTunedViolinEString()
+// function calculateCxOfEqualTunedViolinEString() {
+//   justRatios[3].map((ratio, index) => {
+//     let cx =
+//       vectors.Violin[3].vectorX *
+//         (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
+//       vectors.Violin[3].originX
+//     cxOfEqualTunedViolinEString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolinEString
+// }
+
+// let cxOfEqualTunedViolaCString = []
+// cxOfEqualTunedViolaCString = calculateCxOfEqualTunedViolaCString()
+// function calculateCxOfEqualTunedViolaCString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Viola[0].vectorX *
+//         (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
+//       vectors.Viola[0].originX
+//     cxOfEqualTunedViolaCString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolaCString
+// }
+
+// let cxOfEqualTunedViolaGString = []
+// cxOfEqualTunedViolaGString = calculateCxOfEqualTunedViolaGString()
+// function calculateCxOfEqualTunedViolaGString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Viola[1].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Viola[1].originX
+//     cxOfEqualTunedViolaGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolaGString
+// }
+
+// let cxOfEqualTunedViolaDString = []
+// cxOfEqualTunedViolaDString = calculateCxOfEqualTunedViolaDString()
+// function calculateCxOfEqualTunedViolaDString() {
+//   justRatios[2].map((ratio, index) => {
+//     let cx =
+//       vectors.Viola[2].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Viola[2].originX
+//     cxOfEqualTunedViolaDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[2][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedViolaDString
+// }
+
+// let cxOfEqualTunedCelloCString = []
+// cxOfEqualTunedCelloCString = calculateCxOfEqualTunedCelloCString()
+// function calculateCxOfEqualTunedCelloCString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[0].vectorX *
+//         (ratio * twoCentMinus ** 3 + (1 - twoCentMinus ** 3)) +
+//       vectors.Cello[0].originX
+//     cxOfEqualTunedCelloCString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloCString
+// }
+
+// let cxOfEqualTunedCelloGString = []
+// cxOfEqualTunedCelloGString = calculateCxOfEqualTunedCelloGString()
+// function calculateCxOfEqualTunedCelloGString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[1].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Cello[1].originX
+//     cxOfEqualTunedCelloGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloGString
+// }
+
+// let cxOfEqualTunedCelloDString = []
+// cxOfEqualTunedCelloDString = calculateCxOfEqualTunedCelloDString()
+// function calculateCxOfEqualTunedCelloDString() {
+//   justRatios[2].map((ratio, index) => {
+//     let cx =
+//       vectors.Cello[2].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Cello[2].originX
+//     cxOfEqualTunedCelloDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[2][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedCelloDString
+// }
+
+// let cxOfEqualTunedBassEString = []
+// cxOfEqualTunedBassEString = calculateCxOfEqualTunedBassEString()
+// function calculateCxOfEqualTunedBassEString() {
+//   justRatios[3].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[0].vectorX *
+//         (ratio * twoCentPlus ** 1 + (1 - twoCentPlus ** 1)) +
+//       vectors.Bass[0].originX
+//     cxOfEqualTunedBassEString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[3][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassEString
+// }
+
+// let cxOfEqualTunedBassDString = []
+// cxOfEqualTunedBassDString = calculateCxOfEqualTunedBassDString()
+// function calculateCxOfEqualTunedBassDString() {
+//   justRatios[1].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[2].vectorX *
+//         (ratio * twoCentMinus ** 1 + (1 - twoCentMinus ** 1)) +
+//       vectors.Bass[2].originX
+//     cxOfEqualTunedBassDString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[1][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassDString
+// }
+
+// let cxOfEqualTunedBassGString = []
+// cxOfEqualTunedBassGString = calculateCxOfEqualTunedBassGString()
+// function calculateCxOfEqualTunedBassGString() {
+//   justRatios[0].map((ratio, index) => {
+//     let cx =
+//       vectors.Bass[3].vectorX *
+//         (ratio * twoCentMinus ** 2 + (1 - twoCentMinus ** 2)) +
+//       vectors.Bass[3].originX
+//     cxOfEqualTunedBassGString.push(cx)
+//     console.log(`Ratio: ${justRatiosString[0][index]} | cx: ${cx}`)
+//   })
+//   return cxOfEqualTunedBassGString
+// }

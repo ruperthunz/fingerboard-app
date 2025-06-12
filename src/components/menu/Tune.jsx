@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react"
 import { Context } from "../../App"
 
 export function Tune() {
-  const { t, tune, setTune, displayEP } = useContext(Context)
+  const { t, tune, setTune, displayEP, displayJP } = useContext(Context)
 
   function handleTune(clickedTune) {
     if (clickedTune === tune) {
@@ -12,8 +12,16 @@ export function Tune() {
     }
   }
 
+  let classNames
+
+  if (displayEP || displayJP) {
+    classNames = "widget"
+  } else {
+    classNames = "widget todo"
+  }
+
   return (
-    <div className={displayEP ? "widget" : "widget todo"}>
+    <div className={classNames}>
       <div className="widget-content alt-1">
         <div className="widget-label">{t.tune}</div>
         <div className="btn-container">

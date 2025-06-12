@@ -8,18 +8,28 @@ export function JustPoint({ point }) {
   const { width, height, justPointsColor, show, language, tune } =
     useContext(Context)
 
+  let xCoordinate = null
+  tune === null
+    ? (xCoordinate = point.coordinates.just.cx * (width / x))
+    : (xCoordinate = point.coordinates[tune].cx * (width / x))
+
+  let yCoordinate = null
+  tune === null
+    ? (yCoordinate = point.coordinates.just.cy * (height / y))
+    : (yCoordinate = point.coordinates[tune].cy * (height / y))
+
   return (
     <>
       <circle
-        cx={point.coordinates.cx * (width / x)}
-        cy={point.coordinates.cy * (height / y)}
+        cx={xCoordinate}
+        cy={yCoordinate}
         r={width / (x / 6)}
         fill={point.colors[justPointsColor]}
       ></circle>
       {show === "none" ? undefined : (
         <text
-          x={point.coordinates.cx * (width / x)}
-          y={point.coordinates.cy * (height / y)}
+          x={xCoordinate}
+          y={yCoordinate}
           fontSize={`${height / (y / point.fontSize[show])}mm`}
           fill="black"
           textAnchor="middle"
