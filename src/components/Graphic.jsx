@@ -131,6 +131,11 @@ export function Graphic(props) {
             y2={graphic[17]}
             strokeWidth={graphic[18]}
           ></line>
+          {/* {displayOpenStrings
+            ? openStringsToDisplay.map(point => {
+                return <OpenString key={crypto.randomUUID()} point={point} />
+              })
+            : undefined} */}
           {displayEP
             ? equalPointsToDisplay.map(point => {
                 return <EqualPoint key={crypto.randomUUID()} point={point} />

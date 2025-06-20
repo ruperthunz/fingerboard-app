@@ -1,38 +1,37 @@
 import { useContext } from "react"
 import { Context } from "../../App"
+import { OpenStrings } from "./OpenStrings"
 
-// const octaves = ["firstOctave", "secondOctave", "thirdOctave"]
-const dropdowns = [false, false, false]
-
-export function FretsSetting() {
+export function FretsSettingSame() {
   const { t, language, frets, setFrets } = useContext(Context)
 
   return (
-    <div className="widget">
-      <div className="widget-label">{t.frets}</div>
+    <div className="">
+      <OpenStrings />
       <div className="widget-content">
         <div className="btn-container">
           {frets.map((octave, index) => {
             return (
-              <div
-                key={octave.English}
-                className="btn fret-btn btn-non-clickable"
-              >
-                <div
-                  className={octave.allSelected ? "btn selected" : "btn"}
-                  onClick={() => handleSelectAll(octave)}
-                >
-                  {octave[language]}
-                </div>
-                <div
-                  className="btn plus-icon-container"
-                  onClick={() => toggleDropdown(octave)}
-                >
+              <div key={octave.English} className="fret-choice-wrapper">
+                <div className="fret-choice-container">
                   <div
-                    className={octave.open ? "plus-icon rotate45" : "plus-icon"}
+                    className={octave.allSelected ? "btn selected" : "btn"}
+                    onClick={() => handleSelectAll(octave)}
                   >
-                    <div className="plus-icon-line plus-icon-line1"></div>
-                    <div className="plus-icon-line plus-icon-line2"></div>
+                    {octave[language]}
+                  </div>
+                  <div
+                    className="btn plus-icon-container"
+                    onClick={() => toggleDropdown(octave)}
+                  >
+                    <div
+                      className={
+                        octave.open ? "plus-icon rotate45" : "plus-icon"
+                      }
+                    >
+                      <div className="plus-icon-line plus-icon-line1"></div>
+                      <div className="plus-icon-line plus-icon-line2"></div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -51,7 +50,6 @@ export function FretsSetting() {
                         }
                         onClick={() => handleFretChoice(octave, index)}
                       >
-                        {/* {octave.id === 0 ? index : index + 1} */}
                         {index + 1}
                       </div>
                     )
@@ -81,10 +79,10 @@ export function FretsSetting() {
   }
 
   function toggleDropdown(octave) {
-    const octaveToChange = frets.find(oct => oct.id === octave.id)
+    const octaveToChange = frets.find(oct => oct.octave === octave.octave)
     octaveToChange.open = !octaveToChange.open
     setFrets(currentFrets => {
-      return currentFrets.toSpliced(octave.id, 1, octaveToChange)
+      return currentFrets.toSpliced(octave.octave, 1, octaveToChange)
     })
   }
 

@@ -143,10 +143,14 @@
   justify-content: space-between;
 }
 
-/* .widget-content {
+.label {
+  font-weight: 400;
   display: flex;
-  row-gap: 5px;
-} */
+  align-self: center;
+  height: var(--widget-height);
+  align-items: center;
+  justify-content: space-between;
+}
 
 .widget-content a {
   color: black;
@@ -161,6 +165,13 @@
 .alt-2 {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.alt-3 {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-container,
@@ -205,13 +216,33 @@
   cursor: default;
 }
 
+.fret-choice-wrapper {
+  display: grid;
+  width: 100%;
+  margin: 0 2px;
+  grid-template-rows: auto auto;
+  border-radius: var(--border-radius);
+}
+
+.fret-choice-container {
+  display: grid;
+  width: inherit;
+  height: max-content;
+  grid-row: 1;
+  grid-template-columns: 67% 33%;
+  background-color: var(--grey);
+  border-radius: var(--border-radius);
+}
+
 /* margin left 0 first margin right 0 last */
 
-.btn-container .btn:first-of-type {
+.btn-container .btn:first-of-type,
+.btn-container .fret-choice-wrapper:first-of-type {
   margin-left: 0;
 }
 
-.btn-container .btn:last-of-type {
+.btn-container .btn:last-of-type,
+.btn-container .fret-choice-wrapper:last-of-type {
   margin-right: 0;
 }
 
@@ -289,12 +320,9 @@ input::-webkit-inner-spin-button {
 
 .fret-dropdown-container {
   display: none;
-  position: absolute;
-  top: 100%;
-  width: 100%;
+  grid-row: 2;
   border-radius: var(--border-radius);
   background-color: white;
-  z-index: 1;
 }
 
 .show {
@@ -303,6 +331,16 @@ input::-webkit-inner-spin-button {
 
 .fret-btn {
   position: relative;
+}
+
+.open-string-btn {
+  border-radius: var(--border-radius);
+  background-color: var(--grey);
+  margin: 4px 0;
+  padding: 4px;
+  text-align: center;
+  width: 86px;
+  justify-self: end;
 }
 
 .plus-icon {
@@ -322,6 +360,7 @@ input::-webkit-inner-spin-button {
   background-color: var(--grey);
   margin: 4px;
   padding: 4px;
+  text-align: center;
 }
 
 .selected {
@@ -347,6 +386,7 @@ select {
   align-items: center;
   justify-content: end;
 }
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;

@@ -4,7 +4,9 @@ import { createContext, useEffect, useState } from "react"
 import { useLocalStorage } from "./useLocalStorage.js"
 import { translations } from "./translations.js"
 import { fretStates } from "./frets.js"
+import { fretStatesIndi } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
+import { openStrings } from "./openStrings.js"
 import { equalPoints } from "./equalPoints.js"
 import { justPoints } from "./justPoints.js"
 import { harmonicPoints } from "./harmonicPoints.js"
@@ -30,7 +32,19 @@ export function App() {
     true,
     true
   ])
+  const [displayOpenStrings, setDisplayOpenStrings] = useLocalStorage(
+    "displayOpenStrings",
+    "false"
+  )
+  const [sameOrIndividual, setSameOrIndividual] = useLocalStorage(
+    "sameOrIndividual",
+    "same"
+  )
   const [frets, setFrets] = useState(fretStates)
+  const [fretsIndi, setFretsIndi] = useState(fretStatesIndi)
+  const [openStringsToDisplay, setOpenStringsToDisplay] = useState(() =>
+    getOpenStringsToDisplay(pointsOn, instrument)
+  )
   const [equalPointsToDisplay, setEqualPointsToDisplay] = useState(() =>
     getEqualPointsToDisplay(pointsOn, frets, instrument)
   )
@@ -155,8 +169,14 @@ export function App() {
         setPitch,
         pointsOn,
         setPointsOn,
+        displayOpenStrings,
+        setDisplayOpenStrings,
+        sameOrIndividual,
+        setSameOrIndividual,
         frets,
         setFrets,
+        fretsIndi,
+        setFretsIndi,
         equalPointsToDisplay,
         justPointsToDisplay,
         harmonicPointsToDisplay,
@@ -191,6 +211,26 @@ export function App() {
       <RouterProvider router={router} />
     </Context.Provider>
   )
+}
+
+function getOpenStringsToDisplay(pointsOn, instrument) {
+  const selectedStrings = []
+  const openStringsToDisplay = []
+  pointsOn.forEach((pointsOnString, index) => {
+    if (pointsOnString) {
+      selectedStrings.push(openStrings[instrument][index])
+    }
+  })
+  // selectedStrings.forEach(string => {
+  //   frets.forEach((oct, index) => {
+  //     oct.frets.forEach((fret, fretIndex) => {
+  //       if (fret) {
+  //         equalPointsToDisplay.push(string[index][fretIndex])
+  //       }
+  //     })
+  //   })
+  // })
+  return openStringsToDisplay
 }
 
 function getEqualPointsToDisplay(pointsOn, frets, instrument) {

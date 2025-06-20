@@ -1,9 +1,19 @@
 import { useContext, useEffect } from "react"
 import { Context } from "../../App"
+import { FretsSettingSame } from "./FretsSettingSame"
+import { FretsSettingIndividual } from "./FretsSettingIndiviual"
+import { OnAllStrings } from "./OnAllStrings"
 
 export function PointsSetting() {
-  const { t, instrument, pointsOn, setPointsOn, strings, language } =
-    useContext(Context)
+  const {
+    t,
+    instrument,
+    pointsOn,
+    setPointsOn,
+    strings,
+    language,
+    sameOrIndividual
+  } = useContext(Context)
 
   return (
     <div className="widget">
@@ -25,6 +35,12 @@ export function PointsSetting() {
           })}
         </div>
       </div>
+      <OnAllStrings />
+      {sameOrIndividual === "same" ? (
+        <FretsSettingSame />
+      ) : (
+        <FretsSettingIndividual />
+      )}
     </div>
   )
 
