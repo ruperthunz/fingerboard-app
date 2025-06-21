@@ -1,6 +1,5 @@
 import { useContext } from "react"
 import { Context } from "../../App"
-import { OpenString } from "./OpenString"
 
 export function FretsSettingIndividual() {
   const {
@@ -13,126 +12,139 @@ export function FretsSettingIndividual() {
     instrument
   } = useContext(Context)
 
-  // console.log(fretsIndi)
-
   return (
     <div>
-      {pointsOn.map((stringIsSelected, index) => {
-        if (stringIsSelected) {
-          const stringName = strings[instrument][index].scordatura
-          return (
-            <div>
-              <OpenString key={crypto.randomUUID()} string={stringName} />
-              <div className="widget-content" key={crypto.randomUUID()}>
-                <div className="btn-container">
-                  {fretsIndi[index].map((octave, octaveIndex) => {
-                    return (
-                      <div
-                        key={crypto.randomUUID()}
-                        className="fret-choice-wrapper"
-                      >
-                        <div className="fret-choice-container">
-                          <div
-                            className={
-                              octave.allSelected ? "btn selected" : "btn"
-                            }
-                            onClick={() => handleSelectAll(octave)}
-                          >
-                            {octave[language]}
-                          </div>
-                          <div
-                            className="btn plus-icon-container"
-                            onClick={() => toggleDropdown(octave, index)}
-                          >
-                            <div
-                              className={
-                                octave.open ? "plus-icon rotate45" : "plus-icon"
-                              }
-                            >
-                              <div className="plus-icon-line plus-icon-line1"></div>
-                              <div className="plus-icon-line plus-icon-line2"></div>
-                            </div>
-                          </div>
-                        </div>
+      {fretsIndi.map((octave, octaveIndex) => {
+        return (
+          <div className="widget-content">
+            <div className="label">{octave[octaveIndex][language]}</div>
+            <div className="btn-container-grid">
+              {octave.map((string, stringIndex) => {
+                return (
+                  <div className="">
+                    <div
+                      key={crypto.randomUUID()}
+                      className="fret-choice-wrapper"
+                    >
+                      <div className="fret-choice-container">
                         <div
                           className={
-                            octave.open
-                              ? "fret-dropdown-container show"
-                              : "fret-dropdown-container"
+                            string.allSelected ? "btn selected" : "btn"
                           }
+                          onClick={() => handleSelectAll(string, octaveIndex)}
                         >
-                          {octave.frets.map((fret, index) => {
-                            return (
-                              <div
-                                key={crypto.randomUUID()}
-                                className={
-                                  fret.state
-                                    ? "fret-choice selected"
-                                    : "fret-choice"
-                                }
-                                onClick={() => handleFretChoice(octave, index)}
-                              >
-                                {fret.name[instrument][language]}
-                              </div>
-                            )
-                          })}
+                          {/* here all or none instead of nth-octave */}
+                          {string.allSelected ? t.all : t.none}
+                        </div>
+                        <div
+                          className="btn plus-icon-container"
+                          onClick={() => toggleDropdown(string, octaveIndex)}
+                        >
+                          <div
+                            className={
+                              string.open ? "plus-icon rotate45" : "plus-icon"
+                            }
+                          >
+                            <div className="plus-icon-line plus-icon-line1"></div>
+                            <div className="plus-icon-line plus-icon-line2"></div>
+                          </div>
                         </div>
                       </div>
-                    )
-                    // }
-                  })}
-                </div>
-              </div>
+                      <div
+                        className={
+                          string.open
+                            ? "fret-dropdown-container show"
+                            : "fret-dropdown-container"
+                        }
+                      >
+                        {string.frets.map((fret, fretIndex) => {
+                          return (
+                            <div
+                              key={crypto.randomUUID()}
+                              className={
+                                fret.state
+                                  ? "fret-choice selected"
+                                  : "fret-choice"
+                              }
+                              onClick={() =>
+                                handleFretChoice(
+                                  fret,
+                                  string,
+                                  octaveIndex,
+                                  stringIndex,
+                                  fretIndex
+                                )
+                              }
+                            >
+                              {fret.name[instrument][language]}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
-          )
-        }
+          </div>
+        )
       })}
     </div>
   )
 
-  function handleSelectAll(octave) {
-    const octaveToChange = frets.find(oct => oct.id === octave.id)
-    for (let i = 0; i < octaveToChange.frets.length; i++) {
-      if (octaveToChange.allSelected) {
-        octaveToChange.frets[i] = false
+  function handleSelectAll(string, octaveIndex) {
+    const stringToChange = fretsIndi[octaveIndex].find(
+      str => str.string === string.string
+    )
+    for (let i = 0; i < stringToChange.frets.length; i++) {
+      if (stringToChange.allSelected) {
+        stringToChange.frets[i].state = false
       } else {
-        octaveToChange.frets[i] = true
+        stringToChange.frets[i].state = true
       }
     }
-    octaveToChange.allSelected = !octaveToChange.allSelected
-    setFrets(currentFrets => {
-      return currentFrets.toSpliced(octave.id, 1, octaveToChange)
-    })
-  }
-
-  function toggleDropdown(octave, index) {
-    const octaveToChange = fretsIndi[index].find(
-      oct => oct.octave === octave.octave
-    )
-    console.log(octaveToChange)
-    octaveToChange.open = !octaveToChange.open
-    const stringToChange = fretsIndi[index]
+    stringToChange.allSelected = !stringToChange.allSelected
+    const octaveToChange = fretsIndi[octaveIndex]
 
     setFretsIndi(currentFrets => {
-      return currentFrets.toSpliced(index, 1, stringToChange)
+      return currentFrets.toSpliced(octaveIndex, 1, octaveToChange)
     })
   }
 
-  function handleFretChoice(octave, index) {
-    const octaveToChange = frets.find(oct => oct.id === octave.id)
-    octaveToChange.frets[index] = !octaveToChange.frets[index]
-    if (allSelectedOrDeselected(octave, index)) {
-      octaveToChange.allSelected = !octaveToChange.allSelected
+  function toggleDropdown(string, octaveIndex) {
+    const stringToChange = fretsIndi[octaveIndex].find(
+      str => str.string === string.string
+    )
+    console.log(stringToChange)
+    stringToChange.open = !stringToChange.open
+    const octaveToChange = fretsIndi[octaveIndex]
+
+    setFretsIndi(currentFrets => {
+      return currentFrets.toSpliced(octaveIndex, 1, octaveToChange)
+    })
+  }
+
+  function handleFretChoice(fret, string, octaveIndex, stringIndex, fretIndex) {
+    const stringToChange = fretsIndi[octaveIndex].find(
+      str => str.string === string.string
+    )
+    console.log(stringToChange.frets[fretIndex].state)
+    stringToChange.frets[fretIndex].state =
+      !stringToChange.frets[fretIndex].state
+    if (allSelectedOrDeselected(string, fretIndex)) {
+      stringToChange.allSelected = !stringToChange.allSelected
     }
-    setFrets(currentFrets => {
-      return currentFrets.toSpliced(octave.id, 1, octaveToChange)
+    const octaveToChange = fretsIndi[octaveIndex]
+
+    setFretsIndi(currentFrets => {
+      return currentFrets.toSpliced(octaveIndex, 1, octaveToChange)
     })
   }
 
-  function allSelectedOrDeselected(octave, index) {
+  function allSelectedOrDeselected(string, fretIndex) {
     return (
-      octave.frets.every(fret => fret === octave.frets[index]) &&
-      octave.frets[index] !== octave.allSelected
+      string.frets.every(fret => fret === string.frets[fretIndex]) &&
+      string.frets[fretIndex] !== string.allSelected
     )
   }
 }

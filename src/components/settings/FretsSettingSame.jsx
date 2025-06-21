@@ -1,13 +1,11 @@
 import { useContext } from "react"
 import { Context } from "../../App"
-import { OpenStrings } from "./OpenStrings"
 
 export function FretsSettingSame() {
   const { t, language, frets, setFrets } = useContext(Context)
 
   return (
     <div className="">
-      <OpenStrings />
       <div className="widget-content">
         <div className="btn-container">
           {frets.map((octave, index) => {
@@ -64,7 +62,7 @@ export function FretsSettingSame() {
   )
 
   function handleSelectAll(octave) {
-    const octaveToChange = frets.find(oct => oct.id === octave.id)
+    const octaveToChange = frets.find(oct => oct.octave === octave.octave)
     for (let i = 0; i < octaveToChange.frets.length; i++) {
       if (octaveToChange.allSelected) {
         octaveToChange.frets[i] = false
@@ -74,7 +72,7 @@ export function FretsSettingSame() {
     }
     octaveToChange.allSelected = !octaveToChange.allSelected
     setFrets(currentFrets => {
-      return currentFrets.toSpliced(octave.id, 1, octaveToChange)
+      return currentFrets.toSpliced(octave.octave, 1, octaveToChange)
     })
   }
 

@@ -3,6 +3,7 @@ import { Context } from "../../App"
 import { FretsSettingSame } from "./FretsSettingSame"
 import { FretsSettingIndividual } from "./FretsSettingIndiviual"
 import { OnAllStrings } from "./OnAllStrings"
+import { OpenStrings } from "./OpenStrings"
 
 export function PointsSetting() {
   const {
@@ -36,6 +37,7 @@ export function PointsSetting() {
         </div>
       </div>
       <OnAllStrings />
+      <OpenStrings />
       {sameOrIndividual === "same" ? (
         <FretsSettingSame />
       ) : (

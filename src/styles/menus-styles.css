@@ -183,6 +183,17 @@
   display: flex;
 }
 
+.btn-container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4px;
+}
+
+.btn-container-columns {
+  display: flex;
+  flex-direction: column;
+}
+
 .division-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -219,9 +230,13 @@
 .fret-choice-wrapper {
   display: grid;
   width: 100%;
-  margin: 0 2px;
+  /* margin: 0 2px; */
   grid-template-rows: auto auto;
   border-radius: var(--border-radius);
+}
+
+.fret-choice-wrapper .btn {
+  margin-left: 0;
 }
 
 .fret-choice-container {
@@ -359,8 +374,9 @@ input::-webkit-inner-spin-button {
   border-radius: var(--border-radius);
   background-color: var(--grey);
   margin: 4px;
-  padding: 4px;
+  padding: 4px 2px;
   text-align: center;
+  cursor: pointer;
 }
 
 .selected {
@@ -377,6 +393,22 @@ select {
   font-size: inherit;
   text-align: center;
   cursor: pointer;
+}
+
+/* .btn-container-columns {
+  margin: 0 2px;
+}
+
+.col-container .btn-container-columns:first-of-type {
+  margin-left: 0;
+}
+
+.col-container .btn-container-columns:last-of-type {
+  margin-right: 0;
+} */
+
+.placeholder {
+  height: 18.5px;
 }
 
 /* ---------- TOGGLE SWITCH ---------- */
