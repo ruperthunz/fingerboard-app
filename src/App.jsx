@@ -4,6 +4,7 @@ import { createContext, useEffect, useState } from "react"
 import { useLocalStorage } from "./useLocalStorage.js"
 import { translations } from "./translations.js"
 import { fretStates } from "./frets.js"
+import { fretStatesSame } from "./frets.js"
 import { fretStatesIndi } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
 import { openStrings } from "./openStrings.js"
@@ -43,6 +44,7 @@ export function App() {
     "same"
   )
   const [frets, setFrets] = useState(fretStates)
+  const [fretsSame, setFretsSame] = useState(fretStatesSame)
   const [fretsIndi, setFretsIndi] = useState(fretStatesIndi)
   const [openStringsToDisplay, setOpenStringsToDisplay] = useState(() =>
     getOpenStringsToDisplay(pointsOn, instrument)
@@ -177,6 +179,8 @@ export function App() {
         setSameOrIndividual,
         frets,
         setFrets,
+        fretsSame,
+        setFretsSame,
         fretsIndi,
         setFretsIndi,
         equalPointsToDisplay,
