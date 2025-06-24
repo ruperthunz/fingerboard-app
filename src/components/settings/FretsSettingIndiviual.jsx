@@ -2,30 +2,20 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function FretsSettingIndividual() {
-  const {
-    t,
-    language,
-    pointsOn,
-    fretsIndi,
-    setFretsIndi,
-    strings,
-    instrument
-  } = useContext(Context)
+  const { t, language, fretsIndi, setFretsIndi, instrument } =
+    useContext(Context)
 
   return (
     <div>
       {fretsIndi.map((octave, octaveIndex) => {
         return (
-          <div className="widget-content">
+          <div className="widget-content" key={crypto.randomUUID()}>
             <div className="label">{octave[octaveIndex][language]}</div>
             <div className="btn-container-grid">
               {octave.map((string, stringIndex) => {
                 return (
-                  <div className="">
-                    <div
-                      key={crypto.randomUUID()}
-                      className="fret-choice-wrapper"
-                    >
+                  <div key={crypto.randomUUID()} className="btn-container">
+                    <div className="fret-choice-wrapper">
                       <div className="fret-choice-container">
                         <div
                           className={
@@ -33,7 +23,6 @@ export function FretsSettingIndividual() {
                           }
                           onClick={() => handleSelectAll(string, octaveIndex)}
                         >
-                          {/* here all or none instead of nth-octave */}
                           {string.allSelected ? t.all : t.none}
                         </div>
                         <div
@@ -67,13 +56,7 @@ export function FretsSettingIndividual() {
                                   : "fret-choice"
                               }
                               onClick={() =>
-                                handleFretChoice(
-                                  fret,
-                                  string,
-                                  octaveIndex,
-                                  stringIndex,
-                                  fretIndex
-                                )
+                                handleFretChoice(string, octaveIndex, fretIndex)
                               }
                             >
                               {fret.name[instrument][language]}
@@ -124,7 +107,7 @@ export function FretsSettingIndividual() {
     })
   }
 
-  function handleFretChoice(fret, string, octaveIndex, stringIndex, fretIndex) {
+  function handleFretChoice(string, octaveIndex, fretIndex) {
     const stringToChange = fretsIndi[octaveIndex].find(
       str => str.string === string.string
     )

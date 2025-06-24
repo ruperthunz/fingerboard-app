@@ -215,6 +215,25 @@
   cursor: pointer;
 }
 
+.one-btn {
+  height: var(--widget-height);
+  display: flex;
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+  /* margin: 0 2px; */
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--grey);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.flex-items-same {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
 .division-btn {
   margin: 0;
 }

@@ -811,7 +811,7 @@ export const fretStatesSame = [
     allSelected: false,
     frets: [
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "G# A♭", German: "Gis As" },
@@ -841,7 +841,7 @@ export const fretStatesSame = [
         number: 1
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "A", German: "A" },
@@ -871,7 +871,7 @@ export const fretStatesSame = [
         number: 2
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "A# B♭", German: "Ais B" },
@@ -901,7 +901,7 @@ export const fretStatesSame = [
         number: 3
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "B", German: "H" },
@@ -931,7 +931,7 @@ export const fretStatesSame = [
         number: 4
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "C", German: "C" },
@@ -961,7 +961,7 @@ export const fretStatesSame = [
         number: 5
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "C# D♭", German: "Cis Des" },
@@ -991,7 +991,7 @@ export const fretStatesSame = [
         number: 6
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "D", German: "D" },
@@ -1021,7 +1021,7 @@ export const fretStatesSame = [
         number: 7
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "D# E♭", German: "Dis Es" },
@@ -1051,7 +1051,7 @@ export const fretStatesSame = [
         number: 8
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "E", German: "E" },
@@ -1081,7 +1081,7 @@ export const fretStatesSame = [
         number: 9
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "F", German: "F" },
@@ -1111,7 +1111,7 @@ export const fretStatesSame = [
         number: 10
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "F# G♭", German: "Fis Ges" },
@@ -1141,7 +1141,7 @@ export const fretStatesSame = [
         number: 11
       },
       {
-        state: true,
+        state: false,
         name: {
           Violin: [
             { English: "G", German: "G" },

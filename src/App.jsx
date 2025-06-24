@@ -33,7 +33,8 @@ export function App() {
     true,
     true
   ])
-  const [displayOpenStrings, setDisplayOpenStrings] = useState([
+  const [displayOpenStringsSame, setDisplayOpenStringsSame] = useState(false)
+  const [displayOpenStringsIndi, setDisplayOpenStringsIndi] = useState([
     false,
     false,
     false,
@@ -50,7 +51,7 @@ export function App() {
     getOpenStringsToDisplay(pointsOn, instrument)
   )
   const [equalPointsToDisplay, setEqualPointsToDisplay] = useState(() =>
-    getEqualPointsToDisplay(pointsOn, frets, instrument)
+    getEqualPointsToDisplay(pointsOn, fretsSame, fretsIndi, instrument)
   )
   const [justPointsToDisplay, setJustPointsToDisplay] = useState(() =>
     getJustPointsToDisplay(pointsOn, frets, instrument)
@@ -127,7 +128,7 @@ export function App() {
   useEffect(() => {
     logSelectedPoints(
       pointsOn,
-      fretStates,
+      fretStatesSame,
       instrument,
       language,
       equalPointsColor
@@ -136,9 +137,15 @@ export function App() {
 
   useEffect(() => {
     setEqualPointsToDisplay(() =>
-      getEqualPointsToDisplay(pointsOn, frets, instrument)
+      getEqualPointsToDisplay(
+        pointsOn,
+        fretsSame,
+        fretsIndi,
+        instrument,
+        sameOrIndividual
+      )
     )
-  }, [instrument, pointsOn, frets])
+  }, [instrument, pointsOn, fretsSame, fretsIndi, sameOrIndividual])
 
   useEffect(() => {
     setJustPointsToDisplay(() =>
@@ -173,8 +180,10 @@ export function App() {
         setPitch,
         pointsOn,
         setPointsOn,
-        displayOpenStrings,
-        setDisplayOpenStrings,
+        displayOpenStringsIndi,
+        setDisplayOpenStringsIndi,
+        displayOpenStringsSame,
+        setDisplayOpenStringsSame,
         sameOrIndividual,
         setSameOrIndividual,
         frets,
@@ -239,22 +248,40 @@ function getOpenStringsToDisplay(pointsOn, instrument) {
   return openStringsToDisplay
 }
 
-function getEqualPointsToDisplay(pointsOn, frets, instrument) {
+function getEqualPointsToDisplay(
+  pointsOn,
+  fretsSame,
+  fretsIndi,
+  instrument,
+  sameOrIndividual
+) {
   const selectedStrings = []
   const equalPointsToDisplay = []
+  const stringIndexes = []
   pointsOn.forEach((pointsOnString, index) => {
     if (pointsOnString) {
       selectedStrings.push(equalPoints[instrument][index])
+      stringIndexes.push(index)
     }
   })
-  selectedStrings.forEach(string => {
-    frets.forEach((oct, index) => {
-      oct.frets.forEach((fret, fretIndex) => {
-        if (fret) {
-          equalPointsToDisplay.push(string[index][fretIndex])
-        }
+  selectedStrings.forEach((string, stringIndex) => {
+    if (sameOrIndividual === "same") {
+      fretsSame.forEach((oct, index) => {
+        oct.frets.forEach((fret, fretIndex) => {
+          if (fret.state) {
+            equalPointsToDisplay.push(string[index][fretIndex])
+          }
+        })
       })
-    })
+    } else {
+      fretsIndi.forEach((oct, octaveIndex) => {
+        oct[stringIndexes[stringIndex]].frets.forEach((fret, fretIndex) => {
+          if (fret.state) {
+            equalPointsToDisplay.push(string[octaveIndex][fretIndex])
+          }
+        })
+      })
+    }
   })
   return equalPointsToDisplay
 }
