@@ -5,6 +5,9 @@ export function FretsSettingSame() {
   const { t, language, fretsSame, setFretsSame, instrument } =
     useContext(Context)
 
+  const stateClasses = ["", "selected", "ghost"]
+  const stateTranslations = [t.none, t.all, t.ghost]
+
   return (
     <div>
       {fretsSame.map((octave, octaveIndex) => {
@@ -15,10 +18,10 @@ export function FretsSettingSame() {
               <div className="fret-choice-wrapper">
                 <div className="fret-choice-container">
                   <div
-                    className={octave.allSelected ? "btn selected" : "btn"}
+                    className={`btn ${stateClasses[octave.allSelected]}`}
                     onClick={() => handleSelectAll(octave, octaveIndex)}
                   >
-                    {octave.allSelected ? t.all : t.none}
+                    {stateTranslations[octave.allSelected]}
                   </div>
                   <div
                     className="btn plus-icon-container"
@@ -45,11 +48,9 @@ export function FretsSettingSame() {
                     return (
                       <div
                         key={crypto.randomUUID()}
-                        className={
-                          fret.state
-                            ? "fret-choice one-btn selected"
-                            : "fret-choice one-btn"
-                        }
+                        className={`fret-choice one-btn ${
+                          stateClasses[fret.state]
+                        }`}
                         onClick={() =>
                           handleFretChoice(octave, octaveIndex, fret, fretIndex)
                         }
@@ -78,19 +79,14 @@ export function FretsSettingSame() {
 
   function handleSelectAll(octave, octaveIndex) {
     const octaveToChange = fretsSame.find(oct => oct.octave === octave.octave)
+    octaveToChange.allSelected = (octaveToChange.allSelected + 1) % 3
     for (let i = 0; i < octaveToChange.frets.length; i++) {
-      if (octaveToChange.allSelected) {
-        octaveToChange.frets[i].state = false
-      } else {
-        octaveToChange.frets[i].state = true
-      }
+      octaveToChange.frets[i].state = octaveToChange.allSelected
     }
-    octaveToChange.allSelected = !octaveToChange.allSelected
 
     setFretsSame(currentFrets => {
       return currentFrets.toSpliced(octaveIndex, 1, octaveToChange)
     })
-    console.log(fretsSame)
   }
 
   function toggleDropdown(octave, octaveIndex) {
@@ -105,9 +101,9 @@ export function FretsSettingSame() {
   function handleFretChoice(octave, octaveIndex, fret, fretIndex) {
     const octaveToChange = fretsSame.find(oct => oct.octave === octave.octave)
     octaveToChange.frets[fretIndex].state =
-      !octaveToChange.frets[fretIndex].state
+      (octaveToChange.frets[fretIndex].state + 1) % 3
     if (allSelectedOrDeselected(octave, fretIndex)) {
-      octaveToChange.allSelected = !octaveToChange.allSelected
+      octaveToChange.allSelected = octaveToChange.frets[fretIndex].state
     }
 
     setFretsSame(currentFrets => {
@@ -116,10 +112,8 @@ export function FretsSettingSame() {
   }
 
   function allSelectedOrDeselected(octave, fretIndex) {
-    return (
-      octave.frets.every(
-        fret => fret.state === octave.frets[fretIndex].state
-      ) && octave.frets[fretIndex].state !== octave.allSelected
+    return octave.frets.every(
+      fret => fret.state === octave.frets[fretIndex].state
     )
   }
 }

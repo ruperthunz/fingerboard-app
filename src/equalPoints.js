@@ -27,7 +27,8 @@ const {
   aSharp_bFlat,
   b,
   black,
-  white
+  white,
+  ghost
 } = equalPointsColors
 
 export const equalPoints = {
@@ -49,7 +50,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -66,7 +68,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -84,7 +87,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -101,7 +105,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -118,7 +123,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -136,7 +142,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -153,7 +160,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -171,7 +179,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -188,7 +197,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -205,7 +215,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -223,7 +234,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -240,7 +252,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -260,7 +273,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -277,7 +291,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -295,7 +310,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -312,7 +328,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -329,7 +346,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -347,7 +365,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -364,7 +383,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -382,7 +402,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -399,7 +420,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -416,7 +438,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -434,7 +457,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -451,7 +475,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -471,7 +496,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -488,7 +514,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -506,7 +533,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -523,7 +551,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -540,7 +569,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -558,7 +588,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -575,7 +606,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -593,7 +625,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -610,7 +643,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -627,7 +661,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -645,7 +680,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -662,7 +698,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -684,7 +721,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -701,7 +739,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -718,7 +757,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -736,7 +776,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -753,7 +794,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -771,7 +813,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -788,7 +831,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -806,7 +850,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -823,7 +868,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -840,7 +886,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -858,7 +905,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -875,7 +923,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -895,7 +944,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -912,7 +962,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -929,7 +980,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -947,7 +999,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -964,7 +1017,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -982,7 +1036,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -999,7 +1054,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1017,7 +1073,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1034,7 +1091,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1051,7 +1109,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1069,7 +1128,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1086,7 +1146,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -1106,7 +1167,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1123,7 +1185,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1140,7 +1203,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1158,7 +1222,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1175,7 +1240,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1193,7 +1259,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1210,7 +1277,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1228,7 +1296,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1245,7 +1314,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1262,7 +1332,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1280,7 +1351,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1297,7 +1369,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -1319,7 +1392,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1336,7 +1410,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1353,7 +1428,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1371,7 +1447,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1388,7 +1465,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1406,7 +1484,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1423,7 +1502,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1440,7 +1520,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1458,7 +1539,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1475,7 +1557,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1493,7 +1576,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1510,7 +1594,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -1530,7 +1615,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1547,7 +1633,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1564,7 +1651,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1582,7 +1670,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1599,7 +1688,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1617,7 +1707,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1634,7 +1725,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1651,7 +1743,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1669,7 +1762,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1686,7 +1780,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1704,7 +1799,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1721,7 +1817,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -1741,7 +1838,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1758,7 +1856,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1775,7 +1874,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1793,7 +1893,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1810,7 +1911,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1828,7 +1930,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1845,7 +1948,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1862,7 +1966,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1880,7 +1985,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1897,7 +2003,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1915,7 +2022,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1932,7 +2040,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -1953,7 +2062,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -1971,7 +2081,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -1988,7 +2099,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2006,7 +2118,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2023,7 +2136,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2041,7 +2155,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2058,7 +2173,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2075,7 +2191,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2093,7 +2210,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2110,7 +2228,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2128,7 +2247,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2145,7 +2265,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -2164,7 +2285,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2182,7 +2304,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2199,7 +2322,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2217,7 +2341,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2234,7 +2359,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2252,7 +2378,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2269,7 +2396,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2286,7 +2414,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2304,7 +2433,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2321,7 +2451,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2339,7 +2470,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2356,7 +2488,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -2375,7 +2508,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2393,7 +2527,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2410,7 +2545,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2428,7 +2564,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2445,7 +2582,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2463,7 +2601,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2480,7 +2619,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2497,7 +2637,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2515,7 +2656,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2532,7 +2674,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2550,7 +2693,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2567,7 +2711,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -2591,7 +2736,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2608,7 +2754,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2626,7 +2773,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2643,7 +2791,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2660,7 +2809,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2678,7 +2828,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2695,7 +2846,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2713,7 +2865,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2730,7 +2883,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2748,7 +2902,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2765,7 +2920,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2782,7 +2938,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -2802,7 +2959,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2819,7 +2977,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2837,7 +2996,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2854,7 +3014,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2871,7 +3032,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2889,7 +3051,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2906,7 +3069,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2924,7 +3088,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2941,7 +3106,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2959,7 +3125,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -2976,7 +3143,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -2993,7 +3161,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -3013,7 +3182,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3030,7 +3200,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3048,7 +3219,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3065,7 +3237,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3082,7 +3255,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3100,7 +3274,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3117,7 +3292,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3135,7 +3311,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3152,7 +3329,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3170,7 +3348,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3187,7 +3366,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3204,7 +3384,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -3226,7 +3407,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3243,7 +3425,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3261,7 +3444,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3278,7 +3462,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3295,7 +3480,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3313,7 +3499,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3330,7 +3517,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3348,7 +3536,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3365,7 +3554,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3382,7 +3572,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3400,7 +3591,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3417,7 +3609,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -3437,7 +3630,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3454,7 +3648,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3472,7 +3667,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3489,7 +3685,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3506,7 +3703,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3524,7 +3722,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3541,7 +3740,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3559,7 +3759,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3576,7 +3777,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3593,7 +3795,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3611,7 +3814,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3628,7 +3832,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -3648,7 +3853,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3665,7 +3871,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3683,7 +3890,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3700,7 +3908,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3717,7 +3926,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3735,7 +3945,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3752,7 +3963,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3770,7 +3982,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3787,7 +4000,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3804,7 +4018,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3822,7 +4037,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3839,7 +4055,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -3861,7 +4078,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3878,7 +4096,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3895,7 +4114,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3913,7 +4133,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3930,7 +4151,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3948,7 +4170,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -3965,7 +4188,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -3983,7 +4207,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4000,7 +4225,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4017,7 +4243,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4035,7 +4262,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4052,7 +4280,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -4072,7 +4301,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4089,7 +4319,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4106,7 +4337,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4124,7 +4356,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4141,7 +4374,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4159,7 +4393,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4176,7 +4411,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4194,7 +4430,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4211,7 +4448,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4228,7 +4466,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4246,7 +4485,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4263,7 +4503,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -4283,7 +4524,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4300,7 +4542,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4317,7 +4560,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4335,7 +4579,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4352,7 +4597,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4370,7 +4616,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4387,7 +4634,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4405,7 +4653,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4422,7 +4671,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4439,7 +4689,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4457,7 +4708,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4474,7 +4726,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -4496,7 +4749,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4513,7 +4767,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4530,7 +4785,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4548,7 +4804,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4565,7 +4822,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4583,7 +4841,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4600,7 +4859,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4617,7 +4877,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4635,7 +4896,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4652,7 +4914,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4670,7 +4933,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4687,7 +4951,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -4707,7 +4972,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4724,7 +4990,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4741,7 +5008,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4759,7 +5027,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4776,7 +5045,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4794,7 +5064,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4811,7 +5082,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4828,7 +5100,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4846,7 +5119,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4863,7 +5137,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4881,7 +5156,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4898,7 +5174,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -4918,7 +5195,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4935,7 +5213,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4952,7 +5231,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -4970,7 +5250,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -4987,7 +5268,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5005,7 +5287,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5022,7 +5305,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5039,7 +5323,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5057,7 +5342,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5074,7 +5360,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5092,7 +5379,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5109,7 +5397,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -5133,7 +5422,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5150,7 +5440,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5168,7 +5459,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5185,7 +5477,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5202,7 +5495,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5220,7 +5514,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5237,7 +5532,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5255,7 +5551,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5272,7 +5569,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5290,7 +5588,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5307,7 +5606,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5324,7 +5624,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -5344,7 +5645,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5361,7 +5663,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5379,7 +5682,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5396,7 +5700,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5413,7 +5718,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5431,7 +5737,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5448,7 +5755,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5466,7 +5774,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5483,7 +5792,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5501,7 +5811,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5518,7 +5829,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5535,7 +5847,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -5555,7 +5868,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5572,7 +5886,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5590,7 +5905,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5607,7 +5923,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5624,7 +5941,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5642,7 +5960,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5659,7 +5978,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5677,7 +5997,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5694,7 +6015,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5712,7 +6034,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5729,7 +6052,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5746,7 +6070,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -5768,7 +6093,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5785,7 +6111,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5803,7 +6130,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5820,7 +6148,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5837,7 +6166,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5855,7 +6185,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5872,7 +6203,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5890,7 +6222,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5907,7 +6240,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5924,7 +6258,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -5942,7 +6277,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5959,7 +6295,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -5979,7 +6316,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -5996,7 +6334,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6014,7 +6353,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6031,7 +6371,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6048,7 +6389,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6066,7 +6408,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6083,7 +6426,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6101,7 +6445,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6118,7 +6463,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6135,7 +6481,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6153,7 +6500,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6170,7 +6518,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -6190,7 +6539,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6207,7 +6557,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6225,7 +6576,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6242,7 +6594,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6259,7 +6612,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6277,7 +6631,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6294,7 +6649,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6312,7 +6668,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6329,7 +6686,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6346,7 +6704,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6364,7 +6723,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6381,7 +6741,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -6403,7 +6764,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6420,7 +6782,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6437,7 +6800,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6455,7 +6819,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6472,7 +6837,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6490,7 +6856,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6507,7 +6874,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6525,7 +6893,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6542,7 +6911,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6559,7 +6929,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6577,7 +6948,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6594,7 +6966,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -6614,7 +6987,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6631,7 +7005,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6648,7 +7023,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6666,7 +7042,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6683,7 +7060,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6701,7 +7079,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6718,7 +7097,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6736,7 +7116,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6753,7 +7134,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6770,7 +7152,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6788,7 +7171,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6805,7 +7189,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -6825,7 +7210,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6842,7 +7228,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6859,7 +7246,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6877,7 +7265,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6894,7 +7283,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6912,7 +7302,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6929,7 +7320,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6947,7 +7339,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -6964,7 +7357,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6981,7 +7375,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -6999,7 +7394,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7016,7 +7412,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -7038,7 +7435,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7055,7 +7453,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7072,7 +7471,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7090,7 +7490,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7107,7 +7508,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7125,7 +7527,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7142,7 +7545,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7159,7 +7563,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7177,7 +7582,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7194,7 +7600,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7212,7 +7619,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7229,7 +7637,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -7249,7 +7658,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7266,7 +7676,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7283,7 +7694,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7301,7 +7713,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7318,7 +7731,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7336,7 +7750,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7353,7 +7768,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7370,7 +7786,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7388,7 +7805,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7405,7 +7823,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7423,7 +7842,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7440,7 +7860,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -7460,7 +7881,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7477,7 +7899,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7494,7 +7917,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7512,7 +7936,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7529,7 +7954,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7547,7 +7973,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7564,7 +7991,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7581,7 +8009,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7599,7 +8028,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7616,7 +8046,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7634,7 +8065,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7651,7 +8083,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -7674,7 +8107,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7692,7 +8126,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7709,7 +8144,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7727,7 +8163,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7744,7 +8181,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7762,7 +8200,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7779,7 +8218,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7796,7 +8236,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7814,7 +8255,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7831,7 +8273,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7849,7 +8292,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7866,7 +8310,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -7885,7 +8330,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7903,7 +8349,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7920,7 +8367,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7938,7 +8386,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7955,7 +8404,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -7973,7 +8423,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -7990,7 +8441,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8007,7 +8459,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8025,7 +8478,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8042,7 +8496,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8060,7 +8515,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8077,7 +8533,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -8096,7 +8553,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8114,7 +8572,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8131,7 +8590,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8149,7 +8609,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8166,7 +8627,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8184,7 +8646,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8201,7 +8664,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8218,7 +8682,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8236,7 +8701,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8253,7 +8719,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8271,7 +8738,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8288,7 +8756,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -8310,7 +8779,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8327,7 +8797,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8344,7 +8815,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8362,7 +8834,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8379,7 +8852,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8397,7 +8871,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8414,7 +8889,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8431,7 +8907,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8449,7 +8926,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8466,7 +8944,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8484,7 +8963,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8501,7 +8981,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -8521,7 +9002,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8538,7 +9020,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8555,7 +9038,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8573,7 +9057,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8590,7 +9075,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8608,7 +9094,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8625,7 +9112,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8642,7 +9130,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8660,7 +9149,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8677,7 +9167,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8695,7 +9186,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8712,7 +9204,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -8732,7 +9225,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8749,7 +9243,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8766,7 +9261,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8784,7 +9280,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8801,7 +9298,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8819,7 +9317,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8836,7 +9335,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8853,7 +9353,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8871,7 +9372,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8888,7 +9390,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8906,7 +9409,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8923,7 +9427,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -8945,7 +9450,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -8962,7 +9468,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8979,7 +9486,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -8997,7 +9505,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9014,7 +9523,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9032,7 +9542,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9049,7 +9560,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9067,7 +9579,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9084,7 +9597,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9101,7 +9615,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9119,7 +9634,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9136,7 +9652,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -9156,7 +9673,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9173,7 +9691,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9190,7 +9709,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9208,7 +9728,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9225,7 +9746,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9243,7 +9765,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9260,7 +9783,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9278,7 +9802,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9295,7 +9820,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9312,7 +9838,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9330,7 +9857,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9347,7 +9875,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -9367,7 +9896,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9384,7 +9914,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9401,7 +9932,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9419,7 +9951,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9436,7 +9969,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9454,7 +9988,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9471,7 +10006,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9489,7 +10025,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9506,7 +10043,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9523,7 +10061,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9541,7 +10080,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9558,7 +10098,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]
@@ -9580,7 +10121,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9597,7 +10139,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9615,7 +10158,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9632,7 +10176,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9649,7 +10194,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9667,7 +10213,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9684,7 +10231,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9702,7 +10250,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9719,7 +10268,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9736,7 +10286,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9754,7 +10305,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9771,7 +10323,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -9791,7 +10344,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9808,7 +10362,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9826,7 +10381,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9843,7 +10399,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9860,7 +10417,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9878,7 +10436,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9895,7 +10454,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9913,7 +10473,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9930,7 +10491,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9947,7 +10509,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -9965,7 +10528,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -9982,7 +10546,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ],
@@ -10002,7 +10567,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret1,
             name: gSharp_aFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -10019,7 +10585,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret2,
             name: a,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10037,7 +10604,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret3,
             name: aSharp_bFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -10054,7 +10622,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret4,
             name: b,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10071,7 +10640,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret5,
             name: c,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10089,7 +10659,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret6,
             name: cSharp_dFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -10106,7 +10677,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret7,
             name: d,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10124,7 +10696,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret8,
             name: dSharp_eFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -10141,7 +10714,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret9,
             name: e,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10158,7 +10732,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret10,
             name: f,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         },
         {
@@ -10176,7 +10751,8 @@ export const equalPoints = {
             uniPlus8: uni,
             fret: fret11,
             name: fSharp_gFlat,
-            piano: black
+            piano: black,
+            ghost: ghost
           }
         },
         {
@@ -10193,7 +10769,8 @@ export const equalPoints = {
             uniPlus8: octave,
             fret: fret12,
             name: g,
-            piano: white
+            piano: white,
+            ghost: ghost
           }
         }
       ]

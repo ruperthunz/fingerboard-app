@@ -10,18 +10,16 @@ export function OpenStringsSame() {
     setDisplayOpenStringsSame
   } = useContext(Context)
 
+  const stateClasses = ["", "selected", "ghost"]
+
   return (
     <div>
       <div className="label">{t.openStrings}</div>
       <div className="widget-content">
         <div
           key={crypto.randomUUID()}
-          className={
-            displayOpenStringsSame
-              ? "btn-container one-btn selected"
-              : "btn-container one-btn"
-          }
-          onClick={() => setDisplayOpenStringsSame(!displayOpenStringsSame)}
+          className={`btn-container one-btn ${stateClasses[displayOpenStringsSame]}`}
+          onClick={() => handleClick()}
         >
           {strings[instrument].map(string => {
             return <div key={crypto.randomUUID()}>{t[string.scordatura]}</div>
@@ -30,4 +28,8 @@ export function OpenStringsSame() {
       </div>
     </div>
   )
+
+  function handleClick() {
+    setDisplayOpenStringsSame(currentState => (currentState + 1) % 3)
+  }
 }

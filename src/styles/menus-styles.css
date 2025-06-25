@@ -1,6 +1,7 @@
 :root {
   --grey: rgb(210, 210, 210);
   --selectGreen: rgb(63, 255, 0);
+  --ghostColor: rgb(100, 100, 100);
   --border-radius: 5px;
   --widget-height: 36px;
   --width-3-column: 31.5%;
@@ -400,6 +401,10 @@ input::-webkit-inner-spin-button {
 
 .selected {
   background-color: var(--selectGreen);
+}
+
+.ghost {
+  background-color: var(--ghostColor);
 }
 
 select {

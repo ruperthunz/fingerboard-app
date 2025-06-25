@@ -5,6 +5,9 @@ export function FretsSettingIndividual() {
   const { t, language, fretsIndi, setFretsIndi, instrument } =
     useContext(Context)
 
+  const stateClasses = ["", "selected", "ghost"]
+  const stateTranslations = [t.none, t.all, t.ghost]
+
   return (
     <div>
       {fretsIndi.map((octave, octaveIndex) => {
@@ -18,12 +21,10 @@ export function FretsSettingIndividual() {
                     <div className="fret-choice-wrapper">
                       <div className="fret-choice-container">
                         <div
-                          className={
-                            string.allSelected ? "btn selected" : "btn"
-                          }
+                          className={`btn ${stateClasses[string.allSelected]}`}
                           onClick={() => handleSelectAll(string, octaveIndex)}
                         >
-                          {string.allSelected ? t.all : t.none}
+                          {stateTranslations[string.allSelected]}
                         </div>
                         <div
                           className="btn plus-icon-container"
@@ -50,11 +51,9 @@ export function FretsSettingIndividual() {
                           return (
                             <div
                               key={crypto.randomUUID()}
-                              className={
-                                fret.state
-                                  ? "fret-choice selected"
-                                  : "fret-choice"
-                              }
+                              className={`fret-choice ${
+                                stateClasses[fret.state]
+                              }`}
                               onClick={() =>
                                 handleFretChoice(string, octaveIndex, fretIndex)
                               }
@@ -79,14 +78,15 @@ export function FretsSettingIndividual() {
     const stringToChange = fretsIndi[octaveIndex].find(
       str => str.string === string.string
     )
+    stringToChange.allSelected = (stringToChange.allSelected + 1) % 3
     for (let i = 0; i < stringToChange.frets.length; i++) {
-      if (stringToChange.allSelected) {
-        stringToChange.frets[i].state = false
-      } else {
-        stringToChange.frets[i].state = true
-      }
+      // if (stringToChange.allSelected) {
+      //   stringToChange.frets[i].state = false
+      // } else {
+      //   stringToChange.frets[i].state = true
+      // }
+      stringToChange.frets[i].state = stringToChange.allSelected
     }
-    stringToChange.allSelected = !stringToChange.allSelected
     const octaveToChange = fretsIndi[octaveIndex]
 
     setFretsIndi(currentFrets => {
@@ -98,7 +98,6 @@ export function FretsSettingIndividual() {
     const stringToChange = fretsIndi[octaveIndex].find(
       str => str.string === string.string
     )
-    console.log(stringToChange)
     stringToChange.open = !stringToChange.open
     const octaveToChange = fretsIndi[octaveIndex]
 
@@ -111,11 +110,10 @@ export function FretsSettingIndividual() {
     const stringToChange = fretsIndi[octaveIndex].find(
       str => str.string === string.string
     )
-    console.log(stringToChange.frets[fretIndex].state)
     stringToChange.frets[fretIndex].state =
-      !stringToChange.frets[fretIndex].state
+      (stringToChange.frets[fretIndex].state + 1) % 3
     if (allSelectedOrDeselected(string, fretIndex)) {
-      stringToChange.allSelected = !stringToChange.allSelected
+      stringToChange.allSelected = stringToChange.frets[fretIndex].state
     }
     const octaveToChange = fretsIndi[octaveIndex]
 
@@ -125,9 +123,8 @@ export function FretsSettingIndividual() {
   }
 
   function allSelectedOrDeselected(string, fretIndex) {
-    return (
-      string.frets.every(fret => fret === string.frets[fretIndex]) &&
-      string.frets[fretIndex] !== string.allSelected
+    return string.frets.every(
+      fret => fret.state === string.frets[fretIndex].state
     )
   }
 }

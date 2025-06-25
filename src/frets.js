@@ -4,7 +4,7 @@ export const fretStates = [
     German: "1. Okt.",
     octave: 0,
     open: false,
-    allSelected: true,
+    allSelected: 1,
     frets: [
       true,
       true,
@@ -25,7 +25,7 @@ export const fretStates = [
     German: "2. Okt.",
     octave: 1,
     open: false,
-    allSelected: true,
+    allSelected: 1,
     frets: [
       true,
       true,
@@ -46,7 +46,7 @@ export const fretStates = [
     German: "3. Okt.",
     octave: 2,
     open: false,
-    allSelected: false,
+    allSelected: 0,
     frets: [
       false,
       false,
@@ -64,16 +64,18 @@ export const fretStates = [
   }
 ]
 
+const states = { 0: "notSelected", 1: "selected", 2: "ghost" }
+
 export const fretStatesSame = [
   {
     English: "1st oct.",
     German: "1. Okt.",
     octave: 0,
     open: false,
-    allSelected: true,
+    allSelected: 1,
     frets: [
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "G# A♭", German: "Gis As" },
@@ -103,7 +105,7 @@ export const fretStatesSame = [
         number: 1
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "A", German: "A" },
@@ -133,7 +135,7 @@ export const fretStatesSame = [
         number: 2
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "A# B♭", German: "Ais B" },
@@ -163,7 +165,7 @@ export const fretStatesSame = [
         number: 3
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "B", German: "H" },
@@ -193,7 +195,7 @@ export const fretStatesSame = [
         number: 4
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "C", German: "C" },
@@ -223,7 +225,7 @@ export const fretStatesSame = [
         number: 5
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "C# D♭", German: "Cis Des" },
@@ -253,7 +255,7 @@ export const fretStatesSame = [
         number: 6
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "D", German: "D" },
@@ -283,7 +285,7 @@ export const fretStatesSame = [
         number: 7
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "D# E♭", German: "Dis Es" },
@@ -313,7 +315,7 @@ export const fretStatesSame = [
         number: 8
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "E", German: "E" },
@@ -343,7 +345,7 @@ export const fretStatesSame = [
         number: 9
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "F", German: "F" },
@@ -373,7 +375,7 @@ export const fretStatesSame = [
         number: 10
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "F# G♭", German: "Fis Ges" },
@@ -403,7 +405,7 @@ export const fretStatesSame = [
         number: 11
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "G", German: "G" },
@@ -439,10 +441,10 @@ export const fretStatesSame = [
     German: "2. Okt.",
     octave: 1,
     open: false,
-    allSelected: true,
+    allSelected: 1,
     frets: [
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "G# A♭", German: "Gis As" },
@@ -472,7 +474,7 @@ export const fretStatesSame = [
         number: 1
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "A", German: "A" },
@@ -502,7 +504,7 @@ export const fretStatesSame = [
         number: 2
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "A# B♭", German: "Ais B" },
@@ -532,7 +534,7 @@ export const fretStatesSame = [
         number: 3
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "B", German: "H" },
@@ -562,7 +564,7 @@ export const fretStatesSame = [
         number: 4
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "C", German: "C" },
@@ -592,7 +594,7 @@ export const fretStatesSame = [
         number: 5
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "C# D♭", German: "Cis Des" },
@@ -622,7 +624,7 @@ export const fretStatesSame = [
         number: 6
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "D", German: "D" },
@@ -652,7 +654,7 @@ export const fretStatesSame = [
         number: 7
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "D# E♭", German: "Dis Es" },
@@ -682,7 +684,7 @@ export const fretStatesSame = [
         number: 8
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "E", German: "E" },
@@ -712,7 +714,7 @@ export const fretStatesSame = [
         number: 9
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "F", German: "F" },
@@ -742,7 +744,7 @@ export const fretStatesSame = [
         number: 10
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "F# G♭", German: "Fis Ges" },
@@ -772,7 +774,7 @@ export const fretStatesSame = [
         number: 11
       },
       {
-        state: true,
+        state: 1,
         name: {
           Violin: [
             { English: "G", German: "G" },
@@ -808,10 +810,10 @@ export const fretStatesSame = [
     German: "3. Okt.",
     octave: 2,
     open: false,
-    allSelected: false,
+    allSelected: 0,
     frets: [
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "G# A♭", German: "Gis As" },
@@ -841,7 +843,7 @@ export const fretStatesSame = [
         number: 1
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "A", German: "A" },
@@ -871,7 +873,7 @@ export const fretStatesSame = [
         number: 2
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "A# B♭", German: "Ais B" },
@@ -901,7 +903,7 @@ export const fretStatesSame = [
         number: 3
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "B", German: "H" },
@@ -931,7 +933,7 @@ export const fretStatesSame = [
         number: 4
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "C", German: "C" },
@@ -961,7 +963,7 @@ export const fretStatesSame = [
         number: 5
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "C# D♭", German: "Cis Des" },
@@ -991,7 +993,7 @@ export const fretStatesSame = [
         number: 6
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "D", German: "D" },
@@ -1021,7 +1023,7 @@ export const fretStatesSame = [
         number: 7
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "D# E♭", German: "Dis Es" },
@@ -1051,7 +1053,7 @@ export const fretStatesSame = [
         number: 8
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "E", German: "E" },
@@ -1081,7 +1083,7 @@ export const fretStatesSame = [
         number: 9
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "F", German: "F" },
@@ -1111,7 +1113,7 @@ export const fretStatesSame = [
         number: 10
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "F# G♭", German: "Fis Ges" },
@@ -1141,7 +1143,7 @@ export const fretStatesSame = [
         number: 11
       },
       {
-        state: false,
+        state: 0,
         name: {
           Violin: [
             { English: "G", German: "G" },
@@ -1182,10 +1184,10 @@ export const fretStatesIndi = [
       string: 0,
       octave: 0,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1195,7 +1197,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1205,7 +1207,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1215,7 +1217,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1225,7 +1227,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1235,7 +1237,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1245,7 +1247,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1255,7 +1257,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1265,7 +1267,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1275,7 +1277,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1285,7 +1287,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1295,7 +1297,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1312,10 +1314,10 @@ export const fretStatesIndi = [
       string: 1,
       octave: 0,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1325,7 +1327,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1335,7 +1337,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1345,7 +1347,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1355,7 +1357,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1365,7 +1367,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1375,7 +1377,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1385,7 +1387,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1395,7 +1397,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1405,7 +1407,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1415,7 +1417,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1425,7 +1427,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1442,10 +1444,10 @@ export const fretStatesIndi = [
       string: 2,
       octave: 0,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1455,7 +1457,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1465,7 +1467,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1475,7 +1477,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1485,7 +1487,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1495,7 +1497,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1505,7 +1507,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1515,7 +1517,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1525,7 +1527,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1535,7 +1537,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1545,7 +1547,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1555,7 +1557,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1572,10 +1574,10 @@ export const fretStatesIndi = [
       string: 3,
       octave: 0,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1585,7 +1587,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1595,7 +1597,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1605,7 +1607,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1615,7 +1617,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1625,7 +1627,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1635,7 +1637,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1645,7 +1647,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1655,7 +1657,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1665,7 +1667,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1675,7 +1677,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1685,7 +1687,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1704,10 +1706,10 @@ export const fretStatesIndi = [
       string: 0,
       octave: 1,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1717,7 +1719,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1727,7 +1729,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1737,7 +1739,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1747,7 +1749,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1757,7 +1759,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1767,7 +1769,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1777,7 +1779,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1787,7 +1789,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1797,7 +1799,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1807,7 +1809,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1817,7 +1819,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1834,10 +1836,10 @@ export const fretStatesIndi = [
       string: 1,
       octave: 1,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -1847,7 +1849,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -1857,7 +1859,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -1867,7 +1869,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -1877,7 +1879,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -1887,7 +1889,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -1897,7 +1899,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -1907,7 +1909,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1917,7 +1919,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1927,7 +1929,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1937,7 +1939,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -1947,7 +1949,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -1964,10 +1966,10 @@ export const fretStatesIndi = [
       string: 2,
       octave: 1,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -1977,7 +1979,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -1987,7 +1989,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -1997,7 +1999,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2007,7 +2009,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2017,7 +2019,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2027,7 +2029,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -2037,7 +2039,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2047,7 +2049,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2057,7 +2059,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2067,7 +2069,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2077,7 +2079,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2094,10 +2096,10 @@ export const fretStatesIndi = [
       string: 3,
       octave: 1,
       open: false,
-      allSelected: true,
+      allSelected: 1,
       frets: [
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2107,7 +2109,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2117,7 +2119,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2127,7 +2129,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2137,7 +2139,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2147,7 +2149,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -2157,7 +2159,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -2167,7 +2169,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -2177,7 +2179,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2187,7 +2189,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2197,7 +2199,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2207,7 +2209,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: true,
+          state: 1,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -2226,10 +2228,10 @@ export const fretStatesIndi = [
       string: 0,
       octave: 2,
       open: false,
-      allSelected: false,
+      allSelected: 0,
       frets: [
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2239,7 +2241,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2249,7 +2251,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -2259,7 +2261,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -2269,7 +2271,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -2279,7 +2281,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2289,7 +2291,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2299,7 +2301,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2309,7 +2311,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -2319,7 +2321,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2329,7 +2331,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2339,7 +2341,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2356,10 +2358,10 @@ export const fretStatesIndi = [
       string: 1,
       octave: 2,
       open: false,
-      allSelected: false,
+      allSelected: 0,
       frets: [
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2369,7 +2371,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -2379,7 +2381,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2389,7 +2391,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2399,7 +2401,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2409,7 +2411,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2419,7 +2421,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2429,7 +2431,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -2439,7 +2441,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -2449,7 +2451,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -2459,7 +2461,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2469,7 +2471,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2486,10 +2488,10 @@ export const fretStatesIndi = [
       string: 2,
       octave: 2,
       open: false,
-      allSelected: false,
+      allSelected: 0,
       frets: [
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -2499,7 +2501,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -2509,7 +2511,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -2519,7 +2521,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2529,7 +2531,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2539,7 +2541,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2549,7 +2551,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },
@@ -2559,7 +2561,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2569,7 +2571,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2579,7 +2581,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2589,7 +2591,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2599,7 +2601,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2616,10 +2618,10 @@ export const fretStatesIndi = [
       string: 3,
       octave: 2,
       open: false,
-      allSelected: false,
+      allSelected: 0,
       frets: [
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F", German: "F" },
             Viola: { English: "A# B♭", German: "Ais B" },
@@ -2629,7 +2631,7 @@ export const fretStatesIndi = [
           number: 1
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "F# G♭", German: "Fis Ges" },
             Viola: { English: "B", German: "H" },
@@ -2639,7 +2641,7 @@ export const fretStatesIndi = [
           number: 2
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G", German: "G" },
             Viola: { English: "C", German: "C" },
@@ -2649,7 +2651,7 @@ export const fretStatesIndi = [
           number: 3
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "G# A♭", German: "Gis As" },
             Viola: { English: "C# D♭", German: "Cis Des" },
@@ -2659,7 +2661,7 @@ export const fretStatesIndi = [
           number: 4
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A", German: "A" },
             Viola: { English: "D", German: "D" },
@@ -2669,7 +2671,7 @@ export const fretStatesIndi = [
           number: 5
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "A# B♭", German: "Ais B" },
             Viola: { English: "D# E♭", German: "Dis Es" },
@@ -2679,7 +2681,7 @@ export const fretStatesIndi = [
           number: 6
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "B", German: "H" },
             Viola: { English: "E", German: "E" },
@@ -2689,7 +2691,7 @@ export const fretStatesIndi = [
           number: 7
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C", German: "C" },
             Viola: { English: "F", German: "F" },
@@ -2699,7 +2701,7 @@ export const fretStatesIndi = [
           number: 8
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "C# D♭", German: "Cis Des" },
             Viola: { English: "F# G♭", German: "Fis Ges" },
@@ -2709,7 +2711,7 @@ export const fretStatesIndi = [
           number: 9
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D", German: "D" },
             Viola: { English: "G", German: "G" },
@@ -2719,7 +2721,7 @@ export const fretStatesIndi = [
           number: 10
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "D# E♭", German: "Dis Es" },
             Viola: { English: "G# A♭", German: "Gis As" },
@@ -2729,7 +2731,7 @@ export const fretStatesIndi = [
           number: 11
         },
         {
-          state: false,
+          state: 0,
           name: {
             Violin: { English: "E", German: "E" },
             Viola: { English: "A", German: "A" },

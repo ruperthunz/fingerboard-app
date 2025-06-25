@@ -33,12 +33,9 @@ export function App() {
     true,
     true
   ])
-  const [displayOpenStringsSame, setDisplayOpenStringsSame] = useState(false)
+  const [displayOpenStringsSame, setDisplayOpenStringsSame] = useState(0)
   const [displayOpenStringsIndi, setDisplayOpenStringsIndi] = useState([
-    false,
-    false,
-    false,
-    false
+    0, 0, 0, 0
   ])
   const [sameOrIndividual, setSameOrIndividual] = useLocalStorage(
     "sameOrIndividual",

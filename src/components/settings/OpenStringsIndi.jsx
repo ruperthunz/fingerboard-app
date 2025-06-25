@@ -11,6 +11,8 @@ export function OpenStringsIndi(props) {
     setDisplayOpenStringsIndi
   } = useContext(Context)
 
+  const stateClasses = ["", "selected", "ghost"]
+
   return (
     <div>
       <div className="label">{t.openStrings}</div>
@@ -20,11 +22,7 @@ export function OpenStringsIndi(props) {
             return (
               <div
                 key={crypto.randomUUID()}
-                className={
-                  displayOpenStringsIndi[index] === true
-                    ? "btn selected"
-                    : "btn"
-                }
+                className={`btn ${stateClasses[displayOpenStringsIndi[index]]}`}
                 onClick={() => handleClick(index)}
               >
                 {t[string.scordatura]}
@@ -37,10 +35,9 @@ export function OpenStringsIndi(props) {
   )
 
   function handleClick(index) {
-    let value
-    displayOpenStringsIndi[index] === true ? (value = false) : (value = true)
+    let state = (displayOpenStringsIndi[index] + 1) % 3
     setDisplayOpenStringsIndi(currentDisplayedOpenStrings => {
-      return currentDisplayedOpenStrings.toSpliced(index, 1, value)
+      return currentDisplayedOpenStrings.toSpliced(index, 1, state)
     })
   }
 }
