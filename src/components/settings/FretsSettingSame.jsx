@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { Context } from "../../App"
+import { equalPoints } from "../../equalPoints"
 
 export function FretsSettingSame() {
   const { t, language, fretsSame, setFretsSame, instrument } =

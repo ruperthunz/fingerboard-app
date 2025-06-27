@@ -265,16 +265,34 @@ function getEqualPointsToDisplay(
     if (sameOrIndividual === "same") {
       fretsSame.forEach((oct, index) => {
         oct.frets.forEach((fret, fretIndex) => {
-          if (fret.state) {
+          if (fret.state === 1) {
             equalPointsToDisplay.push(string[index][fretIndex])
+            equalPoints[instrument][stringIndex][index][fretIndex].state = 1
+          } else if (fret.state === 2) {
+            equalPointsToDisplay.push(string[index][fretIndex])
+            equalPoints[instrument][stringIndex][index][fretIndex].state = 2
+          } else {
+            equalPoints[instrument][stringIndex][index][fretIndex].state = 0
           }
         })
       })
     } else {
       fretsIndi.forEach((oct, octaveIndex) => {
         oct[stringIndexes[stringIndex]].frets.forEach((fret, fretIndex) => {
-          if (fret.state) {
+          if (fret.state === 1) {
             equalPointsToDisplay.push(string[octaveIndex][fretIndex])
+            equalPoints[instrument][stringIndex][octaveIndex][
+              fretIndex
+            ].state = 1
+          } else if (fret.state === 2) {
+            equalPointsToDisplay.push(string[octaveIndex][fretIndex])
+            equalPoints[instrument][stringIndex][octaveIndex][
+              fretIndex
+            ].state = 2
+          } else {
+            equalPoints[instrument][stringIndex][octaveIndex][
+              fretIndex
+            ].state = 0
           }
         })
       })

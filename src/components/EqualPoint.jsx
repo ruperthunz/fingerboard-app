@@ -24,7 +24,12 @@ export function EqualPoint({ point }) {
         cx={xCoordinate}
         cy={yCoordinate}
         r={width / (x / 6)}
-        fill={point.colors[equalPointsColor]}
+        // fill={point.colors[equalPointsColor]}
+        fill={
+          point.state === 1
+            ? point.colors[equalPointsColor]
+            : point.colors.ghost
+        }
       ></circle>
       {show === "none" ? undefined : (
         <text

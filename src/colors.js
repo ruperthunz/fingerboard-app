@@ -1,7 +1,7 @@
 export const equalPointsColors = {
   black: "rgb(100, 100, 100)",
   white: "white",
-  ghost: "rgba(240, 240, 240, 0.5",
+  ghost: "rgb(140, 140, 140",
   uni: "rgb(0, 191, 0)",
   octave: "rgb(255, 0, 0",
   fret1: "hsl( 30, 100%, 50%)",
