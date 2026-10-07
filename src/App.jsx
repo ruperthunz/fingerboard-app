@@ -7,10 +7,11 @@ import { fretStates } from "./frets.js"
 import { fretStatesSame } from "./frets.js"
 import { fretStatesIndi } from "./frets.js"
 import { standardStringLength } from "./standardStringLength.js"
-import { openStrings } from "./openStrings.js"
+import { openStringStates } from "./openStrings.js"
 import { equalPoints } from "./equalPoints.js"
 import { justPoints } from "./justPoints.js"
 import { harmonicPoints } from "./harmonicPoints.js"
+import { HomeIndicator } from "@capawesome/capacitor-home-indicator"
 
 export const Context = createContext()
 
@@ -19,60 +20,33 @@ const innerWidth = window.innerWidth
 export function App() {
   const [height, setHeight] = useState(window.innerHeight)
   const [width, setWidth] = useState(height / 2)
-  const [settingsIsOpen, setSettingsIsOpen] = useState(
-    innerWidth < 700 ? false : true
-  )
+  const [settingsIsOpen, setSettingsIsOpen] = useState(innerWidth < 700 ? false : true)
   const [menuIsOpen, setMenuIsOpen] = useState(innerWidth < 700 ? false : true)
   const [instrument, setInstrument] = useLocalStorage("instrument", "Violin")
   const [pitch, setPitch] = useLocalStorage("pitch", 440)
   const [language, setLanguage] = useLocalStorage("language", "English")
   const [t, setT] = useState(translations.English)
-  const [pointsOn, setPointsOn] = useLocalStorage("points_on", [
-    true,
-    true,
-    true,
-    true
-  ])
+  const [pointsOn, setPointsOn] = useLocalStorage("points_on", [true, true, true, true])
+  const [displayOS, setDisplayOS] = useState(true)
   const [displayOpenStringsSame, setDisplayOpenStringsSame] = useState(0)
-  const [displayOpenStringsIndi, setDisplayOpenStringsIndi] = useState([
-    0, 0, 0, 0
-  ])
-  const [sameOrIndividual, setSameOrIndividual] = useLocalStorage(
-    "sameOrIndividual",
-    "same"
-  )
+  const [displayOpenStringsIndi, setDisplayOpenStringsIndi] = useState([0, 0, 0, 0])
+  const [sameOrIndividual, setSameOrIndividual] = useLocalStorage("sameOrIndividual", "same")
+  const [openStrings, setOpenStrings] = useState(openStringStates)
   const [frets, setFrets] = useState(fretStates)
   const [fretsSame, setFretsSame] = useState(fretStatesSame)
   const [fretsIndi, setFretsIndi] = useState(fretStatesIndi)
   const [openStringsToDisplay, setOpenStringsToDisplay] = useState(() =>
-    getOpenStringsToDisplay(pointsOn, instrument)
+    getOpenStringsToDisplay(pointsOn, instrument, sameOrIndividual, openStrings)
   )
   const [equalPointsToDisplay, setEqualPointsToDisplay] = useState(() =>
     getEqualPointsToDisplay(pointsOn, fretsSame, fretsIndi, instrument)
   )
-  const [justPointsToDisplay, setJustPointsToDisplay] = useState(() =>
-    getJustPointsToDisplay(pointsOn, frets, instrument)
-  )
-  const [divisions, setDivisions] = useState([
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-  ])
-  const [harmonicPointsToDisplay, setHarmonicPointsToDisplay] = useState(() =>
-    getHarmonicPointsToDisplay(pointsOn, instrument, divisions)
-  )
+  const [justPointsToDisplay, setJustPointsToDisplay] = useState(() => getJustPointsToDisplay(pointsOn, frets, instrument))
+  const [divisions, setDivisions] = useState([false, false, false, false, false, false, false, false, false])
+  const [harmonicPointsToDisplay, setHarmonicPointsToDisplay] = useState(() => getHarmonicPointsToDisplay(pointsOn, instrument, divisions))
   const [unit, setUnit] = useLocalStorage("unit", "mm")
   const [fraction, setFraction] = useLocalStorage("fraction", "full")
-  const [stringLength, setStringLength] = useLocalStorage(
-    "string-length",
-    standardStringLength[instrument][fraction][unit]
-  )
+  const [stringLength, setStringLength] = useLocalStorage("string-length", standardStringLength[instrument][fraction][unit])
   const [strings, setStrings] = useState({
     Violin: [
       { standard: "G", scordatura: "g" },
@@ -102,19 +76,10 @@ export function App() {
   const [soundEnabled, setSoundEnabled] = useState(true)
   const [show, setShow] = useLocalStorage("show", "none")
   const [displayEP, setDisplayEP] = useState(false)
-  const [equalPointsColor, setEqualPointsColor] = useLocalStorage(
-    "equalPointsColor",
-    "uniPlus8"
-  )
+  const [equalPointsColor, setEqualPointsColor] = useLocalStorage("equalPointsColor", "uniPlus8")
   const [displayJP, setDisplayJP] = useState(false)
-  const [justPointsColor, setJustPointsColor] = useLocalStorage(
-    "justPointsColor",
-    "uniPlus8"
-  )
-  const [harmonicPointsColor, setHarmonicPointsColor] = useLocalStorage(
-    "harmonicPointsColor",
-    "div"
-  )
+  const [justPointsColor, setJustPointsColor] = useLocalStorage("justPointsColor", "uniPlus8")
+  const [harmonicPointsColor, setHarmonicPointsColor] = useLocalStorage("harmonicPointsColor", "div")
   const [tune, setTune] = useState(null)
 
   useEffect(() => {
@@ -123,38 +88,37 @@ export function App() {
 
   // log selectedPoints to console (just for testing)
   useEffect(() => {
-    logSelectedPoints(
-      pointsOn,
-      fretStatesSame,
-      instrument,
-      language,
-      equalPointsColor
-    )
+    logSelectedPoints(pointsOn, fretStatesSame, instrument, language, equalPointsColor)
   }, [pointsOn, frets, language, instrument, equalPointsColor])
 
   useEffect(() => {
-    setEqualPointsToDisplay(() =>
-      getEqualPointsToDisplay(
-        pointsOn,
-        fretsSame,
-        fretsIndi,
-        instrument,
-        sameOrIndividual
-      )
-    )
+    setOpenStringsToDisplay(() => getOpenStringsToDisplay(pointsOn, instrument, sameOrIndividual, openStrings))
+  }, [instrument, pointsOn, sameOrIndividual, displayOpenStringsIndi, displayOpenStringsSame])
+
+  useEffect(() => {
+    setEqualPointsToDisplay(() => getEqualPointsToDisplay(pointsOn, fretsSame, fretsIndi, instrument, sameOrIndividual))
   }, [instrument, pointsOn, fretsSame, fretsIndi, sameOrIndividual])
 
   useEffect(() => {
-    setJustPointsToDisplay(() =>
-      getJustPointsToDisplay(pointsOn, frets, instrument)
-    )
+    setJustPointsToDisplay(() => getJustPointsToDisplay(pointsOn, frets, instrument))
   }, [instrument, pointsOn, frets])
 
   useEffect(() => {
-    setHarmonicPointsToDisplay(() =>
-      getHarmonicPointsToDisplay(pointsOn, instrument, divisions)
-    )
+    setHarmonicPointsToDisplay(() => getHarmonicPointsToDisplay(pointsOn, instrument, divisions))
   }, [divisions, instrument, pointsOn])
+
+  useEffect(() => {
+    // Blendet die Home-Bar nach kurzer Inaktivität automatisch aus
+    const hideHomeBar = async () => {
+      try {
+        await HomeIndicator.hide()
+      } catch (error) {
+        console.error("Home-Bar konnte nicht versteckt werden:", error)
+      }
+    }
+
+    hideHomeBar()
+  }, [])
 
   return (
     <Context.Provider
@@ -177,6 +141,8 @@ export function App() {
         setPitch,
         pointsOn,
         setPointsOn,
+        displayOS,
+        setDisplayOS,
         displayOpenStringsIndi,
         setDisplayOpenStringsIndi,
         displayOpenStringsSame,
@@ -189,6 +155,10 @@ export function App() {
         setFretsSame,
         fretsIndi,
         setFretsIndi,
+        openStrings,
+        setOpenStrings,
+        openStringsToDisplay,
+        setOpenStringsToDisplay,
         equalPointsToDisplay,
         justPointsToDisplay,
         harmonicPointsToDisplay,
@@ -225,33 +195,43 @@ export function App() {
   )
 }
 
-function getOpenStringsToDisplay(pointsOn, instrument) {
+function getOpenStringsToDisplay(pointsOn, instrument, sameOrIndividual, openStrings) {
   const selectedStrings = []
+  const stringIndexes = []
   const openStringsToDisplay = []
   pointsOn.forEach((pointsOnString, index) => {
     if (pointsOnString) {
       selectedStrings.push(openStrings[instrument][index])
+      stringIndexes.push(index)
     }
   })
-  // selectedStrings.forEach(string => {
-  //   frets.forEach((oct, index) => {
-  //     oct.frets.forEach((fret, fretIndex) => {
-  //       if (fret) {
-  //         equalPointsToDisplay.push(string[index][fretIndex])
-  //       }
-  //     })
-  //   })
-  // })
+  selectedStrings.map((string, stringIndex) => {
+    if (sameOrIndividual === "same") {
+      if (string.state === 1) {
+        openStringsToDisplay.push(string)
+        openStrings[instrument][stringIndexes[stringIndex]].state = 1
+      } else if (string.state === 2) {
+        openStringsToDisplay.push(string)
+        openStrings[instrument][stringIndexes[stringIndex]].state = 2
+      } else {
+        openStrings[instrument][stringIndexes[stringIndex]].state = 0
+      }
+    } else {
+      if (string.state === 1) {
+        openStringsToDisplay.push(string)
+        openStrings[instrument][stringIndexes[stringIndex]].state = 1
+      } else if (string.state === 2) {
+        openStringsToDisplay.push(string)
+        openStrings[instrument][stringIndexes[stringIndex]].state = 2
+      } else {
+        openStrings[instrument][stringIndexes[stringIndex]].state = 0
+      }
+    }
+  })
   return openStringsToDisplay
 }
 
-function getEqualPointsToDisplay(
-  pointsOn,
-  fretsSame,
-  fretsIndi,
-  instrument,
-  sameOrIndividual
-) {
+function getEqualPointsToDisplay(pointsOn, fretsSame, fretsIndi, instrument, sameOrIndividual) {
   const selectedStrings = []
   const equalPointsToDisplay = []
   const stringIndexes = []
@@ -281,18 +261,12 @@ function getEqualPointsToDisplay(
         oct[stringIndexes[stringIndex]].frets.forEach((fret, fretIndex) => {
           if (fret.state === 1) {
             equalPointsToDisplay.push(string[octaveIndex][fretIndex])
-            equalPoints[instrument][stringIndex][octaveIndex][
-              fretIndex
-            ].state = 1
+            equalPoints[instrument][stringIndex][octaveIndex][fretIndex].state = 1
           } else if (fret.state === 2) {
             equalPointsToDisplay.push(string[octaveIndex][fretIndex])
-            equalPoints[instrument][stringIndex][octaveIndex][
-              fretIndex
-            ].state = 2
+            equalPoints[instrument][stringIndex][octaveIndex][fretIndex].state = 2
           } else {
-            equalPoints[instrument][stringIndex][octaveIndex][
-              fretIndex
-            ].state = 0
+            equalPoints[instrument][stringIndex][octaveIndex][fretIndex].state = 0
           }
         })
       })
@@ -313,9 +287,7 @@ function getJustPointsToDisplay(pointsOn, frets, instrument) {
     frets.forEach((oct, index) => {
       oct.frets.forEach((fret, fretIndex) => {
         if (fret) {
-          const justPoints = string[index].filter(
-            point => point.number === fretIndex + 1
-          )
+          const justPoints = string[index].filter(point => point.number === fretIndex + 1)
           justPointsToDisplay.push(...justPoints)
         }
       })
@@ -332,7 +304,6 @@ function getHarmonicPointsToDisplay(pointsOn, instrument, divisions) {
       selectedStrings.push(harmonicPoints[instrument][index])
     }
   })
-  // console.log(selectedStrings)
   selectedStrings.forEach(string => {
     divisions.map((division, index) => {
       if (division) {
@@ -348,13 +319,7 @@ function getHarmonicPointsToDisplay(pointsOn, instrument, divisions) {
   return harmonicPointsToDisplay
 }
 
-function logSelectedPoints(
-  pointsOn,
-  fretStates,
-  instrument,
-  language,
-  equalPointsColor
-) {
+function logSelectedPoints(pointsOn, fretStates, instrument, language, equalPointsColor) {
   const selectedStrings = []
   pointsOn.forEach((string, index) => {
     if (string) {

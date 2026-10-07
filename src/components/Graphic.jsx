@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import { Context } from "../App"
 import { drawGraphic } from "../graphics/drawGraphic"
 import { useLocation } from "react-router-dom"
+import { OpenString } from "./OpenString"
 import { EqualPoint } from "./EqualPoint"
 import { HarmonicPoint } from "./HarmonicPoint"
 import { JustPoint } from "./JustPoint"
@@ -12,6 +13,10 @@ export function Graphic(props) {
     height,
     width,
     setInstrument,
+    displayOS,
+    displayOpenStringsSame,
+    displayOpenStringsIndi,
+    openStringsToDisplay,
     displayEP,
     equalPointsToDisplay,
     displayJP,
@@ -131,21 +136,21 @@ export function Graphic(props) {
             y2={graphic[17]}
             strokeWidth={graphic[18]}
           ></line>
-          {/* {displayOpenStrings
+          {displayOS
             ? openStringsToDisplay.map(point => {
                 return <OpenString key={crypto.randomUUID()} point={point} />
               })
-            : undefined} */}
+            : null}
           {displayEP
             ? equalPointsToDisplay.map(point => {
                 return <EqualPoint key={crypto.randomUUID()} point={point} />
               })
-            : undefined}
+            : null}
           {displayJP
             ? justPointsToDisplay.map(point => {
                 return <JustPoint key={crypto.randomUUID()} point={point} />
               })
-            : undefined}
+            : null}
           {harmonicPointsToDisplay.map(point => {
             return <HarmonicPoint key={crypto.randomUUID()} point={point} />
           })}

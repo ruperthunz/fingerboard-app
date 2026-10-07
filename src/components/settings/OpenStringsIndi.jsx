@@ -7,7 +7,10 @@ export function OpenStringsIndi(props) {
     strings,
     instrument,
     displayOpenStringsIndi,
+    openStrings,
+    setOpenStrings,
     language,
+    openStringsToDisplay,
     setDisplayOpenStringsIndi
   } = useContext(Context)
 
@@ -35,11 +38,26 @@ export function OpenStringsIndi(props) {
   )
 
   function handleClick(index) {
-    let state = (displayOpenStringsIndi[index] + 1) % 3
-    setDisplayOpenStringsIndi(currentDisplayedOpenStrings => {
-      return currentDisplayedOpenStrings.toSpliced(index, 1, state)
+    let openStringToChange = openStrings[instrument][index]
+    openStringToChange.state = (openStringToChange.state + 1) % 3
+    let state = openStringToChange.state
+    setDisplayOpenStringsIndi(currentState => {
+      return currentState.toSpliced(index, 1, state)
+    })
+    setOpenStrings(currentOpenStringStates => {
+      let instrumentToChange = currentOpenStringStates[instrument]
+      instrumentToChange.toSpliced(index, 1, openStringToChange)
+      currentOpenStringStates[instrument] = instrumentToChange
+      return currentOpenStringStates
     })
   }
+
+  //   function handleClick(index) {
+  //   let state = (displayOpenStringsIndi[index] + 1) % 3
+  //   setDisplayOpenStringsIndi(currentDisplayedOpenStrings => {
+  //     return currentDisplayedOpenStrings.toSpliced(index, 1, state)
+  //   })
+  // }
 }
 
 // <div className="widget-content alt-3">

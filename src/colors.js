@@ -1,3 +1,35 @@
+export const openStringsColors = {
+  equal: {
+    black: "rgb(100, 100, 100)",
+    white: "white",
+    ghost: "rgb(140, 140, 140",
+    uni: "rgb(0, 191, 0)",
+    octave: "rgb(255, 0, 0",
+    fret12: "hsl( 0, 100%, 50%)",
+    c: "hsl( 0, 100%, 50%)",
+    d: "hsl( 55, 100%, 50%)",
+    e: "hsl( 130, 100%, 50%)",
+    g: "hsl( 210, 100%, 50%)",
+    a: "hsl( 270, 100%, 50%)"
+  },
+  just: {
+    black: "rgb(100, 100, 100)",
+    white: "white",
+    uniJust: "rgba(0, 191, 0, 0.5)",
+    octaveJust: "rgba(255, 0, 0, 0.5",
+    fret12Just: "hsla( 0, 100%, 50%, 0.5)",
+    cJust: "hsla( 0, 100%, 50%, 0.5)",
+    dJust: "hsla( 55, 100%, 50%, 0.5)",
+    eJust: "hsla( 130, 100%, 50%, 0.5)",
+    f: "hsla( 160, 100%, 50%, 0.5)",
+    gJust: "hsla( 210, 100%, 50%, 0.5)",
+    aJust: "hsla( 270, 100%, 50%, 0.5)",
+    lower1: "rgba(255, 191, 0, 0.5",
+    middle: "rgba(255, 0, 0, 0.5",
+    upper1: "rgba(255, 255, 0, 0.5"
+  }
+}
+
 export const equalPointsColors = {
   black: "rgb(100, 100, 100)",
   white: "white",

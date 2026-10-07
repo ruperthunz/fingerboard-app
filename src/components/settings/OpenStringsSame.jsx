@@ -2,13 +2,7 @@ import { useContext } from "react"
 import { Context } from "../../App"
 
 export function OpenStringsSame() {
-  const {
-    t,
-    strings,
-    instrument,
-    displayOpenStringsSame,
-    setDisplayOpenStringsSame
-  } = useContext(Context)
+  const { t, strings, instrument, openStrings, setOpenStrings, displayOpenStringsSame, setDisplayOpenStringsSame } = useContext(Context)
 
   const stateClasses = ["", "selected", "ghost"]
 
@@ -30,6 +24,14 @@ export function OpenStringsSame() {
   )
 
   function handleClick() {
+    let instrumentToChange = openStrings[instrument]
+    instrumentToChange.map(string => {
+      string.state = (string.state + 1) % 3
+    })
     setDisplayOpenStringsSame(currentState => (currentState + 1) % 3)
+    setOpenStrings(currentOpenStringStates => {
+      currentOpenStringStates[instrument] = instrumentToChange
+      return currentOpenStringStates
+    })
   }
 }
