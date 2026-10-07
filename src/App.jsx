@@ -11,7 +11,6 @@ import { openStringStates } from "./openStrings.js"
 import { equalPoints } from "./equalPoints.js"
 import { justPoints } from "./justPoints.js"
 import { harmonicPoints } from "./harmonicPoints.js"
-import { HomeIndicator } from "@capawesome/capacitor-home-indicator"
 
 export const Context = createContext()
 
@@ -106,19 +105,6 @@ export function App() {
   useEffect(() => {
     setHarmonicPointsToDisplay(() => getHarmonicPointsToDisplay(pointsOn, instrument, divisions))
   }, [divisions, instrument, pointsOn])
-
-  useEffect(() => {
-    // Blendet die Home-Bar nach kurzer Inaktivität automatisch aus
-    const hideHomeBar = async () => {
-      try {
-        await HomeIndicator.hide()
-      } catch (error) {
-        console.error("Home-Bar konnte nicht versteckt werden:", error)
-      }
-    }
-
-    hideHomeBar()
-  }, [])
 
   return (
     <Context.Provider
